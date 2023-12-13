@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=43]
+script/source = "extends Node
+
+export var scn_path = \"res://Data/Galaxy_DO_NOT_CLICK.scn\"
+export var tscn_path = \"res://Data/Galaxy_DO_NOT_CLICK.tscn\"
+
+
+func _ready():
+	var data = load(scn_path)
+	print(\"Converting: \", scn_path, \" to: \", tscn_path)
+	ResourceSaver.save(tscn_path, data)
+	print(\"DONE\")
+	get_tree().quit()
+"
+
+[node name="SCN_to_TSCN" type="Node"]
+script = SubResource( 43 )
+__meta__ = {
+"_editor_description_": "Launch as a scene (F6)"
+}
+scn_path = "res://Data/TSCN/Main_galaxy_coordinates_databanks/Stars_50k_gauss_distribution.tscnres://Data/SCN/Stars_10k_gauss_distribution_1.scn"
+tscn_path = "res://Data/TSCN/Main_galaxy_coordinates_databanks/Stars_50k_gauss_distribution.tscnres://Data/SCN/Stars_10k_gauss_distribution_1.tscn"
