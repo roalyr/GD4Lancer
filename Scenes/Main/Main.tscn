@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmos07mvux1md"]
+
+[ext_resource type="PackedScene" uid="uid://dos71fx2o02ev" path="res://Scenes/Editor_only/Editor_objects_3D.tscn" id="1_4romq"]
+
+[node name="Main" type="Node"]
+
+[node name="EditorObjects3d" parent="." instance=ExtResource("1_4romq")]

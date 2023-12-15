@@ -15,9 +15,9 @@ render_mode
 	ambient_light_disabled,
 	depth_draw_opaque;
 
-uniform vec4 halo_color : hint_color = vec4(1.0, 0.9, 0.4, 1.0);
-uniform vec4 corona_color : hint_color = vec4(1.0, 0.9, 0.4, 1.0);
-uniform vec4 core_color : hint_color = vec4(1.0, 0.9, 0.4, 1.0);
+uniform vec4 halo_color : source_color = vec4(1.0, 0.9, 0.4, 1.0);
+uniform vec4 corona_color : source_color = vec4(1.0, 0.9, 0.4, 1.0);
+uniform vec4 core_color : source_color = vec4(1.0, 0.9, 0.4, 1.0);
 
 uniform float halo_strength : hint_range(0.1, 10.0, 0.1) = 1.0;
 uniform float halo_exponent : hint_range(0.0, 50.0, 0.1) = 1.0;

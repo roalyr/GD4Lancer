@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://bh8ykf0iap06a"]
+
+[ext_resource type="PackedScene" uid="uid://dos71fx2o02ev" path="res://Scenes/Editor_only/Editor_objects_3D.tscn" id="1_l32nj"]
+[ext_resource type="PackedScene" uid="uid://cywc8s3ungdyf" path="res://Assets/Models/Shapes/Sphere.glb" id="2_17p7l"]
+[ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_surface.gdshader" id="3_wh25x"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_e04sq"]
+noise_type = 2
+frequency = 0.1167
+domain_warp_enabled = true
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_jtxwa"]
+width = 256
+height = 256
+invert = true
+seamless = true
+seamless_blend_skirt = 1.0
+noise = SubResource("FastNoiseLite_e04sq")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ku8iv"]
+render_priority = 0
+shader = ExtResource("3_wh25x")
+shader_parameter/rim_color = Color(0.466667, 0.811765, 0.972549, 1)
+shader_parameter/overlay_color = Color(0.156863, 0.705882, 1, 1)
+shader_parameter/surface_color = Color(1, 1, 1, 1)
+shader_parameter/major_phase = 1.855
+shader_parameter/major_detail_intensity = 0.347
+shader_parameter/detail_decay_distance = 1e+12
+shader_parameter/major_detail_scale = 1.0
+shader_parameter/major_detail_flow = 0.02
+shader_parameter/rim_strength = 1.0
+shader_parameter/rim_exponent = 1.5
+shader_parameter/rim_intensity = 0.3
+shader_parameter/major_detail_noise = SubResource("NoiseTexture2D_jtxwa")
+
+[node name="STAR_0_Victory_A" type="Node3D"]
+
+[node name="EditorObjects3d" parent="." instance=ExtResource("1_l32nj")]
+
+[node name="Surface" parent="." instance=ExtResource("2_17p7l")]
+
+[node name="Sphere" parent="Surface" index="0"]
+surface_material_override/0 = SubResource("ShaderMaterial_ku8iv")
+
+[editable path="Surface"]

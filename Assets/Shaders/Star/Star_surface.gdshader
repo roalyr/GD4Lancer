@@ -15,9 +15,9 @@ render_mode
 	ambient_light_disabled,
 	depth_draw_opaque;
 
-uniform vec4 rim_color : hint_color = vec4(1.0, 0.9, 0.4, 1.0);
-uniform vec4 overlay_color : hint_color = vec4(0.0, 0.0, 0.0, 1.0);
-uniform vec4 surface_color : hint_color = vec4(1.0, 1.0, 0.0, 1.0);
+uniform vec4 rim_color : source_color = vec4(1.0, 0.9, 0.4, 1.0);
+uniform vec4 overlay_color : source_color = vec4(0.0, 0.0, 0.0, 1.0);
+uniform vec4 surface_color : source_color = vec4(1.0, 1.0, 0.0, 1.0);
 
 uniform float major_phase : hint_range(0, 3.14) = 1.1;
 
