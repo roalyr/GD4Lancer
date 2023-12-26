@@ -1,13 +1,13 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=27 format=3]
 
-[ext_resource path="res://Assets/Shaders/Solid/Solid_material.gdshader" type="Shader" id=1]
-[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Assets/Shaders/Star/Star_halo.gdshader" type="Shader" id=4]
-[ext_resource path="res://Assets/Shaders/Lights/Light_distant_sprite.gdshader" type="Shader" id=5]
-[ext_resource path="res://Assets/Models/Shapes/UV_sphere/UV_sphere_LOD0.tres" type="SphereMesh" id=6]
-[ext_resource path="res://Assets/Shaders/Star/Star_surface.gdshader" type="Shader" id=9]
-[ext_resource path="res://Assets/Models/Sprites/Star_sprite_square_wide.glb" type="PackedScene" id=10]
-[ext_resource path="res://Assets/Models/Shapes/Icosphere/Icosphere_LOD0.tres" type="ArrayMesh" id=11]
+[ext_resource type="Shader" path="res://Assets/Shaders/Solid/Solid_material.gdshader" id="1"]
+[ext_resource type="PackedScene" path="res://Scenes/Player.tscn" id="3"]
+[ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_corona.gdshader" id="4"]
+[ext_resource type="Shader" path="res://Assets/Shaders/Lights/Light_distant_sprite.gdshader" id="5"]
+[ext_resource type="SphereMesh" path="res://Assets/Models/Shapes/UV_sphere/UV_sphere_LOD0.tres" id="6"]
+[ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_surface.gdshader" id="9"]
+[ext_resource type="PackedScene" uid="uid://dd1ca4w4llbnh" path="res://Assets/Models/Sprites/Star_sprite_square_wide.glb" id="10"]
+[ext_resource type="ArrayMesh" path="res://Assets/Models/Shapes/Icosphere/Icosphere_LOD0.tres" id="11"]
 
 [sub_resource type="CubeMesh" id=110]
 
