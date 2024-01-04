@@ -1,10 +1,10 @@
-[gd_scene load_steps=12 format=3 uid="uid://bh8ykf0iap06a"]
+[gd_scene load_steps=13 format=3 uid="uid://bh8ykf0iap06a"]
 
 [ext_resource type="PackedScene" uid="uid://dos71fx2o02ev" path="res://Scenes/Editor_only/Editor_objects_3D.tscn" id="1_l32nj"]
 [ext_resource type="PackedScene" uid="uid://cywc8s3ungdyf" path="res://Assets/Models/Shapes/Sphere.glb" id="2_17p7l"]
 [ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_surface.gdshader" id="3_wh25x"]
 [ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_corona.gdshader" id="4_jirqv"]
-[ext_resource type="PackedScene" uid="uid://dv80u8h8qu7sr" path="res://Assets/Models/Shapes/Sphere_fine.glb" id="5_jhk1m"]
+[ext_resource type="Shader" path="res://Assets/Shaders/Lights/Light_halo_directional.gdshader" id="5_uej4n"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_e04sq"]
 noise_type = 2
@@ -63,6 +63,17 @@ shader_parameter/displacement_scale = 0.391
 shader_parameter/displacement_velocity = 0.463
 shader_parameter/displacement_texture = SubResource("NoiseTexture2D_82vqf")
 
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_np2ix"]
+render_priority = 0
+shader = ExtResource("5_uej4n")
+shader_parameter/albedo = Color(0.57222, 0.829874, 1, 1)
+shader_parameter/rim_strength = 0.1
+shader_parameter/rim_exponent = 0.1
+shader_parameter/alpha_clip = 1.0
+shader_parameter/scale_up_threshold = 10.0
+shader_parameter/scale_down_threshold = 0.0
+shader_parameter/scale_power = 0.2
+
 [node name="STAR_0_Victory_A" type="Node3D"]
 
 [node name="EditorObjects3d" parent="." instance=ExtResource("1_l32nj")]
@@ -79,13 +90,12 @@ transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
 transform = Transform3D(1.10041, 0, 0, 0, 1.10041, 0, 0, 0, 1.10041, 0, 0, 0)
 surface_material_override/0 = SubResource("ShaderMaterial_5mxb0")
 
-[node name="Corona_fine" parent="." instance=ExtResource("5_jhk1m")]
-transform = Transform3D(1.53393, 0, 0, 0, 1.53393, 0, 0, 0, 1.53393, 0, 0, 0)
-visible = false
+[node name="Halo" parent="." instance=ExtResource("2_17p7l")]
 
-[node name="Sphere_LOD0+" parent="Corona_fine" index="0"]
-surface_material_override/0 = SubResource("ShaderMaterial_5mxb0")
+[node name="Sphere" parent="Halo" index="0"]
+transform = Transform3D(1.10041, 0, 0, 0, 1.10041, 0, 0, 0, 1.10041, 0, 0, 0)
+surface_material_override/0 = SubResource("ShaderMaterial_np2ix")
 
 [editable path="Surface"]
 [editable path="Corona"]
-[editable path="Corona_fine"]
+[editable path="Halo"]
