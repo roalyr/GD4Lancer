@@ -17,6 +17,18 @@ boot_splash/image="res://Assets/Images/Icon_splash/Splash.png"
 config/icon="res://Assets/Images/Icon_splash/Icon.png"
 config/windows_native_icon="res://Assets/Images/Icon_splash/Icon.ico"
 
+[importer_defaults]
+
+scene={
+"animation/import": false,
+"gltf/embedded_image_handling": 0,
+"meshes/create_shadow_meshes": false,
+"meshes/ensure_tangents": false,
+"meshes/force_disable_compression": true,
+"meshes/light_baking": 0,
+"skins/use_named_skins": false
+}
+
 [input_devices]
 
 pointing/emulate_touch_from_mouse=true

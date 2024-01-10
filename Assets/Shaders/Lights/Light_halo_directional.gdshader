@@ -19,14 +19,11 @@ uniform vec4 albedo : source_color;
 uniform float rim_strength :  hint_range(0.0, 1.0, 5e-4) = 0.1;
 uniform float rim_exponent :  hint_range(0.0, 1.0, 5e-4) = 0.1;
 uniform float alpha_clip :   hint_range(0.0, 1.0, 5e-4) = 1.0;
-uniform float scale_up_threshold :  hint_range(0.0, 100.0, 5e-4) = 10.0;
 uniform float scale_down_threshold :  hint_range(0.0, 1.0, 5e-4) = 0.0;
 uniform float scale_power:  hint_range(0.0, 1.0, 5e-4) = 1.0;
 
 
 void vertex() {
-	VERTEX *= scale_up_threshold;
-	
     // get the vector from the object to the camera
     vec3 to_camera = normalize(INV_VIEW_MATRIX[3].xyz - MODEL_MATRIX[3].xyz);
 

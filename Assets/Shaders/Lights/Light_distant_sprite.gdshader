@@ -15,22 +15,23 @@ render_mode
 	ambient_light_disabled,
 	depth_draw_opaque;
 	
-uniform vec4 albedo : hint_color;
-uniform float scale : hint_range(0.0, 5.0) = 0.3;
-uniform float flare_distance = 1e11;
-uniform float flare_size : hint_range(1.0, 10.0) = 3.0;
-uniform float attenuation : hint_range(0.01, 2.0) = 0.2;
-uniform float intensity : hint_range(0.0, 1.0) = 0.5;
-uniform float exponent : hint_range(0.0, 50.0, 0.1) = 5.0;
-uniform float pulse_factor : hint_range(0.5, 1.0) = 1.0;
-uniform float pulse_rate = 10.0;
-uniform float phase : hint_range(0.0, 3.14) = 0.0;
+uniform vec4 albedo : source_color;
+uniform float scale : hint_range(0.0, 5.0, 5e-4) = 0.4;
+uniform float attenuation : hint_range(0.01, 2.0, 5e-4) = 0.4;
+uniform float flare_distance : hint_range(0.0, 100.0, 5e-2) = 25;
+uniform float flare_size : hint_range(1.0, 10.0, 5e-4) = 2.0;
+uniform float intensity : hint_range(0.0, 1.0, 5e-4) = 0.5;
+uniform float exponent : hint_range(0.0, 50.0, 5e-4) = 5.0;
+uniform float pulse_factor : hint_range(0.5, 1.0, 5e-4) = 1.0;
+uniform float pulse_rate : hint_range(0.0, 100.0, 5e-2) = 10;
+uniform float phase : hint_range(0.0, 3.14, 5e-4) = 0.0;
 
 void vertex() {
-	float z_dist = (MODELVIEW_MATRIX * vec4(VERTEX, 1.0)).z;
+	float abs_scale = length(vec3(MODEL_MATRIX[0][0],MODEL_MATRIX[1][1],MODEL_MATRIX[2][2]));
+	float z_dist = (MODELVIEW_MATRIX * vec4(VERTEX, 1.0)).z / abs_scale;
 	float b = flare_distance/(z_dist + flare_distance);
 	float scale_mod = clamp(pow(abs(b), attenuation), 0.0, flare_size);
-	MODELVIEW_MATRIX = INV_CAMERA_MATRIX * mat4(CAMERA_MATRIX[0],CAMERA_MATRIX[1],CAMERA_MATRIX[2],WORLD_MATRIX[3]);
+	MODELVIEW_MATRIX = VIEW_MATRIX * mat4(INV_VIEW_MATRIX[0],INV_VIEW_MATRIX[1],INV_VIEW_MATRIX[2],MODEL_MATRIX[3]);
 	if (PROJECTION_MATRIX[3][3] != 0.0) {
 		float h = abs(1.0 / (2.0 * PROJECTION_MATRIX[1][1]));
 		float sc = (h * 2.0)*scale*scale_mod; //consistent with Y-fov
