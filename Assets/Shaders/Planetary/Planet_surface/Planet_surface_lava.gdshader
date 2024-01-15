@@ -15,8 +15,8 @@ render_mode
 	//ambient_light_disabled,
 	depth_draw_opaque;
 
-uniform vec4 albedo : hint_color;
-uniform vec4 albedo_overlay : hint_color;
+uniform vec4 albedo : source_color;
+uniform vec4 albedo_overlay : source_color;
 
 uniform sampler2D major_detail_noise : hint_normal;
 uniform sampler2D small_detail_noise : hint_normal;

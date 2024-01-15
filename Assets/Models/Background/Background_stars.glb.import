@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dttfssak7ogw"
-path="res://.godot/imported/Ring_075_LOD0.glb-05440594e4db2195bf4ed1d8dc4f565d.scn"
+uid="uid://blfys1v146a8h"
+path="res://.godot/imported/Background_stars.glb-32fa49fa0b5d154cec9f11322076a57c.scn"
 
 [deps]
 
-source_file="res://Assets/Models/Shapes/Ring_075_LOD0.glb"
-dest_files=["res://.godot/imported/Ring_075_LOD0.glb-05440594e4db2195bf4ed1d8dc4f565d.scn"]
+source_file="res://Assets/Models/Background/Background_stars.glb"
+dest_files=["res://.godot/imported/Background_stars.glb-32fa49fa0b5d154cec9f11322076a57c.scn"]
 
 [params]
 
@@ -18,7 +18,7 @@ nodes/root_name=""
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 meshes/ensure_tangents=false
-meshes/generate_lods=true
+meshes/generate_lods=false
 meshes/create_shadow_meshes=false
 meshes/light_baking=0
 meshes/lightmap_texel_size=0.2

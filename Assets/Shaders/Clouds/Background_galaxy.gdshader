@@ -5,7 +5,7 @@ render_mode
 	
 	// Blending and culling.
 	blend_add,
-	cull_front,
+	cull_disabled,
 	
 	unshaded,
 	//diffuse_lambert, 
@@ -27,7 +27,7 @@ void fragment()
 {
 	float dt = clamp(dot(NORMAL, VIEW), 0.0, 1.0);
 	float rim = clamp(pow(dt, rim_exponent)*rim_strength, 1e-6, alpha_clip);
-	float rim_inner = clamp(pow(dt, rim_exponent_inner)*rim_strength_inner, 1e-6, alpha_clip_inner);
 	ALBEDO = albedo.rgb*COLOR.rgb;
-	ALPHA = clamp(1.0-rim_inner, 1e-6, 1.0)*clamp(rim, 1e-6, 1.0);
+	ALBEDO *= clamp(rim, 1e-6, 1.0);
+	DEPTH = 1.0;
 }

@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dv80u8h8qu7sr"
-path="res://.godot/imported/Sphere_fine.glb-9ff05c8a82564fc53b8bbac8c8716c17.scn"
+uid="uid://g85hctkw5yp"
+path="res://.godot/imported/Icosphere_1280_noUV.glb-2b2b2e081487bd7c80f482b50401ea8c.scn"
 
 [deps]
 
-source_file="res://Assets/Models/Shapes/Sphere_fine.glb"
-dest_files=["res://.godot/imported/Sphere_fine.glb-9ff05c8a82564fc53b8bbac8c8716c17.scn"]
+source_file="res://Assets/Models/Shapes/Icosphere_1280_noUV.glb"
+dest_files=["res://.godot/imported/Icosphere_1280_noUV.glb-2b2b2e081487bd7c80f482b50401ea8c.scn"]
 
 [params]
 
@@ -22,7 +22,7 @@ meshes/generate_lods=true
 meshes/create_shadow_meshes=false
 meshes/light_baking=0
 meshes/lightmap_texel_size=0.2
-meshes/force_disable_compression=false
+meshes/force_disable_compression=true
 skins/use_named_skins=false
 animation/import=false
 animation/fps=30

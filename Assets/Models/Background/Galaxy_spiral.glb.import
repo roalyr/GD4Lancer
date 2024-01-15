@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cywc8s3ungdyf"
-path="res://.godot/imported/Sphere.glb-485d0bd443c97f45b69864c6c63125a8.scn"
+uid="uid://d3f2i0ihif0fx"
+path="res://.godot/imported/Galaxy_spiral.glb-de54532142e7a9d048eb0ff425aaf446.scn"
 
 [deps]
 
-source_file="res://Assets/Models/Shapes/Sphere.glb"
-dest_files=["res://.godot/imported/Sphere.glb-485d0bd443c97f45b69864c6c63125a8.scn"]
+source_file="res://Assets/Models/Background/Galaxy_spiral.glb"
+dest_files=["res://.godot/imported/Galaxy_spiral.glb-de54532142e7a9d048eb0ff425aaf446.scn"]
 
 [params]
 
@@ -18,7 +18,7 @@ nodes/root_name=""
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 meshes/ensure_tangents=false
-meshes/generate_lods=true
+meshes/generate_lods=false
 meshes/create_shadow_meshes=false
 meshes/light_baking=0
 meshes/lightmap_texel_size=0.2

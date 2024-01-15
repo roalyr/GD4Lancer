@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://b4avpyt2ypltg"
-path="res://.godot/imported/Icosphere_LOD0.glb-3e86d80c9744e6553567790f87822d91.scn"
+uid="uid://dpny2wj6q4y0w"
+path="res://.godot/imported/_Ring_05_LOD0.glb-b5186128b0860af02826c60a19ada214.scn"
 
 [deps]
 
-source_file="res://Assets/Models/Shapes/Icosphere_LOD0.glb"
-dest_files=["res://.godot/imported/Icosphere_LOD0.glb-3e86d80c9744e6553567790f87822d91.scn"]
+source_file="res://Assets/Models/Shapes/_Ring_05_LOD0.glb"
+dest_files=["res://.godot/imported/_Ring_05_LOD0.glb-b5186128b0860af02826c60a19ada214.scn"]
 
 [params]
 
