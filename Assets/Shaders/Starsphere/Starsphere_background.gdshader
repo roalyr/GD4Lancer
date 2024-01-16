@@ -16,7 +16,7 @@ render_mode
 	ambient_light_disabled,
 	depth_draw_never;
 
-uniform vec4 albedo : hint_color;
+uniform vec4 albedo : source_color;
 
 
 void fragment() {

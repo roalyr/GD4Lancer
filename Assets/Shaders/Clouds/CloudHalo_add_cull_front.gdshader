@@ -4,7 +4,7 @@ render_mode
 	vertex_lighting,
 	
 	// Blending and culling.
-	blend_add,
+	blend_mix,
 	cull_front,
 	
 	unshaded,

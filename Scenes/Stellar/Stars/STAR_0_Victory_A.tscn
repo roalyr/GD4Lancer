@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://bh8ykf0iap06a"]
+[gd_scene load_steps=23 format=3 uid="uid://bh8ykf0iap06a"]
 
 [ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_surface.gdshader" id="3_wh25x"]
 [ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_corona.gdshader" id="4_jirqv"]
@@ -110,7 +110,7 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	progress_ratio += delta*0.1
+	progress_ratio += delta*0.01
 "
 
 [sub_resource type="GDScript" id="GDScript_8tbxj"]
@@ -142,6 +142,15 @@ func _ready():
 func _process(delta):
 	global_transform.basis = get_tree().get_root().get_child(0).global_transform.basis
 "
+
+[sub_resource type="Environment" id="Environment_efc2j"]
+background_mode = 1
+background_color = Color(0.0381914, 0.041629, 0.0884013, 1)
+ambient_light_energy = 0.0
+reflected_light_source = 1
+tonemap_mode = 3
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_q6lnw"]
 
 [node name="STAR_0_Victory_A" type="Node3D"]
 
@@ -230,6 +239,10 @@ script = SubResource("GDScript_8tbxj")
 script = SubResource("GDScript_vr304")
 
 [node name="Camera_decorations" parent="Scene_interface/Camera_Path3D/PathFollow3D/Camera3D/Camera_decoration" instance=ExtResource("8_b3gwg")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Scene_interface"]
+environment = SubResource("Environment_efc2j")
+camera_attributes = SubResource("CameraAttributesPractical_q6lnw")
 
 [editable path="Star_model/Surface"]
 [editable path="Star_model/Corona"]

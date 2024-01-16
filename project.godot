@@ -41,6 +41,7 @@ common/physics_ticks_per_second=120
 [rendering]
 
 renderer/rendering_method="mobile"
+renderer/rendering_method.web="mobile"
 shading/overrides/force_vertex_shading.mobile=false
 shading/overrides/force_lambert_over_burley.mobile=false
 environment/defaults/default_environment="res://Assets/Environments/Environment_default.tres"

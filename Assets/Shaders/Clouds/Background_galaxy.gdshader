@@ -4,7 +4,7 @@ render_mode
 	vertex_lighting,
 	
 	// Blending and culling.
-	blend_add,
+	blend_mix,
 	cull_disabled,
 	
 	unshaded,
@@ -28,6 +28,6 @@ void fragment()
 	float dt = clamp(dot(NORMAL, VIEW), 0.0, 1.0);
 	float rim = clamp(pow(dt, rim_exponent)*rim_strength, 1e-6, alpha_clip);
 	ALBEDO = albedo.rgb*COLOR.rgb;
-	ALBEDO *= clamp(rim, 1e-6, 1.0);
-	DEPTH = 1.0;
+	ALPHA = clamp(rim, 1e-6, 1.0);
+	//DEPTH = 1.0;
 }
