@@ -2,6 +2,7 @@ shader_type spatial;
 render_mode
 	// Vertex or pixel shading (screen-large object can use vertex)
 	vertex_lighting,
+	//use_debanding,
 	
 	// Blending and culling.
 	blend_mix,

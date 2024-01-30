@@ -1,10 +1,11 @@
 shader_type spatial;
+
 render_mode
 	// Vertex or pixel shading (screen-large object can use vertex)
 	vertex_lighting,
 	
 	// Blending and culling.
-	blend_sub,
+	blend_add,
 	cull_front,
 	
 	unshaded,
@@ -15,10 +16,10 @@ render_mode
 	ambient_light_disabled,
 	depth_draw_opaque;
 
-uniform vec4 albedo : source_color;
-uniform float rim_strength = 0.05;
+uniform vec4 albedo : source_color = vec4(1.0, 0.9, 0.4, 1.0);
+uniform float rim_strength :  hint_range(0.0, 1.0, 5e-4)= 0.05;
 uniform float rim_exponent : hint_range(0.0, 50.0, 0.1) = 15.0;
-uniform float alpha_clip : hint_range(0,1) = 1.0;
+uniform float alpha_clip :  hint_range(0.0, 1.0, 5e-4) = 1.0;
 
 uniform float dither_darken :  hint_range(0.5, 1.0, 5e-4) = 0.75;
 

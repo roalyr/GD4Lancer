@@ -64,6 +64,7 @@ shader_parameter/rim_exponent = 0.171
 shader_parameter/alpha_clip = 1.0
 shader_parameter/displacement_scale = 0.3075
 shader_parameter/displacement_velocity = 0.463
+shader_parameter/dither_darken = 0.75
 shader_parameter/displacement_texture = SubResource("NoiseTexture2D_82vqf")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_np2ix"]
@@ -75,6 +76,7 @@ shader_parameter/rim_exponent = 0.1
 shader_parameter/alpha_clip = 1.0
 shader_parameter/scale_down_threshold = 0.0
 shader_parameter/scale_power = 0.2
+shader_parameter/dither_darken = 0.75
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_rsvse"]
 render_priority = 0

@@ -4,7 +4,7 @@ render_mode
 	vertex_lighting,
 	
 	// Blending and culling.
-	blend_mix,
+	blend_add,
 	cull_front,
 	
 	unshaded,
@@ -29,5 +29,5 @@ void fragment()
 	float rim = clamp(pow(dt, rim_exponent)*rim_strength, 1e-6, alpha_clip);
 	float rim_inner = clamp(pow(dt, rim_exponent_inner)*rim_strength_inner, 1e-6, alpha_clip_inner);
 	ALBEDO = albedo.rgb*COLOR.rgb;
-	ALPHA = clamp(1.0-rim_inner, 1e-6, 1.0)*clamp(rim, 1e-6, 1.0);
+	ALBEDO *= clamp(1.0-rim_inner, 1e-6, 1.0)*clamp(rim, 1e-6, 1.0);
 }

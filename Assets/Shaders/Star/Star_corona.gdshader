@@ -34,6 +34,20 @@ uniform sampler2D displacement_texture;
 uniform float displacement_scale : hint_range(0.0, 1.0, 5e-4) = 0.1;
 uniform float displacement_velocity : hint_range(0.0, 1.0, 5e-4) = 0.5;
 
+uniform float dither_darken :  hint_range(0.5, 1.0, 5e-4) = 0.75;
+
+const float dither_x = 172.7;
+const float dither_y = 232.6;
+const float dither_r = 105.5;
+const float dither_g = 99.0;
+const float dither_b = 110.0;
+
+vec3 interleaved_gradient_noise(vec2 frag_coord) {
+	vec3 dither = vec3(dot(vec2(dither_x, dither_y), frag_coord));
+	dither.rgb = fract(dither.rgb / vec3(dither_r, dither_g, dither_b));
+	return (dither.rgb - vec3(dither_darken)) / 255.0;
+}
+
 void vertex() {
 	vec2 tex_position_x = VERTEX.yz - TIME*displacement_velocity*0.1;
 	vec2 tex_position_y = VERTEX.xz + TIME*displacement_velocity*0.1;
@@ -68,4 +82,7 @@ void fragment()
 		+ core*core_color.rgb;
 		
 	ALBEDO *= rim;
+	
+	vec2 frag_coord = FRAGCOORD.xy;
+	ALBEDO += interleaved_gradient_noise(frag_coord);
 }
