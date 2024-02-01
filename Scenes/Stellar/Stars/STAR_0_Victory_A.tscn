@@ -92,6 +92,20 @@ shader_parameter/pulse_factor = 0.97
 shader_parameter/pulse_rate = 6.25
 shader_parameter/phase = 0.0
 
+[sub_resource type="GDScript" id="GDScript_p8rwk"]
+script/source = "extends Node
+
+var scene_camera = Camera3D.new()
+var camera_decorations = Node3D.new()
+
+func _ready():
+	scene_camera = get_node(\"Camera_Path3D/PathFollow3D/Camera3D\")
+	camera_decorations = get_node(\"Camera_decorations\")
+
+func _process(delta):
+	camera_decorations.global_position = scene_camera.global_position
+"
+
 [sub_resource type="Curve3D" id="Curve3D_nlhsl"]
 bake_interval = 132.15
 _data = {
@@ -128,21 +142,6 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	look_at(Vector3(0,0,0), Vector3(0,1,0))
-"
-
-[sub_resource type="GDScript" id="GDScript_vr304"]
-resource_name = "Camera_decoration"
-script/source = "extends Node3D
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	global_transform.basis = get_tree().get_root().get_child(0).global_transform.basis
 "
 
 [sub_resource type="Environment" id="Environment_efc2j"]
@@ -222,6 +221,7 @@ metadata/_edit_group_ = true
 surface_material_override/0 = SubResource("ShaderMaterial_rsvse")
 
 [node name="Scene_interface" type="Node" parent="."]
+script = SubResource("GDScript_p8rwk")
 
 [node name="Camera_Path3D" type="Path3D" parent="Scene_interface"]
 transform = Transform3D(0.983851, 0.178991, 0, -0.178991, 0.983851, 0, 0, 0, 1, 0, 0, 0)
@@ -237,14 +237,11 @@ script = SubResource("GDScript_kija1")
 far = 1e+06
 script = SubResource("GDScript_8tbxj")
 
-[node name="Camera_decoration" type="Node3D" parent="Scene_interface/Camera_Path3D/PathFollow3D/Camera3D"]
-script = SubResource("GDScript_vr304")
-
-[node name="Camera_decorations" parent="Scene_interface/Camera_Path3D/PathFollow3D/Camera3D/Camera_decoration" instance=ExtResource("8_b3gwg")]
-
 [node name="WorldEnvironment" type="WorldEnvironment" parent="Scene_interface"]
 environment = SubResource("Environment_efc2j")
 camera_attributes = SubResource("CameraAttributesPractical_q6lnw")
+
+[node name="Camera_decorations" parent="Scene_interface" instance=ExtResource("8_b3gwg")]
 
 [editable path="Star_model/Surface"]
 [editable path="Star_model/Corona"]

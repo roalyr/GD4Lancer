@@ -1,3 +1,4 @@
+
 shader_type spatial;
 render_mode
 	// Vertex or pixel shading (screen-large object can use vertex)

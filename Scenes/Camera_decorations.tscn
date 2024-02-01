@@ -11,27 +11,27 @@
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7e702"]
 render_priority = 0
 shader = ExtResource("2_7vjqk")
-shader_parameter/albedo = Color(0.628173, 0.125246, 0, 1)
-shader_parameter/rim_strength = 0.604
-shader_parameter/rim_exponent = 50.0
+shader_parameter/albedo = Color(0.799358, 0.490848, 0.510504, 1)
+shader_parameter/rim_strength = 0.05
+shader_parameter/rim_exponent = 15.0
 shader_parameter/alpha_clip = 1.0
 shader_parameter/dither_darken = 0.75
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_0qw4t"]
 render_priority = 0
 shader = ExtResource("2_7vjqk")
-shader_parameter/albedo = Color(0.780392, 0.447059, 0.447059, 1)
-shader_parameter/rim_strength = 0.05
-shader_parameter/rim_exponent = 15.0
+shader_parameter/albedo = Color(0.982705, 0.805143, 0.785601, 1)
+shader_parameter/rim_strength = 0.02
+shader_parameter/rim_exponent = 4.5
 shader_parameter/alpha_clip = 1.0
-shader_parameter/dither_darken = 0.0
+shader_parameter/dither_darken = 0.75
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_pqsjp"]
 render_priority = 0
 shader = ExtResource("2_7vjqk")
-shader_parameter/albedo = Color(0, 0.984314, 0.984314, 1)
+shader_parameter/albedo = Color(9.81867e-06, 0.998337, 0.998337, 1)
 shader_parameter/rim_strength = 0.015
-shader_parameter/rim_exponent = 5.0
+shader_parameter/rim_exponent = 7.0
 shader_parameter/alpha_clip = 1.0
 shader_parameter/dither_darken = 0.0
 
@@ -39,9 +39,9 @@ shader_parameter/dither_darken = 0.0
 render_priority = 0
 shader = ExtResource("5_qicd3")
 shader_parameter/albedo = Color(0.742169, 0.444664, 0.234054, 1)
-shader_parameter/rim_strength = 28.0
-shader_parameter/rim_exponent = 27.0
-shader_parameter/rim_strength_inner = 1.03
+shader_parameter/rim_strength = 28.5
+shader_parameter/rim_exponent = 19.4
+shader_parameter/rim_strength_inner = 1.165
 shader_parameter/rim_exponent_inner = 0.9
 shader_parameter/alpha_clip = 1.0
 shader_parameter/alpha_clip_inner = 1.0
@@ -94,68 +94,79 @@ shader = ExtResource("4_gqr0l")
 shader_parameter/albedo = Color(0.612144, 0.442437, 0.106634, 1)
 
 [node name="Camera_decorations" type="Node3D"]
+transform = Transform3D(1000, 0, 0, 0, 1000, 0, 0, 0, 1000, 0, 0, 0)
 
-[node name="Galaxy_belt" type="Node3D" parent="."]
-transform = Transform3D(0.998483, 0.0297226, -0.046358, -0.0379648, 0.981335, -0.18852, 0.0398894, 0.189994, 0.980975, 0, 0, 0)
+[node name="Position" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.57518)
 
-[node name="Ellisoid_1280_0_5_inner" parent="Galaxy_belt" instance=ExtResource("5_mcj88")]
-transform = Transform3D(-2.18557e-08, 5.63222e-19, 0.5, 2.49152e-17, 0.5, -5.63221e-19, -0.5, 2.49152e-17, -2.18557e-08, 0, 0, 0)
+[node name="Galaxy_belt" type="Node3D" parent="Position"]
+transform = Transform3D(0.998483, 0.0297225, -0.0463579, -0.0379648, 0.981335, -0.18852, 0.0398894, 0.189994, 0.980975, 0, 0, 0)
 
-[node name="Ellisoid_1280_0_5" parent="Galaxy_belt/Ellisoid_1280_0_5_inner" index="0"]
+[node name="Ellisoid_1280_0_5_inner" parent="Position/Galaxy_belt" instance=ExtResource("5_mcj88")]
+transform = Transform3D(-1.84112e-07, 2.15886e-18, 4.212, 2.33813e-16, 2.489, -3.65332e-18, -4.212, 1.38167e-16, -1.84112e-07, 0, 0, 0)
+metadata/_edit_group_ = true
+
+[node name="Ellisoid_1280_0_5" parent="Position/Galaxy_belt/Ellisoid_1280_0_5_inner" index="0"]
+transform = Transform3D(1, -5.55112e-17, -6.93889e-18, 5.55112e-17, 1, -1.12757e-17, 0, 0, 1, 0, 0, 0)
 surface_material_override/0 = SubResource("ShaderMaterial_7e702")
 
-[node name="Ellisoid_1280_0_25_median" parent="Galaxy_belt" instance=ExtResource("6_kkol8")]
-transform = Transform3D(-8.74228e-08, 1.68967e-18, 2, 1.99322e-16, 1.5, -2.25288e-18, -2, 1.49491e-16, -8.74228e-08, 0, 0, 0)
+[node name="Ellisoid_1280_0_25_median" parent="Position/Galaxy_belt" instance=ExtResource("6_kkol8")]
+transform = Transform3D(-5.94912e-08, 2.65392e-18, 1.361, 1.35639e-16, 2.356, -1.53309e-18, -1.361, 2.34801e-16, -5.94912e-08, 0, 0, 0)
+metadata/_edit_group_ = true
 
-[node name="Ellisoid_1280_0_25" parent="Galaxy_belt/Ellisoid_1280_0_25_median" index="0"]
+[node name="Ellisoid_1280_0_25" parent="Position/Galaxy_belt/Ellisoid_1280_0_25_median" index="0"]
 surface_material_override/0 = SubResource("ShaderMaterial_0qw4t")
 
-[node name="Ellisoid_1280_0_25_outer" parent="Galaxy_belt" instance=ExtResource("6_kkol8")]
-transform = Transform3D(-8.74228e-08, 2.25289e-18, 3, 1.99322e-16, 2, -3.37932e-18, -2, 1.99322e-16, -1.31134e-07, 0, 0, 0)
+[node name="Ellisoid_1280_0_25_outer" parent="Position/Galaxy_belt" instance=ExtResource("6_kkol8")]
+transform = Transform3D(5.69, 0, 0, 0, 3.2, 0, 0, 0, 5.69, 0, 0, 0)
+metadata/_edit_group_ = true
 
-[node name="Ellisoid_1280_0_25" parent="Galaxy_belt/Ellisoid_1280_0_25_outer" index="0"]
+[node name="Ellisoid_1280_0_25" parent="Position/Galaxy_belt/Ellisoid_1280_0_25_outer" index="0"]
 surface_material_override/0 = SubResource("ShaderMaterial_pqsjp")
 
-[node name="Galaxy_torus_outer" parent="Galaxy_belt" instance=ExtResource("6_xu44h")]
+[node name="Galaxy_torus_outer" parent="Position/Galaxy_belt" instance=ExtResource("6_xu44h")]
+transform = Transform3D(-0.927184, 0, -0.374607, 0, 1, 0, 0.374607, 0, -0.927184, 0, 0, 0)
+metadata/_edit_group_ = true
 
-[node name="Torus outer" parent="Galaxy_belt/Galaxy_torus_outer" index="0"]
+[node name="Torus outer" parent="Position/Galaxy_belt/Galaxy_torus_outer" index="0"]
 surface_material_override/0 = SubResource("ShaderMaterial_gaxbu")
 
-[node name="Galaxy_torus_outer2" parent="Galaxy_belt" instance=ExtResource("6_xu44h")]
-transform = Transform3D(1, 8.67362e-19, 6.93889e-18, 8.67362e-19, 1, -2.77556e-17, 6.93889e-18, 2.77556e-17, 1, 0, 0, 0)
+[node name="Galaxy_torus_outer2" parent="Position/Galaxy_belt" instance=ExtResource("6_xu44h")]
+transform = Transform3D(6.12323e-17, 0, 1.785, 0, 1, 0, -1, 0, 1.093e-16, 0, 0, 0.105)
+metadata/_edit_group_ = true
 
-[node name="Torus outer" parent="Galaxy_belt/Galaxy_torus_outer2" index="0"]
+[node name="Torus outer" parent="Position/Galaxy_belt/Galaxy_torus_outer2" index="0"]
 surface_material_override/0 = SubResource("ShaderMaterial_fp2w0")
 
-[node name="Galactic_background_lights" type="Node3D" parent="."]
+[node name="Galactic_background_lights" type="Node3D" parent="Position"]
 transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
 
-[node name="Starsphere007" type="MeshInstance3D" parent="Galactic_background_lights"]
+[node name="Starsphere007" type="MeshInstance3D" parent="Position/Galactic_background_lights"]
 transform = Transform3D(-0.497663, 0.272963, 0.8233, -0.747393, 0.346722, -0.566734, -0.440154, -0.897371, 0.0314599, 0, 0, 0)
 mesh = SubResource("116")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("ShaderMaterial_ohwmg")
 
-[node name="Starsphere008" type="MeshInstance3D" parent="Galactic_background_lights"]
+[node name="Starsphere008" type="MeshInstance3D" parent="Position/Galactic_background_lights"]
 transform = Transform3D(-0.497663, 0.272963, 0.8233, -0.747393, 0.346722, -0.566734, -0.440154, -0.897371, 0.0314599, 0, 0, 0)
 mesh = SubResource("116")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("ShaderMaterial_5w8l7")
 
-[node name="Starsphere009" type="MeshInstance3D" parent="Galactic_background_lights"]
+[node name="Starsphere009" type="MeshInstance3D" parent="Position/Galactic_background_lights"]
 transform = Transform3D(0.182253, -0.171023, 0.968264, 0.709379, -0.659028, -0.249927, 0.680856, 0.732416, 0.00121013, 0, 0, 0)
 mesh = SubResource("116")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("ShaderMaterial_w3gog")
 
-[node name="Starsphere010" type="MeshInstance3D" parent="Galactic_background_lights"]
+[node name="Starsphere010" type="MeshInstance3D" parent="Position/Galactic_background_lights"]
 transform = Transform3D(0.174015, 0.874668, -0.45241, -0.873167, -0.0753632, -0.481559, -0.4553, 0.478828, 0.750617, 0, 0, 0)
 mesh = SubResource("116")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("ShaderMaterial_qoy71")
 
-[editable path="Galaxy_belt/Ellisoid_1280_0_5_inner"]
-[editable path="Galaxy_belt/Ellisoid_1280_0_25_median"]
-[editable path="Galaxy_belt/Ellisoid_1280_0_25_outer"]
-[editable path="Galaxy_belt/Galaxy_torus_outer"]
-[editable path="Galaxy_belt/Galaxy_torus_outer2"]
+[editable path="Position/Galaxy_belt/Ellisoid_1280_0_5_inner"]
+[editable path="Position/Galaxy_belt/Ellisoid_1280_0_25_median"]
+[editable path="Position/Galaxy_belt/Ellisoid_1280_0_25_outer"]
+[editable path="Position/Galaxy_belt/Galaxy_torus_outer"]
+[editable path="Position/Galaxy_belt/Galaxy_torus_outer2"]
