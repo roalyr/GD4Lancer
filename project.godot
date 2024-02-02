@@ -17,6 +17,10 @@ boot_splash/image="res://Assets/Images/Icon_splash/Splash.png"
 config/icon="res://Assets/Images/Icon_splash/Icon.png"
 config/windows_native_icon="res://Assets/Images/Icon_splash/Icon.ico"
 
+[filesystem]
+
+import/blender/enabled=false
+
 [importer_defaults]
 
 scene={

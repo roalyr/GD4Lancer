@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cuyuifr1g4iuw"]
+[gd_scene load_steps=10 format=3 uid="uid://cuyuifr1g4iuw"]
 
 [ext_resource type="PackedScene" uid="uid://bnhfn00t1p7q4" path="res://Assets/Models/Clouds/Cloud_sky_LOD0.glb" id="1_ytv42"]
 [ext_resource type="Shader" path="res://Assets/Shaders/Clouds/Opaque_cloud_base.gdshader" id="2_ie4r1"]
@@ -24,25 +24,34 @@ seamless_blend_skirt = 0.625
 bump_strength = 29.0
 noise = SubResource("FastNoiseLite_25t5v")
 
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_dxkr2"]
+noise_type = 2
+frequency = 0.0181
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_vhrnx"]
+seamless = true
+as_normal_map = true
+noise = SubResource("FastNoiseLite_dxkr2")
+
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ufnww"]
 render_priority = 0
 shader = ExtResource("2_ie4r1")
-shader_parameter/albedo = Color(0.248, 0.4, 0.096, 1)
-shader_parameter/albedo_outer = Color(0.28861, 0.202846, 0.0762306, 1)
-shader_parameter/albedo_detail = Color(0.3544, 0.295185, 0.252782, 1)
-shader_parameter/albedo_detail_minor = Color(0.436991, 0.285656, 0.18454, 1)
-shader_parameter/vertex_color = 0.99
-shader_parameter/major_detail_scale = 3.155
-shader_parameter/major_detail_phase = 7.19
-shader_parameter/major_factor = 2.855
+shader_parameter/albedo = Color(0.384923, 0.583754, 0.442501, 1)
+shader_parameter/albedo_outer = Color(0.382033, 0.252356, 0.140521, 1)
+shader_parameter/albedo_detail = Color(0.021133, 0.0551612, 0.134759, 1)
+shader_parameter/albedo_detail_minor = Color(0.723663, 0.505051, 0.361255, 1)
+shader_parameter/vertex_color = 1.0
+shader_parameter/major_detail_scale = 1.675
+shader_parameter/major_detail_phase = 5.52
+shader_parameter/major_factor = 0.73
 shader_parameter/minor_detail_scale = 12.71
-shader_parameter/minor_detail_phase = 8.045
-shader_parameter/minor_factor = 3.185
-shader_parameter/distance_fade_detail = 1.085
-shader_parameter/distance_fade_detail_minor = 1.09
+shader_parameter/minor_detail_phase = 7.27
+shader_parameter/minor_factor = 4.57
+shader_parameter/distance_fade_detail = 1.86
+shader_parameter/distance_fade_detail_minor = 1.0
 shader_parameter/distance_fade_outer_rim = 7.0
-shader_parameter/rim_strength = 0.815
-shader_parameter/rim_exponent = 0.755
+shader_parameter/rim_strength = 0.935
+shader_parameter/rim_exponent = 1.0
 shader_parameter/color_power_r = 1.01
 shader_parameter/color_power_g = 1.02
 shader_parameter/color_power_b = 1.005
@@ -52,6 +61,7 @@ shader_parameter/color_multiplier_b = 1.045
 shader_parameter/dither_darken = 0.75
 shader_parameter/major_detail_noise = SubResource("NoiseTexture2D_1ulmo")
 shader_parameter/minor_detail_noise = SubResource("NoiseTexture2D_57k5v")
+shader_parameter/normal_detail_noise = SubResource("NoiseTexture2D_vhrnx")
 
 [node name="Node3D" type="Node3D"]
 

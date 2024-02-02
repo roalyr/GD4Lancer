@@ -26,6 +26,8 @@ uniform float vertex_color = 1.0;
 
 uniform sampler2D major_detail_noise;
 uniform sampler2D minor_detail_noise;
+uniform sampler2D normal_detail_noise;
+
 uniform float major_detail_scale = 1.0;
 uniform float major_detail_phase = 1.0;
 uniform float major_factor = 1.0;
@@ -65,6 +67,9 @@ vec3 interleaved_gradient_noise(vec2 frag_coord) {
 	return (dither.rgb - vec3(dither_darken)) / 255.0;
 }
 
+void vertex(){
+	
+}
 
 void fragment()
 {
@@ -72,27 +77,44 @@ void fragment()
 	
 	float detail_major = sin(texture(major_detail_noise, UV*major_detail_scale).r*pi+major_detail_phase);
 	float detail_minor = sin(texture(minor_detail_noise, UV*minor_detail_scale).r*pi+minor_detail_phase);
+	
 	float dt = clamp(dot(NORMAL, VIEW), 0.0, 1.0);
+	
+	// FAKE NORMAL MAP (No light)
+	// Get texture.
+	vec4 nm = texture(normal_detail_noise, UV);
+	// Transform the RGB values of the normal map to the range [-1, 1].
+	vec3 nm_normal = normalize(nm.rgb * 2.0 - 1.0);
+	// Get tangent, bitangent and normal of the vertex.
+	vec3 N = normalize(NORMAL);
+	vec3 T = normalize(TANGENT);
+	vec3 B = normalize(cross(T, N));
+	// Transform normal map normal from tangent space to view space.
+	vec3 nm_normal_view = normalize(mat3(T, B, N) * nm_normal);
+	// Calculate the dot product between the normal map normal and the view direction.
+	float dt_normal = clamp(dot(nm_normal_view, VIEW), 0.0, 1.0);
+	
 	float dt_detail = dt + dt * detail_major * (1.0 - dt);
 	float dt_detail_minor = dt + dt * detail_minor * (1.0 - dt);
+	
 	float rim = clamp(pow(dt, rim_exponent)*rim_strength, 1e-6, 1.0);
 	float rim_detail = clamp(dt_detail, 1e-6, 1.0);
 	float rim_detail_minor = clamp(dt_detail_minor, 1e-6, 1.0);
+	float rim_detail_normal = clamp(pow(dt_normal, rim_exponent)*rim_strength, 1e-6, 1.0);
+	
 	float dist = length(VERTEX);
 	
 	//ALBEDO = COLOR.rgb;
-	ALBEDO = albedo.rgb*(rim);
+	ALBEDO = albedo.rgb*(rim)*(rim_detail_normal);
 	ALBEDO *= (1.0 - vertex_color) + COLOR.rgb * vertex_color;
 	
 	
 	// Detail major + minor
-	ALBEDO += clamp(pow((1.0-rim_detail), major_factor)*albedo_detail.rgb
-			* (clamp(smoothstep(0.0, distance_fade_detail, dist), 1e-6, 1.0)), 0.0, 1.0);
-	ALBEDO += clamp(pow((1.0 - rim_detail_minor), minor_factor)*albedo_detail_minor.rgb
-			* (1.0 - clamp(smoothstep(0.0, distance_fade_detail_minor, dist), 1e-6, 1.0)), 0.0, 1.0);
+	//ALBEDO += clamp(pow((1.0 - rim_detail_minor), minor_factor)*albedo_detail_minor.rgb * (1.0 - clamp(smoothstep(0.0, distance_fade_detail_minor, dist), 1e-6, 1.0)), 0.0, 1.0);
 	
 	// Light ri, overlay
-	ALBEDO += (1.0-rim)*albedo_outer.rgb*(1.0-clamp(smoothstep(0.0, distance_fade_outer_rim, dist), 1e-6, 1.0));
+	ALBEDO += (1.0-rim)*(1.0-rim_detail_normal)*albedo_outer.rgb*(1.0-clamp(smoothstep(0.0, distance_fade_outer_rim, dist), 1e-6, 1.0));
+	ALBEDO += clamp(pow((1.0-rim_detail), major_factor)*albedo_detail.rgb * (clamp(smoothstep(0.0, distance_fade_detail, dist), 1e-6, 1.0)), 0.0, 1.0);
 	
 	
 	ALBEDO = vec3(
