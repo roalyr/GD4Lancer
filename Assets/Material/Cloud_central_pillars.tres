@@ -2,41 +2,44 @@
 
 [ext_resource type="Shader" uid="uid://1pxmgmvii3p1" path="res://Assets/Shaders/Clouds/Opaque_cloud_fade_inside_simple.tres" id="1_3rnru"]
 [ext_resource type="Shader" path="res://Assets/Shaders/Clouds/Opaque_cloud_base.gdshader" id="1_emk1c"]
+[ext_resource type="Shader" uid="uid://byyyoynnkj4sk" path="res://Assets/Shaders/Clouds/Opaque_cloud_fade_outside_simple.tres" id="1_si1ed"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ekody"]
+render_priority = 0
+shader = ExtResource("1_si1ed")
+shader_parameter/albedo = Color(0.100048, 0.0583246, 0.0506912, 1)
+shader_parameter/distance_fade_max = 200.0
+shader_parameter/dither_darken = 0.75
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_51jcx"]
 render_priority = 0
+next_pass = SubResource("ShaderMaterial_ekody")
 shader = ExtResource("1_3rnru")
-shader_parameter/albedo = Color(0.207855, 0.270115, 0.268238, 1)
-shader_parameter/distance_fade_max = 70.0
+shader_parameter/albedo = Color(0.4386, 0.51, 0.44693, 1)
+shader_parameter/distance_fade_max = 100.0
 shader_parameter/dither_darken = 0.75
 
-[sub_resource type="FastNoiseLite" id="FastNoiseLite_4akw6"]
-noise_type = 2
-frequency = 0.0552
-fractal_octaves = 3
-
-[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_43gyq"]
-seamless = true
-noise = SubResource("FastNoiseLite_4akw6")
-
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_7ougu"]
-noise_type = 2
-frequency = 0.0264
-fractal_octaves = 2
+noise_type = 4
+frequency = 0.0615
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_x65bq"]
-invert = true
+width = 256
+height = 256
 seamless = true
+seamless_blend_skirt = 0.487
 as_normal_map = true
-bump_strength = 22.4
+bump_strength = 7.0
 noise = SubResource("FastNoiseLite_7ougu")
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_h7hfr"]
 noise_type = 2
 frequency = 0.0266
-fractal_octaves = 3
+fractal_octaves = 4
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_rh7rm"]
+width = 256
+height = 256
 invert = true
 seamless = true
 as_normal_map = true
@@ -46,18 +49,18 @@ noise = SubResource("FastNoiseLite_h7hfr")
 render_priority = 0
 next_pass = SubResource("ShaderMaterial_51jcx")
 shader = ExtResource("1_emk1c")
-shader_parameter/albedo = Color(4.81307e-07, 0.342049, 0.22056, 1)
-shader_parameter/albedo_glow = Color(0.33384, 0.147416, 0.0273029, 1)
-shader_parameter/albedo_detail_distant = Color(0.448009, 0.404628, 0.237042, 1)
-shader_parameter/distant_detail_phase = 1.0
-shader_parameter/distant_detail_factor = 1.0
-shader_parameter/distant_detail_strength = 2.0
-shader_parameter/fade_detail_major = 60.0
+shader_parameter/albedo = Color(0.264, 0.6, 0.46, 1)
+shader_parameter/albedo_glow = Color(4.23551e-06, 0.859175, 0.435028, 1)
+shader_parameter/albedo_glow_overlay = Color(0.531934, 0.42134, 0, 1)
+shader_parameter/fade_detail_major = 50.0
 shader_parameter/fade_detail_minor = 50.0
 shader_parameter/fade_glow = 200.0
-shader_parameter/fade_detail_distant = 150.0
-shader_parameter/rim_strength = 1.0
-shader_parameter/rim_exponent = 1.0
+shader_parameter/fade_glow_overlay = 200.0
+shader_parameter/rim_strength = 1.335
+shader_parameter/rim_exponent = 1.665
+shader_parameter/rim_overlay_strength = 1.605
+shader_parameter/rim_overlay_exponent = 0.65
+shader_parameter/rim_overlay_factor = 5.22
 shader_parameter/color_power_r = 0.845
 shader_parameter/color_power_g = 1.03
 shader_parameter/color_power_b = 0.91
@@ -66,8 +69,7 @@ shader_parameter/color_multiplier_g = 0.5
 shader_parameter/color_multiplier_b = 0.5
 shader_parameter/dither_darken = 0.75
 shader_parameter/uv1_blend_sharpness = 10.0
-shader_parameter/uv1_scale = Vector3(10, 10, 10)
-shader_parameter/uv1_offset = Vector3(6.215, -1.66, -6.375)
-shader_parameter/distant_detail_noise = SubResource("NoiseTexture2D_43gyq")
+shader_parameter/uv1_scale = Vector3(1000, 1000, 1000)
+shader_parameter/uv1_offset = Vector3(5.95, -0.52, -5.955)
 shader_parameter/normal_detail_major_noise = SubResource("NoiseTexture2D_x65bq")
 shader_parameter/normal_detail_minor_noise = SubResource("NoiseTexture2D_rh7rm")

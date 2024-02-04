@@ -1,8 +1,71 @@
-[gd_scene load_steps=4 format=3 uid="uid://cuyuifr1g4iuw"]
+[gd_scene load_steps=12 format=3 uid="uid://cuyuifr1g4iuw"]
 
 [ext_resource type="PackedScene" uid="uid://bnhfn00t1p7q4" path="res://Assets/Models/Clouds/Cloud_sky_LOD0.glb" id="1_ytv42"]
 [ext_resource type="Material" uid="uid://bha8nfsu10tr" path="res://Assets/Material/Cloud_central_pillars.tres" id="2_tdorc"]
 [ext_resource type="PackedScene" uid="uid://cd0px4j4xkm7b" path="res://Assets/Models/Clouds/Cloud_central_pillars.glb" id="3_si631"]
+[ext_resource type="PackedScene" uid="uid://dbbwua7tcgat7" path="res://Assets/Models/Clouds/Cloud_splatter.glb" id="4_3piny"]
+[ext_resource type="PackedScene" uid="uid://dnejf6nathwuv" path="res://Scenes/Camera_decorations.tscn" id="5_03hls"]
+
+[sub_resource type="GDScript" id="GDScript_0jr7s"]
+script/source = "extends Node
+
+var scene_camera = Camera3D.new()
+var camera_decorations = Node3D.new()
+
+func _ready():
+	scene_camera = get_node(\"Camera_Path3D/PathFollow3D/Camera3D\")
+	camera_decorations = get_node(\"Camera_decorations\")
+
+func _process(delta):
+	camera_decorations.global_position = scene_camera.global_position
+"
+
+[sub_resource type="Curve3D" id="Curve3D_3l75x"]
+bake_interval = 132.15
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 62.0604, 1.38352, 55.7216, 0, 0, 0, 0, 0, 0, 58.4905, 8.6273, 15.5245, 0, 0, 0, 0, 0, 0, 38.9138, 7.90736, -20.4675, 0, 0, 0, 0, 0, 0, 11.2836, 3.54386, -25.9764, 0, 0, 0, 0, 0, 0, 2.6064, -2.40158, -8.93591, 0, 0, 0, 0, 0, 0, -16.9654, -9.70162, 2.33525, 0, 0, 0, 0, 0, 0, -7.72376, -8.5635, 16.5187, 0, 0, 0, 0, 0, 0, 22.8509, -5.71976, 38.3264, 0, 0, 0, -3.95095, 1.7151, 1.35454, 62.0604, 1.38352, 55.7216),
+"tilts": PackedFloat64Array(0.572208, 0, 0, 0, 0, 0.248012, 0, 0, 0)
+}
+point_count = 9
+
+[sub_resource type="GDScript" id="GDScript_w3ia6"]
+resource_name = "Path_follow"
+script/source = "extends PathFollow3D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	progress_ratio += delta*0.01
+"
+
+[sub_resource type="GDScript" id="GDScript_r5nvp"]
+resource_name = "Camera_look_at"
+script/source = "extends Camera3D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	look_at(Vector3(0,0,0), Vector3(0,1,0))
+"
+
+[sub_resource type="Environment" id="Environment_jpj1e"]
+background_mode = 1
+background_color = Color(0.0381914, 0.041629, 0.0884013, 1)
+ambient_light_energy = 0.0
+reflected_light_source = 1
+tonemap_mode = 3
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_s1h4h"]
 
 [node name="Node3D" type="Node3D"]
 
@@ -10,12 +73,44 @@
 visible = false
 
 [node name="CLoud_sky_LOD0" parent="Cloud_sky_LOD0" index="0"]
+transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, 0, 0, 0)
 surface_material_override/0 = ExtResource("2_tdorc")
 
 [node name="Cloud_central_pillars" parent="." instance=ExtResource("3_si631")]
+visible = false
 
 [node name="Mesh" parent="Cloud_central_pillars" index="0"]
 material_override = ExtResource("2_tdorc")
 
+[node name="Cloud_splatter" parent="." instance=ExtResource("4_3piny")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+
+[node name="Icosphere" parent="Cloud_splatter" index="0"]
+material_override = ExtResource("2_tdorc")
+
+[node name="Scene_interface" type="Node" parent="."]
+script = SubResource("GDScript_0jr7s")
+
+[node name="Camera_Path3D" type="Path3D" parent="Scene_interface"]
+transform = Transform3D(0.983851, 0.178991, 0, -0.178991, 0.983851, 0, 0, 0, 1, 0, 0, 0)
+curve = SubResource("Curve3D_3l75x")
+metadata/_edit_lock_ = true
+
+[node name="PathFollow3D" type="PathFollow3D" parent="Scene_interface/Camera_Path3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.0604, 1.38352, 55.7216)
+rotation_mode = 0
+script = SubResource("GDScript_w3ia6")
+
+[node name="Camera3D" type="Camera3D" parent="Scene_interface/Camera_Path3D/PathFollow3D"]
+far = 1e+06
+script = SubResource("GDScript_r5nvp")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Scene_interface"]
+environment = SubResource("Environment_jpj1e")
+camera_attributes = SubResource("CameraAttributesPractical_s1h4h")
+
+[node name="Camera_decorations" parent="Scene_interface" instance=ExtResource("5_03hls")]
+
 [editable path="Cloud_sky_LOD0"]
 [editable path="Cloud_central_pillars"]
+[editable path="Cloud_splatter"]

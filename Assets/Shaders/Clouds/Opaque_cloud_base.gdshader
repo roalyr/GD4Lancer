@@ -18,23 +18,30 @@ render_mode
 
 uniform vec4 albedo : source_color;
 uniform vec4 albedo_glow : source_color;
-uniform vec4 albedo_detail_distant : source_color;
+uniform vec4 albedo_glow_overlay : source_color;
+//uniform vec4 albedo_detail_distant : source_color;
 
-uniform sampler2D distant_detail_noise;
+//uniform sampler2D distant_detail_noise;
 uniform sampler2D normal_detail_major_noise;
 uniform sampler2D normal_detail_minor_noise;
 
-uniform float distant_detail_phase = 1.0;
-uniform float distant_detail_factor = 1.0;
-uniform float distant_detail_strength = 1.0;
+//uniform float distant_detail_phase = 1.0;
+//uniform float distant_detail_factor = 1.0;
+//uniform float distant_detail_strength = 1.0;
 
 uniform float fade_detail_major = 0;
 uniform float fade_detail_minor = 0;
 uniform float fade_glow = 0;
-uniform float fade_detail_distant = 0;
+uniform float fade_glow_overlay = 0;
+//uniform float fade_detail_distant = 0;
 
 uniform float rim_strength = 1.0;
 uniform float rim_exponent : hint_range(0.0, 10.0) = 1.0;
+
+uniform float rim_overlay_strength = 1.0;
+uniform float rim_overlay_exponent : hint_range(0.0, 10.0) = 1.0;
+uniform float rim_overlay_factor = 1.0;
+
 
 uniform float color_power_r = 1.0;
 uniform float color_power_g = 1.0;
@@ -113,41 +120,51 @@ void fragment()
 	vec3 nm_normal_detail_minor_view = normalize(mat3(T, B, N) * nm_detail_minor_noise_normalized);
 	
 	// Binary textures.
-	float bm_distant_detail_noise = sin(triplanar_texture(distant_detail_noise,uv1_power_normal,uv1_triplanar_pos).r*pi+distant_detail_phase);
+	//float bm_distant_detail_noise = sin(triplanar_texture(distant_detail_noise,uv1_power_normal,uv1_triplanar_pos).r*pi+distant_detail_phase);
 	
 	// Calculate the dot product between the normal and view direction.
 	float dt = clamp(dot(NORMAL, VIEW), 1e-6, 1.0);
 	float dt_normal_detail_major = clamp(dot(nm_normal_detail_major_view, VIEW), 1e-6, 1.0);
 	float dt_normal_detail_minor = clamp(dot(nm_normal_detail_minor_view, VIEW), 1e-6, 1.0);
-	float dt_distant_detail = dt + dt * bm_distant_detail_noise * (1.0 - dt);
+	//float dt_distant_detail = dt + dt * bm_distant_detail_noise * (1.0 - dt);
 	
 	// Attenuate the dot product.
 	float rim = clamp(pow(dt, rim_exponent)*rim_strength, 1e-6, 1.0);
-	float rim_detail_distant = clamp(pow(dt_distant_detail, rim_exponent)*rim_strength, 1e-6, 1.0);
+	float rim_overlay = clamp(pow(dt, rim_overlay_exponent)*rim_overlay_strength, 1e-6, 1.0);
+	//float rim_detail_distant = clamp(pow(dt_distant_detail, rim_exponent)*rim_strength, 1e-6, 1.0);
 	float rim_normal_detail_major = clamp(pow(dt_normal_detail_major, rim_exponent)*rim_strength, 1e-6, 1.0);
 	float rim_normal_detail_minor = clamp(pow(dt_normal_detail_minor, rim_exponent)*rim_strength, 1e-6, 1.0);
 	
 	// Fade distances.
 	float dist = length(VERTEX);
 	float fd_glow = 1.0-clamp(smoothstep(0.0, fade_glow, dist), 1e-6, 1.0); // fades out
-	float fd_detail_distant = clamp(smoothstep(0.0, fade_detail_distant, dist), 1e-6, 1.0); // fades in
+	float fd_glow_overlay = 1.0-clamp(smoothstep(0.0, fade_glow_overlay, dist), 1e-6, 1.0); // fades out
+	//float fd_detail_distant = clamp(smoothstep(0.0, fade_detail_distant, dist), 1e-6, 1.0); // fades in
 	float fd_detail_major = clamp(smoothstep(0.0, fade_detail_major, dist), 1e-6, 1.0); // fades in
 	float fd_detail_minor = 1.0 - clamp(smoothstep(0.0, fade_detail_minor, dist), 1e-6, 1.0); // fades out
 	
 	// Main color.
 	ALBEDO = albedo.rgb * COLOR.rgb;
 	// Glow. Adjusted by noise maps.
-	ALBEDO += albedo_glow.rgb*fd_glow
+	ALBEDO += albedo_glow.rgb*fd_glow * COLOR.rgb
 		*(1.0-rim_normal_detail_major*fd_detail_major)
 		*(1.0-rim_normal_detail_minor*fd_detail_minor)
 		*(1.0-rim)
 		;
 	
-	// Details
-	ALBEDO += albedo_detail_distant.rgb*fd_detail_distant
-		*pow((1.0-rim_detail_distant), distant_detail_factor)
-		*distant_detail_strength
-		;
+	// GLow overlay.
+	ALBEDO += albedo_glow_overlay.rgb*fd_glow_overlay * COLOR.rgb
+		*(1.0-rim_normal_detail_major*fd_detail_major)
+		*(1.0-rim_normal_detail_minor*fd_detail_minor)
+		*(1.0-rim_overlay)
+		//*rim
+		*rim_overlay_factor;	
+	
+	// Details (move to a separate shader)
+	//ALBEDO += albedo_detail_distant.rgb*fd_detail_distant * COLOR.rgb
+	//	*pow((1.0-rim_detail_distant), distant_detail_factor)
+//		*distant_detail_strength
+//		;
 	
 	// color tweak.
 	ALBEDO = vec3(
