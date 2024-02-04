@@ -1,73 +1,21 @@
-[gd_scene load_steps=10 format=3 uid="uid://cuyuifr1g4iuw"]
+[gd_scene load_steps=4 format=3 uid="uid://cuyuifr1g4iuw"]
 
 [ext_resource type="PackedScene" uid="uid://bnhfn00t1p7q4" path="res://Assets/Models/Clouds/Cloud_sky_LOD0.glb" id="1_ytv42"]
-[ext_resource type="Shader" path="res://Assets/Shaders/Clouds/Opaque_cloud_base.gdshader" id="2_ie4r1"]
-
-[sub_resource type="FastNoiseLite" id="FastNoiseLite_m6u10"]
-noise_type = 2
-frequency = 0.019
-
-[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_1ulmo"]
-seamless = true
-seamless_blend_skirt = 0.625
-bump_strength = 29.0
-noise = SubResource("FastNoiseLite_m6u10")
-
-[sub_resource type="FastNoiseLite" id="FastNoiseLite_25t5v"]
-noise_type = 2
-seed = 310
-fractal_octaves = 2
-
-[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_57k5v"]
-seamless = true
-seamless_blend_skirt = 0.625
-bump_strength = 29.0
-noise = SubResource("FastNoiseLite_25t5v")
-
-[sub_resource type="FastNoiseLite" id="FastNoiseLite_dxkr2"]
-noise_type = 2
-frequency = 0.0181
-
-[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_vhrnx"]
-seamless = true
-as_normal_map = true
-noise = SubResource("FastNoiseLite_dxkr2")
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ufnww"]
-render_priority = 0
-shader = ExtResource("2_ie4r1")
-shader_parameter/albedo = Color(0.384923, 0.583754, 0.442501, 1)
-shader_parameter/albedo_outer = Color(0.382033, 0.252356, 0.140521, 1)
-shader_parameter/albedo_detail = Color(0.021133, 0.0551612, 0.134759, 1)
-shader_parameter/albedo_detail_minor = Color(0.723663, 0.505051, 0.361255, 1)
-shader_parameter/vertex_color = 1.0
-shader_parameter/major_detail_scale = 1.675
-shader_parameter/major_detail_phase = 5.52
-shader_parameter/major_factor = 0.73
-shader_parameter/minor_detail_scale = 12.71
-shader_parameter/minor_detail_phase = 7.27
-shader_parameter/minor_factor = 4.57
-shader_parameter/distance_fade_detail = 1.86
-shader_parameter/distance_fade_detail_minor = 1.0
-shader_parameter/distance_fade_outer_rim = 7.0
-shader_parameter/rim_strength = 0.935
-shader_parameter/rim_exponent = 1.0
-shader_parameter/color_power_r = 1.01
-shader_parameter/color_power_g = 1.02
-shader_parameter/color_power_b = 1.005
-shader_parameter/color_multiplier_r = 1.0
-shader_parameter/color_multiplier_g = 1.14
-shader_parameter/color_multiplier_b = 1.045
-shader_parameter/dither_darken = 0.75
-shader_parameter/major_detail_noise = SubResource("NoiseTexture2D_1ulmo")
-shader_parameter/minor_detail_noise = SubResource("NoiseTexture2D_57k5v")
-shader_parameter/normal_detail_noise = SubResource("NoiseTexture2D_vhrnx")
+[ext_resource type="Material" uid="uid://bha8nfsu10tr" path="res://Assets/Material/Cloud_central_pillars.tres" id="2_tdorc"]
+[ext_resource type="PackedScene" uid="uid://cd0px4j4xkm7b" path="res://Assets/Models/Clouds/Cloud_central_pillars.glb" id="3_si631"]
 
 [node name="Node3D" type="Node3D"]
 
 [node name="Cloud_sky_LOD0" parent="." instance=ExtResource("1_ytv42")]
+visible = false
 
 [node name="CLoud_sky_LOD0" parent="Cloud_sky_LOD0" index="0"]
-surface_material_override/0 = SubResource("ShaderMaterial_ufnww")
+surface_material_override/0 = ExtResource("2_tdorc")
+
+[node name="Cloud_central_pillars" parent="." instance=ExtResource("3_si631")]
+
+[node name="Mesh" parent="Cloud_central_pillars" index="0"]
+material_override = ExtResource("2_tdorc")
 
 [editable path="Cloud_sky_LOD0"]
+[editable path="Cloud_central_pillars"]
