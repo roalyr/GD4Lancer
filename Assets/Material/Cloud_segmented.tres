@@ -1,0 +1,52 @@
+[gd_resource type="ShaderMaterial" load_steps=7 format=3 uid="uid://bha8nfsu10tr"]
+
+[ext_resource type="Material" uid="uid://bywyx3bpp5s5y" path="res://Assets/Material/Cloud_segmented_inner_glow.tres" id="1_3w7ng"]
+[ext_resource type="Shader" path="res://Assets/Shaders/Clouds/Opaque_cloud_base.gdshader" id="1_emk1c"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_ut2nm"]
+noise_type = 2
+frequency = 0.0346
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_b6mqc"]
+seamless = true
+seamless_blend_skirt = 1.0
+noise = SubResource("FastNoiseLite_ut2nm")
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_uw65w"]
+noise_type = 2
+frequency = 0.0061
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_qd230"]
+invert = true
+seamless = true
+seamless_blend_skirt = 1.0
+as_normal_map = true
+bump_strength = 30.0
+noise = SubResource("FastNoiseLite_uw65w")
+
+[resource]
+render_priority = 0
+next_pass = ExtResource("1_3w7ng")
+shader = ExtResource("1_emk1c")
+shader_parameter/albedo = Color(0.293429, 0.274445, 0.193301, 1)
+shader_parameter/albedo_glow_near = Color(0.0960182, 0.0818227, 0.0709585, 1)
+shader_parameter/albedo_detail_distant = Color(0.381628, 0.176738, 0, 1)
+shader_parameter/normal_detail_factor = 1.0
+shader_parameter/distant_detail_phase = 7.7
+shader_parameter/distant_detail_factor = 1.5
+shader_parameter/distant_detail_strength = 1.0
+shader_parameter/fade = 20.0
+shader_parameter/rim_strength = 0.8
+shader_parameter/rim_exponent = 1.2
+shader_parameter/color_power_r = 1.0
+shader_parameter/color_power_g = 1.0
+shader_parameter/color_power_b = 1.0
+shader_parameter/color_multiplier_r = 1.0
+shader_parameter/color_multiplier_g = 1.0
+shader_parameter/color_multiplier_b = 1.0
+shader_parameter/dither_darken = 0.75
+shader_parameter/uv1_blend_sharpness = 10.0
+shader_parameter/uv1_scale = Vector3(50, 50, 50)
+shader_parameter/uv1_offset = Vector3(100, 1000, 100)
+shader_parameter/distant_detail_noise = SubResource("NoiseTexture2D_b6mqc")
+shader_parameter/normal_detail_minor_noise = SubResource("NoiseTexture2D_qd230")

@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://cuyuifr1g4iuw"]
+[gd_scene load_steps=11 format=3 uid="uid://cuyuifr1g4iuw"]
 
-[ext_resource type="Material" uid="uid://bha8nfsu10tr" path="res://Assets/Material/Cloud_central_pillars.tres" id="2_tdorc"]
+[ext_resource type="Material" uid="uid://bha8nfsu10tr" path="res://Assets/Material/Cloud_segmented.tres" id="2_tdorc"]
+[ext_resource type="Material" uid="uid://bw67q7hriiury" path="res://Assets/Material/Cloud_segmented_outer.tres" id="4_fcbcn"]
 [ext_resource type="PackedScene" uid="uid://dnejf6nathwuv" path="res://Scenes/Camera_decorations.tscn" id="5_03hls"]
 [ext_resource type="PackedScene" uid="uid://bd07o86sefc6a" path="res://Assets/Models/Clouds/Cloud_segmented.glb" id="6_h6uw7"]
 
@@ -72,6 +73,7 @@ script = SubResource("GDScript_0jr7s")
 
 [node name="Camera_Path3D" type="Path3D" parent="Scene_interface"]
 transform = Transform3D(0.983851, 0.178991, 0, -0.178991, 0.983851, 0, 0, 0, 1, 0, 0, 0)
+visible = false
 curve = SubResource("Curve3D_3l75x")
 metadata/_edit_lock_ = true
 
@@ -91,16 +93,80 @@ camera_attributes = SubResource("CameraAttributesPractical_s1h4h")
 [node name="Camera_decorations" parent="Scene_interface" instance=ExtResource("5_03hls")]
 visible = false
 
+[node name="Galaxy_belt" parent="Scene_interface/Camera_decorations/Position" index="0"]
+visible = false
+
 [node name="Cloud_segmented" parent="." instance=ExtResource("6_h6uw7")]
-transform = Transform3D(1.09048, 0, 0, 0, 1.09048, 0, 0, 0, 1.09048, -38.011, -15.601, 49.2208)
+transform = Transform3D(-0.54524, 0, 0.944383, 0, 1.09048, 0, -0.944383, 0, -0.54524, 61.486, -15.601, 1.06375)
 
-[node name="Cloud_mesh_inner" parent="Cloud_segmented" index="0"]
+[node name="Cloud_mesh_outer_008" parent="Cloud_segmented" index="0"]
+material_override = ExtResource("4_fcbcn")
+lod_bias = 0.3
+
+[node name="Cloud_mesh_outer_007" parent="Cloud_segmented" index="1"]
+material_override = ExtResource("4_fcbcn")
+lod_bias = 0.3
+
+[node name="Cloud_mesh_outer_006" parent="Cloud_segmented" index="2"]
+material_override = ExtResource("4_fcbcn")
+lod_bias = 0.3
+
+[node name="Cloud_mesh_outer_005" parent="Cloud_segmented" index="3"]
+material_override = ExtResource("4_fcbcn")
+lod_bias = 0.3
+
+[node name="Cloud_mesh_outer_004" parent="Cloud_segmented" index="4"]
+material_override = ExtResource("4_fcbcn")
+lod_bias = 0.3
+
+[node name="Cloud_mesh_outer_003" parent="Cloud_segmented" index="5"]
+material_override = ExtResource("4_fcbcn")
+lod_bias = 0.3
+
+[node name="Cloud_mesh_outer_002" parent="Cloud_segmented" index="6"]
+material_override = ExtResource("4_fcbcn")
+lod_bias = 0.3
+
+[node name="Cloud_mesh_outer_009" parent="Cloud_segmented" index="7"]
+material_override = ExtResource("4_fcbcn")
+lod_bias = 0.3
+
+[node name="Cloud_mesh_inner_008" parent="Cloud_segmented" index="8"]
 material_override = ExtResource("2_tdorc")
+lod_bias = 0.3
 
-[node name="Cloud_mesh_outer" parent="Cloud_segmented" index="1"]
-visible = false
+[node name="Cloud_mesh_inner_007" parent="Cloud_segmented" index="9"]
+material_override = ExtResource("2_tdorc")
+lod_bias = 0.3
 
-[node name="Cloud_mesh_halo" parent="Cloud_segmented" index="2"]
-visible = false
+[node name="Cloud_mesh_inner_006" parent="Cloud_segmented" index="10"]
+material_override = ExtResource("2_tdorc")
+lod_bias = 0.3
 
+[node name="Cloud_mesh_inner_005" parent="Cloud_segmented" index="11"]
+material_override = ExtResource("2_tdorc")
+lod_bias = 0.3
+
+[node name="Cloud_mesh_inner_004" parent="Cloud_segmented" index="12"]
+material_override = ExtResource("2_tdorc")
+lod_bias = 0.3
+
+[node name="Cloud_mesh_inner_003" parent="Cloud_segmented" index="13"]
+material_override = ExtResource("2_tdorc")
+lod_bias = 0.3
+
+[node name="Cloud_mesh_inner_002" parent="Cloud_segmented" index="14"]
+material_override = ExtResource("2_tdorc")
+lod_bias = 0.3
+
+[node name="Cloud_mesh_inner_009" parent="Cloud_segmented" index="15"]
+material_override = ExtResource("2_tdorc")
+lod_bias = 0.3
+
+[editable path="Scene_interface/Camera_decorations"]
+[editable path="Scene_interface/Camera_decorations/Position/Galaxy_belt/Ellisoid_1280_0_5_inner"]
+[editable path="Scene_interface/Camera_decorations/Position/Galaxy_belt/Ellisoid_1280_0_25_median"]
+[editable path="Scene_interface/Camera_decorations/Position/Galaxy_belt/Ellisoid_1280_0_25_outer"]
+[editable path="Scene_interface/Camera_decorations/Position/Galaxy_belt/Galaxy_torus_outer"]
+[editable path="Scene_interface/Camera_decorations/Position/Galaxy_belt/Galaxy_torus_outer2"]
 [editable path="Cloud_segmented"]

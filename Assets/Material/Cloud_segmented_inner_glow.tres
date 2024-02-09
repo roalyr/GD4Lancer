@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://bywyx3bpp5s5y"]
+
+[ext_resource type="Material" uid="uid://cmhait6qbdffj" path="res://Assets/Material/Cloud_segmented_fog.tres" id="1_4l7bt"]
+[ext_resource type="Shader" uid="uid://1pxmgmvii3p1" path="res://Assets/Shaders/Clouds/Opaque_cloud_fade_inside_simple.tres" id="1_s0ccm"]
+
+[resource]
+render_priority = 0
+next_pass = ExtResource("1_4l7bt")
+shader = ExtResource("1_s0ccm")
+shader_parameter/albedo = Color(0.332686, 0.268068, 0.135132, 1)
+shader_parameter/distance_fade_max = 75.0
+shader_parameter/dither_darken = 0.75

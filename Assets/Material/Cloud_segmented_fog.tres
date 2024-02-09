@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cmhait6qbdffj"]
+
+[ext_resource type="Shader" uid="uid://byyyoynnkj4sk" path="res://Assets/Shaders/Clouds/Opaque_cloud_fade_outside_simple.tres" id="1_pq3w8"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_pq3w8")
+shader_parameter/albedo = Color(0.2, 0.102, 0.129767, 1)
+shader_parameter/distance_fade_max = 3.0
+shader_parameter/dither_darken = 0.75

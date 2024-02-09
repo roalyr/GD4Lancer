@@ -1,0 +1,50 @@
+[gd_resource type="ShaderMaterial" load_steps=7 format=3 uid="uid://bw67q7hriiury"]
+
+[ext_resource type="Material" uid="uid://cmhait6qbdffj" path="res://Assets/Material/Cloud_segmented_fog.tres" id="1_ahpjw"]
+[ext_resource type="Shader" path="res://Assets/Shaders/Clouds/Opaque_cloud_base.gdshader" id="2_dbeh2"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_12563"]
+noise_type = 2
+frequency = 0.0075
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_w7xp0"]
+seamless = true
+noise = SubResource("FastNoiseLite_12563")
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_qmjk8"]
+noise_type = 2
+frequency = 0.0042
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_2d8lt"]
+invert = true
+seamless = true
+as_normal_map = true
+bump_strength = 32.0
+noise = SubResource("FastNoiseLite_qmjk8")
+
+[resource]
+render_priority = 0
+next_pass = ExtResource("1_ahpjw")
+shader = ExtResource("2_dbeh2")
+shader_parameter/albedo = Color(0.0436963, 0.0622184, 0.0441989, 1)
+shader_parameter/albedo_glow_near = Color(0.0275048, 0.0317286, 0.0194439, 1)
+shader_parameter/albedo_detail_distant = Color(0.259366, 0.153584, 0.00824482, 1)
+shader_parameter/normal_detail_factor = 1.0
+shader_parameter/distant_detail_phase = 1.0
+shader_parameter/distant_detail_factor = 0.83
+shader_parameter/distant_detail_strength = 0.295
+shader_parameter/fade = 20.0
+shader_parameter/rim_strength = 0.97
+shader_parameter/rim_exponent = 1.0
+shader_parameter/color_power_r = 0.595
+shader_parameter/color_power_g = 0.96
+shader_parameter/color_power_b = 0.525
+shader_parameter/color_multiplier_r = 0.98
+shader_parameter/color_multiplier_g = 2.4
+shader_parameter/color_multiplier_b = 0.295
+shader_parameter/dither_darken = 0.75
+shader_parameter/uv1_blend_sharpness = 10.0
+shader_parameter/uv1_scale = Vector3(100, 100, 100)
+shader_parameter/uv1_offset = null
+shader_parameter/distant_detail_noise = SubResource("NoiseTexture2D_w7xp0")
+shader_parameter/normal_detail_minor_noise = SubResource("NoiseTexture2D_2d8lt")
