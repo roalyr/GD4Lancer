@@ -1,9 +1,6 @@
-[gd_scene load_steps=13 format=3 uid="uid://cuyuifr1g4iuw"]
+[gd_scene load_steps=10 format=3 uid="uid://cuyuifr1g4iuw"]
 
-[ext_resource type="PackedScene" uid="uid://bnhfn00t1p7q4" path="res://Assets/Models/Clouds/Cloud_sky_LOD0.glb" id="1_ytv42"]
 [ext_resource type="Material" uid="uid://bha8nfsu10tr" path="res://Assets/Material/Cloud_central_pillars.tres" id="2_tdorc"]
-[ext_resource type="PackedScene" uid="uid://cd0px4j4xkm7b" path="res://Assets/Models/Clouds/Cloud_central_pillars.glb" id="3_si631"]
-[ext_resource type="PackedScene" uid="uid://dbbwua7tcgat7" path="res://Assets/Models/Clouds/Cloud_splatter.glb" id="4_3piny"]
 [ext_resource type="PackedScene" uid="uid://dnejf6nathwuv" path="res://Scenes/Camera_decorations.tscn" id="5_03hls"]
 [ext_resource type="PackedScene" uid="uid://bd07o86sefc6a" path="res://Assets/Models/Clouds/Cloud_segmented.glb" id="6_h6uw7"]
 
@@ -94,26 +91,6 @@ camera_attributes = SubResource("CameraAttributesPractical_s1h4h")
 [node name="Camera_decorations" parent="Scene_interface" instance=ExtResource("5_03hls")]
 visible = false
 
-[node name="Cloud_sky_LOD0" parent="." instance=ExtResource("1_ytv42")]
-visible = false
-
-[node name="CLoud_sky_LOD0" parent="Cloud_sky_LOD0" index="0"]
-transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, 0, 0, 0)
-surface_material_override/0 = ExtResource("2_tdorc")
-
-[node name="Cloud_central_pillars" parent="." instance=ExtResource("3_si631")]
-visible = false
-
-[node name="Mesh" parent="Cloud_central_pillars" index="0"]
-material_override = ExtResource("2_tdorc")
-
-[node name="Cloud_splatter" parent="." instance=ExtResource("4_3piny")]
-transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
-visible = false
-
-[node name="Icosphere" parent="Cloud_splatter" index="0"]
-material_override = ExtResource("2_tdorc")
-
 [node name="Cloud_segmented" parent="." instance=ExtResource("6_h6uw7")]
 transform = Transform3D(1.09048, 0, 0, 0, 1.09048, 0, 0, 0, 1.09048, -38.011, -15.601, 49.2208)
 
@@ -126,7 +103,4 @@ visible = false
 [node name="Cloud_mesh_halo" parent="Cloud_segmented" index="2"]
 visible = false
 
-[editable path="Cloud_sky_LOD0"]
-[editable path="Cloud_central_pillars"]
-[editable path="Cloud_splatter"]
 [editable path="Cloud_segmented"]
