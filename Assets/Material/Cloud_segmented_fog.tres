@@ -5,6 +5,6 @@
 [resource]
 render_priority = 0
 shader = ExtResource("1_pq3w8")
-shader_parameter/albedo = Color(0.2, 0.102, 0.129767, 1)
+shader_parameter/albedo = Color(0.2, 0.1325, 0.11, 1)
 shader_parameter/distance_fade_max = 3.0
-shader_parameter/dither_darken = 0.75
+shader_parameter/dither_darken = 0.5

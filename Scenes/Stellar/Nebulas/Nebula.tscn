@@ -1,6 +1,6 @@
-[gd_scene load_steps=11 format=3 uid="uid://cuyuifr1g4iuw"]
+[gd_scene load_steps=16 format=3 uid="uid://cuyuifr1g4iuw"]
 
-[ext_resource type="Material" uid="uid://bha8nfsu10tr" path="res://Assets/Material/Cloud_segmented.tres" id="2_tdorc"]
+[ext_resource type="Material" uid="uid://bha8nfsu10tr" path="res://Assets/Material/Cloud_segmented_inner.tres" id="2_tdorc"]
 [ext_resource type="Material" uid="uid://bw67q7hriiury" path="res://Assets/Material/Cloud_segmented_outer.tres" id="4_fcbcn"]
 [ext_resource type="PackedScene" uid="uid://dnejf6nathwuv" path="res://Scenes/Camera_decorations.tscn" id="5_03hls"]
 [ext_resource type="PackedScene" uid="uid://bd07o86sefc6a" path="res://Assets/Models/Clouds/Cloud_segmented.glb" id="6_h6uw7"]
@@ -22,7 +22,7 @@ func _process(delta):
 [sub_resource type="Curve3D" id="Curve3D_3l75x"]
 bake_interval = 132.15
 _data = {
-"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 62.0604, 1.38352, 55.7216, 0, 0, 0, 0, 0, 0, 58.4905, 8.6273, 15.5245, 0, 0, 0, 0, 0, 0, 38.9138, 7.90736, -20.4675, 0, 0, 0, 0, 0, 0, 11.2836, 3.54386, -25.9764, 0, 0, 0, 0, 0, 0, 2.6064, -2.40158, -8.93591, 0, 0, 0, 0, 0, 0, -16.9654, -9.70162, 2.33525, 0, 0, 0, 0, 0, 0, -7.72376, -8.5635, 16.5187, 0, 0, 0, 0, 0, 0, 22.8509, -5.71976, 38.3264, 0, 0, 0, -3.95095, 1.7151, 1.35454, 62.0604, 1.38352, 55.7216),
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 62.0604, 1.38352, 55.7216, 0, 0, 0, 0, 0, 0, 61.3766, 3.13201, 48.0906, 0, 0, 0, 0, 0, 0, 51.1546, 5.65267, 42.2071, 0, 0, 0, 0, 0, 0, 42.8775, 8.21655, 48.4508, 0, 0, 0, 0, 0, 0, 34.0103, 6.72606, 51.8282, 0, 0, 0, 0, 0, 0, 39.1224, 0.676512, 61.3995, 0, 0, 0, 0, 0, 0, 51.2932, -1.81702, 66.2213, 0, 0, 0, 0, 0, 0, 58.1051, 3.41315, 68.0207, 0, 0, 0, -3.95095, 1.7151, 1.35454, 62.0604, 1.38352, 55.7216),
 "tilts": PackedFloat64Array(0.572208, 0, 0, 0, 0, 0.248012, 0, 0, 0)
 }
 point_count = 9
@@ -38,7 +38,7 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _physics_process(delta):
 	progress_ratio += delta*0.01
 "
 
@@ -53,18 +53,79 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _physics_process(delta):
 	look_at(Vector3(0,0,0), Vector3(0,1,0))
 "
 
 [sub_resource type="Environment" id="Environment_jpj1e"]
 background_mode = 1
-background_color = Color(0.0381914, 0.041629, 0.0884013, 1)
+background_color = Color(0.2, 0.133333, 0.109804, 1)
 ambient_light_energy = 0.0
 reflected_light_source = 1
 tonemap_mode = 3
+glow_mix = 0.691
+glow_bloom = 0.16
+glow_blend_mode = 4
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_s1h4h"]
+
+[sub_resource type="Shader" id="Shader_2brnj"]
+code = "shader_type canvas_item;
+
+uniform float lod: hint_range(0.0, 5) = 0.5;
+uniform sampler2D SCREEN_TEXTURE : hint_screen_texture, filter_linear_mipmap;
+
+void fragment(){
+	vec4 color = texture(SCREEN_TEXTURE, SCREEN_UV, lod);
+	COLOR = color;
+}"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_np5wg"]
+shader = SubResource("Shader_2brnj")
+shader_parameter/lod = 0.5
+
+[sub_resource type="GDScript" id="GDScript_wxhlc"]
+resource_name = "fps"
+script/source = "extends Label
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	self.text = str(Engine.get_frames_per_second())
+"
+
+[sub_resource type="GDScript" id="GDScript_3co5a"]
+resource_name = "info1"
+script/source = "extends Label
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	self.text = str(RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_PRIMITIVES_IN_FRAME))
+	# RenderingDevice.get_device_name()
+"
+
+[sub_resource type="GDScript" id="GDScript_6trpe"]
+resource_name = "info2"
+script/source = "extends Label
+
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	self.text = str(RenderingServer.get_video_adapter_name())
+	
+"
 
 [node name="Node3D" type="Node3D"]
 
@@ -72,10 +133,8 @@ tonemap_mode = 3
 script = SubResource("GDScript_0jr7s")
 
 [node name="Camera_Path3D" type="Path3D" parent="Scene_interface"]
-transform = Transform3D(0.983851, 0.178991, 0, -0.178991, 0.983851, 0, 0, 0, 1, 0, 0, 0)
-visible = false
+transform = Transform3D(1.16916, -0.406419, -0.0856579, 0.415339, 1.14235, 0.248926, -0.00267307, -0.263238, 1.21249, -56.129, -30.5223, -61.4766)
 curve = SubResource("Curve3D_3l75x")
-metadata/_edit_lock_ = true
 
 [node name="PathFollow3D" type="PathFollow3D" parent="Scene_interface/Camera_Path3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.0604, 1.38352, 55.7216)
@@ -97,71 +156,130 @@ visible = false
 visible = false
 
 [node name="Cloud_segmented" parent="." instance=ExtResource("6_h6uw7")]
-transform = Transform3D(-0.54524, 0, 0.944383, 0, 1.09048, 0, -0.944383, 0, -0.54524, 61.486, -15.601, 1.06375)
+transform = Transform3D(-0.54524, 0, 0.944383, 0, 1.09048, 0, -0.944383, 0, -0.54524, 50.9426, -3.4623, 6.45089)
 
 [node name="Cloud_mesh_outer_008" parent="Cloud_segmented" index="0"]
+visible = false
 material_override = ExtResource("4_fcbcn")
-lod_bias = 0.3
+lod_bias = 0.2
 
 [node name="Cloud_mesh_outer_007" parent="Cloud_segmented" index="1"]
+visible = false
 material_override = ExtResource("4_fcbcn")
-lod_bias = 0.3
+lod_bias = 0.2
 
 [node name="Cloud_mesh_outer_006" parent="Cloud_segmented" index="2"]
+visible = false
 material_override = ExtResource("4_fcbcn")
-lod_bias = 0.3
+lod_bias = 0.2
 
 [node name="Cloud_mesh_outer_005" parent="Cloud_segmented" index="3"]
+visible = false
 material_override = ExtResource("4_fcbcn")
-lod_bias = 0.3
+lod_bias = 0.2
 
 [node name="Cloud_mesh_outer_004" parent="Cloud_segmented" index="4"]
+visible = false
 material_override = ExtResource("4_fcbcn")
-lod_bias = 0.3
+lod_bias = 0.2
 
 [node name="Cloud_mesh_outer_003" parent="Cloud_segmented" index="5"]
+visible = false
 material_override = ExtResource("4_fcbcn")
-lod_bias = 0.3
+lod_bias = 0.2
 
 [node name="Cloud_mesh_outer_002" parent="Cloud_segmented" index="6"]
+visible = false
 material_override = ExtResource("4_fcbcn")
-lod_bias = 0.3
+lod_bias = 0.2
 
 [node name="Cloud_mesh_outer_009" parent="Cloud_segmented" index="7"]
+visible = false
 material_override = ExtResource("4_fcbcn")
-lod_bias = 0.3
+lod_bias = 0.2
 
 [node name="Cloud_mesh_inner_008" parent="Cloud_segmented" index="8"]
 material_override = ExtResource("2_tdorc")
-lod_bias = 0.3
+lod_bias = 0.35
 
 [node name="Cloud_mesh_inner_007" parent="Cloud_segmented" index="9"]
 material_override = ExtResource("2_tdorc")
-lod_bias = 0.3
+lod_bias = 0.35
 
 [node name="Cloud_mesh_inner_006" parent="Cloud_segmented" index="10"]
 material_override = ExtResource("2_tdorc")
-lod_bias = 0.3
+lod_bias = 0.35
 
 [node name="Cloud_mesh_inner_005" parent="Cloud_segmented" index="11"]
 material_override = ExtResource("2_tdorc")
-lod_bias = 0.3
+lod_bias = 0.35
 
 [node name="Cloud_mesh_inner_004" parent="Cloud_segmented" index="12"]
 material_override = ExtResource("2_tdorc")
-lod_bias = 0.3
+lod_bias = 0.35
 
 [node name="Cloud_mesh_inner_003" parent="Cloud_segmented" index="13"]
 material_override = ExtResource("2_tdorc")
-lod_bias = 0.3
+lod_bias = 0.35
 
 [node name="Cloud_mesh_inner_002" parent="Cloud_segmented" index="14"]
 material_override = ExtResource("2_tdorc")
-lod_bias = 0.3
+lod_bias = 0.35
 
 [node name="Cloud_mesh_inner_009" parent="Cloud_segmented" index="15"]
 material_override = ExtResource("2_tdorc")
-lod_bias = 0.3
+lod_bias = 0.35
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="blur_filter" type="Panel" parent="CanvasLayer"]
+visible = false
+material = SubResource("ShaderMaterial_np5wg")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 8
+
+[node name="fps" type="Label" parent="CanvasLayer"]
+modulate = Color(1, 1, 1, 0.505882)
+offset_left = 53.0
+offset_top = 120.0
+offset_right = 107.0
+offset_bottom = 143.0
+text = "60"
+script = SubResource("GDScript_wxhlc")
+
+[node name="info1" type="Label" parent="CanvasLayer"]
+modulate = Color(1, 1, 1, 0.505882)
+offset_left = 104.0
+offset_top = 94.0
+offset_right = 159.0
+offset_bottom = 117.0
+text = "000000"
+script = SubResource("GDScript_3co5a")
+
+[node name="info2" type="Label" parent="CanvasLayer"]
+modulate = Color(1, 1, 1, 0.505882)
+offset_left = 80.0
+offset_top = 69.0
+offset_right = 135.0
+offset_bottom = 92.0
+text = "device"
+script = SubResource("GDScript_6trpe")
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+modulate = Color(1, 1, 1, 0.501961)
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 205.0
+offset_bottom = 91.0
+text = "Nebula demo
+All materials are opaque
+Device: 
+Primitives:
+FPS:"
 
 [editable path="Scene_interface/Camera_decorations"]
 [editable path="Scene_interface/Camera_decorations/Position/Galaxy_belt/Ellisoid_1280_0_5_inner"]

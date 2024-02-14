@@ -1,6 +1,5 @@
-[gd_resource type="ShaderMaterial" load_steps=7 format=3 uid="uid://bw67q7hriiury"]
+[gd_resource type="ShaderMaterial" load_steps=6 format=3 uid="uid://bw67q7hriiury"]
 
-[ext_resource type="Material" uid="uid://cmhait6qbdffj" path="res://Assets/Material/Cloud_segmented_fog.tres" id="1_ahpjw"]
 [ext_resource type="Shader" path="res://Assets/Shaders/Clouds/Opaque_cloud_base.gdshader" id="2_dbeh2"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_12563"]
@@ -24,16 +23,17 @@ noise = SubResource("FastNoiseLite_qmjk8")
 
 [resource]
 render_priority = 0
-next_pass = ExtResource("1_ahpjw")
 shader = ExtResource("2_dbeh2")
 shader_parameter/albedo = Color(0.0436963, 0.0622184, 0.0441989, 1)
 shader_parameter/albedo_glow_near = Color(0.0275048, 0.0317286, 0.0194439, 1)
 shader_parameter/albedo_detail_distant = Color(0.259366, 0.153584, 0.00824482, 1)
+shader_parameter/albedo_fog = null
 shader_parameter/normal_detail_factor = 1.0
 shader_parameter/distant_detail_phase = 1.0
 shader_parameter/distant_detail_factor = 0.83
 shader_parameter/distant_detail_strength = 0.295
 shader_parameter/fade = 20.0
+shader_parameter/fade_fog = 0.0
 shader_parameter/rim_strength = 0.97
 shader_parameter/rim_exponent = 1.0
 shader_parameter/color_power_r = 0.595
