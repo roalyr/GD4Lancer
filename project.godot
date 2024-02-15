@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="GD4Lancer"
-run/main_scene="res://Scenes/Main/Main.tscn"
+run/main_scene="res://Scenes/Stellar/Nebulas/Nebula.tscn"
 config/features=PackedStringArray("4.3", "Double Precision", "Mobile")
 boot_splash/image="res://Assets/Images/Icon_splash/Splash.png"
 config/icon="res://Assets/Images/Icon_splash/Icon.png"
@@ -46,6 +46,8 @@ common/physics_ticks_per_second=120
 
 renderer/rendering_method="mobile"
 renderer/rendering_method.web="mobile"
+textures/vram_compression/import_etc2_astc=true
 shading/overrides/force_vertex_shading.mobile=false
 shading/overrides/force_lambert_over_burley.mobile=false
+scaling_3d/scale=0.5
 environment/defaults/default_environment="res://Assets/Environments/Environment_default.tres"
