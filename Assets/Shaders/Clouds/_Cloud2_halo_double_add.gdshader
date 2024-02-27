@@ -3,15 +3,15 @@ shader_type spatial;
 render_mode
 	// Vertex or pixel shading (screen-large object can use vertex)
 	vertex_lighting,
-	
+
 	// Blending and culling.
 	blend_add,
 	cull_disabled,
-	
+
 	unshaded,
-	diffuse_lambert, 
+	diffuse_lambert,
 	specular_disabled,
-	
+
 	// Additional flags just in case.
 	ambient_light_disabled,
 	depth_draw_opaque;
@@ -32,7 +32,7 @@ uniform float distance_fade_max = 5.0;
 
 void fragment()
 {
-	
+
 	float dt = clamp(dot(NORMAL, VIEW), 0.0, 1.0);
 	float rim = clamp(pow(dt, rim_exponent)*rim_strength, 1e-6, alpha_clip);
 	float rim_detail = clamp(pow(dt, rim_exponent_detail)*rim_strength_detail, 1e-6, alpha_clip);

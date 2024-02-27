@@ -3,15 +3,15 @@ render_mode
 	// Vertex or pixel shading (screen-large object can use vertex)
 	vertex_lighting,
 	//use_debanding,
-	
+
 	// Blending and culling.
 	blend_mix,
 	cull_back,
-	
+
 	unshaded,
-	//diffuse_lambert, 
+	//diffuse_lambert,
 	specular_disabled,
-	
+
 	// Additional flags just in case.
 	ambient_light_disabled,
 	depth_draw_opaque;
@@ -45,13 +45,13 @@ void fragment()
 	vec2 p = texture(major_detail_noise, -UV*2.0*major_detail_scale).xy -TIME*major_detail_flow;
 	float detail_major = sin(texture(major_detail_noise, p).r*pi+major_phase);
 	float rim = clamp(pow(dot(NORMAL, VIEW), rim_exponent)*rim_strength, 1e-6, 1.0);
-	
-	ALBEDO = 
+
+	ALBEDO =
 		+ detail_major * WHITE * major_detail_intensity
 		+ length(VERTEX)/detail_decay_distance;
-		
+
 	ALBEDO += overlay_color.rgb;
 	ALBEDO *= surface_color.rgb;
 	ALBEDO += (1.0-rim)*rim_color.rgb*rim_intensity;
-	
+
 }

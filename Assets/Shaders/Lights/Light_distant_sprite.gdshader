@@ -2,19 +2,19 @@ shader_type spatial;
 render_mode
 	// Vertex or pixel shading (screen-large object can use vertex)
 	vertex_lighting,
-	
+
 	// Blending and culling.
 	blend_add,
 	cull_back,
-	
+
 	unshaded,
-	//diffuse_lambert, 
+	//diffuse_lambert,
 	specular_disabled,
-	
+
 	// Additional flags just in case.
 	ambient_light_disabled,
 	depth_draw_opaque;
-	
+
 uniform vec4 albedo : source_color;
 uniform float scale : hint_range(0.0, 5.0, 5e-4) = 0.4;
 uniform float attenuation : hint_range(0.01, 2.0, 5e-4) = 0.4;
@@ -48,8 +48,8 @@ void vertex() {
 
 void fragment() {
 	float pulse = (pulse_factor - sin(TIME * pulse_rate + phase) * (1.0 - pulse_factor));
-	ALBEDO = albedo.rgb 
-	* pow(COLOR.r, exponent / pulse) 
-	* intensity 
+	ALBEDO = albedo.rgb
+	* pow(COLOR.r, exponent / pulse)
+	* intensity
 	* pulse;
 }

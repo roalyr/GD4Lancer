@@ -2,15 +2,15 @@ shader_type spatial;
 render_mode
 	// Vertex or pixel shading (screen-large object can use vertex)
 	vertex_lighting,
-	
+
 	// Blending and culling.
 	blend_mix,
 	cull_disabled,
-	
+
 	unshaded,
-	//diffuse_lambert, 
+	//diffuse_lambert,
 	specular_disabled,
-	
+
 	// Additional flags just in case.
 	ambient_light_disabled,
 	depth_draw_opaque;

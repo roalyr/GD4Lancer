@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://bh8ykf0iap06a"]
+[gd_scene load_steps=27 format=3 uid="uid://bh8ykf0iap06a"]
 
 [ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_surface.gdshader" id="3_wh25x"]
 [ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_corona.gdshader" id="4_jirqv"]
@@ -7,6 +7,7 @@
 [ext_resource type="Shader" path="res://Assets/Shaders/Lights/Light_distant_sprite.gdshader" id="7_d8iw4"]
 [ext_resource type="PackedScene" uid="uid://g85hctkw5yp" path="res://Assets/Models/Shapes/Icosphere_1280_noUV.glb" id="8_5bttd"]
 [ext_resource type="PackedScene" uid="uid://dnejf6nathwuv" path="res://Scenes/Camera_decorations.tscn" id="8_b3gwg"]
+[ext_resource type="AudioStream" uid="uid://ma0ckqbjk0v3" path="res://Assets/Music/GdtlAmb1.ogg" id="9_7f505"]
 [ext_resource type="PackedScene" uid="uid://rxhc0jmmmxdy" path="res://Assets/Models/Shapes/Sphere_3968.glb" id="9_lajky"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_e04sq"]
@@ -144,80 +145,129 @@ func _process(delta):
 	look_at(Vector3(0,0,0), Vector3(0,1,0))
 "
 
-[sub_resource type="Environment" id="Environment_efc2j"]
-background_mode = 1
-background_color = Color(0.0381914, 0.041629, 0.0884013, 1)
-ambient_light_energy = 0.0
-reflected_light_source = 1
-tonemap_mode = 3
+[sub_resource type="Shader" id="Shader_2brnj"]
+code = "shader_type canvas_item;
 
-[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_q6lnw"]
+uniform float lod: hint_range(0.0, 5) = 0.5;
+uniform sampler2D SCREEN_TEXTURE : hint_screen_texture, filter_linear_mipmap;
 
-[node name="STAR_0_Victory_A" type="Node3D"]
+void fragment(){
+	vec4 color = texture(SCREEN_TEXTURE, SCREEN_UV, lod);
+	COLOR = color;
+}"
 
-[node name="Star_model" type="Node3D" parent="."]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sih3l"]
+shader = SubResource("Shader_2brnj")
+shader_parameter/lod = 0.5
 
-[node name="Surface" parent="Star_model" instance=ExtResource("9_lajky")]
+[sub_resource type="GDScript" id="GDScript_1ndy3"]
+resource_name = "fps"
+script/source = "extends Label
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	self.text = str(Engine.get_frames_per_second())
+"
+
+[sub_resource type="GDScript" id="GDScript_640w6"]
+resource_name = "info1"
+script/source = "extends Label
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	self.text = str(RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_PRIMITIVES_IN_FRAME))
+	# RenderingDevice.get_device_name()
+"
+
+[sub_resource type="GDScript" id="GDScript_qgkqe"]
+resource_name = "info2"
+script/source = "extends Label
+
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	self.text = str(RenderingServer.get_video_adapter_name())
+	
+"
+
+[node name="STAR_0_Victory_AB" type="Node3D"]
+
+[node name="Star_A" type="Node3D" parent="."]
+
+[node name="Surface" parent="Star_A" instance=ExtResource("9_lajky")]
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
-[node name="Sphere_3968" parent="Star_model/Surface" index="0"]
+[node name="Sphere_3968" parent="Star_A/Surface" index="0"]
 surface_material_override/0 = SubResource("ShaderMaterial_ku8iv")
 
-[node name="Corona" parent="Star_model" instance=ExtResource("8_5bttd")]
+[node name="Corona" parent="Star_A" instance=ExtResource("8_5bttd")]
 transform = Transform3D(2.3, 0, 0, 0, 2.3, 0, 0, 0, 2.3, 0, 0, 0)
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
-[node name="Icosphere_1280_noUV" parent="Star_model/Corona" index="0"]
+[node name="Icosphere_1280_noUV" parent="Star_A/Corona" index="0"]
 surface_material_override/0 = SubResource("ShaderMaterial_5mxb0")
 
-[node name="Halo" parent="Star_model" instance=ExtResource("8_5bttd")]
+[node name="Halo" parent="Star_A" instance=ExtResource("8_5bttd")]
 transform = Transform3D(15, 0, 0, 0, 15, 0, 0, 0, 15, 0, 0, 0)
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
-[node name="Icosphere_1280_noUV" parent="Star_model/Halo" index="0"]
+[node name="Icosphere_1280_noUV" parent="Star_A/Halo" index="0"]
 surface_material_override/0 = SubResource("ShaderMaterial_np2ix")
 
-[node name="Star_sprite_square_wide" parent="Star_model" instance=ExtResource("6_de43s")]
+[node name="Star_sprite_square_wide" parent="Star_A" instance=ExtResource("6_de43s")]
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
-[node name="Plane" parent="Star_model/Star_sprite_square_wide" index="0"]
+[node name="Plane" parent="Star_A/Star_sprite_square_wide" index="0"]
 surface_material_override/0 = SubResource("ShaderMaterial_rsvse")
 
-[node name="Star_model2" type="Node3D" parent="."]
+[node name="Star_B" type="Node3D" parent="."]
 transform = Transform3D(0.26997, 0, 0, 0, 0.26997, 0, 0, 0, 0.26997, -8.35799, 0, 0)
 
-[node name="Surface" parent="Star_model2" instance=ExtResource("9_lajky")]
+[node name="Surface" parent="Star_B" instance=ExtResource("9_lajky")]
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
-[node name="Sphere_3968" parent="Star_model2/Surface" index="0"]
+[node name="Sphere_3968" parent="Star_B/Surface" index="0"]
 surface_material_override/0 = SubResource("ShaderMaterial_ku8iv")
 
-[node name="Corona" parent="Star_model2" instance=ExtResource("8_5bttd")]
+[node name="Corona" parent="Star_B" instance=ExtResource("8_5bttd")]
 transform = Transform3D(2.3, 0, 0, 0, 2.3, 0, 0, 0, 2.3, 0, 0, 0)
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
-[node name="Icosphere_1280_noUV" parent="Star_model2/Corona" index="0"]
+[node name="Icosphere_1280_noUV" parent="Star_B/Corona" index="0"]
 surface_material_override/0 = SubResource("ShaderMaterial_5mxb0")
 
-[node name="Halo" parent="Star_model2" instance=ExtResource("8_5bttd")]
+[node name="Halo" parent="Star_B" instance=ExtResource("8_5bttd")]
 transform = Transform3D(15, 0, 0, 0, 15, 0, 0, 0, 15, 0, 0, 0)
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
-[node name="Icosphere_1280_noUV" parent="Star_model2/Halo" index="0"]
+[node name="Icosphere_1280_noUV" parent="Star_B/Halo" index="0"]
 surface_material_override/0 = SubResource("ShaderMaterial_np2ix")
 
-[node name="Star_sprite_square_wide" parent="Star_model2" instance=ExtResource("6_de43s")]
+[node name="Star_sprite_square_wide" parent="Star_B" instance=ExtResource("6_de43s")]
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
-[node name="Plane" parent="Star_model2/Star_sprite_square_wide" index="0"]
+[node name="Plane" parent="Star_B/Star_sprite_square_wide" index="0"]
 surface_material_override/0 = SubResource("ShaderMaterial_rsvse")
 
 [node name="Scene_interface" type="Node" parent="."]
@@ -237,17 +287,74 @@ script = SubResource("GDScript_kija1")
 far = 1e+06
 script = SubResource("GDScript_8tbxj")
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="Scene_interface"]
-environment = SubResource("Environment_efc2j")
-camera_attributes = SubResource("CameraAttributesPractical_q6lnw")
-
 [node name="Camera_decorations" parent="Scene_interface" instance=ExtResource("8_b3gwg")]
 
-[editable path="Star_model/Surface"]
-[editable path="Star_model/Corona"]
-[editable path="Star_model/Halo"]
-[editable path="Star_model/Star_sprite_square_wide"]
-[editable path="Star_model2/Surface"]
-[editable path="Star_model2/Corona"]
-[editable path="Star_model2/Halo"]
-[editable path="Star_model2/Star_sprite_square_wide"]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Scene_interface"]
+stream = ExtResource("9_7f505")
+autoplay = true
+parameters/looping = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Scene_interface"]
+
+[node name="blur_filter" type="Panel" parent="Scene_interface/CanvasLayer"]
+auto_translate_mode = 1
+visible = false
+material = SubResource("ShaderMaterial_sih3l")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 8
+
+[node name="fps" type="Label" parent="Scene_interface/CanvasLayer"]
+auto_translate_mode = 1
+modulate = Color(1, 1, 1, 0.505882)
+offset_left = 53.0
+offset_top = 120.0
+offset_right = 107.0
+offset_bottom = 143.0
+text = "60"
+script = SubResource("GDScript_1ndy3")
+
+[node name="info1" type="Label" parent="Scene_interface/CanvasLayer"]
+auto_translate_mode = 1
+modulate = Color(1, 1, 1, 0.505882)
+offset_left = 104.0
+offset_top = 94.0
+offset_right = 159.0
+offset_bottom = 117.0
+text = "000000"
+script = SubResource("GDScript_640w6")
+
+[node name="info2" type="Label" parent="Scene_interface/CanvasLayer"]
+auto_translate_mode = 1
+modulate = Color(1, 1, 1, 0.505882)
+offset_left = 80.0
+offset_top = 69.0
+offset_right = 135.0
+offset_bottom = 92.0
+text = "device"
+script = SubResource("GDScript_qgkqe")
+
+[node name="Label" type="Label" parent="Scene_interface/CanvasLayer"]
+auto_translate_mode = 1
+modulate = Color(1, 1, 1, 0.501961)
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 205.0
+offset_bottom = 91.0
+text = "Scene demo
+All materials are opaque
+Device: 
+Primitives:
+FPS:"
+
+[editable path="Star_A/Surface"]
+[editable path="Star_A/Corona"]
+[editable path="Star_A/Halo"]
+[editable path="Star_A/Star_sprite_square_wide"]
+[editable path="Star_B/Surface"]
+[editable path="Star_B/Corona"]
+[editable path="Star_B/Halo"]
+[editable path="Star_B/Star_sprite_square_wide"]
