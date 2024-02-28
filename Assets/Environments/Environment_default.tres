@@ -6,3 +6,6 @@ background_color = Color(0.0392157, 0.0431373, 0.0901961, 1)
 ambient_light_source = 1
 reflected_light_source = 1
 tonemap_mode = 3
+adjustment_brightness = 1.35
+adjustment_contrast = 1.15
+adjustment_saturation = 0.8

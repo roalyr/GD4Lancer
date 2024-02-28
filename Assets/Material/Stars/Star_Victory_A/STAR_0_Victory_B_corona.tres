@@ -1,0 +1,32 @@
+[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://btvfihf1210qt"]
+
+[ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_corona.gdshader" id="1_1h5ov"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_w6hro"]
+frequency = 0.0826
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_82vqf"]
+width = 64
+height = 64
+seamless = true
+seamless_blend_skirt = 0.444
+noise = SubResource("FastNoiseLite_w6hro")
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_1h5ov")
+shader_parameter/halo_color = Color(0.582454, 0.281939, 0.204358, 1)
+shader_parameter/corona_color = Color(0.327503, 0.233126, 0.0687345, 1)
+shader_parameter/core_color = Color(1, 0.660052, 0.290307, 1)
+shader_parameter/strength_halo = 0.005
+shader_parameter/strength_corona = 0.11
+shader_parameter/strength_core = 0.1425
+shader_parameter/exponent_halo = 0.055
+shader_parameter/exponent_corona = 0.405
+shader_parameter/exponent_core = 1.0
+shader_parameter/rim_exponent = 0.4985
+shader_parameter/alpha_clip = 1.0
+shader_parameter/displacement_scale = 0.2525
+shader_parameter/displacement_velocity = 0.463
+shader_parameter/dither_darken = 0.75
+shader_parameter/displacement_texture = SubResource("NoiseTexture2D_82vqf")

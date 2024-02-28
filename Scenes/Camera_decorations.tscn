@@ -12,7 +12,7 @@
 render_priority = 0
 shader = ExtResource("2_7vjqk")
 shader_parameter/albedo = Color(0.487323, 0.245861, 0.266023, 1)
-shader_parameter/rim_strength = 0.05
+shader_parameter/rim_strength = 0.1575
 shader_parameter/rim_exponent = 15.0
 shader_parameter/alpha_clip = 1.0
 shader_parameter/dither_darken = 0.75
@@ -98,7 +98,7 @@ shader_parameter/albedo = Color(0.612144, 0.442437, 0.106634, 1)
 transform = Transform3D(1000, 0, 0, 0, 1000, 0, 0, 0, 1000, 0, 0, 0)
 
 [node name="Position" type="Node3D" parent="."]
-transform = Transform3D(0.991445, -0.130526, 0, 0.130521, 0.991407, 0.00872654, -0.00113904, -0.00865188, 0.999962, 0, 0, -3.22)
+transform = Transform3D(0.991445, -0.130526, 1.998e-10, 0.130521, 0.991407, 0.00872654, -0.00113904, -0.00865188, 0.999962, 0, 0, -3.22)
 
 [node name="Galaxy_belt" type="Node3D" parent="Position"]
 
@@ -125,7 +125,7 @@ metadata/_edit_group_ = true
 surface_material_override/0 = SubResource("ShaderMaterial_pqsjp")
 
 [node name="Galaxy_torus_outer" parent="Position/Galaxy_belt" instance=ExtResource("6_xu44h")]
-transform = Transform3D(1.63288, 0, 0.64321, 0, 0.93, 0, -0.64321, 0, 1.63288, 0, 0, 0)
+transform = Transform3D(1.63288, 0, 0.643211, 0, 0.63, 0, -0.643211, 0, 1.63288, 0, 0, 0)
 metadata/_edit_group_ = true
 
 [node name="Torus outer" parent="Position/Galaxy_belt/Galaxy_torus_outer" index="0"]

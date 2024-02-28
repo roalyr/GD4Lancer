@@ -21,6 +21,8 @@ uniform float rim_exponent :  hint_range(0.0, 1.0, 5e-4) = 0.1;
 uniform float alpha_clip :   hint_range(0.0, 1.0, 5e-4) = 1.0;
 uniform float scale_down_threshold :  hint_range(0.0, 1.0, 5e-4) = 0.0;
 uniform float scale_power:  hint_range(0.0, 1.0, 5e-4) = 1.0;
+uniform float scale:  hint_range(0.0, 10.0, 5e-4) = 1.0;
+
 
 uniform float dither_darken :  hint_range(0.5, 1.0, 5e-4) = 0.75;
 
@@ -37,6 +39,8 @@ vec3 interleaved_gradient_noise(vec2 frag_coord) {
 }
 
 void vertex() {
+	VERTEX *= scale;
+
     // get the vector from the object to the camera
     vec3 to_camera = normalize(INV_VIEW_MATRIX[3].xyz - MODEL_MATRIX[3].xyz);
 
@@ -45,6 +49,9 @@ void vertex() {
 
     // calculate the dot product between the two vectors
     float dot_product = dot(to_camera, camera_forward);
+
+    // map the dot product from the range [-1, 1] to [0, 1]
+    dot_product = (dot_product + 1.0) * 0.5;
 
     // map the dot product from the range [-1, 1] to [0, 1]
 	float t = 1.0;
