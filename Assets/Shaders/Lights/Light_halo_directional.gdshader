@@ -19,9 +19,15 @@ uniform vec4 albedo : source_color;
 uniform float rim_strength :  hint_range(0.0, 1.0, 5e-4) = 0.1;
 uniform float rim_exponent :  hint_range(0.0, 1.0, 5e-4) = 0.1;
 uniform float alpha_clip :   hint_range(0.0, 1.0, 5e-4) = 1.0;
-uniform float scale_down_threshold :  hint_range(0.0, 1.0, 5e-4) = 0.0;
-uniform float scale_power:  hint_range(0.0, 1.0, 5e-4) = 1.0;
+//uniform float scale_down_threshold :  hint_range(0.0, 1.0, 5e-4) = 0.0;
+//uniform float scale_power:  hint_range(0.0, 1.0, 5e-4) = 1.0;
 uniform float scale:  hint_range(0.0, 10.0, 5e-4) = 1.0;
+
+uniform float a = 1.0;
+uniform float b = 1.0;
+uniform float c = 1.0;
+uniform float d = 1.0;
+
 
 
 uniform float dither_darken :  hint_range(0.5, 1.0, 5e-4) = 0.75;
@@ -39,33 +45,23 @@ vec3 interleaved_gradient_noise(vec2 frag_coord) {
 }
 
 void vertex() {
-	VERTEX *= scale;
+	//VERTEX *= scale;
+	
+    // Transform the vertex position to clip space
+    vec4 clip_position = PROJECTION_MATRIX * VIEW_MATRIX * MODEL_MATRIX * vec4(VERTEX, 1.0);
 
-    // get the vector from the object to the camera
-    vec3 to_camera = normalize(INV_VIEW_MATRIX[3].xyz - MODEL_MATRIX[3].xyz);
-
-    // get the forward vector of the camera
-    vec3 camera_forward = -normalize(INV_VIEW_MATRIX[2].xyz);
-
-    // calculate the dot product between the two vectors
-    float dot_product = dot(to_camera, camera_forward);
-
-    // map the dot product from the range [-1, 1] to [0, 1]
-    dot_product = (dot_product + 1.0) * 0.5;
-
-    // map the dot product from the range [-1, 1] to [0, 1]
-	float t = 1.0;
-	if (dot_product < 0.0){
-		t = 0.0;
-	} else {
-		t = (dot_product + 1.0) / 2.0;
-	}
-    // calculate the new scale based on the mapped value
-    float new_scale = pow(mix(scale_down_threshold, 1.0, t), 100.0 * scale_power);
-
-    // apply the new scale to the vertex position
-    VERTEX *= new_scale;
+    // Calculate the distance from the vertex to the screen center
+    float distance_to_center_x = clamp(length(pow(clip_position.x, d)), a, a*1e3);
+    float distance_to_center_y = clamp(length(clip_position.y), a, a*1e3);
+	
+	float screen_ratio = VIEWPORT_SIZE.x / VIEWPORT_SIZE.y;
+	
+    // You can now use 'distance_to_center' as a measure of the vertex's distance to the screen center
+	VERTEX *= 
+		+ pow(clamp(c/distance_to_center_x, -c*0.5, c*0.5), b);
+		//+ pow(clamp(d/distance_to_center_y, -c*0.5, c*0.5), 2.0) * screen_ratio;
 }
+
 
 void fragment()
 {
