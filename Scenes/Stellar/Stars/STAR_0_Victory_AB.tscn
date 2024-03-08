@@ -2,6 +2,7 @@
 
 [ext_resource type="Material" uid="uid://be0oo2fxvrcn3" path="res://Assets/Material/Stars/Star_Victory_A/STAR_0_Victory_A_surface.tres" id="3_juitv"]
 [ext_resource type="Material" uid="uid://s7ecogl1288r" path="res://Assets/Material/Stars/Star_Victory_A/STAR_0_Victory_A_corona.tres" id="5_magw6"]
+[ext_resource type="PackedScene" uid="uid://dyplqhaielr7x" path="res://Scenes/Light/Star_halo_sphere.tscn" id="6_0dj8i"]
 [ext_resource type="PackedScene" uid="uid://dd1ca4w4llbnh" path="res://Assets/Models/Sprites/Star_sprite_square_wide.glb" id="6_de43s"]
 [ext_resource type="Material" uid="uid://btfxqb3qlwn54" path="res://Assets/Material/Stars/Star_Victory_A/STAR_0_Victory_A_halo.tres" id="6_gtwml"]
 [ext_resource type="Shader" path="res://Assets/Shaders/Lights/Light_distant_sprite.gdshader" id="7_d8iw4"]
@@ -13,10 +14,6 @@
 [ext_resource type="Material" uid="uid://btvfihf1210qt" path="res://Assets/Material/Stars/Star_Victory_A/STAR_0_Victory_B_corona.tres" id="10_w3a4b"]
 [ext_resource type="Material" uid="uid://s0pvuv54vmt0" path="res://Assets/Material/Stars/Star_Victory_A/STAR_0_Victory_B_halo.tres" id="11_34agy"]
 [ext_resource type="Material" uid="uid://dktq57cjd1m82" path="res://Assets/Material/Stars/Star_Victory_A/STAR_0_Victory_B_sprite.tres" id="12_out5r"]
-
-[sub_resource type="SphereMesh" id="SphereMesh_uwll5"]
-radial_segments = 300
-rings = 150
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_rsvse"]
 render_priority = 0
@@ -107,9 +104,10 @@ func _process(delta: float) -> void:
 [node name="STAR_0_Victory_AB" type="Node3D"]
 
 [node name="Star_A" type="Node3D" parent="."]
-transform = Transform3D(6.3, 0, 0, 0, 6.3, 0, 0, 0, 6.3, 50, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 500, 0, 0)
 
 [node name="Surface" parent="Star_A" instance=ExtResource("9_lajky")]
+visible = false
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
@@ -118,6 +116,7 @@ surface_material_override/0 = ExtResource("3_juitv")
 
 [node name="Corona" parent="Star_A" instance=ExtResource("8_5bttd")]
 transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
+visible = false
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
@@ -125,20 +124,19 @@ metadata/_edit_group_ = true
 surface_material_override/0 = ExtResource("5_magw6")
 
 [node name="Halo" parent="Star_A" instance=ExtResource("8_5bttd")]
-transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 0, 0, 0)
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
 [node name="Icosphere_1280_noUV" parent="Star_A/Halo" index="0"]
 visible = false
 lod_bias = 128.0
+visibility_range_end = 1e+10
 surface_material_override/0 = ExtResource("6_gtwml")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Star_A/Halo"]
-material_override = ExtResource("6_gtwml")
-mesh = SubResource("SphereMesh_uwll5")
+[node name="Star_halo_sphere" parent="Star_A/Halo" instance=ExtResource("6_0dj8i")]
 
 [node name="Star_sprite_square_wide" parent="Star_A" instance=ExtResource("6_de43s")]
+visible = false
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
