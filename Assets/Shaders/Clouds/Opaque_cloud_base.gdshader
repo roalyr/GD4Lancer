@@ -69,6 +69,10 @@ const float dither_g = 99.0;
 const float dither_b = 110.0;
 
 
+// Edit "Fcoef" to adjust for desirable view distance. Lesser number means further distance limit.
+uniform float Fcoef = 0.001;
+varying float gl_Position_z;
+
 const mat4 bayer_array = mat4(
     vec4(0.0/16.0, 6.0/16.0, 2.0/16.0, 8.0/16.0),
     vec4(9.0/16.0, 4.0/16.0, 10.0/16.0, 14.0/16.0),
@@ -115,6 +119,10 @@ void vertex() {
 	uv1_triplanar_pos = VERTEX * uv1_scale*1e-3 + uv1_offset*1e-2;
 	uv1_power_normal/=dot(uv1_power_normal,vec3(1.0));
 	uv1_triplanar_pos *= vec3(1.0,-1.0, 1.0);
+
+	vec4 gl_Position = MODELVIEW_MATRIX*vec4(VERTEX, 1.0);
+	gl_Position_z = gl_Position.z;
+
 }
 
 
@@ -217,5 +225,5 @@ void fragment()
 	ALPHA_SCISSOR_THRESHOLD = dither_threshold + dither_main + dither_equal_strength*(dither_equal + dither_equal2 + dither_equal3);
 	ALPHA = near_alpha;
 
-
+	DEPTH = log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
 }

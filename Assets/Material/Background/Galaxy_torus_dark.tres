@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://t1y2ybrm40ua"]
+
+[ext_resource type="Shader" path="res://Assets/Shaders/Clouds/Cloud_sub_cull_front.gdshader" id="1_ing8l"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ing8l")
+shader_parameter/albedo = Color(0.207779, 0.0837587, 0.133396, 1)
+shader_parameter/rim_strength = 1.87
+shader_parameter/rim_exponent = 3.0
+shader_parameter/alpha_clip = 1.0
+shader_parameter/dither_darken = 0.75
+shader_parameter/Fcoef = 0.001

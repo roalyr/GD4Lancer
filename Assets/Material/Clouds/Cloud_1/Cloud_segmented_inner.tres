@@ -1,7 +1,7 @@
 [gd_resource type="ShaderMaterial" load_steps=7 format=3 uid="uid://bha8nfsu10tr"]
 
 [ext_resource type="Shader" path="res://Assets/Shaders/Clouds/Opaque_cloud_base.gdshader" id="1_emk1c"]
-[ext_resource type="Material" uid="uid://cmhait6qbdffj" path="res://Assets/Material/Cloud_segmented_fog.tres" id="1_hgddn"]
+[ext_resource type="Material" uid="uid://cmhait6qbdffj" path="res://Assets/Material/Clouds/Cloud_1/Cloud_segmented_fog.tres" id="1_hgddn"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_ut2nm"]
 noise_type = 2

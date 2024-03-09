@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://dxhkhme5vtte7"]
+
+[ext_resource type="Shader" path="res://Assets/Shaders/Clouds/Cloud_bands_cull_front.gdshader" id="1_11ypr"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_11ypr")
+shader_parameter/albedo = Color(0.131593, 0.297973, 0.287675, 1)
+shader_parameter/rim_strength = 1.5
+shader_parameter/rim_exponent = 2.7
+shader_parameter/rim_strength_inner = 1.11
+shader_parameter/rim_exponent_inner = 1.8
+shader_parameter/alpha_clip = 1.0
+shader_parameter/alpha_clip_inner = 1.0
+shader_parameter/dither_darken = 0.75
+shader_parameter/Fcoef = 0.001

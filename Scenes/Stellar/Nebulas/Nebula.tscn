@@ -1,7 +1,7 @@
 [gd_scene load_steps=16 format=3 uid="uid://cuyuifr1g4iuw"]
 
-[ext_resource type="Material" uid="uid://bha8nfsu10tr" path="res://Assets/Material/Cloud_segmented_inner.tres" id="2_tdorc"]
-[ext_resource type="Material" uid="uid://bw67q7hriiury" path="res://Assets/Material/Cloud_segmented_outer.tres" id="4_fcbcn"]
+[ext_resource type="Material" uid="uid://bha8nfsu10tr" path="res://Assets/Material/Clouds/Cloud_1/Cloud_segmented_inner.tres" id="2_tdorc"]
+[ext_resource type="Material" uid="uid://bw67q7hriiury" path="res://Assets/Material/Clouds/Cloud_1/Cloud_segmented_outer.tres" id="4_fcbcn"]
 [ext_resource type="PackedScene" uid="uid://dnejf6nathwuv" path="res://Scenes/Camera_decorations.tscn" id="5_03hls"]
 [ext_resource type="PackedScene" uid="uid://bd07o86sefc6a" path="res://Assets/Models/Clouds/Cloud_segmented.glb" id="6_h6uw7"]
 

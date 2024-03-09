@@ -26,6 +26,10 @@ uniform float pulse_factor : hint_range(0.5, 1.0, 5e-4) = 1.0;
 uniform float pulse_rate : hint_range(0.0, 100.0, 5e-2) = 10;
 uniform float phase : hint_range(0.0, 3.14, 5e-4) = 0.0;
 
+// Edit "Fcoef" to adjust for desirable view distance. Lesser number means further distance limit.
+uniform float Fcoef = 0.001;
+varying float gl_Position_z;
+
 void vertex() {
 	float abs_scale = length(vec3(MODEL_MATRIX[0][0],MODEL_MATRIX[1][1],MODEL_MATRIX[2][2]));
 	float z_dist = (MODELVIEW_MATRIX * vec4(VERTEX, 1.0)).z / abs_scale;
@@ -44,6 +48,12 @@ void vertex() {
 		MODELVIEW_MATRIX[1]*=sc;
 		MODELVIEW_MATRIX[2]*=sc;
 	}
+
+
+	vec4 gl_Position = MODELVIEW_MATRIX*vec4(VERTEX, 1.0);
+	gl_Position_z = gl_Position.z;
+
+
 }
 
 void fragment() {
@@ -52,4 +62,6 @@ void fragment() {
 	* pow(COLOR.r, exponent / pulse)
 	* intensity
 	* pulse;
+
+	DEPTH = log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
 }

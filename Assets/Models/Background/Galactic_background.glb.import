@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://blfys1v146a8h"
-path="res://.godot/imported/Background_stars.glb-32fa49fa0b5d154cec9f11322076a57c.scn"
+uid="uid://bmeq1hs2g4jp2"
+path="res://.godot/imported/Galactic_background.glb-68bcbedd3e3e5c550f266ce24fe23132.scn"
 
 [deps]
 
-source_file="res://Assets/Models/Background/Background_stars.glb"
-dest_files=["res://.godot/imported/Background_stars.glb-32fa49fa0b5d154cec9f11322076a57c.scn"]
+source_file="res://Assets/Models/Background/Galactic_background.glb"
+dest_files=["res://.godot/imported/Galactic_background.glb-68bcbedd3e3e5c550f266ce24fe23132.scn"]
 
 [params]
 

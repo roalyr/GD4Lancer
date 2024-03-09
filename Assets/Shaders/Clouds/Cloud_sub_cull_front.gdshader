@@ -28,10 +28,20 @@ const float dither_r = 105.5;
 const float dither_g = 99.0;
 const float dither_b = 110.0;
 
+// Edit "Fcoef" to adjust for desirable view distance. Lesser number means further distance limit.
+uniform float Fcoef = 0.001;
+varying float gl_Position_z;
+
 vec3 interleaved_gradient_noise(vec2 frag_coord) {
 	vec3 dither = vec3(dot(vec2(dither_x, dither_y), frag_coord));
 	dither.rgb = fract(dither.rgb / vec3(dither_r, dither_g, dither_b));
 	return (dither.rgb - vec3(dither_darken)) / 255.0;
+}
+
+void vertex()
+{
+	vec4 gl_Position = MODELVIEW_MATRIX*vec4(VERTEX, 1.0);
+	gl_Position_z = gl_Position.z;
 }
 
 void fragment()
@@ -42,4 +52,6 @@ void fragment()
 	ALBEDO *= rim;
 	vec2 frag_coord = FRAGCOORD.xy;
 	ALBEDO += interleaved_gradient_noise(frag_coord);
+
+	DEPTH = log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
 }

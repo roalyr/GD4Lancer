@@ -29,4 +29,5 @@ shader_parameter/alpha_clip = 1.0
 shader_parameter/displacement_scale = 0.2525
 shader_parameter/displacement_velocity = 0.463
 shader_parameter/dither_darken = 0.75
+shader_parameter/Fcoef = 0.001
 shader_parameter/displacement_texture = SubResource("NoiseTexture2D_82vqf")

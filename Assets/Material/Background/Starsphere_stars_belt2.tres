@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://6ftl57oreuev"]
+
+[ext_resource type="Shader" path="res://Assets/Shaders/Starsphere/Starsphere_background.gdshader" id="1_qxx32"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_qxx32")
+shader_parameter/albedo = Color(0.515323, 0.401705, 0.351571, 1)
