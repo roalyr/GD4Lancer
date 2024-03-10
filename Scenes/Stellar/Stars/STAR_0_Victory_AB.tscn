@@ -91,7 +91,7 @@ func _process(delta: float) -> void:
 [node name="STAR_0_Victory_AB" type="Node3D"]
 
 [node name="STAR_0_6_32e+09" type="Node3D" parent="."]
-transform = Transform3D(6.32e+09, 0, 0, 0, 6.32e+09, 0, 0, 0, 6.32e+09, 0, 0, 0)
+transform = Transform3D(6.32e+09, 0, 0, 0, 6.32e+09, 0, 0, 0, 6.32e+09, 1e+15, 0, 0)
 
 [node name="Surface" parent="STAR_0_6_32e+09" instance=ExtResource("9_lajky")]
 metadata/_edit_lock_ = true

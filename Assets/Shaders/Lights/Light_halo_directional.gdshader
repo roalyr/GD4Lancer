@@ -49,9 +49,16 @@ vec3 interleaved_gradient_noise(vec2 frag_coord) {
 }
 
 void vertex() {
-
+	// Model absolute scale.
 	float abs_scale = length(vec3(MODEL_MATRIX[0][0],MODEL_MATRIX[1][1],MODEL_MATRIX[2][2]));
-	float dist = (MODELVIEW_MATRIX * vec4(VERTEX, 1.0)).z / abs_scale;
+
+	// Transform the vertex position to view space
+	vec4 vertex_view_space = VIEW_MATRIX * MODEL_MATRIX * vec4(VERTEX, 1.0);
+
+	// Calculate the distance from the vertex to the camera relative to object size
+	float dist = length(vertex_view_space.xyz)/abs_scale;
+
+
 
     // Transform the vertex position to clip space
     vec4 clip_position = PROJECTION_MATRIX * VIEW_MATRIX * MODEL_MATRIX * vec4(VERTEX, 1.0);
