@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3fxfesc7d1o"
-path="res://.godot/imported/system_marker.svg-b19f690cfacb12093b0a8375090cf7d2.ctex"
+uid="uid://byigup5b21tj0"
+path="res://.godot/imported/star_zone.svg-86ef55f388f841b5f1f0db28003b0e63.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/Icons/system_marker.svg"
-dest_files=["res://.godot/imported/system_marker.svg-b19f690cfacb12093b0a8375090cf7d2.ctex"]
+source_file="res://Assets/Images/Icons/star_zone.svg"
+dest_files=["res://.godot/imported/star_zone.svg-86ef55f388f841b5f1f0db28003b0e63.ctex"]
 
 [params]
 

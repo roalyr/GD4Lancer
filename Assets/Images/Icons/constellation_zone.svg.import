@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddkw6i22rie5s"
-path="res://.godot/imported/nebula_marker.svg-a05db369ad3311e89f2d589aeb8b9b46.ctex"
+uid="uid://bpknol8p0d3xi"
+path="res://.godot/imported/constellation_zone.svg-d234c4a8c6b70228e053bea44c0867e6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/Icons/nebula_marker.svg"
-dest_files=["res://.godot/imported/nebula_marker.svg-a05db369ad3311e89f2d589aeb8b9b46.ctex"]
+source_file="res://Assets/Images/Icons/constellation_zone.svg"
+dest_files=["res://.godot/imported/constellation_zone.svg-d234c4a8c6b70228e053bea44c0867e6.ctex"]
 
 [params]
 

@@ -21,9 +21,10 @@ uniform float rim_exponent :  hint_range(0.0, 1.0, 5e-4) = 0.1;
 uniform float alpha_clip :   hint_range(0.0, 1.0, 5e-4) = 1.0;
 
 uniform float scale:  hint_range(0.0, 100.0, 5e-4) = 5.0;
-uniform float beam_width_power :  hint_range(0.0, 2.0, 5e-4) = 0.5;
-uniform float beam_width_focus :  hint_range(1.0, 10.0, 5e-4) = 2.0;
-uniform float beam_dist_power :  hint_range(0.0, 1.0, 5e-4) = 0.5;
+uniform float scale_max:  hint_range(0.0, 100.0, 5e-4) = 3.0;
+uniform float beam_width_power :  hint_range(0.0, 2.0, 5e-4) = 1.0;
+uniform float beam_width_focus :  hint_range(0.0, 10.0, 5e-4) = 0.8;
+uniform float beam_dist_power :  hint_range(0.0, 1.0, 5e-4) = 0.4;
 
 uniform float fade = 1.0;
 uniform float fade_power:  hint_range(0.0, 10.0, 5e-4) = 1.0;
@@ -38,7 +39,7 @@ const float dither_g = 99.0;
 const float dither_b = 110.0;
 
 // Edit "Fcoef" to adjust for desirable view distance. Lesser number means further distance limit.
-uniform float Fcoef = 0.001;
+const float Fcoef = 0.001;
 varying float gl_Position_z;
 
 
@@ -67,7 +68,7 @@ void vertex() {
 	float ratio = VIEWPORT_SIZE.x/VIEWPORT_SIZE.y;
 	float distance_to_center_x = pow(length(x_offset), beam_width_power)*beam_width_focus;
 
-	VERTEX *= pow(clamp(1.0/distance_to_center_x, 0.0, 2.0), 2.0);
+	VERTEX *= pow(clamp(1.0/distance_to_center_x, 0.0, scale_max), 2.0);
 	VERTEX *= pow(dist , beam_dist_power);
 	VERTEX *= scale;
 

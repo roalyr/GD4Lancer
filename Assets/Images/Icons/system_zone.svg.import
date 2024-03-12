@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1lao0d6lhdl2"
-path="res://.godot/imported/structure_marker.svg-c7132b24ff60ed25e8ae93873d3b0b13.ctex"
+uid="uid://c3fxfesc7d1o"
+path="res://.godot/imported/system_zone.svg-5f5708efb57f40ba1fe9faccf20ca9d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/Icons/structure_marker.svg"
-dest_files=["res://.godot/imported/structure_marker.svg-c7132b24ff60ed25e8ae93873d3b0b13.ctex"]
+source_file="res://Assets/Images/Icons/system_zone.svg"
+dest_files=["res://.godot/imported/system_zone.svg-5f5708efb57f40ba1fe9faccf20ca9d3.ctex"]
 
 [params]
 

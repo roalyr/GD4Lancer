@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://bpmdxv4lxnqax"]
+
+[ext_resource type="Material" uid="uid://bsovh3dofb87l" path="res://Assets/Material/Visual_effects/Light_halo_default.tres" id="1_fy3hi"]
+[ext_resource type="Script" path="res://Scripts/Visual_effects/Light_halo.gd" id="2_ybp1s"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_81p64"]
+radial_segments = 32
+rings = 16
+
+[node name="Light_halo_sphere" type="MeshInstance3D"]
+visibility_range_end = 100.0
+mesh = SubResource("SphereMesh_81p64")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("1_fy3hi")
+script = ExtResource("2_ybp1s")

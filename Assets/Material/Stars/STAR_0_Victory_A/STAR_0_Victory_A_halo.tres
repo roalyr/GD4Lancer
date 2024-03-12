@@ -5,15 +5,15 @@
 [resource]
 render_priority = 0
 shader = ExtResource("1_wcvnq")
-shader_parameter/albedo = Color(5.29438e-06, 0.549832, 0.765304, 1)
+shader_parameter/albedo = Color(0.249022, 0.438615, 0.630114, 1)
 shader_parameter/rim_strength = 0.1
 shader_parameter/rim_exponent = 0.1
 shader_parameter/alpha_clip = 1.0
 shader_parameter/scale = 5.0
-shader_parameter/beam_width_power = 0.5
-shader_parameter/beam_width_focus = 2.0
-shader_parameter/beam_dist_power = 0.5
+shader_parameter/scale_max = 3.0
+shader_parameter/beam_width_power = 1.0
+shader_parameter/beam_width_focus = 0.8
+shader_parameter/beam_dist_power = 0.4
 shader_parameter/fade = 1.0
 shader_parameter/fade_power = 1.0
 shader_parameter/dither_darken = 0.75
-shader_parameter/Fcoef = 0.001

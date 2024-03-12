@@ -37,6 +37,10 @@ scene={
 
 pointing/emulate_touch_from_mouse=true
 
+[internationalization]
+
+locale/translations=PackedStringArray("res://Assets/Translations/Translations.en.translation", "res://Assets/Translations/Translations.uk.translation")
+
 [physics]
 
 common/physics_ticks_per_second=120

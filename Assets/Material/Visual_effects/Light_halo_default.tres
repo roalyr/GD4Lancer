@@ -1,15 +1,15 @@
-[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://s0pvuv54vmt0"]
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://bsovh3dofb87l"]
 
-[ext_resource type="Shader" path="res://Assets/Shaders/Lights/Light_halo_directional.gdshader" id="1_wd5f1"]
+[ext_resource type="Shader" path="res://Assets/Shaders/Lights/Light_halo_directional.gdshader" id="1_fsdud"]
 
 [resource]
 render_priority = 0
-shader = ExtResource("1_wd5f1")
-shader_parameter/albedo = Color(0.54348, 0.421236, 0.262656, 1)
+shader = ExtResource("1_fsdud")
+shader_parameter/albedo = Color(0.994108, 0.994108, 0.994108, 1)
 shader_parameter/rim_strength = 0.1
 shader_parameter/rim_exponent = 0.1
 shader_parameter/alpha_clip = 1.0
-shader_parameter/scale = 3.0
+shader_parameter/scale = 5.0
 shader_parameter/beam_width_power = 0.5
 shader_parameter/beam_width_focus = 2.0
 shader_parameter/beam_dist_power = 0.5

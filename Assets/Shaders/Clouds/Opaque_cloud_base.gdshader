@@ -70,7 +70,7 @@ const float dither_b = 110.0;
 
 
 // Edit "Fcoef" to adjust for desirable view distance. Lesser number means further distance limit.
-uniform float Fcoef = 0.001;
+const float Fcoef = 0.001;
 varying float gl_Position_z;
 
 const mat4 bayer_array = mat4(

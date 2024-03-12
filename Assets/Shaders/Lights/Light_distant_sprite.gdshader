@@ -27,7 +27,7 @@ uniform float pulse_rate : hint_range(0.0, 100.0, 5e-2) = 10;
 uniform float phase : hint_range(0.0, 3.14, 5e-4) = 0.0;
 
 // Edit "Fcoef" to adjust for desirable view distance. Lesser number means further distance limit.
-uniform float Fcoef = 0.001;
+const float Fcoef = 0.001;
 varying float gl_Position_z;
 
 void vertex() {

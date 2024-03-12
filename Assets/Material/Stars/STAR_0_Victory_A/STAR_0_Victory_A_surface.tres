@@ -4,7 +4,7 @@
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_e04sq"]
 noise_type = 2
-frequency = 0.1167
+frequency = 0.0812
 domain_warp_enabled = true
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_jtxwa"]
@@ -18,16 +18,16 @@ noise = SubResource("FastNoiseLite_e04sq")
 [resource]
 render_priority = 0
 shader = ExtResource("1_sn7i1")
-shader_parameter/rim_color = Color(1.15514e-06, 0.652222, 0.670537, 1)
-shader_parameter/overlay_color = Color(5.19812e-06, 0.661033, 0.866568, 1)
+shader_parameter/rim_color = Color(1, 1, 1, 1)
+shader_parameter/overlay_color = Color(0, 0.764706, 1, 1)
 shader_parameter/surface_color = Color(0, 0.764706, 1, 1)
-shader_parameter/major_phase = 1.795
-shader_parameter/major_detail_intensity = 0.557
-shader_parameter/detail_decay_distance = 6.32e+10
+shader_parameter/major_phase = 1.763
+shader_parameter/major_detail_intensity = 0.652
+shader_parameter/detail_decay_distance = 1e+11
+shader_parameter/detail_decay_power = 2.0
 shader_parameter/major_detail_scale = 1.0
 shader_parameter/major_detail_flow = 0.02
 shader_parameter/rim_strength = 1.0
 shader_parameter/rim_exponent = 0.1
 shader_parameter/rim_intensity = 2.65
-shader_parameter/Fcoef = 0.001
 shader_parameter/major_detail_noise = SubResource("NoiseTexture2D_jtxwa")
