@@ -1,0 +1,21 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://b5u63fd8smunl"]
+
+[ext_resource type="Shader" path="res://Assets/Shaders/Solid/Solid_material.gdshader" id="1_xb6d7"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_xb6d7")
+shader_parameter/albedo = Color(0.466181, 0.466181, 0.466181, 1)
+shader_parameter/albedo_specular = Color(0.394353, 0.394353, 0.394353, 1)
+shader_parameter/albedo_gloss = Color(0.424931, 0.424931, 0.424931, 1)
+shader_parameter/emission = null
+shader_parameter/emission_strength = 1.0
+shader_parameter/roughness = 1.0
+shader_parameter/albedo_exponent = 0.0
+shader_parameter/specular_exponent = 0.0
+shader_parameter/gloss_exponent = 0.0
+shader_parameter/roughness_exponent = 0.0
+shader_parameter/roughness_sharpness = 100.0
+shader_parameter/scale = 1.0
+shader_parameter/details_power = 1.0
+shader_parameter/specular_power = 1.0

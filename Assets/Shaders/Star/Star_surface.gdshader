@@ -33,7 +33,7 @@ uniform float major_detail_scale : hint_range(1.0, 10.0, 1.0) = 1;
 uniform float major_detail_flow = 0.01;
 
 uniform float rim_strength = 1.0;
-uniform float rim_exponent : hint_range(0.0, 50.0, 0.1) = 0.5;
+uniform float rim_exponent = 0.5;
 uniform float rim_intensity = 0.3;
 
 const float pi = 3.1415926535;

@@ -1,28 +1,16 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://dx8ew0trpkv7r"]
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://dx8ew0trpkv7r"]
 
-[ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_corona.gdshader" id="1_2qenl"]
-
-[sub_resource type="FastNoiseLite" id="FastNoiseLite_w6hro"]
-noise_type = 2
-frequency = 0.0172
-
-[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_82vqf"]
-width = 128
-height = 128
-seamless = true
-seamless_blend_skirt = 1.0
-noise = SubResource("FastNoiseLite_w6hro")
+[ext_resource type="Shader" path="res://Assets/Shaders/Lights/Light_halo_simple.gdshader" id="1_elb3y"]
 
 [resource]
 render_priority = 0
-shader = ExtResource("1_2qenl")
-shader_parameter/corona_color = Color(0.158324, 0.432717, 0.554932, 1)
-shader_parameter/strength_corona = 2.315
-shader_parameter/exponent_corona = 3.75
-shader_parameter/exponent_corona_rim = 0.43
-shader_parameter/corona_floor_power = 5.0
-shader_parameter/corona_floor = 1.905
-shader_parameter/displacement_power = 0.0
-shader_parameter/displacement_velocity = 0.0125
+shader = ExtResource("1_elb3y")
+shader_parameter/albedo = Color(0.1974, 0.31612, 0.42, 1)
+shader_parameter/rim_strength = 5.0
+shader_parameter/rim_exponent = 45.365
+shader_parameter/rim_power = 1.0
+shader_parameter/rim_floor = 0.135
+shader_parameter/rim_outer_strength = 1.775
+shader_parameter/rim_outer_exponent = 3.605
+shader_parameter/alpha_clip = 1.0
 shader_parameter/dither_darken = 0.75
-shader_parameter/displacement_texture = SubResource("NoiseTexture2D_82vqf")

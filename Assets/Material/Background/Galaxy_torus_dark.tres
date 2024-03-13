@@ -10,4 +10,3 @@ shader_parameter/rim_strength = 1.87
 shader_parameter/rim_exponent = 3.0
 shader_parameter/alpha_clip = 1.0
 shader_parameter/dither_darken = 0.75
-shader_parameter/Fcoef = 0.001

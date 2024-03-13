@@ -1,13 +1,12 @@
-[gd_scene load_steps=26 format=3 uid="uid://bh8ykf0iap06a"]
+[gd_scene load_steps=28 format=3 uid="uid://bh8ykf0iap06a"]
 
 [ext_resource type="Script" path="res://Scripts/Environment/Star.gd" id="1_c5yje"]
 [ext_resource type="Material" uid="uid://be0oo2fxvrcn3" path="res://Assets/Material/Stars/STAR_0_Victory_A/STAR_0_Victory_A_surface.tres" id="3_juitv"]
 [ext_resource type="Material" uid="uid://dx8ew0trpkv7r" path="res://Assets/Material/Stars/STAR_0_Victory_A/STAR_0_Victory_A_halo_near.tres" id="5_6t1wm"]
 [ext_resource type="Material" uid="uid://s7ecogl1288r" path="res://Assets/Material/Stars/STAR_0_Victory_A/STAR_0_Victory_A_corona.tres" id="5_magw6"]
 [ext_resource type="PackedScene" uid="uid://dd1ca4w4llbnh" path="res://Assets/Models/Sprites/Star_sprite_square_wide.glb" id="6_de43s"]
-[ext_resource type="Material" uid="uid://btfxqb3qlwn54" path="res://Assets/Material/Stars/STAR_0_Victory_A/STAR_0_Victory_A_halo.tres" id="6_gtwml"]
+[ext_resource type="Material" uid="uid://btfxqb3qlwn54" path="res://Assets/Material/Stars/STAR_0_Victory_A/STAR_0_Victory_A_halo_directional.tres" id="6_gtwml"]
 [ext_resource type="Material" uid="uid://cv8maai0l24o" path="res://Assets/Material/Stars/STAR_0_Victory_A/STAR_0_Victory_A_sprite.tres" id="6_jumgw"]
-[ext_resource type="PackedScene" uid="uid://rkgty8vh44gi" path="res://Assets/Models/Shapes/Icosphere_5120_noUV.glb" id="6_uig8n"]
 [ext_resource type="PackedScene" uid="uid://g85hctkw5yp" path="res://Assets/Models/Shapes/Icosphere_1280_noUV.glb" id="8_5bttd"]
 [ext_resource type="PackedScene" uid="uid://dnejf6nathwuv" path="res://Scenes/Camera_decorations.tscn" id="8_b3gwg"]
 [ext_resource type="PackedScene" uid="uid://bpmdxv4lxnqax" path="res://Scenes/Light/light_halo_sphere.tscn" id="8_n8cg5"]
@@ -18,6 +17,11 @@
 [ext_resource type="Script" path="res://Scripts/Environment/Death_zone.gd" id="10_vgjlm"]
 [ext_resource type="Material" uid="uid://s0pvuv54vmt0" path="res://Assets/Material/Stars/STAR_0_1_Victory_B/STAR_0_Victory_B_halo.tres" id="11_34agy"]
 [ext_resource type="Material" uid="uid://dktq57cjd1m82" path="res://Assets/Material/Stars/STAR_0_1_Victory_B/STAR_0_Victory_B_sprite.tres" id="12_out5r"]
+[ext_resource type="PackedScene" uid="uid://dos71fx2o02ev" path="res://Scenes/Editor_only/Editor_objects_3D.tscn" id="18_asia8"]
+[ext_resource type="PackedScene" uid="uid://30114u6keqvp" path="res://Tools/References/REFERENCE_System_Sol.tscn" id="19_g0xwb"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_u6l3y"]
+rings = 64
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_ub667"]
 
@@ -98,7 +102,6 @@ func _process(delta: float) -> void:
 [node name="STAR_0_1_Victory_AB" type="Node3D"]
 
 [node name="STAR_0_Victory_A" type="Node3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1e+10, 0, 0)
 script = ExtResource("1_c5yje")
 autopilot_range = 4.28e+11
 translations_name = "NAME_STAR_0"
@@ -114,6 +117,12 @@ metadata/_edit_group_ = true
 [node name="Sphere_3968" parent="STAR_0_Victory_A/Model_6_32e+09/Surface" index="0"]
 surface_material_override/0 = ExtResource("3_juitv")
 
+[node name="Corona" type="MeshInstance3D" parent="STAR_0_Victory_A/Model_6_32e+09"]
+transform = Transform3D(2.7, 0, 0, 0, 2.7, 0, 0, 0, 2.7, 0, 0, 0)
+visibility_range_end = 2e+11
+mesh = SubResource("SphereMesh_u6l3y")
+surface_material_override/0 = ExtResource("5_magw6")
+
 [node name="Halo" parent="STAR_0_Victory_A/Model_6_32e+09" instance=ExtResource("8_5bttd")]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
 metadata/_edit_lock_ = true
@@ -121,14 +130,6 @@ metadata/_edit_group_ = true
 
 [node name="Icosphere_1280_noUV" parent="STAR_0_Victory_A/Model_6_32e+09/Halo" index="0"]
 surface_material_override/0 = ExtResource("5_6t1wm")
-
-[node name="Corona" parent="STAR_0_Victory_A/Model_6_32e+09" instance=ExtResource("6_uig8n")]
-transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, 0, 0, 0)
-metadata/_edit_lock_ = true
-metadata/_edit_group_ = true
-
-[node name="Icosphere_5120_noUV" parent="STAR_0_Victory_A/Model_6_32e+09/Corona" index="0"]
-surface_material_override/0 = ExtResource("5_magw6")
 
 [node name="Star_sprite_square_wide" parent="STAR_0_Victory_A/Model_6_32e+09" instance=ExtResource("6_de43s")]
 metadata/_edit_lock_ = true
@@ -144,11 +145,10 @@ surface_material_override/0 = ExtResource("6_gtwml")
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
-[node name="Star_omni_light" type="OmniLight3D" parent="STAR_0_Victory_A/Model_6_32e+09"]
+[node name="Star_omni_light_energy_1e13" type="OmniLight3D" parent="STAR_0_Victory_A/Model_6_32e+09"]
 light_color = Color(0, 0.764706, 1, 1)
-light_energy = 2.0
+light_energy = 1e+13
 omni_range = 3.27e+14
-omni_attenuation = 10.0
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
@@ -168,6 +168,7 @@ shape = SubResource("SphereShape3D_vmmqr")
 
 [node name="STAR_0_1_Victory_B" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2e+11, 0, 0)
+visible = false
 script = ExtResource("1_c5yje")
 
 [node name="Model" type="Node3D" parent="STAR_0_1_Victory_B"]
@@ -205,6 +206,7 @@ script = SubResource("GDScript_p8rwk")
 
 [node name="Camera3D" type="Camera3D" parent="Scene_interface"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.883874, 72.5091)
+visible = false
 fov = 50.0
 far = 1e+06
 script = SubResource("GDScript_8tbxj")
@@ -217,6 +219,7 @@ autoplay = true
 parameters/looping = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="Scene_interface"]
+visible = false
 
 [node name="fps" type="Label" parent="Scene_interface/CanvasLayer"]
 auto_translate_mode = 1
@@ -261,10 +264,19 @@ Device:
 Primitives:
 FPS:"
 
+[node name="EditorObjects3d" parent="Scene_interface" instance=ExtResource("18_asia8")]
+
+[node name="Reference Sol system" parent="Scene_interface/EditorObjects3d" instance=ExtResource("19_g0xwb")]
+
+[node name="Sun 1_4e9" parent="Scene_interface/EditorObjects3d/Reference Sol system" index="1"]
+visible = false
+
 [editable path="STAR_0_Victory_A/Model_6_32e+09/Surface"]
 [editable path="STAR_0_Victory_A/Model_6_32e+09/Halo"]
-[editable path="STAR_0_Victory_A/Model_6_32e+09/Corona"]
 [editable path="STAR_0_Victory_A/Model_6_32e+09/Star_sprite_square_wide"]
 [editable path="STAR_0_1_Victory_B/Model/Surface"]
 [editable path="STAR_0_1_Victory_B/Model/Corona"]
 [editable path="STAR_0_1_Victory_B/Model/Star_sprite_square_wide"]
+[editable path="Scene_interface/EditorObjects3d/Reference Sol system"]
+[editable path="Scene_interface/EditorObjects3d/Reference Sol system/Sun 1_4e9/Star_sprite_square_wide"]
+[editable path="Scene_interface/EditorObjects3d/Reference Sol system/Sun 1_4e9/Halo"]

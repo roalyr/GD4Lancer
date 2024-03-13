@@ -13,4 +13,3 @@ shader_parameter/rim_exponent_inner = 1.8
 shader_parameter/alpha_clip = 1.0
 shader_parameter/alpha_clip_inner = 1.0
 shader_parameter/dither_darken = 0.75
-shader_parameter/Fcoef = 0.001
