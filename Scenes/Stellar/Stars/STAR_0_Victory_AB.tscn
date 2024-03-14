@@ -102,6 +102,7 @@ func _process(delta: float) -> void:
 [node name="STAR_0_1_Victory_AB" type="Node3D"]
 
 [node name="STAR_0_Victory_A" type="Node3D" parent="."]
+visible = false
 script = ExtResource("1_c5yje")
 autopilot_range = 4.28e+11
 translations_name = "NAME_STAR_0"
@@ -119,7 +120,7 @@ surface_material_override/0 = ExtResource("3_juitv")
 
 [node name="Corona" type="MeshInstance3D" parent="STAR_0_Victory_A/Model_6_32e+09"]
 transform = Transform3D(2.7, 0, 0, 0, 2.7, 0, 0, 0, 2.7, 0, 0, 0)
-visibility_range_end = 2e+11
+visibility_range_end = 5e+12
 mesh = SubResource("SphereMesh_u6l3y")
 surface_material_override/0 = ExtResource("5_magw6")
 
@@ -212,6 +213,7 @@ far = 1e+06
 script = SubResource("GDScript_8tbxj")
 
 [node name="Camera_decorations" parent="Scene_interface" instance=ExtResource("8_b3gwg")]
+visible = false
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Scene_interface"]
 stream = ExtResource("9_7f505")
@@ -268,9 +270,6 @@ FPS:"
 
 [node name="Reference Sol system" parent="Scene_interface/EditorObjects3d" instance=ExtResource("19_g0xwb")]
 
-[node name="Sun 1_4e9" parent="Scene_interface/EditorObjects3d/Reference Sol system" index="1"]
-visible = false
-
 [editable path="STAR_0_Victory_A/Model_6_32e+09/Surface"]
 [editable path="STAR_0_Victory_A/Model_6_32e+09/Halo"]
 [editable path="STAR_0_Victory_A/Model_6_32e+09/Star_sprite_square_wide"]
@@ -278,5 +277,5 @@ visible = false
 [editable path="STAR_0_1_Victory_B/Model/Corona"]
 [editable path="STAR_0_1_Victory_B/Model/Star_sprite_square_wide"]
 [editable path="Scene_interface/EditorObjects3d/Reference Sol system"]
-[editable path="Scene_interface/EditorObjects3d/Reference Sol system/Sun 1_4e9/Star_sprite_square_wide"]
-[editable path="Scene_interface/EditorObjects3d/Reference Sol system/Sun 1_4e9/Halo"]
+[editable path="Scene_interface/EditorObjects3d/Reference Sol system/Sun 1_4e9/Model/Star_sprite_square_wide"]
+[editable path="Scene_interface/EditorObjects3d/Reference Sol system/Sun 1_4e9/Model/Halo"]

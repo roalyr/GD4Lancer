@@ -5,12 +5,12 @@
 [resource]
 render_priority = 0
 shader = ExtResource("1_e6c4g")
-shader_parameter/albedo = Color(0.836207, 0.673662, 0.350105, 1)
-shader_parameter/scale = 0.3
-shader_parameter/attenuation = 0.2
+shader_parameter/albedo = Color(0.850682, 0.688033, 0.365644, 1)
+shader_parameter/scale = 0.025
+shader_parameter/attenuation = 0.25
 shader_parameter/flare_distance = 31.0
-shader_parameter/flare_size = 2.5
-shader_parameter/intensity = 0.7925
+shader_parameter/flare_size = 2.0
+shader_parameter/intensity = 1.0
 shader_parameter/exponent = 5.0
 shader_parameter/pulse_factor = 0.97
 shader_parameter/pulse_rate = 6.25

@@ -6,7 +6,7 @@
 render_priority = 0
 shader = ExtResource("1_4wwog")
 shader_parameter/albedo = Color(0, 0.764706, 1, 1)
-shader_parameter/scale = 0.3
+shader_parameter/scale = 0.025
 shader_parameter/attenuation = 0.2
 shader_parameter/flare_distance = 31.0
 shader_parameter/flare_size = 2.5
