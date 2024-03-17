@@ -1,0 +1,42 @@
+[gd_scene load_steps=7 format=3 uid="uid://bh8ykf0iap06a"]
+
+[ext_resource type="PackedScene" uid="uid://5360m8teaj36" path="res://Scenes/Stellar/Stars/STAR_0_Victory_A.tscn" id="1_3d3ty"]
+[ext_resource type="PackedScene" uid="uid://ckw26pwycikdk" path="res://Scenes/Interface/Scene_interface.tscn" id="3_w7mna"]
+[ext_resource type="Script" path="res://Scripts/rotating_object.gd" id="4_5m4s5"]
+[ext_resource type="PackedScene" uid="uid://b6terjwrtrc6d" path="res://Scenes/Stellar/Stars/STAR_0_1_Victory_B.tscn" id="5_sgjyc"]
+[ext_resource type="PackedScene" uid="uid://dos71fx2o02ev" path="res://Scenes/Editor_only/Editor_objects_3D.tscn" id="18_asia8"]
+[ext_resource type="PackedScene" uid="uid://30114u6keqvp" path="res://Tools/References/REFERENCE_System_Sol.tscn" id="19_g0xwb"]
+
+[node name="STAR_0_1_Victory_AB" type="Node3D"]
+
+[node name="EditorObjects3d" parent="." instance=ExtResource("18_asia8")]
+
+[node name="Reference Sol system" parent="EditorObjects3d" instance=ExtResource("19_g0xwb")]
+visible = false
+
+[node name="Sun 1_4e9" parent="EditorObjects3d/Reference Sol system" index="2"]
+visible = false
+
+[node name="Scene_interface" parent="." instance=ExtResource("3_w7mna")]
+
+[node name="Camera3D" parent="Scene_interface" index="0"]
+transform = Transform3D(0.899193, -0.343566, 0.27095, 0.313819, 0.937907, 0.147809, -0.304908, -0.0478799, 0.951177, 1.47398e+10, 1.08911e+10, 1.61008e+11)
+visible = true
+far = 1e+19
+
+[node name="Camera_decorations" parent="Scene_interface" index="1"]
+visible = true
+
+[node name="Node3D" type="Node3D" parent="."]
+script = ExtResource("4_5m4s5")
+
+[node name="STAR_0_Victory_A" parent="Node3D" instance=ExtResource("1_3d3ty")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2e+10, 0, 0)
+
+[node name="STAR_0_1_Victory_B" parent="Node3D" instance=ExtResource("5_sgjyc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1e+11, 0, 0)
+
+[editable path="EditorObjects3d/Reference Sol system"]
+[editable path="EditorObjects3d/Reference Sol system/Sun 1_4e9/Model/Star_sprite_square_wide"]
+[editable path="EditorObjects3d/Reference Sol system/Sun 1_4e9/Model/Halo"]
+[editable path="Scene_interface"]

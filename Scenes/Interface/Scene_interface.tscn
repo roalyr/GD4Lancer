@@ -1,0 +1,140 @@
+[gd_scene load_steps=8 format=3 uid="uid://ckw26pwycikdk"]
+
+[ext_resource type="PackedScene" uid="uid://dnejf6nathwuv" path="res://Scenes/Camera_decorations.tscn" id="1_d1cdm"]
+[ext_resource type="AudioStream" uid="uid://ma0ckqbjk0v3" path="res://Assets/Music/GdtlAmb1.ogg" id="2_jmawq"]
+
+[sub_resource type="GDScript" id="GDScript_p8rwk"]
+script/source = "extends Node
+
+var scene_camera = Camera3D.new()
+var camera_decorations = Node3D.new()
+
+func _ready():
+	scene_camera = get_node(\"Camera3D\")
+	camera_decorations = get_node(\"Camera_decorations\")
+
+func _process(delta):
+	camera_decorations.global_position = scene_camera.global_position
+"
+
+[sub_resource type="GDScript" id="GDScript_8tbxj"]
+resource_name = "Camera_look_at"
+script/source = "extends Camera3D
+var target = Node3D
+
+#func _ready() -> void:
+	#target = get_parent().get_parent().get_node(\"Barycenter/Camera_target\");
+#
+## Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _physics_process(delta):
+	#self.fov = 25.0 + 75.0 * target.fov_modifier;
+	#look_at(target.global_transform.origin, Vector3(0,1,0))
+
+"
+
+[sub_resource type="GDScript" id="GDScript_1ndy3"]
+resource_name = "fps"
+script/source = "extends Label
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	self.text = str(Engine.get_frames_per_second())
+"
+
+[sub_resource type="GDScript" id="GDScript_640w6"]
+resource_name = "info1"
+script/source = "extends Label
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	self.text = str(RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_PRIMITIVES_IN_FRAME))
+	# RenderingDevice.get_device_name()
+"
+
+[sub_resource type="GDScript" id="GDScript_qgkqe"]
+resource_name = "info2"
+script/source = "extends Label
+
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	self.text = str(RenderingServer.get_video_adapter_name())
+	
+"
+
+[node name="Scene_interface" type="Node"]
+script = SubResource("GDScript_p8rwk")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.883874, 72.5091)
+visible = false
+fov = 50.0
+far = 1e+06
+script = SubResource("GDScript_8tbxj")
+
+[node name="Camera_decorations" parent="." instance=ExtResource("1_d1cdm")]
+visible = false
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_jmawq")
+autoplay = true
+parameters/looping = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="fps" type="Label" parent="CanvasLayer"]
+auto_translate_mode = 1
+modulate = Color(1, 1, 1, 0.505882)
+offset_left = 53.0
+offset_top = 120.0
+offset_right = 107.0
+offset_bottom = 143.0
+text = "60"
+script = SubResource("GDScript_1ndy3")
+
+[node name="info1" type="Label" parent="CanvasLayer"]
+auto_translate_mode = 1
+modulate = Color(1, 1, 1, 0.505882)
+offset_left = 104.0
+offset_top = 94.0
+offset_right = 159.0
+offset_bottom = 117.0
+text = "000000"
+script = SubResource("GDScript_640w6")
+
+[node name="info2" type="Label" parent="CanvasLayer"]
+auto_translate_mode = 1
+modulate = Color(1, 1, 1, 0.505882)
+offset_left = 80.0
+offset_top = 69.0
+offset_right = 135.0
+offset_bottom = 92.0
+text = "device"
+script = SubResource("GDScript_qgkqe")
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+auto_translate_mode = 1
+modulate = Color(1, 1, 1, 0.501961)
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 205.0
+offset_bottom = 91.0
+text = "Scene demo
+ 
+Device: 
+Primitives:
+FPS:"

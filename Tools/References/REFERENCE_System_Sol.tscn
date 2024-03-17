@@ -133,6 +133,8 @@ shader_parameter/specular_power = 1.0
 shader_parameter/dither_darken = 0.75
 
 [node name="Reference Sol system" type="Node3D"]
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
 
 [node name="Info planet colors (editor description)" type="Node" parent="."]
 editor_description = "https://astronomy.stackexchange.com/questions/14032/color-of-planets
@@ -149,9 +151,12 @@ Neptune #366896"
 [node name="Sun visibility margin 5_5e+17" type="MeshInstance3D" parent="."]
 transform = Transform3D(5.5e+17, 0, 0, 0, 5.5e+17, 0, 0, 0, 5.5e+17, 0, 0, 0)
 mesh = SubResource("SphereMesh_ju8ot")
+metadata/_edit_lock_ = true
 
 [node name="Sun 1_4e9" type="Marker3D" parent="."]
 transform = Transform3D(1.4e+09, 0, 0, 0, 1.4e+09, 0, 0, 0, 1.4e+09, 0, 0, 0)
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
 
 [node name="OmniLight_1e13_atten_1_energy_5e11" type="OmniLight3D" parent="Sun 1_4e9"]
 light_color = Color(0.922572, 0.872391, 0.848809, 1)
@@ -190,6 +195,8 @@ surface_material_override/0 = ExtResource("8_0gemr")
 
 [node name="Mercury-like planet 4_8e6 at 5_8e10" type="Marker3D" parent="."]
 transform = Transform3D(262150, -4.79141e+06, 116950, 4.60887e+06, 219875, -1.32285e+06, 1.31512e+06, 184540, 4.61264e+06, 5.8e+10, 0, 0)
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
 
 [node name="UV_sphere_64x32_a_0_14" type="MeshInstance3D" parent="Mercury-like planet 4_8e6 at 5_8e10"]
 mesh = SubResource("76")
@@ -198,6 +205,8 @@ surface_material_override/0 = SubResource("ShaderMaterial_mt3s0")
 
 [node name="Venus-like planet 12e6 at 1_08e11" type="Marker3D" parent="."]
 transform = Transform3D(655375, -1.19785e+07, 292373, 1.15222e+07, 549689, -3.30712e+06, 3.28781e+06, 461350, 1.15316e+07, 1.08e+11, 0, 0)
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
 
 [node name="UV_sphere_64x32_a_0_7" type="MeshInstance3D" parent="Venus-like planet 12e6 at 1_08e11"]
 mesh = SubResource("76")
@@ -206,6 +215,8 @@ surface_material_override/0 = SubResource("ShaderMaterial_if3cf")
 
 [node name="Earth-Moon at 1_49e11" type="Marker3D" parent="."]
 transform = Transform3D(0.0546146, -0.99821, 0.0243644, 0.960182, 0.0458074, -0.275593, 0.273984, 0.0384458, 0.960966, 1.496e+11, 0, 0)
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
 
 [node name="Earth-like planet 12e6" type="Marker3D" parent="Earth-Moon at 1_49e11"]
 transform = Transform3D(1.2e+07, 0, 0, 0, 1.2e+07, 0, 0, 0, 1.2e+07, 0, 0, 0)
@@ -225,6 +236,8 @@ surface_material_override/0 = SubResource("ShaderMaterial_38tjt")
 
 [node name="Jupiter-like planet 69e6 at 7_4e11" type="Marker3D" parent="."]
 transform = Transform3D(6.9e+07, 0, 0, 0, 6.9e+07, 0, 0, 0, 6.9e+07, 7.4e+11, 0, 0)
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
 
 [node name="UV_sphere_64x32_a_0_53" type="MeshInstance3D" parent="Jupiter-like planet 69e6 at 7_4e11"]
 mesh = SubResource("76")
@@ -233,6 +246,8 @@ surface_material_override/0 = SubResource("ShaderMaterial_nolut")
 
 [node name="Pluto-like planet 2_4e6 at 3_7e12" type="Marker3D" parent="."]
 transform = Transform3D(2.4e+06, 0, 0, 0, 2.4e+06, 0, 0, 0, 2.4e+06, 3.7e+12, 0, 0)
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
 
 [node name="UV_sphere_64x32_a_0_62" type="MeshInstance3D" parent="Pluto-like planet 2_4e6 at 3_7e12"]
 mesh = SubResource("76")

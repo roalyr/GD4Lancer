@@ -1,0 +1,99 @@
+[gd_scene load_steps=18 format=3 uid="uid://b6terjwrtrc6d"]
+
+[ext_resource type="Script" path="res://Scripts/Environment/Star.gd" id="1_acpwl"]
+[ext_resource type="PackedScene" uid="uid://rxhc0jmmmxdy" path="res://Assets/Models/Shapes/Sphere_3968.glb" id="2_jj8bs"]
+[ext_resource type="Material" uid="uid://b5vpvjodi6475" path="res://Assets/Material/Stars/STAR_0_1_Victory_B/STAR_0_Victory_B_surface.tres" id="3_0pej4"]
+[ext_resource type="Material" uid="uid://btvfihf1210qt" path="res://Assets/Material/Stars/STAR_0_1_Victory_B/STAR_0_Victory_B_corona.tres" id="5_ncvlt"]
+[ext_resource type="PackedScene" uid="uid://g85hctkw5yp" path="res://Assets/Models/Shapes/Icosphere_1280_noUV.glb" id="5_plu75"]
+[ext_resource type="Material" uid="uid://dx8ew0trpkv7r" path="res://Assets/Material/Stars/STAR_0_Victory_A/STAR_0_Victory_A_halo_near.tres" id="6_jsjbt"]
+[ext_resource type="PackedScene" uid="uid://dd1ca4w4llbnh" path="res://Assets/Models/Sprites/Star_sprite_square_wide.glb" id="7_12bsq"]
+[ext_resource type="Material" uid="uid://cv8maai0l24o" path="res://Assets/Material/Stars/STAR_0_Victory_A/STAR_0_Victory_A_sprite.tres" id="8_6rulk"]
+[ext_resource type="Material" uid="uid://b7edkl6j5o1pb" path="res://Assets/Material/Stars/STAR_0_1_Victory_B/STAR_0_Victory_B_halo_near.tres" id="8_7hggw"]
+[ext_resource type="PackedScene" uid="uid://bpmdxv4lxnqax" path="res://Scenes/Light/light_halo_sphere.tscn" id="9_5jc6p"]
+[ext_resource type="Material" uid="uid://dktq57cjd1m82" path="res://Assets/Material/Stars/STAR_0_1_Victory_B/STAR_0_Victory_B_sprite.tres" id="11_0lohv"]
+[ext_resource type="Script" path="res://Scripts/Environment/Star_zone.gd" id="11_qejic"]
+[ext_resource type="Script" path="res://Scripts/Environment/Death_zone.gd" id="12_vgpok"]
+[ext_resource type="Material" uid="uid://s0pvuv54vmt0" path="res://Assets/Material/Stars/STAR_0_1_Victory_B/STAR_0_Victory_B_halo_directional.tres" id="14_38gle"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_u6l3y"]
+rings = 64
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ub667"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_vmmqr"]
+
+[node name="STAR_0_1_Victory_B" type="Node3D"]
+script = ExtResource("1_acpwl")
+autopilot_range = 1.15e+10
+translations_name = "NAME_STAR_0_1"
+translations_description = "DESC_STAR_0_1"
+
+[node name="Model_1_50e+09" type="Node3D" parent="."]
+transform = Transform3D(1.5e+09, 0, 0, 0, 1.5e+09, 0, 0, 0, 1.5e+09, 0, 0, 0)
+
+[node name="Surface_vis_1e12" parent="Model_1_50e+09" instance=ExtResource("2_jj8bs")]
+metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
+
+[node name="Sphere_3968" parent="Model_1_50e+09/Surface_vis_1e12" index="0"]
+visibility_range_end = 1e+12
+surface_material_override/0 = ExtResource("3_0pej4")
+
+[node name="Corona_vis_2e11" type="MeshInstance3D" parent="Model_1_50e+09"]
+transform = Transform3D(2.7, 0, 0, 0, 2.7, 0, 0, 0, 2.7, 0, 0, 0)
+visibility_range_end = 2e+11
+mesh = SubResource("SphereMesh_u6l3y")
+surface_material_override/0 = ExtResource("5_ncvlt")
+metadata/_edit_lock_ = true
+
+[node name="_Halo_near_vis_5e12" parent="Model_1_50e+09" instance=ExtResource("5_plu75")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+visible = false
+metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
+
+[node name="Icosphere_1280_noUV" parent="Model_1_50e+09/_Halo_near_vis_5e12" index="0"]
+material_override = ExtResource("8_7hggw")
+visibility_range_end = 5e+12
+surface_material_override/0 = ExtResource("6_jsjbt")
+
+[node name="_Star_sprite_0_1_atten_0_2" parent="Model_1_50e+09" instance=ExtResource("7_12bsq")]
+visible = false
+metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
+
+[node name="Plane" parent="Model_1_50e+09/_Star_sprite_0_1_atten_0_2" index="0"]
+material_override = ExtResource("11_0lohv")
+surface_material_override/0 = ExtResource("8_6rulk")
+
+[node name="_Light_halo_sphere_vis_5e14" parent="Model_1_50e+09" instance=ExtResource("9_5jc6p")]
+transform = Transform3D(0.105, 0, 0, 0, 0.105, 0, 0, 0, 0.105, 0, 0, 0)
+visible = false
+visibility_range_end = 5e+14
+surface_material_override/0 = ExtResource("14_38gle")
+metadata/_edit_lock_ = true
+
+[node name="_Light_3_27e14_energy_1e13" type="OmniLight3D" parent="Model_1_50e+09"]
+visible = false
+light_color = Color(0.73, 0.937, 1, 1)
+light_energy = 1e+13
+omni_range = 3.27e+14
+metadata/_edit_lock_ = true
+
+[node name="Zone_7_50e+10" type="Area3D" parent="."]
+transform = Transform3D(7.5e+10, 0, 0, 0, 7.5e+10, 0, 0, 0, 7.5e+10, 0, 0, 0)
+script = ExtResource("11_qejic")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zone_7_50e+10"]
+shape = SubResource("SphereShape3D_ub667")
+
+[node name="Death_zone_5_77e+09" type="Area3D" parent="."]
+transform = Transform3D(5.77e+09, 0, 0, 0, 5.77e+09, 0, 0, 0, 5.77e+09, 0, 0, 0)
+script = ExtResource("12_vgpok")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Death_zone_5_77e+09"]
+shape = SubResource("SphereShape3D_vmmqr")
+
+[editable path="Model_1_50e+09/Surface_vis_1e12"]
+[editable path="Model_1_50e+09/_Halo_near_vis_5e12"]
+[editable path="Model_1_50e+09/_Star_sprite_0_1_atten_0_2"]

@@ -3,31 +3,37 @@
 [ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_surface.gdshader" id="1_8ye1n"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_e04sq"]
-noise_type = 2
-frequency = 0.1167
+noise_type = 4
+frequency = 0.0691
+fractal_type = 2
 domain_warp_enabled = true
+domain_warp_amplitude = 50.0
+domain_warp_frequency = 0.034
+domain_warp_fractal_type = 2
+domain_warp_fractal_gain = 0.035
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_jtxwa"]
 width = 256
 height = 256
 invert = true
 seamless = true
-seamless_blend_skirt = 1.0
+seamless_blend_skirt = 0.065
+normalize = false
 noise = SubResource("FastNoiseLite_e04sq")
 
 [resource]
 render_priority = 0
 shader = ExtResource("1_8ye1n")
-shader_parameter/rim_color = Color(1, 0.788835, 0.513524, 1)
-shader_parameter/overlay_color = Color(0.82548, 0.618271, 0.393354, 1)
-shader_parameter/surface_color = Color(0.874954, 0.759808, 0.769457, 1)
-shader_parameter/major_phase = 1.855
-shader_parameter/major_detail_intensity = 0.347
-shader_parameter/detail_decay_distance = 50.0
+shader_parameter/rim_color = Color(1, 0.7705, 0.19, 1)
+shader_parameter/overlay_color = Color(0.494621, 0.621903, 0.179049, 1)
+shader_parameter/surface_color = Color(0.461963, 0.399803, 5.77569e-07, 1)
+shader_parameter/major_phase = 2.244
+shader_parameter/major_detail_intensity = -2.863
+shader_parameter/detail_decay_distance = 1e+12
 shader_parameter/detail_decay_power = 2.0
-shader_parameter/major_detail_scale = 1.0
-shader_parameter/major_detail_flow = 0.02
-shader_parameter/rim_strength = 1.0
-shader_parameter/rim_exponent = 1.0
-shader_parameter/rim_intensity = 0.4
+shader_parameter/major_detail_scale = 2.0
+shader_parameter/major_detail_flow = 0.015
+shader_parameter/rim_strength = 0.92
+shader_parameter/rim_exponent = 0.26
+shader_parameter/rim_intensity = 4.89
 shader_parameter/major_detail_noise = SubResource("NoiseTexture2D_jtxwa")

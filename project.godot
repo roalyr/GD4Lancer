@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="GD4Lancer"
-run/main_scene="res://Scenes/Stellar/Stars/STAR_0_Victory_AB.tscn"
+run/main_scene="res://Scenes/Stellar/Systems/SYSTEM_STAR_0_Victory_AB.tscn"
 config/features=PackedStringArray("4.3", "Double Precision", "Mobile")
 boot_splash/image="res://Assets/Images/Icon_splash/Splash.png"
 config/icon="res://Assets/Images/Icon_splash/Icon.png"
