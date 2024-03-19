@@ -3,12 +3,12 @@ seed = "GDTLancer"
 
 # GODOT engine parameters.
 star_zone_size_factor = 50 # Multiplied by star size.
-star_zone_size_by_death_zone_factor = 10 # If star zone is less than death zone.
 star_death_zone_min_factor = 1.5 # If death zone is too small.
 star_detail_decay_distance_factor = 40 # Distance factor at which star core turns white.
 star_autopilot_factor = 2.0 # Multiplied by death zone size.
 star_flare_factor = 1.0 # Multiplied by star zone size. Acts like an indicatort.
 system_zone_size_min = 1e13 # Threshold to prevent jitter.
+omni_light_range_flux = 0.01 # Use this with star luminosity to determine omni range.
 
 planet_zone_size_factor = 20 # Multiplied by planet size.
 planet_death_zone_factor = 1.05 # Planet death zone (atmosphere or gravitation pull?)
@@ -167,13 +167,6 @@ sun_luminosity_visible = 0.47 * sun_luminosity # ~1.8e+26 Watts
 sun_temperature = 5771.8 # K
 sun_mass = 1.99e30 # kg
 
-# GODOT omni light
-# Omni light formula: range = (luminocity/4)^(1/2)
-# Omni energy = 2, omni attenuation = 10.
-star_omni_ratio = 4 
-sun_omni_didstance = 1e13 # For reference.
-sun_omni_energy = 2.0
-sun_omni_attenuation = 10.0 
 
 # f = L / (4 * pi * d²).
 # d² = L / (4 * pi * f), d = (L / (4 * pi * f))^(1/2)
@@ -427,6 +420,7 @@ sun_temperate_zone_flux = sun_luminosity / (4 * 3.14 * sun_temperate_zone * sun_
 sun_cold_zone = sun_distance_au * 1.5
 sun_cold_zone_flux = sun_luminosity / (4 * 3.14 * sun_cold_zone * sun_cold_zone)
 
+
 # Sun snow line.
 # T = (L / (2.85e-6 * R^2))^(1/4)
 # T^4 = L / (2.85e-6 * R^2); R = (L / (T^4 * 2.85e-6))^(1/2)
@@ -453,6 +447,10 @@ melting_distance_average_B9 =  pow( 1.85e+29 / (4 * 3.14 * melting_flux_average)
 melting_distance_average_G5 =  pow( 4.5e26 / (4 * 3.14 * melting_flux_average), 0.5)
 melting_distance_average_M9 =  pow( 2.94e+23 / (4 * 3.14 * melting_flux_average), 0.5)
 
+# Omni light range for Sun in GODOT.
+sun_omni_range = pow(sun_luminosity / (4 * 3.14 * omni_light_range_flux), 0.5)
+sun_omni_range_visible = pow(sun_luminosity_visible / (4 * 3.14 * omni_light_range_flux), 0.5)
+
 
 print("Value testing")
 print("-----------")
@@ -473,6 +471,9 @@ print("Sun cold zone flux (W/m2)", round(sun_cold_zone_flux, 1), " at ", round(s
 print()
 print("Sun frost line flux (W/m2)", round(sun_frost_line_flux, 1), " at ", round(sun_frost_line_distance/sun_distance_au, 2), "AU" ) # ~190
 print("Sun frost line dust temp (K)", round(sun_frost_line_dust_temp, 1)) # 170
+print("-----------")
+print("Sun omni light range (at flux 0.01)", e(sun_omni_range)) # 5.52e+13
+print("Sun omni light range (at flux 0.01 and luminosity visible)", e(sun_omni_range_visible)) # 3.78e+13
 print("-----------")
 
 
@@ -1184,7 +1185,9 @@ def make_star(user_defined_type, primary_star_type):
 	star_mass = get_star_mass(star_type, star_type_temp)
 	
 	# Godot parameters.
-	star_omni_range = pow(star_lum/star_omni_ratio, 0.5)
+	# Determine by the minimum threshold flux and in visible approx.
+	star_lum_visible = 0.47 * star_lum
+	star_omni_range = pow(star_lum_visible / (4 * 3.14 * omni_light_range_flux), 0.5)
 	star_zone_margins = get_star_zone_margins(star_lum)
 	
 	star = {
@@ -1452,7 +1455,7 @@ def formatting_system_data(star_id, system, main_star, star_name):
 	else:
 		p += "* Star cluster: unspecified" + "\n"
 	
-	p += "* System zone codename: " + "STAR_" + str(star_id) + "_SYSTEM_ZONE" + "\n"
+	# p += "* System zone codename: " + "STAR_" + str(star_id) + "_SYSTEM_ZONE" + "\n"
 	p += "* System codename: " + "STAR_" +  str(star_id) + "_SYSTEM" + "\n"
 	p += "* System translation name codename: " + "NAME_STAR_" + str(star_id) + "_SYSTEM" + "\n"
 	p += "* System translation description codename: " + "DESC_STAR_" + str(star_id) + "_SYSTEM" + "\n"
@@ -1513,10 +1516,9 @@ def formatting_star_data(star_id, primary, main_star, star_name):
 	star_death_zone = round(star_death_zone_size / sun_distance_au, 3)
 	star_death_zone_meters = e(star_death_zone_size)
 	
-	# Make zone size larger than death zone, if it is smaller.
-	star_zone_size = e(star_zone_size_factor * float(star_size))
-	if (star_zone_size_factor * float(star_size)) < star_death_zone_size:
-		star_zone_size = e(star_death_zone_size * star_zone_size_by_death_zone_factor)
+	# Star zone.
+	star_zone_size = e(star_zone_size_factor * float(star_size) + star_death_zone_size)
+
 	
 	# Auopilot approach range, limited by death zone + comfortable margin.
 	star_autopilot_range = e(star_death_zone_size  * star_autopilot_factor)
@@ -1594,8 +1596,8 @@ def formatting_star_data(star_id, primary, main_star, star_name):
 	
 	p += "```" + "  \n"
 	
-	p += "* Star zone codename: " + "STAR_" + str(star_id) + "_ZONE" + "\n"
-	p += "* Star codename: " + "STAR_" + str(star_id)  + "\n"
+	# p += "* Star zone codename: " + "STAR_" + str(star_id) + "_ZONE" + "\n"
+	p += "* Star codename: " + "STAR_" + str(star_id) + "_" + star_name.replace(' ', '_') +"\n"
 	p += "* Star translation name codename: " + "NAME_STAR_" + str(star_id)  + "\n"
 	p += "* Star translation description codename: " + "DESC_STAR_" +  str(star_id) + "\n"
 	p += "* Star name: " + star_name  + "\n"
@@ -1603,14 +1605,14 @@ def formatting_star_data(star_id, primary, main_star, star_name):
 	p += "* Star zone size: " + str(star_zone_size) + "\n"
 	p += "* Star death zone size: " + str(star_death_zone_meters) + "\n"
 	p += "* Star size: " + str(star_size) + "\n"
-	p += "* Star flare distance: " + str(star_flare_distance) + "\n"
+	# p += "* Star flare distance: " + str(star_flare_distance) + "\n"
 	p += "* Star autopilot range: " + str(star_autopilot_range) + "\n"
 	
 	p += "\n"
 	
-	p += "* Omni range: " + str(star_omni_range) + "\n"
-	p += "* Omni attenuation: " + str(sun_omni_attenuation) + "\n"
-	p += "* Omni energy: " + str(sun_omni_energy) + "\n"
+	p += "* Omni range (by visible flux = 0.01): " + str(star_omni_range) + "\n"
+	
+	# p += "* Omni energy: " + str(sun_omni_energy) + "\n"
 	p += "* Surface color (Peak w.l. color code):" + "\n"
 	p += " - rgb: " + str(star_peak_wavelength_colorcode) + "\n"
 	p += " - hex: #" + str(star_peak_wavelength_colorcode_hex) + "\n"

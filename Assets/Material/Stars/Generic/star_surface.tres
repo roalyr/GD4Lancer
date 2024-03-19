@@ -23,6 +23,7 @@ shader = ExtResource("1_dle1n")
 shader_parameter/rim_color = Color(0.957374, 0.711587, 0.599413, 1)
 shader_parameter/overlay_color = Color(0.798024, 0.686571, 0.431611, 1)
 shader_parameter/surface_color = Color(0.783916, 0.691107, 0.455989, 1)
+shader_parameter/fade_color = Color(1, 1, 0, 1)
 shader_parameter/major_phase = 1.198
 shader_parameter/major_detail_intensity = 0.652
 shader_parameter/detail_decay_distance = 1e+11

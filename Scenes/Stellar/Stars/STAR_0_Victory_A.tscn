@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://5360m8teaj36"]
+[gd_scene load_steps=15 format=3 uid="uid://5360m8teaj36"]
 
 [ext_resource type="Script" path="res://Scripts/Environment/Star.gd" id="1_1y17g"]
 [ext_resource type="PackedScene" uid="uid://rxhc0jmmmxdy" path="res://Assets/Models/Shapes/Sphere_3968.glb" id="2_328hm"]
@@ -10,15 +10,12 @@
 [ext_resource type="Material" uid="uid://cv8maai0l24o" path="res://Assets/Material/Stars/STAR_0_Victory_A/STAR_0_Victory_A_sprite.tres" id="8_cjoyn"]
 [ext_resource type="PackedScene" uid="uid://bpmdxv4lxnqax" path="res://Scenes/Light/light_halo_sphere.tscn" id="9_oe8k4"]
 [ext_resource type="Material" uid="uid://btfxqb3qlwn54" path="res://Assets/Material/Stars/STAR_0_Victory_A/STAR_0_Victory_A_halo_directional.tres" id="10_nrsf8"]
-[ext_resource type="Script" path="res://Scripts/Environment/Star_zone.gd" id="11_7aon0"]
-[ext_resource type="Script" path="res://Scripts/Environment/Death_zone.gd" id="12_o8wbi"]
+[ext_resource type="PackedScene" uid="uid://b5qaxnuryv203" path="res://Scenes/Zones/Object_zone.tscn" id="11_sptxe"]
+[ext_resource type="PackedScene" uid="uid://bdu1m0o3wxtrd" path="res://Scenes/Zones/Death_zone.tscn" id="12_h1248"]
+[ext_resource type="PackedScene" uid="uid://cw37fx0m63sh7" path="res://Scenes/Editor_only/Omni_light_falloff_test.tscn" id="13_fsb8r"]
 
 [sub_resource type="SphereMesh" id="SphereMesh_u6l3y"]
 rings = 64
-
-[sub_resource type="SphereShape3D" id="SphereShape3D_ub667"]
-
-[sub_resource type="SphereShape3D" id="SphereShape3D_vmmqr"]
 
 [node name="STAR_0_Victory_A" type="Node3D"]
 script = ExtResource("1_1y17g")
@@ -66,25 +63,20 @@ visibility_range_end = 5e+14
 surface_material_override/0 = ExtResource("10_nrsf8")
 metadata/_edit_lock_ = true
 
-[node name="Light_3_27e14_energy_1e13" type="OmniLight3D" parent="Model_6_32e+09"]
+[node name="Light_1_27e+15_energy_1_7e13" type="OmniLight3D" parent="Model_6_32e+09"]
 light_color = Color(0.73, 0.937, 1, 1)
-light_energy = 1e+13
-omni_range = 3.27e+14
+light_energy = 1.7e+13
+omni_range = 1.27e+15
 metadata/_edit_lock_ = true
 
-[node name="Zone_3_16e+11" type="Area3D" parent="."]
-transform = Transform3D(3.16e+11, 0, 0, 0, 3.16e+11, 0, 0, 0, 3.16e+11, 0, 0, 0)
-script = ExtResource("11_7aon0")
+[node name="Object_zone_5_3e+11" parent="." instance=ExtResource("11_sptxe")]
+transform = Transform3D(5.3e+11, 0, 0, 0, 5.3e+11, 0, 0, 0, 5.3e+11, 0, 0, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Zone_3_16e+11"]
-shape = SubResource("SphereShape3D_ub667")
-
-[node name="Death_zone_2_14e+11" type="Area3D" parent="."]
+[node name="Death_zone_2_14e+11" parent="." instance=ExtResource("12_h1248")]
 transform = Transform3D(2.14e+11, 0, 0, 0, 2.14e+11, 0, 0, 0, 2.14e+11, 0, 0, 0)
-script = ExtResource("12_o8wbi")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Death_zone_2_14e+11"]
-shape = SubResource("SphereShape3D_vmmqr")
+[node name="Omni_light_falloff_test" parent="." instance=ExtResource("13_fsb8r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.143e+15, 0, 0)
 
 [editable path="Model_6_32e+09/Surface_vis_5e12"]
 [editable path="Model_6_32e+09/Halo_near_vis_5e12"]

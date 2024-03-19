@@ -19,6 +19,7 @@ render_mode
 uniform vec4 rim_color : source_color = vec4(1.0, 0.9, 0.4, 1.0);
 uniform vec4 overlay_color : source_color = vec4(0.0, 0.0, 0.0, 1.0);
 uniform vec4 surface_color : source_color = vec4(1.0, 1.0, 0.0, 1.0);
+uniform vec4 fade_color : source_color = vec4(1.0, 1.0, 0.0, 1.0);
 
 uniform float major_phase : hint_range(0, 3.14) = 1.1;
 
@@ -59,13 +60,14 @@ void fragment()
 	float detail_major = sin(texture(major_detail_noise, p).r*pi+major_phase);
 	float rim = clamp(pow(dot(NORMAL, VIEW), rim_exponent)*rim_strength, 1e-6, 1.0);
 
-	ALBEDO =
-		+ detail_major * WHITE * major_detail_intensity
-		+ pow(length(VERTEX)/detail_decay_distance, detail_decay_power);
+	float distance_factor = clamp(pow(length(VERTEX)/detail_decay_distance, detail_decay_power), 0.0, 1.0);
 
-	ALBEDO += overlay_color.rgb;
-	ALBEDO *= surface_color.rgb;
-	ALBEDO += (1.0-rim)*rim_color.rgb*rim_intensity;
+	ALBEDO = detail_major * WHITE * major_detail_intensity;
+
+	ALBEDO += overlay_color.rgb * (1.0-distance_factor);
+	ALBEDO *= surface_color.rgb * (1.0-distance_factor);
+	ALBEDO += fade_color.rgb * distance_factor;
+	ALBEDO += (1.0-rim) * rim_color.rgb * rim_intensity * (1.0-distance_factor);
 
 	DEPTH = log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
 }

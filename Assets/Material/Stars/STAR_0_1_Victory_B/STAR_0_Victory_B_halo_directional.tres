@@ -5,13 +5,13 @@
 [resource]
 render_priority = 0
 shader = ExtResource("1_wd5f1")
-shader_parameter/albedo = Color(0.54348, 0.421236, 0.262656, 1)
-shader_parameter/rim_strength = 5.0
+shader_parameter/albedo = Color(0.367445, 0.290183, 0.0176457, 1)
+shader_parameter/rim_strength = 0.295
 shader_parameter/rim_exponent = 30.0
-shader_parameter/rim_power = 1.0
-shader_parameter/rim_floor = 0.1
-shader_parameter/rim_outer_strength = 3.0
-shader_parameter/rim_outer_exponent = 3.0
+shader_parameter/rim_power = 1.145
+shader_parameter/rim_floor = 0.095
+shader_parameter/rim_outer_strength = 1.22
+shader_parameter/rim_outer_exponent = 2.295
 shader_parameter/alpha_clip = 1.0
 shader_parameter/scale = 5.0
 shader_parameter/scale_max = 3.0

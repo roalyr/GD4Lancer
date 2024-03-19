@@ -81,7 +81,7 @@ script = SubResource("GDScript_p8rwk")
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.883874, 72.5091)
 visible = false
-fov = 50.0
+fov = 40.0
 far = 1e+06
 script = SubResource("GDScript_8tbxj")
 

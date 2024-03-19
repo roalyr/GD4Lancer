@@ -5,7 +5,7 @@
 [resource]
 render_priority = 0
 shader = ExtResource("1_wcvnq")
-shader_parameter/albedo = Color(0.198979, 0.365731, 0.533468, 1)
+shader_parameter/albedo = Color(0.144335, 0.279494, 0.415088, 1)
 shader_parameter/rim_strength = 0.215
 shader_parameter/rim_exponent = 30.0
 shader_parameter/rim_power = 1.0

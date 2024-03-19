@@ -5,7 +5,7 @@
 [resource]
 render_priority = 0
 shader = ExtResource("1_elb3y")
-shader_parameter/albedo = Color(0.1974, 0.31612, 0.42, 1)
+shader_parameter/albedo = Color(0.142031, 0.236673, 0.319364, 1)
 shader_parameter/rim_strength = 5.0
 shader_parameter/rim_exponent = 45.365
 shader_parameter/rim_power = 1.0

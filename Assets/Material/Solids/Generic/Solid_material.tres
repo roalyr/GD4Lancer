@@ -19,3 +19,4 @@ shader_parameter/roughness_sharpness = 100.0
 shader_parameter/scale = 1.0
 shader_parameter/details_power = 1.0
 shader_parameter/specular_power = 1.0
+shader_parameter/dither_darken = 0.75

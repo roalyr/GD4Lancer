@@ -1,6 +1,7 @@
-[gd_scene load_steps=20 format=3 uid="uid://30114u6keqvp"]
+[gd_scene load_steps=22 format=3 uid="uid://30114u6keqvp"]
 
 [ext_resource type="Material" uid="uid://cslbm4hd43ivf" path="res://Assets/Material/Stars/Generic/star_corona.tres" id="1_hod6h"]
+[ext_resource type="Script" path="res://Scripts/Editor_only/Editor_objects_3D.gd" id="1_itrvh"]
 [ext_resource type="Material" uid="uid://blkssrco3aonx" path="res://Assets/Material/Stars/Generic/star_surface.tres" id="2_rtfb4"]
 [ext_resource type="Material" uid="uid://dx5y15fyqmnxa" path="res://Assets/Material/Stars/Generic/star_sprite.tres" id="4_vdpbh"]
 [ext_resource type="PackedScene" uid="uid://g85hctkw5yp" path="res://Assets/Models/Shapes/Icosphere_1280_noUV.glb" id="5_yjm8p"]
@@ -9,6 +10,7 @@
 [ext_resource type="Material" uid="uid://bts7q021mc6q0" path="res://Assets/Material/Stars/Generic/star_halo_directional.tres" id="8_0gemr"]
 [ext_resource type="Shader" path="res://Assets/Shaders/Solid/Solid_material.gdshader" id="9_8jv32"]
 [ext_resource type="PackedScene" uid="uid://dd1ca4w4llbnh" path="res://Assets/Models/Sprites/Star_sprite_square_wide.glb" id="10"]
+[ext_resource type="PackedScene" uid="uid://cw37fx0m63sh7" path="res://Scenes/Editor_only/Omni_light_falloff_test.tscn" id="11_e5h4n"]
 
 [sub_resource type="SphereMesh" id="SphereMesh_ju8ot"]
 
@@ -133,6 +135,7 @@ shader_parameter/specular_power = 1.0
 shader_parameter/dither_darken = 0.75
 
 [node name="Reference Sol system" type="Node3D"]
+script = ExtResource("1_itrvh")
 metadata/_edit_group_ = true
 metadata/_edit_lock_ = true
 
@@ -150,6 +153,7 @@ Neptune #366896"
 
 [node name="Sun visibility margin 5_5e+17" type="MeshInstance3D" parent="."]
 transform = Transform3D(5.5e+17, 0, 0, 0, 5.5e+17, 0, 0, 0, 5.5e+17, 0, 0, 0)
+visible = false
 mesh = SubResource("SphereMesh_ju8ot")
 metadata/_edit_lock_ = true
 
@@ -158,10 +162,10 @@ transform = Transform3D(1.4e+09, 0, 0, 0, 1.4e+09, 0, 0, 0, 1.4e+09, 0, 0, 0)
 metadata/_edit_group_ = true
 metadata/_edit_lock_ = true
 
-[node name="OmniLight_1e13_atten_1_energy_5e11" type="OmniLight3D" parent="Sun 1_4e9"]
+[node name="OmniLights_energy_9e11" type="OmniLight3D" parent="Sun 1_4e9"]
 light_color = Color(0.922572, 0.872391, 0.848809, 1)
-light_energy = 5e+11
-omni_range = 1e+13
+light_energy = 9e+11
+omni_range = 5.52e+13
 
 [node name="Model" type="Node3D" parent="Sun 1_4e9"]
 
@@ -234,25 +238,27 @@ mesh = SubResource("76")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("ShaderMaterial_38tjt")
 
-[node name="Jupiter-like planet 69e6 at 7_4e11" type="Marker3D" parent="."]
-transform = Transform3D(6.9e+07, 0, 0, 0, 6.9e+07, 0, 0, 0, 6.9e+07, 7.4e+11, 0, 0)
+[node name="Jupiter-like planet 69e6 at 7_7e11" type="Marker3D" parent="."]
+transform = Transform3D(6.9e+07, 0, 0, 0, 6.9e+07, 0, 0, 0, 6.9e+07, 7.7e+11, 0, 0)
 metadata/_edit_group_ = true
 metadata/_edit_lock_ = true
 
-[node name="UV_sphere_64x32_a_0_53" type="MeshInstance3D" parent="Jupiter-like planet 69e6 at 7_4e11"]
+[node name="UV_sphere_64x32_a_0_53" type="MeshInstance3D" parent="Jupiter-like planet 69e6 at 7_7e11"]
 mesh = SubResource("76")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("ShaderMaterial_nolut")
 
-[node name="Pluto-like planet 2_4e6 at 3_7e12" type="Marker3D" parent="."]
-transform = Transform3D(2.4e+06, 0, 0, 0, 2.4e+06, 0, 0, 0, 2.4e+06, 3.7e+12, 0, 0)
+[node name="Pluto-like planet 2_4e6 at 5_8e12" type="Marker3D" parent="."]
+transform = Transform3D(2.4e+06, 0, 0, 0, 2.4e+06, 0, 0, 0, 2.4e+06, 5.8e+12, 0, 0)
 metadata/_edit_group_ = true
 metadata/_edit_lock_ = true
 
-[node name="UV_sphere_64x32_a_0_62" type="MeshInstance3D" parent="Pluto-like planet 2_4e6 at 3_7e12"]
+[node name="UV_sphere_64x32_a_0_62" type="MeshInstance3D" parent="Pluto-like planet 2_4e6 at 5_8e12"]
 mesh = SubResource("76")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("ShaderMaterial_hjmhh")
+
+[node name="Omni_light_falloff_test" parent="." instance=ExtResource("11_e5h4n")]
 
 [editable path="Sun 1_4e9/Model/Star_sprite_square_wide"]
 [editable path="Sun 1_4e9/Model/Halo"]

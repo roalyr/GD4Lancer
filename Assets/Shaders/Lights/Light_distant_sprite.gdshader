@@ -16,7 +16,7 @@ render_mode
 	depth_draw_opaque;
 
 uniform vec4 albedo : source_color;
-uniform float scale : hint_range(0.0, 5.0, 5e-4) = 0.4;
+uniform float scale : hint_range(0.0, 5.0, 5e-4) = 0.1;
 uniform float attenuation : hint_range(0.01, 2.0, 5e-4) = 0.4;
 uniform float flare_distance : hint_range(0.0, 100.0, 5e-2) = 25;
 uniform float flare_size : hint_range(1.0, 10.0, 5e-4) = 2.0;

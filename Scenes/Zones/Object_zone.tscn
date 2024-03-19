@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5qaxnuryv203"]
+
+[ext_resource type="Script" path="res://Scripts/Environment/Object_zone.gd" id="1_bnfnv"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ub667"]
+
+[node name="Object_zone" type="Area3D"]
+monitorable = false
+script = ExtResource("1_bnfnv")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_ub667")

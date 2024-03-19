@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://cw37fx0m63sh7"]
+
+[ext_resource type="Shader" path="res://Assets/Shaders/Solid/Solid_material.gdshader" id="1_hl44h"]
+[ext_resource type="Script" path="res://Scripts/Editor_only/Editor_objects_3D.gd" id="2_gcy4p"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_jijap"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2vw5e"]
+render_priority = 0
+shader = ExtResource("1_hl44h")
+shader_parameter/albedo = Color(1, 1, 1, 1)
+shader_parameter/albedo_specular = Color(0, 0, 0, 1)
+shader_parameter/albedo_gloss = Color(0, 0, 0, 1)
+shader_parameter/emission = null
+shader_parameter/emission_strength = 1.0
+shader_parameter/roughness = 1.0
+shader_parameter/albedo_exponent = 0.0
+shader_parameter/specular_exponent = 0.0
+shader_parameter/gloss_exponent = 0.0
+shader_parameter/roughness_exponent = 0.0
+shader_parameter/roughness_sharpness = 100.0
+shader_parameter/scale = 1.0
+shader_parameter/details_power = 1.0
+shader_parameter/specular_power = 1.0
+shader_parameter/dither_darken = 0.75
+
+[node name="Omni_light_falloff_test" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.968e+13, 0, 0)
+mesh = SubResource("SphereMesh_jijap")
+surface_material_override/0 = SubResource("ShaderMaterial_2vw5e")
+script = ExtResource("2_gcy4p")

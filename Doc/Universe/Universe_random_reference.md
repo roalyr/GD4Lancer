@@ -24,14 +24,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 0
 * Star cluster: unspecified
-* System zone codename: STAR_0_SYSTEM_ZONE
 * System codename: STAR_0_SYSTEM
 * System translation name codename: NAME_STAR_0_SYSTEM
 * System translation description codename: DESC_STAR_0_SYSTEM
 * System name: Elace
 * System description: see above. Optionally add lore.
-* System zone size: 1.83e+13
-* System autopilot range: 1.83e+13
+* System zone size: 7.07e+13
+* System autopilot range: 7.07e+13
 ```
 
  </details>  
@@ -82,21 +81,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_0_ZONE
-* Star codename: STAR_0
+* Star codename: STAR_0_Elace_A
 * Star translation name codename: NAME_STAR_0
 * Star translation description codename: DESC_STAR_0
 * Star name: Elace A
 * Star description: see above.
-* Star zone size: 9.10e+10
+* Star zone size: 1.03e+11
 * Star death zone size: 1.19e+10
 * Star size: 1.82e+09
-* Star flare distance: 9.10e+10
 * Star autopilot range: 2.39e+10
 
-* Omni range: 1.83e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.07e+13
 * Surface color (Peak w.l. color code):
  - rgb: (180, 255, 0)
  - hex: #b4ff00
@@ -311,7 +306,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 1
 * Star cluster: unspecified
-* System zone codename: STAR_1_SYSTEM_ZONE
 * System codename: STAR_1_SYSTEM
 * System translation name codename: NAME_STAR_1_SYSTEM
 * System translation description codename: DESC_STAR_1_SYSTEM
@@ -369,21 +363,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_1_ZONE
-* Star codename: STAR_1
+* Star codename: STAR_1_Cob_A
 * Star translation name codename: NAME_STAR_1
 * Star translation description codename: DESC_STAR_1
 * Star name: Cob A
 * Star description: see above.
-* Star zone size: 4.58e+10
+* Star zone size: 4.74e+10
 * Star death zone size: 1.56e+09
 * Star size: 9.17e+08
-* Star flare distance: 4.58e+10
 * Star autopilot range: 3.12e+09
 
-* Omni range: 2.39e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 9.24e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 37, 0)
  - hex: #ff2500
@@ -657,14 +647,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 2
 * Star cluster: unspecified
-* System zone codename: STAR_2_SYSTEM_ZONE
 * System codename: STAR_2_SYSTEM
 * System translation name codename: NAME_STAR_2_SYSTEM
 * System translation description codename: DESC_STAR_2_SYSTEM
 * System name: Iganpad
 * System description: see above. Optionally add lore.
-* System zone size: 1.01e+13
-* System autopilot range: 1.01e+13
+* System zone size: 3.91e+13
+* System autopilot range: 3.91e+13
 ```
 
  </details>  
@@ -715,21 +704,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_2_ZONE
-* Star codename: STAR_2
+* Star codename: STAR_2_Iganpad_A
 * Star translation name codename: NAME_STAR_2
 * Star translation description codename: DESC_STAR_2
 * Star name: Iganpad A
 * Star description: see above.
-* Star zone size: 7.70e+10
+* Star zone size: 8.36e+10
 * Star death zone size: 6.61e+09
 * Star size: 1.54e+09
-* Star flare distance: 7.70e+10
 * Star autopilot range: 1.32e+10
 
-* Omni range: 1.01e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.91e+13
 * Surface color (Peak w.l. color code):
  - rgb: (240, 255, 0)
  - hex: #f0ff00
@@ -1121,14 +1106,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 3
 * Star cluster: unspecified
-* System zone codename: STAR_3_SYSTEM_ZONE
 * System codename: STAR_3_SYSTEM
 * System translation name codename: NAME_STAR_3_SYSTEM
 * System translation description codename: DESC_STAR_3_SYSTEM
 * System name: Niofi
 * System description: see above. Optionally add lore.
-* System zone size: 1.81e+13
-* System autopilot range: 1.81e+13
+* System zone size: 7.02e+13
+* System autopilot range: 7.02e+13
 ```
 
  </details>  
@@ -1179,21 +1163,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_3_ZONE
-* Star codename: STAR_3
+* Star codename: STAR_3_Niofi_A
 * Star translation name codename: NAME_STAR_3
 * Star translation description codename: DESC_STAR_3
 * Star name: Niofi A
 * Star description: see above.
-* Star zone size: 8.30e+10
+* Star zone size: 9.49e+10
 * Star death zone size: 1.19e+10
 * Star size: 1.66e+09
-* Star flare distance: 8.30e+10
 * Star autopilot range: 2.37e+10
 
-* Omni range: 1.81e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.02e+13
 * Surface color (Peak w.l. color code):
  - rgb: (170, 255, 0)
  - hex: #aaff00
@@ -1247,21 +1227,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_3_1_ZONE
-* Star codename: STAR_3_1
+* Star codename: STAR_3_1_Niofi_B
 * Star translation name codename: NAME_STAR_3_1
 * Star translation description codename: DESC_STAR_3_1
 * Star name: Niofi B
 * Star description: see above.
-* Star zone size: 4.00e+10
+* Star zone size: 4.15e+10
 * Star death zone size: 1.46e+09
 * Star size: 8.00e+08
-* Star flare distance: 4.00e+10
 * Star autopilot range: 2.91e+09
 
-* Omni range: 2.23e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 8.61e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 55, 0)
  - hex: #ff3700
@@ -1315,21 +1291,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_3_2_ZONE
-* Star codename: STAR_3_2
+* Star codename: STAR_3_2_Niofi_C
 * Star translation name codename: NAME_STAR_3_2
 * Star translation description codename: DESC_STAR_3_2
 * Star name: Niofi C
 * Star description: see above.
-* Star zone size: 2.78e+10
+* Star zone size: 2.86e+10
 * Star death zone size: 8.32e+08
 * Star size: 5.55e+08
-* Star flare distance: 2.78e+10
 * Star autopilot range: 1.66e+09
 
-* Omni range: 1.24e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.81e+12
 * Surface color (Peak w.l. color code):
  - rgb: (249, 0, 0)
  - hex: #f90000
@@ -2193,14 +2165,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 4
 * Star cluster: unspecified
-* System zone codename: STAR_4_SYSTEM_ZONE
 * System codename: STAR_4_SYSTEM
 * System translation name codename: NAME_STAR_4_SYSTEM
 * System translation description codename: DESC_STAR_4_SYSTEM
 * System name: Iulore
 * System description: see above. Optionally add lore.
-* System zone size: 1.50e+13
-* System autopilot range: 1.50e+13
+* System zone size: 5.81e+13
+* System autopilot range: 5.81e+13
 ```
 
  </details>  
@@ -2251,21 +2222,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_4_ZONE
-* Star codename: STAR_4
+* Star codename: STAR_4_Iulore_A
 * Star translation name codename: NAME_STAR_4
 * Star translation description codename: DESC_STAR_4
 * Star name: Iulore A
 * Star description: see above.
-* Star zone size: 9.15e+10
+* Star zone size: 1.01e+11
 * Star death zone size: 9.83e+09
 * Star size: 1.83e+09
-* Star flare distance: 9.15e+10
 * Star autopilot range: 1.97e+10
 
-* Omni range: 1.50e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.81e+13
 * Surface color (Peak w.l. color code):
  - rgb: (205, 255, 0)
  - hex: #cdff00
@@ -2362,14 +2329,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 5
 * Star cluster: unspecified
-* System zone codename: STAR_5_SYSTEM_ZONE
 * System codename: STAR_5_SYSTEM
 * System translation name codename: NAME_STAR_5_SYSTEM
 * System translation description codename: DESC_STAR_5_SYSTEM
 * System name: Otogaryd
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 3.42e+13
+* System autopilot range: 3.42e+13
 ```
 
  </details>  
@@ -2420,21 +2386,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_5_ZONE
-* Star codename: STAR_5
+* Star codename: STAR_5_Otogaryd_A
 * Star translation name codename: NAME_STAR_5
 * Star translation description codename: DESC_STAR_5
 * Star name: Otogaryd A
 * Star description: see above.
-* Star zone size: 6.75e+10
+* Star zone size: 7.33e+10
 * Star death zone size: 5.79e+09
 * Star size: 1.35e+09
-* Star flare distance: 6.75e+10
 * Star autopilot range: 1.16e+10
 
-* Omni range: 8.85e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.42e+13
 * Surface color (Peak w.l. color code):
  - rgb: (240, 255, 0)
  - hex: #f0ff00
@@ -2826,14 +2788,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 6
 * Star cluster: unspecified
-* System zone codename: STAR_6_SYSTEM_ZONE
 * System codename: STAR_6_SYSTEM
 * System translation name codename: NAME_STAR_6_SYSTEM
 * System translation description codename: DESC_STAR_6_SYSTEM
 * System name: Bouv
 * System description: see above. Optionally add lore.
-* System zone size: 3.02e+13
-* System autopilot range: 3.02e+13
+* System zone size: 1.17e+14
+* System autopilot range: 1.17e+14
 ```
 
  </details>  
@@ -2884,21 +2845,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_6_ZONE
-* Star codename: STAR_6
+* Star codename: STAR_6_Bouv_A
 * Star translation name codename: NAME_STAR_6
 * Star translation description codename: DESC_STAR_6
 * Star name: Bouv A
 * Star description: see above.
-* Star zone size: 9.95e+10
+* Star zone size: 1.19e+11
 * Star death zone size: 1.97e+10
 * Star size: 1.99e+09
-* Star flare distance: 9.95e+10
 * Star autopilot range: 3.95e+10
 
-* Omni range: 3.02e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.17e+14
 * Surface color (Peak w.l. color code):
  - rgb: (95, 255, 92)
  - hex: #5fff5c
@@ -3526,7 +3483,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 7
 * Star cluster: unspecified
-* System zone codename: STAR_7_SYSTEM_ZONE
 * System codename: STAR_7_SYSTEM
 * System translation name codename: NAME_STAR_7_SYSTEM
 * System translation description codename: DESC_STAR_7_SYSTEM
@@ -3584,21 +3540,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_7_ZONE
-* Star codename: STAR_7
+* Star codename: STAR_7_Lywin_A
 * Star translation name codename: NAME_STAR_7
 * Star translation description codename: DESC_STAR_7
 * Star name: Lywin A
 * Star description: see above.
-* Star zone size: 3.75e+10
+* Star zone size: 3.86e+10
 * Star death zone size: 1.12e+09
 * Star size: 7.50e+08
-* Star flare distance: 3.75e+10
 * Star autopilot range: 2.25e+09
 
-* Omni range: 1.37e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.32e+12
 * Surface color (Peak w.l. color code):
  - rgb: (219, 0, 0)
  - hex: #db0000
@@ -3652,21 +3604,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_7_1_ZONE
-* Star codename: STAR_7_1
+* Star codename: STAR_7_1_Lywin_B
 * Star translation name codename: NAME_STAR_7_1
 * Star translation description codename: DESC_STAR_7_1
 * Star name: Lywin B
 * Star description: see above.
-* Star zone size: 1.91e+10
+* Star zone size: 1.97e+10
 * Star death zone size: 5.73e+08
 * Star size: 3.82e+08
-* Star flare distance: 1.91e+10
 * Star autopilot range: 1.15e+09
 
-* Omni range: 7.02e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.72e+12
 * Surface color (Peak w.l. color code):
  - rgb: (219, 0, 0)
  - hex: #db0000
@@ -3720,21 +3668,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_7_2_ZONE
-* Star codename: STAR_7_2
+* Star codename: STAR_7_2_Lywin_C
 * Star translation name codename: NAME_STAR_7_2
 * Star translation description codename: DESC_STAR_7_2
 * Star name: Lywin C
 * Star description: see above.
-* Star zone size: 4.36e+10
+* Star zone size: 4.50e+10
 * Star death zone size: 1.31e+09
 * Star size: 8.73e+08
-* Star flare distance: 4.36e+10
 * Star autopilot range: 2.62e+09
 
-* Omni range: 1.46e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.64e+12
 * Surface color (Peak w.l. color code):
  - rgb: (203, 0, 0)
  - hex: #cb0000
@@ -3788,21 +3732,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_7_3_ZONE
-* Star codename: STAR_7_3
+* Star codename: STAR_7_3_Lywin_D
 * Star translation name codename: NAME_STAR_7_3
 * Star translation description codename: DESC_STAR_7_3
 * Star name: Lywin D
 * Star description: see above.
-* Star zone size: 3.04e+10
+* Star zone size: 3.13e+10
 * Star death zone size: 9.10e+08
 * Star size: 6.07e+08
-* Star flare distance: 3.04e+10
 * Star autopilot range: 1.82e+09
 
-* Omni range: 9.86e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.81e+12
 * Surface color (Peak w.l. color code):
  - rgb: (201, 0, 0)
  - hex: #c90000
@@ -3856,21 +3796,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_7_4_ZONE
-* Star codename: STAR_7_4
+* Star codename: STAR_7_4_Lywin_E
 * Star translation name codename: NAME_STAR_7_4
 * Star translation description codename: DESC_STAR_7_4
 * Star name: Lywin E
 * Star description: see above.
-* Star zone size: 1.48e+10
+* Star zone size: 1.52e+10
 * Star death zone size: 4.44e+08
 * Star size: 2.96e+08
-* Star flare distance: 1.48e+10
 * Star autopilot range: 8.88e+08
 
-* Omni range: 3.77e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.46e+12
 * Surface color (Peak w.l. color code):
  - rgb: (157, 0, 0)
  - hex: #9d0000
@@ -4085,14 +4021,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 8
 * Star cluster: unspecified
-* System zone codename: STAR_8_SYSTEM_ZONE
 * System codename: STAR_8_SYSTEM
 * System translation name codename: NAME_STAR_8_SYSTEM
 * System translation description codename: DESC_STAR_8_SYSTEM
 * System name: Vidr
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.46e+13
+* System autopilot range: 1.46e+13
 ```
 
  </details>  
@@ -4143,21 +4078,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_8_ZONE
-* Star codename: STAR_8
+* Star codename: STAR_8_Vidr_A
 * Star translation name codename: NAME_STAR_8
 * Star translation description codename: DESC_STAR_8
 * Star name: Vidr A
 * Star description: see above.
-* Star zone size: 5.25e+10
+* Star zone size: 5.50e+10
 * Star death zone size: 2.47e+09
 * Star size: 1.05e+09
-* Star flare distance: 5.25e+10
 * Star autopilot range: 4.93e+09
 
-* Omni range: 3.77e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.46e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 130, 0)
  - hex: #ff8200
@@ -4211,21 +4142,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_8_1_ZONE
-* Star codename: STAR_8_1
+* Star codename: STAR_8_1_Vidr_B
 * Star translation name codename: NAME_STAR_8_1
 * Star translation description codename: DESC_STAR_8_1
 * Star name: Vidr B
 * Star description: see above.
-* Star zone size: 4.38e+10
+* Star zone size: 4.53e+10
 * Star death zone size: 1.46e+09
 * Star size: 8.76e+08
-* Star flare distance: 4.38e+10
 * Star autopilot range: 2.91e+09
 
-* Omni range: 2.23e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 8.61e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 31, 0)
  - hex: #ff1f00
@@ -4617,7 +4544,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 9
 * Star cluster: unspecified
-* System zone codename: STAR_9_SYSTEM_ZONE
 * System codename: STAR_9_SYSTEM
 * System translation name codename: NAME_STAR_9_SYSTEM
 * System translation description codename: DESC_STAR_9_SYSTEM
@@ -4675,21 +4601,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_9_ZONE
-* Star codename: STAR_9
+* Star codename: STAR_9_Inlamo_A
 * Star translation name codename: NAME_STAR_9
 * Star translation description codename: DESC_STAR_9
 * Star name: Inlamo A
 * Star description: see above.
-* Star zone size: 1.54e+10
+* Star zone size: 1.58e+10
 * Star death zone size: 4.60e+08
 * Star size: 3.07e+08
-* Star flare distance: 1.54e+10
 * Star autopilot range: 9.21e+08
 
-* Omni range: 5.58e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.16e+12
 * Surface color (Peak w.l. color code):
  - rgb: (219, 0, 0)
  - hex: #db0000
@@ -4904,14 +4826,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 10
 * Star cluster: unspecified
-* System zone codename: STAR_10_SYSTEM_ZONE
 * System codename: STAR_10_SYSTEM
 * System translation name codename: NAME_STAR_10_SYSTEM
 * System translation description codename: DESC_STAR_10_SYSTEM
 * System name: Atigdoh
 * System description: see above. Optionally add lore.
-* System zone size: 1.75e+13
-* System autopilot range: 1.75e+13
+* System zone size: 6.78e+13
+* System autopilot range: 6.78e+13
 ```
 
  </details>  
@@ -4962,21 +4883,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_10_ZONE
-* Star codename: STAR_10
+* Star codename: STAR_10_Atigdoh_A
 * Star translation name codename: NAME_STAR_10
 * Star translation description codename: DESC_STAR_10
 * Star name: Atigdoh A
 * Star description: see above.
-* Star zone size: 8.55e+10
+* Star zone size: 9.70e+10
 * Star death zone size: 1.15e+10
 * Star size: 1.71e+09
-* Star flare distance: 8.55e+10
 * Star autopilot range: 2.29e+10
 
-* Omni range: 1.75e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.78e+13
 * Surface color (Peak w.l. color code):
  - rgb: (175, 255, 0)
  - hex: #afff00
@@ -5191,7 +5108,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 11
 * Star cluster: unspecified
-* System zone codename: STAR_11_SYSTEM_ZONE
 * System codename: STAR_11_SYSTEM
 * System translation name codename: NAME_STAR_11_SYSTEM
 * System translation description codename: DESC_STAR_11_SYSTEM
@@ -5249,21 +5165,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_11_ZONE
-* Star codename: STAR_11
+* Star codename: STAR_11_Anaso_A
 * Star translation name codename: NAME_STAR_11
 * Star translation description codename: DESC_STAR_11
 * Star name: Anaso A
 * Star description: see above.
-* Star zone size: 4.60e+10
+* Star zone size: 4.73e+10
 * Star death zone size: 1.38e+09
 * Star size: 9.19e+08
-* Star flare distance: 4.60e+10
 * Star autopilot range: 2.76e+09
 
-* Omni range: 1.61e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.22e+12
 * Surface color (Peak w.l. color code):
  - rgb: (211, 0, 0)
  - hex: #d30000
@@ -5537,14 +5449,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 12
 * Star cluster: unspecified
-* System zone codename: STAR_12_SYSTEM_ZONE
 * System codename: STAR_12_SYSTEM
 * System translation name codename: NAME_STAR_12_SYSTEM
 * System translation description codename: DESC_STAR_12_SYSTEM
 * System name: Uvaha
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.62e+13
+* System autopilot range: 1.62e+13
 ```
 
  </details>  
@@ -5595,21 +5506,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_12_ZONE
-* Star codename: STAR_12
+* Star codename: STAR_12_Uvaha_A
 * Star translation name codename: NAME_STAR_12
 * Star translation description codename: DESC_STAR_12
 * Star name: Uvaha A
 * Star description: see above.
-* Star zone size: 4.99e+10
+* Star zone size: 5.26e+10
 * Star death zone size: 2.74e+09
 * Star size: 9.98e+08
-* Star flare distance: 4.99e+10
 * Star autopilot range: 5.47e+09
 
-* Omni range: 4.18e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.62e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 174, 0)
  - hex: #ffae00
@@ -5706,14 +5613,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 13
 * Star cluster: unspecified
-* System zone codename: STAR_13_SYSTEM_ZONE
 * System codename: STAR_13_SYSTEM
 * System translation name codename: NAME_STAR_13_SYSTEM
 * System translation description codename: DESC_STAR_13_SYSTEM
 * System name: Arasec
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 2.41e+13
+* System autopilot range: 2.41e+13
 ```
 
  </details>  
@@ -5764,21 +5670,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_13_ZONE
-* Star codename: STAR_13
+* Star codename: STAR_13_Arasec_A
 * Star translation name codename: NAME_STAR_13
 * Star translation description codename: DESC_STAR_13
 * Star name: Arasec A
 * Star description: see above.
-* Star zone size: 5.65e+10
+* Star zone size: 6.06e+10
 * Star death zone size: 4.07e+09
 * Star size: 1.13e+09
-* Star flare distance: 5.65e+10
 * Star autopilot range: 8.15e+09
 
-* Omni range: 6.23e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.41e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 236, 0)
  - hex: #ffec00
@@ -6111,7 +6013,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 14
 * Star cluster: unspecified
-* System zone codename: STAR_14_SYSTEM_ZONE
 * System codename: STAR_14_SYSTEM
 * System translation name codename: NAME_STAR_14_SYSTEM
 * System translation description codename: DESC_STAR_14_SYSTEM
@@ -6169,21 +6070,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_14_ZONE
-* Star codename: STAR_14
+* Star codename: STAR_14_Gorah_A
 * Star translation name codename: NAME_STAR_14
 * Star translation description codename: DESC_STAR_14
 * Star name: Gorah A
 * Star description: see above.
-* Star zone size: 1.02e+10
+* Star zone size: 1.05e+10
 * Star death zone size: 3.51e+08
 * Star size: 2.03e+08
-* Star flare distance: 1.02e+10
 * Star autopilot range: 7.03e+08
 
-* Omni range: 5.37e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.08e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 43, 0)
  - hex: #ff2b00
@@ -6398,7 +6295,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 15
 * Star cluster: unspecified
-* System zone codename: STAR_15_SYSTEM_ZONE
 * System codename: STAR_15_SYSTEM
 * System translation name codename: NAME_STAR_15_SYSTEM
 * System translation description codename: DESC_STAR_15_SYSTEM
@@ -6456,21 +6352,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_15_ZONE
-* Star codename: STAR_15
+* Star codename: STAR_15_Hesect_A
 * Star translation name codename: NAME_STAR_15
 * Star translation description codename: DESC_STAR_15
 * Star name: Hesect A
 * Star description: see above.
-* Star zone size: 8.55e+09
+* Star zone size: 8.81e+09
 * Star death zone size: 2.56e+08
 * Star size: 1.71e+08
-* Star flare distance: 8.55e+09
 * Star autopilot range: 5.13e+08
 
-* Omni range: 2.85e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.10e+12
 * Surface color (Peak w.l. color code):
  - rgb: (203, 0, 0)
  - hex: #cb0000
@@ -6626,7 +6518,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 16
 * Star cluster: unspecified
-* System zone codename: STAR_16_SYSTEM_ZONE
 * System codename: STAR_16_SYSTEM
 * System translation name codename: NAME_STAR_16_SYSTEM
 * System translation description codename: DESC_STAR_16_SYSTEM
@@ -6684,21 +6575,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_16_ZONE
-* Star codename: STAR_16
+* Star codename: STAR_16_Necd_A
 * Star translation name codename: NAME_STAR_16
 * Star translation description codename: DESC_STAR_16
 * Star name: Necd A
 * Star description: see above.
-* Star zone size: 2.44e+10
+* Star zone size: 2.51e+10
 * Star death zone size: 7.30e+08
 * Star size: 4.87e+08
-* Star flare distance: 2.44e+10
 * Star autopilot range: 1.46e+09
 
-* Omni range: 7.86e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.04e+12
 * Surface color (Peak w.l. color code):
  - rgb: (198, 0, 0)
  - hex: #c60000
@@ -6752,21 +6639,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_16_1_ZONE
-* Star codename: STAR_16_1
+* Star codename: STAR_16_1_Necd_B
 * Star translation name codename: NAME_STAR_16_1
 * Star translation description codename: DESC_STAR_16_1
 * Star name: Necd B
 * Star description: see above.
-* Star zone size: 2.53e+10
+* Star zone size: 2.61e+10
 * Star death zone size: 7.59e+08
 * Star size: 5.06e+08
-* Star flare distance: 2.53e+10
 * Star autopilot range: 1.52e+09
 
-* Omni range: 7.25e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.80e+12
 * Surface color (Peak w.l. color code):
  - rgb: (178, 0, 0)
  - hex: #b20000
@@ -6820,21 +6703,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_16_2_ZONE
-* Star codename: STAR_16_2
+* Star codename: STAR_16_2_Necd_C
 * Star translation name codename: NAME_STAR_16_2
 * Star translation description codename: DESC_STAR_16_2
 * Star name: Necd C
 * Star description: see above.
-* Star zone size: 3.54e+10
+* Star zone size: 3.64e+10
 * Star death zone size: 1.06e+09
 * Star size: 7.07e+08
-* Star flare distance: 3.54e+10
 * Star autopilot range: 2.12e+09
 
-* Omni range: 9.48e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.67e+12
 * Surface color (Peak w.l. color code):
  - rgb: (167, 0, 0)
  - hex: #a70000
@@ -6888,21 +6767,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_16_3_ZONE
-* Star codename: STAR_16_3
+* Star codename: STAR_16_3_Necd_D
 * Star translation name codename: NAME_STAR_16_3
 * Star translation description codename: DESC_STAR_16_3
 * Star name: Necd D
 * Star description: see above.
-* Star zone size: 4.72e+10
+* Star zone size: 4.87e+10
 * Star death zone size: 1.42e+09
 * Star size: 9.45e+08
-* Star flare distance: 4.72e+10
 * Star autopilot range: 2.84e+09
 
-* Omni range: 1.24e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.81e+12
 * Surface color (Peak w.l. color code):
  - rgb: (162, 0, 0)
  - hex: #a20000
@@ -6956,21 +6831,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_16_4_ZONE
-* Star codename: STAR_16_4
+* Star codename: STAR_16_4_Necd_E
 * Star translation name codename: NAME_STAR_16_4
 * Star translation description codename: DESC_STAR_16_4
 * Star name: Necd E
 * Star description: see above.
-* Star zone size: 3.91e+10
+* Star zone size: 4.03e+10
 * Star death zone size: 1.17e+09
 * Star size: 7.82e+08
-* Star flare distance: 3.91e+10
 * Star autopilot range: 2.35e+09
 
-* Omni range: 9.98e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.86e+12
 * Surface color (Peak w.l. color code):
  - rgb: (157, 0, 0)
  - hex: #9d0000
@@ -7126,7 +6997,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 17
 * Star cluster: unspecified
-* System zone codename: STAR_17_SYSTEM_ZONE
 * System codename: STAR_17_SYSTEM
 * System translation name codename: NAME_STAR_17_SYSTEM
 * System translation description codename: DESC_STAR_17_SYSTEM
@@ -7184,21 +7054,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_17_ZONE
-* Star codename: STAR_17
+* Star codename: STAR_17_Cor_A
 * Star translation name codename: NAME_STAR_17
 * Star translation description codename: DESC_STAR_17
 * Star name: Cor A
 * Star description: see above.
-* Star zone size: 3.32e+10
+* Star zone size: 3.41e+10
 * Star death zone size: 9.94e+08
 * Star size: 6.63e+08
-* Star flare distance: 3.32e+10
 * Star autopilot range: 1.99e+09
 
-* Omni range: 9.31e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.60e+12
 * Surface color (Peak w.l. color code):
  - rgb: (175, 0, 0)
  - hex: #af0000
@@ -7295,14 +7161,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 18
 * Star cluster: unspecified
-* System zone codename: STAR_18_SYSTEM_ZONE
 * System codename: STAR_18_SYSTEM
 * System translation name codename: NAME_STAR_18_SYSTEM
 * System translation description codename: DESC_STAR_18_SYSTEM
 * System name: Docor
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.04e+13
+* System autopilot range: 1.04e+13
 ```
 
  </details>  
@@ -7353,21 +7218,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_18_ZONE
-* Star codename: STAR_18
+* Star codename: STAR_18_Docor_A
 * Star translation name codename: NAME_STAR_18
 * Star translation description codename: DESC_STAR_18
 * Star name: Docor A
 * Star description: see above.
-* Star zone size: 4.76e+10
+* Star zone size: 4.94e+10
 * Star death zone size: 1.76e+09
 * Star size: 9.53e+08
-* Star flare distance: 4.76e+10
 * Star autopilot range: 3.52e+09
 
-* Omni range: 2.69e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.04e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 62, 0)
  - hex: #ff3e00
@@ -7641,14 +7502,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 19
 * Star cluster: unspecified
-* System zone codename: STAR_19_SYSTEM_ZONE
 * System codename: STAR_19_SYSTEM
 * System translation name codename: NAME_STAR_19_SYSTEM
 * System translation description codename: DESC_STAR_19_SYSTEM
 * System name: Ylinfow
 * System description: see above. Optionally add lore.
-* System zone size: 2.15e+13
-* System autopilot range: 2.15e+13
+* System zone size: 8.33e+13
+* System autopilot range: 8.33e+13
 ```
 
  </details>  
@@ -7699,21 +7559,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_19_ZONE
-* Star codename: STAR_19
+* Star codename: STAR_19_Ylinfow_A
 * Star translation name codename: NAME_STAR_19
 * Star translation description codename: DESC_STAR_19
 * Star name: Ylinfow A
 * Star description: see above.
-* Star zone size: 9.70e+10
+* Star zone size: 1.11e+11
 * Star death zone size: 1.41e+10
 * Star size: 1.94e+09
-* Star flare distance: 9.70e+10
 * Star autopilot range: 2.82e+10
 
-* Omni range: 2.15e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 8.33e+13
 * Surface color (Peak w.l. color code):
  - rgb: (165, 255, 0)
  - hex: #a5ff00
@@ -8577,7 +8433,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 20
 * Star cluster: unspecified
-* System zone codename: STAR_20_SYSTEM_ZONE
 * System codename: STAR_20_SYSTEM
 * System translation name codename: NAME_STAR_20_SYSTEM
 * System translation description codename: DESC_STAR_20_SYSTEM
@@ -8635,21 +8490,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_20_ZONE
-* Star codename: STAR_20
+* Star codename: STAR_20_Socami_A
 * Star translation name codename: NAME_STAR_20
 * Star translation description codename: DESC_STAR_20
 * Star name: Socami A
 * Star description: see above.
-* Star zone size: 1.10e+10
+* Star zone size: 1.13e+10
 * Star death zone size: 3.30e+08
 * Star size: 2.20e+08
-* Star flare distance: 1.10e+10
 * Star autopilot range: 6.60e+08
 
-* Omni range: 2.68e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.04e+12
 * Surface color (Peak w.l. color code):
  - rgb: (150, 0, 0)
  - hex: #960000
@@ -8805,14 +8656,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 21
 * Star cluster: unspecified
-* System zone codename: STAR_21_SYSTEM_ZONE
 * System codename: STAR_21_SYSTEM
 * System translation name codename: NAME_STAR_21_SYSTEM
 * System translation description codename: DESC_STAR_21_SYSTEM
 * System name: Fiekv
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.59e+13
+* System autopilot range: 1.59e+13
 ```
 
  </details>  
@@ -8863,21 +8713,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_21_ZONE
-* Star codename: STAR_21
+* Star codename: STAR_21_Fiekv_A
 * Star translation name codename: NAME_STAR_21
 * Star translation description codename: DESC_STAR_21
 * Star name: Fiekv A
 * Star description: see above.
-* Star zone size: 6.00e+10
+* Star zone size: 6.27e+10
 * Star death zone size: 2.69e+09
 * Star size: 1.20e+09
-* Star flare distance: 6.00e+10
 * Star autopilot range: 5.38e+09
 
-* Omni range: 4.11e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.59e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 118, 0)
  - hex: #ff7600
@@ -9092,7 +8938,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 22
 * Star cluster: unspecified
-* System zone codename: STAR_22_SYSTEM_ZONE
 * System codename: STAR_22_SYSTEM
 * System translation name codename: NAME_STAR_22_SYSTEM
 * System translation description codename: DESC_STAR_22_SYSTEM
@@ -9150,21 +8995,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_22_ZONE
-* Star codename: STAR_22
+* Star codename: STAR_22_Soecai_A
 * Star translation name codename: NAME_STAR_22
 * Star translation description codename: DESC_STAR_22
 * Star name: Soecai A
 * Star description: see above.
-* Star zone size: 1.65e+10
+* Star zone size: 1.70e+10
 * Star death zone size: 4.95e+08
 * Star size: 3.30e+08
-* Star flare distance: 1.65e+10
 * Star autopilot range: 9.90e+08
 
-* Omni range: 5.52e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.14e+12
 * Surface color (Peak w.l. color code):
  - rgb: (206, 0, 0)
  - hex: #ce0000
@@ -9261,14 +9102,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 23
 * Star cluster: unspecified
-* System zone codename: STAR_23_SYSTEM_ZONE
 * System codename: STAR_23_SYSTEM
 * System translation name codename: NAME_STAR_23_SYSTEM
 * System translation description codename: DESC_STAR_23_SYSTEM
 * System name: Buleel
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 2.00e+13
+* System autopilot range: 2.00e+13
 ```
 
  </details>  
@@ -9319,21 +9159,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_23_ZONE
-* Star codename: STAR_23
+* Star codename: STAR_23_Buleel_A
 * Star translation name codename: NAME_STAR_23
 * Star translation description codename: DESC_STAR_23
 * Star name: Buleel A
 * Star description: see above.
-* Star zone size: 6.50e+10
+* Star zone size: 6.84e+10
 * Star death zone size: 3.39e+09
 * Star size: 1.30e+09
-* Star flare distance: 6.50e+10
 * Star autopilot range: 6.78e+09
 
-* Omni range: 5.18e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.00e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 161, 0)
  - hex: #ffa100
@@ -9430,7 +9266,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 24
 * Star cluster: unspecified
-* System zone codename: STAR_24_SYSTEM_ZONE
 * System codename: STAR_24_SYSTEM
 * System translation name codename: NAME_STAR_24_SYSTEM
 * System translation description codename: DESC_STAR_24_SYSTEM
@@ -9488,21 +9323,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_24_ZONE
-* Star codename: STAR_24
+* Star codename: STAR_24_Ifci_A
 * Star translation name codename: NAME_STAR_24
 * Star translation description codename: DESC_STAR_24
 * Star name: Ifci A
 * Star description: see above.
-* Star zone size: 4.60e+10
+* Star zone size: 4.74e+10
 * Star death zone size: 1.38e+09
 * Star size: 9.21e+08
-* Star flare distance: 4.60e+10
 * Star autopilot range: 2.76e+09
 
-* Omni range: 1.62e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.26e+12
 * Surface color (Peak w.l. color code):
  - rgb: (214, 0, 0)
  - hex: #d60000
@@ -9556,21 +9387,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_24_1_ZONE
-* Star codename: STAR_24_1
+* Star codename: STAR_24_1_Ifci_B
 * Star translation name codename: NAME_STAR_24_1
 * Star translation description codename: DESC_STAR_24_1
 * Star name: Ifci B
 * Star description: see above.
-* Star zone size: 2.19e+10
+* Star zone size: 2.26e+10
 * Star death zone size: 6.57e+08
 * Star size: 4.38e+08
-* Star flare distance: 2.19e+10
 * Star autopilot range: 1.31e+09
 
-* Omni range: 5.85e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.26e+12
 * Surface color (Peak w.l. color code):
  - rgb: (165, 0, 0)
  - hex: #a50000
@@ -9785,14 +9612,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 25
 * Star cluster: unspecified
-* System zone codename: STAR_25_SYSTEM_ZONE
 * System codename: STAR_25_SYSTEM
 * System translation name codename: NAME_STAR_25_SYSTEM
 * System translation description codename: DESC_STAR_25_SYSTEM
 * System name: Echaa
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.33e+13
+* System autopilot range: 1.33e+13
 ```
 
  </details>  
@@ -9843,21 +9669,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_25_ZONE
-* Star codename: STAR_25
+* Star codename: STAR_25_Echaa_A
 * Star translation name codename: NAME_STAR_25
 * Star translation description codename: DESC_STAR_25
 * Star name: Echaa A
 * Star description: see above.
-* Star zone size: 4.99e+10
+* Star zone size: 5.22e+10
 * Star death zone size: 2.26e+09
 * Star size: 9.98e+08
-* Star flare distance: 4.99e+10
 * Star autopilot range: 4.51e+09
 
-* Omni range: 3.45e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.33e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 118, 0)
  - hex: #ff7600
@@ -10072,14 +9894,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 26
 * Star cluster: unspecified
-* System zone codename: STAR_26_SYSTEM_ZONE
 * System codename: STAR_26_SYSTEM
 * System translation name codename: NAME_STAR_26_SYSTEM
 * System translation description codename: DESC_STAR_26_SYSTEM
 * System name: Seatc
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 2.26e+13
+* System autopilot range: 2.26e+13
 ```
 
  </details>  
@@ -10130,21 +9951,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_26_ZONE
-* Star codename: STAR_26
+* Star codename: STAR_26_Seatc_A
 * Star translation name codename: NAME_STAR_26
 * Star translation description codename: DESC_STAR_26
 * Star name: Seatc A
 * Star description: see above.
-* Star zone size: 5.95e+10
+* Star zone size: 6.33e+10
 * Star death zone size: 3.82e+09
 * Star size: 1.19e+09
-* Star flare distance: 5.95e+10
 * Star autopilot range: 7.64e+09
 
-* Omni range: 5.84e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.26e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 211, 0)
  - hex: #ffd300
@@ -10241,14 +10058,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 27
 * Star cluster: unspecified
-* System zone codename: STAR_27_SYSTEM_ZONE
 * System codename: STAR_27_SYSTEM
 * System translation name codename: NAME_STAR_27_SYSTEM
 * System translation description codename: DESC_STAR_27_SYSTEM
 * System name: Ebreeta
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.93e+13
+* System autopilot range: 1.93e+13
 ```
 
  </details>  
@@ -10299,21 +10115,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_27_ZONE
-* Star codename: STAR_27
+* Star codename: STAR_27_Ebreeta_A
 * Star translation name codename: NAME_STAR_27
 * Star translation description codename: DESC_STAR_27
 * Star name: Ebreeta A
 * Star description: see above.
-* Star zone size: 5.50e+10
+* Star zone size: 5.83e+10
 * Star death zone size: 3.26e+09
 * Star size: 1.10e+09
-* Star flare distance: 5.50e+10
 * Star autopilot range: 6.53e+09
 
-* Omni range: 4.99e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.93e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 192, 0)
  - hex: #ffc000
@@ -10367,21 +10179,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_27_1_ZONE
-* Star codename: STAR_27_1
+* Star codename: STAR_27_1_Ebreeta_B
 * Star translation name codename: NAME_STAR_27_1
 * Star translation description codename: DESC_STAR_27_1
 * Star name: Ebreeta B
 * Star description: see above.
-* Star zone size: 9.65e+09
+* Star zone size: 9.96e+09
 * Star death zone size: 3.10e+08
 * Star size: 1.93e+08
-* Star flare distance: 9.65e+09
 * Star autopilot range: 6.21e+08
 
-* Omni range: 4.74e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.83e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 18, 0)
  - hex: #ff1200
@@ -10773,7 +10581,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 28
 * Star cluster: unspecified
-* System zone codename: STAR_28_SYSTEM_ZONE
 * System codename: STAR_28_SYSTEM
 * System translation name codename: NAME_STAR_28_SYSTEM
 * System translation description codename: DESC_STAR_28_SYSTEM
@@ -10831,21 +10638,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_28_ZONE
-* Star codename: STAR_28
+* Star codename: STAR_28_Amumuto_A
 * Star translation name codename: NAME_STAR_28
 * Star translation description codename: DESC_STAR_28
 * Star name: Amumuto A
 * Star description: see above.
-* Star zone size: 3.61e+10
+* Star zone size: 3.72e+10
 * Star death zone size: 1.08e+09
 * Star size: 7.22e+08
-* Star flare distance: 3.61e+10
 * Star autopilot range: 2.17e+09
 
-* Omni range: 9.65e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.73e+12
 * Surface color (Peak w.l. color code):
  - rgb: (165, 0, 0)
  - hex: #a50000
@@ -10899,21 +10702,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_28_1_ZONE
-* Star codename: STAR_28_1
+* Star codename: STAR_28_1_Amumuto_B
 * Star translation name codename: NAME_STAR_28_1
 * Star translation description codename: DESC_STAR_28_1
 * Star name: Amumuto B
 * Star description: see above.
-* Star zone size: 4.44e+10
+* Star zone size: 4.57e+10
 * Star death zone size: 1.33e+09
 * Star size: 8.88e+08
-* Star flare distance: 4.44e+10
 * Star autopilot range: 2.66e+09
 
-* Omni range: 1.10e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.26e+12
 * Surface color (Peak w.l. color code):
  - rgb: (152, 0, 0)
  - hex: #980000
@@ -10967,21 +10766,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_28_2_ZONE
-* Star codename: STAR_28_2
+* Star codename: STAR_28_2_Amumuto_C
 * Star translation name codename: NAME_STAR_28_2
 * Star translation description codename: DESC_STAR_28_2
 * Star name: Amumuto C
 * Star description: see above.
-* Star zone size: 2.57e+10
+* Star zone size: 2.65e+10
 * Star death zone size: 7.71e+08
 * Star size: 5.14e+08
-* Star flare distance: 2.57e+10
 * Star autopilot range: 1.54e+09
 
-* Omni range: 6.34e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.45e+12
 * Surface color (Peak w.l. color code):
  - rgb: (152, 0, 0)
  - hex: #980000
@@ -11255,14 +11050,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 29
 * Star cluster: unspecified
-* System zone codename: STAR_29_SYSTEM_ZONE
 * System codename: STAR_29_SYSTEM
 * System translation name codename: NAME_STAR_29_SYSTEM
 * System translation description codename: DESC_STAR_29_SYSTEM
 * System name: Urorumi
 * System description: see above. Optionally add lore.
-* System zone size: 1.11e+13
-* System autopilot range: 1.11e+13
+* System zone size: 4.30e+13
+* System autopilot range: 4.30e+13
 ```
 
  </details>  
@@ -11313,21 +11107,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_29_ZONE
-* Star codename: STAR_29
+* Star codename: STAR_29_Urorumi_A
 * Star translation name codename: NAME_STAR_29
 * Star translation description codename: DESC_STAR_29
 * Star name: Urorumi A
 * Star description: see above.
-* Star zone size: 7.35e+10
+* Star zone size: 8.08e+10
 * Star death zone size: 7.26e+09
 * Star size: 1.47e+09
-* Star flare distance: 7.35e+10
 * Star autopilot range: 1.45e+10
 
-* Omni range: 1.11e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.30e+13
 * Surface color (Peak w.l. color code):
  - rgb: (220, 255, 0)
  - hex: #dcff00
@@ -11381,21 +11171,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_29_1_ZONE
-* Star codename: STAR_29_1
+* Star codename: STAR_29_1_Urorumi_B
 * Star translation name codename: NAME_STAR_29_1
 * Star translation description codename: DESC_STAR_29_1
 * Star name: Urorumi B
 * Star description: see above.
-* Star zone size: 6.45e+10
+* Star zone size: 6.72e+10
 * Star death zone size: 2.69e+09
 * Star size: 1.29e+09
-* Star flare distance: 6.45e+10
 * Star autopilot range: 5.38e+09
 
-* Omni range: 4.11e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.59e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 99, 0)
  - hex: #ff6300
@@ -11449,21 +11235,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_29_2_ZONE
-* Star codename: STAR_29_2
+* Star codename: STAR_29_2_Urorumi_C
 * Star translation name codename: NAME_STAR_29_2
 * Star translation description codename: DESC_STAR_29_2
 * Star name: Urorumi C
 * Star description: see above.
-* Star zone size: 3.82e+10
+* Star zone size: 3.94e+10
 * Star death zone size: 1.15e+09
 * Star size: 7.65e+08
-* Star flare distance: 3.82e+10
 * Star autopilot range: 2.30e+09
 
-* Omni range: 1.08e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.20e+12
 * Surface color (Peak w.l. color code):
  - rgb: (178, 0, 0)
  - hex: #b20000
@@ -11517,21 +11299,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_29_3_ZONE
-* Star codename: STAR_29_3
+* Star codename: STAR_29_3_Urorumi_D
 * Star translation name codename: NAME_STAR_29_3
 * Star translation description codename: DESC_STAR_29_3
 * Star name: Urorumi D
 * Star description: see above.
-* Star zone size: 2.04e+10
+* Star zone size: 2.10e+10
 * Star death zone size: 6.10e+08
 * Star size: 4.07e+08
-* Star flare distance: 2.04e+10
 * Star autopilot range: 1.22e+09
 
-* Omni range: 5.25e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.03e+12
 * Surface color (Peak w.l. color code):
  - rgb: (160, 0, 0)
  - hex: #a00000
@@ -12100,14 +11878,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 30
 * Star cluster: unspecified
-* System zone codename: STAR_30_SYSTEM_ZONE
 * System codename: STAR_30_SYSTEM
 * System translation name codename: NAME_STAR_30_SYSTEM
 * System translation description codename: DESC_STAR_30_SYSTEM
 * System name: Efofotis
 * System description: see above. Optionally add lore.
-* System zone size: 1.48e+13
-* System autopilot range: 1.48e+13
+* System zone size: 5.71e+13
+* System autopilot range: 5.71e+13
 ```
 
  </details>  
@@ -12158,21 +11935,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_30_ZONE
-* Star codename: STAR_30
+* Star codename: STAR_30_Efofotis_A
 * Star translation name codename: NAME_STAR_30
 * Star translation description codename: DESC_STAR_30
 * Star name: Efofotis A
 * Star description: see above.
-* Star zone size: 8.80e+10
+* Star zone size: 9.77e+10
 * Star death zone size: 9.66e+09
 * Star size: 1.76e+09
-* Star flare distance: 8.80e+10
 * Star autopilot range: 1.93e+10
 
-* Omni range: 1.48e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.71e+13
 * Surface color (Peak w.l. color code):
  - rgb: (205, 255, 0)
  - hex: #cdff00
@@ -12977,7 +12750,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 31
 * Star cluster: unspecified
-* System zone codename: STAR_31_SYSTEM_ZONE
 * System codename: STAR_31_SYSTEM
 * System translation name codename: NAME_STAR_31_SYSTEM
 * System translation description codename: DESC_STAR_31_SYSTEM
@@ -13035,21 +12807,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_31_ZONE
-* Star codename: STAR_31
+* Star codename: STAR_31_Inrar_A
 * Star translation name codename: NAME_STAR_31
 * Star translation description codename: DESC_STAR_31
 * Star name: Inrar A
 * Star description: see above.
-* Star zone size: 4.30e+10
+* Star zone size: 4.43e+10
 * Star death zone size: 1.29e+09
 * Star size: 8.61e+08
-* Star flare distance: 4.30e+10
 * Star autopilot range: 2.58e+09
 
-* Omni range: 1.59e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.15e+12
 * Surface color (Peak w.l. color code):
  - rgb: (221, 0, 0)
  - hex: #dd0000
@@ -13146,7 +12914,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 32
 * Star cluster: unspecified
-* System zone codename: STAR_32_SYSTEM_ZONE
 * System codename: STAR_32_SYSTEM
 * System translation name codename: NAME_STAR_32_SYSTEM
 * System translation description codename: DESC_STAR_32_SYSTEM
@@ -13204,21 +12971,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_32_ZONE
-* Star codename: STAR_32
+* Star codename: STAR_32_Ekog_A
 * Star translation name codename: NAME_STAR_32
 * Star translation description codename: DESC_STAR_32
 * Star name: Ekog A
 * Star description: see above.
-* Star zone size: 1.62e+10
+* Star zone size: 1.68e+10
 * Star death zone size: 5.13e+08
 * Star size: 3.25e+08
-* Star flare distance: 1.62e+10
 * Star autopilot range: 1.03e+09
 
-* Omni range: 7.84e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.03e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 12, 0)
  - hex: #ff0c00
@@ -13492,14 +13255,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 33
 * Star cluster: unspecified
-* System zone codename: STAR_33_SYSTEM_ZONE
 * System codename: STAR_33_SYSTEM
 * System translation name codename: NAME_STAR_33_SYSTEM
 * System translation description codename: DESC_STAR_33_SYSTEM
 * System name: Ofpip
 * System description: see above. Optionally add lore.
-* System zone size: 1.72e+13
-* System autopilot range: 1.72e+13
+* System zone size: 6.66e+13
+* System autopilot range: 6.66e+13
 ```
 
  </details>  
@@ -13550,21 +13312,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_33_ZONE
-* Star codename: STAR_33
+* Star codename: STAR_33_Ofpip_A
 * Star translation name codename: NAME_STAR_33
 * Star translation description codename: DESC_STAR_33
 * Star name: Ofpip A
 * Star description: see above.
-* Star zone size: 8.55e+10
+* Star zone size: 9.68e+10
 * Star death zone size: 1.13e+10
 * Star size: 1.71e+09
-* Star flare distance: 8.55e+10
 * Star autopilot range: 2.25e+10
 
-* Omni range: 1.72e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.66e+13
 * Surface color (Peak w.l. color code):
  - rgb: (180, 255, 0)
  - hex: #b4ff00
@@ -14015,14 +13773,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 34
 * Star cluster: unspecified
-* System zone codename: STAR_34_SYSTEM_ZONE
 * System codename: STAR_34_SYSTEM
 * System translation name codename: NAME_STAR_34_SYSTEM
 * System translation description codename: DESC_STAR_34_SYSTEM
 * System name: Agutelo
 * System description: see above. Optionally add lore.
-* System zone size: 1.23e+14
-* System autopilot range: 1.23e+14
+* System zone size: 4.77e+14
+* System autopilot range: 4.77e+14
 ```
 
  </details>  
@@ -14073,21 +13830,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_34_ZONE
-* Star codename: STAR_34
+* Star codename: STAR_34_Agutelo_A
 * Star translation name codename: NAME_STAR_34
 * Star translation description codename: DESC_STAR_34
 * Star name: Agutelo A
 * Star description: see above.
-* Star zone size: 2.46e+11
+* Star zone size: 3.26e+11
 * Star death zone size: 8.06e+10
 * Star size: 4.91e+09
-* Star flare distance: 2.46e+11
 * Star autopilot range: 1.61e+11
 
-* Omni range: 1.23e+14
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.77e+14
 * Surface color (Peak w.l. color code):
  - rgb: (0, 245, 255)
  - hex: #00f5ff
@@ -14141,21 +13894,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_34_1_ZONE
-* Star codename: STAR_34_1
+* Star codename: STAR_34_1_Agutelo_B
 * Star translation name codename: NAME_STAR_34_1
 * Star translation description codename: DESC_STAR_34_1
 * Star name: Agutelo B
 * Star description: see above.
-* Star zone size: 6.85e+10
+* Star zone size: 7.47e+10
 * Star death zone size: 6.23e+09
 * Star size: 1.37e+09
-* Star flare distance: 6.85e+10
 * Star autopilot range: 1.25e+10
 
-* Omni range: 9.52e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.68e+13
 * Surface color (Peak w.l. color code):
  - rgb: (230, 255, 0)
  - hex: #e6ff00
@@ -14209,21 +13958,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_34_2_ZONE
-* Star codename: STAR_34_2
+* Star codename: STAR_34_2_Agutelo_C
 * Star translation name codename: NAME_STAR_34_2
 * Star translation description codename: DESC_STAR_34_2
 * Star name: Agutelo C
 * Star description: see above.
-* Star zone size: 6.15e+10
+* Star zone size: 6.57e+10
 * Star death zone size: 4.19e+09
 * Star size: 1.23e+09
-* Star flare distance: 6.15e+10
 * Star autopilot range: 8.38e+09
 
-* Omni range: 6.40e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.48e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 223, 0)
  - hex: #ffdf00
@@ -14277,21 +14022,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_34_3_ZONE
-* Star codename: STAR_34_3
+* Star codename: STAR_34_3_Agutelo_D
 * Star translation name codename: NAME_STAR_34_3
 * Star translation description codename: DESC_STAR_34_3
 * Star name: Agutelo D
 * Star description: see above.
-* Star zone size: 1.92e+10
+* Star zone size: 1.98e+10
 * Star death zone size: 5.78e+08
 * Star size: 3.85e+08
-* Star flare distance: 1.92e+10
 * Star autopilot range: 1.16e+09
 
-* Omni range: 4.98e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.93e+12
 * Surface color (Peak w.l. color code):
  - rgb: (160, 0, 0)
  - hex: #a00000
@@ -14978,14 +14719,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 35
 * Star cluster: unspecified
-* System zone codename: STAR_35_SYSTEM_ZONE
 * System codename: STAR_35_SYSTEM
 * System translation name codename: NAME_STAR_35_SYSTEM
 * System translation description codename: DESC_STAR_35_SYSTEM
 * System name: Irq
 * System description: see above. Optionally add lore.
-* System zone size: 1.43e+13
-* System autopilot range: 1.43e+13
+* System zone size: 5.54e+13
+* System autopilot range: 5.54e+13
 ```
 
  </details>  
@@ -15036,21 +14776,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_35_ZONE
-* Star codename: STAR_35
+* Star codename: STAR_35_Irq_A
 * Star translation name codename: NAME_STAR_35
 * Star translation description codename: DESC_STAR_35
 * Star name: Irq A
 * Star description: see above.
-* Star zone size: 9.20e+10
+* Star zone size: 1.01e+11
 * Star death zone size: 9.36e+09
 * Star size: 1.84e+09
-* Star flare distance: 9.20e+10
 * Star autopilot range: 1.87e+10
 
-* Omni range: 1.43e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.54e+13
 * Surface color (Peak w.l. color code):
  - rgb: (215, 255, 0)
  - hex: #d7ff00
@@ -15619,7 +15355,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 36
 * Star cluster: unspecified
-* System zone codename: STAR_36_SYSTEM_ZONE
 * System codename: STAR_36_SYSTEM
 * System translation name codename: NAME_STAR_36_SYSTEM
 * System translation description codename: DESC_STAR_36_SYSTEM
@@ -15677,21 +15412,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_36_ZONE
-* Star codename: STAR_36
+* Star codename: STAR_36_Addup_A
 * Star translation name codename: NAME_STAR_36
 * Star translation description codename: DESC_STAR_36
 * Star name: Addup A
 * Star description: see above.
-* Star zone size: 2.85e+10
+* Star zone size: 2.94e+10
 * Star death zone size: 8.55e+08
 * Star size: 5.70e+08
-* Star flare distance: 2.85e+10
 * Star autopilot range: 1.71e+09
 
-* Omni range: 1.20e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.63e+12
 * Surface color (Peak w.l. color code):
  - rgb: (239, 0, 0)
  - hex: #ef0000
@@ -15745,21 +15476,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_36_1_ZONE
-* Star codename: STAR_36_1
+* Star codename: STAR_36_1_Addup_B
 * Star translation name codename: NAME_STAR_36_1
 * Star translation description codename: DESC_STAR_36_1
 * Star name: Addup B
 * Star description: see above.
-* Star zone size: 3.37e+10
+* Star zone size: 3.47e+10
 * Star death zone size: 1.01e+09
 * Star size: 6.74e+08
-* Star flare distance: 3.37e+10
 * Star autopilot range: 2.02e+09
 
-* Omni range: 1.36e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.27e+12
 * Surface color (Peak w.l. color code):
  - rgb: (234, 0, 0)
  - hex: #ea0000
@@ -15813,21 +15540,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_36_2_ZONE
-* Star codename: STAR_36_2
+* Star codename: STAR_36_2_Addup_C
 * Star translation name codename: NAME_STAR_36_2
 * Star translation description codename: DESC_STAR_36_2
 * Star name: Addup C
 * Star description: see above.
-* Star zone size: 3.06e+10
+* Star zone size: 3.16e+10
 * Star death zone size: 9.20e+08
 * Star size: 6.13e+08
-* Star flare distance: 3.06e+10
 * Star autopilot range: 1.84e+09
 
-* Omni range: 7.89e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.05e+12
 * Surface color (Peak w.l. color code):
  - rgb: (160, 0, 0)
  - hex: #a00000
@@ -16042,14 +15765,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 37
 * Star cluster: unspecified
-* System zone codename: STAR_37_SYSTEM_ZONE
 * System codename: STAR_37_SYSTEM
 * System translation name codename: NAME_STAR_37_SYSTEM
 * System translation description codename: DESC_STAR_37_SYSTEM
 * System name: Luxe
 * System description: see above. Optionally add lore.
-* System zone size: 1.87e+13
-* System autopilot range: 1.87e+13
+* System zone size: 7.23e+13
+* System autopilot range: 7.23e+13
 ```
 
  </details>  
@@ -16100,21 +15822,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_37_ZONE
-* Star codename: STAR_37
+* Star codename: STAR_37_Luxe_A
 * Star translation name codename: NAME_STAR_37
 * Star translation description codename: DESC_STAR_37
 * Star name: Luxe A
 * Star description: see above.
-* Star zone size: 8.00e+10
+* Star zone size: 9.22e+10
 * Star death zone size: 1.22e+10
 * Star size: 1.60e+09
-* Star flare distance: 8.00e+10
 * Star autopilot range: 2.44e+10
 
-* Omni range: 1.87e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.23e+13
 * Surface color (Peak w.l. color code):
  - rgb: (160, 255, 0)
  - hex: #a0ff00
@@ -16168,21 +15886,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_37_1_ZONE
-* Star codename: STAR_37_1
+* Star codename: STAR_37_1_Luxe_B
 * Star translation name codename: NAME_STAR_37_1
 * Star translation description codename: DESC_STAR_37_1
 * Star name: Luxe B
 * Star description: see above.
-* Star zone size: 6.85e+10
+* Star zone size: 7.39e+10
 * Star death zone size: 5.40e+09
 * Star size: 1.37e+09
-* Star flare distance: 6.85e+10
 * Star autopilot range: 1.08e+10
 
-* Omni range: 8.25e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.19e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 255, 0)
  - hex: #ffff00
@@ -16236,21 +15950,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_37_2_ZONE
-* Star codename: STAR_37_2
+* Star codename: STAR_37_2_Luxe_C
 * Star translation name codename: NAME_STAR_37_2
 * Star translation description codename: DESC_STAR_37_2
 * Star name: Luxe C
 * Star description: see above.
-* Star zone size: 6.85e+10
+* Star zone size: 7.39e+10
 * Star death zone size: 5.41e+09
 * Star size: 1.37e+09
-* Star flare distance: 6.85e+10
 * Star autopilot range: 1.08e+10
 
-* Omni range: 8.27e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.20e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 255, 0)
  - hex: #ffff00
@@ -16819,7 +16529,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 38
 * Star cluster: unspecified
-* System zone codename: STAR_38_SYSTEM_ZONE
 * System codename: STAR_38_SYSTEM
 * System translation name codename: NAME_STAR_38_SYSTEM
 * System translation description codename: DESC_STAR_38_SYSTEM
@@ -16877,21 +16586,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_38_ZONE
-* Star codename: STAR_38
+* Star codename: STAR_38_Asisesi_A
 * Star translation name codename: NAME_STAR_38
 * Star translation description codename: DESC_STAR_38
 * Star name: Asisesi A
 * Star description: see above.
-* Star zone size: 4.76e+10
+* Star zone size: 4.91e+10
 * Star death zone size: 1.43e+09
 * Star size: 9.53e+08
-* Star flare distance: 4.76e+10
 * Star autopilot range: 2.86e+09
 
-* Omni range: 1.67e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.47e+12
 * Surface color (Peak w.l. color code):
  - rgb: (214, 0, 0)
  - hex: #d60000
@@ -17106,14 +16811,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 39
 * Star cluster: unspecified
-* System zone codename: STAR_39_SYSTEM_ZONE
 * System codename: STAR_39_SYSTEM
 * System translation name codename: NAME_STAR_39_SYSTEM
 * System translation description codename: DESC_STAR_39_SYSTEM
 * System name: Ananit
 * System description: see above. Optionally add lore.
-* System zone size: 3.54e+13
-* System autopilot range: 3.54e+13
+* System zone size: 1.37e+14
+* System autopilot range: 1.37e+14
 ```
 
  </details>  
@@ -17164,21 +16868,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_39_ZONE
-* Star codename: STAR_39
+* Star codename: STAR_39_Ananit_A
 * Star translation name codename: NAME_STAR_39
 * Star translation description codename: DESC_STAR_39
 * Star name: Ananit A
 * Star description: see above.
-* Star zone size: 1.22e+11
+* Star zone size: 1.45e+11
 * Star death zone size: 2.32e+10
 * Star size: 2.44e+09
-* Star flare distance: 1.22e+11
 * Star autopilot range: 4.63e+10
 
-* Omni range: 3.54e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.37e+14
 * Surface color (Peak w.l. color code):
  - rgb: (109, 255, 69)
  - hex: #6dff45
@@ -17334,14 +17034,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 40
 * Star cluster: unspecified
-* System zone codename: STAR_40_SYSTEM_ZONE
 * System codename: STAR_40_SYSTEM
 * System translation name codename: NAME_STAR_40_SYSTEM
 * System translation description codename: DESC_STAR_40_SYSTEM
 * System name: Neul
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 2.81e+13
+* System autopilot range: 2.81e+13
 ```
 
  </details>  
@@ -17392,21 +17091,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_40_ZONE
-* Star codename: STAR_40
+* Star codename: STAR_40_Neul_A
 * Star translation name codename: NAME_STAR_40
 * Star translation description codename: DESC_STAR_40
 * Star name: Neul A
 * Star description: see above.
-* Star zone size: 6.45e+10
+* Star zone size: 6.93e+10
 * Star death zone size: 4.76e+09
 * Star size: 1.29e+09
-* Star flare distance: 6.45e+10
 * Star autopilot range: 9.52e+09
 
-* Omni range: 7.28e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.81e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 242, 0)
  - hex: #fff200
@@ -17562,14 +17257,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 41
 * Star cluster: unspecified
-* System zone codename: STAR_41_SYSTEM_ZONE
 * System codename: STAR_41_SYSTEM
 * System translation name codename: NAME_STAR_41_SYSTEM
 * System translation description codename: DESC_STAR_41_SYSTEM
 * System name: Cec
 * System description: see above. Optionally add lore.
-* System zone size: 1.77e+13
-* System autopilot range: 1.77e+13
+* System zone size: 6.83e+13
+* System autopilot range: 6.83e+13
 ```
 
  </details>  
@@ -17620,21 +17314,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_41_ZONE
-* Star codename: STAR_41
+* Star codename: STAR_41_Cec_A
 * Star translation name codename: NAME_STAR_41
 * Star translation description codename: DESC_STAR_41
 * Star name: Cec A
 * Star description: see above.
-* Star zone size: 8.30e+10
+* Star zone size: 9.46e+10
 * Star death zone size: 1.16e+10
 * Star size: 1.66e+09
-* Star flare distance: 8.30e+10
 * Star autopilot range: 2.31e+10
 
-* Omni range: 1.77e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.83e+13
 * Surface color (Peak w.l. color code):
  - rgb: (175, 255, 0)
  - hex: #afff00
@@ -18321,7 +18011,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 42
 * Star cluster: unspecified
-* System zone codename: STAR_42_SYSTEM_ZONE
 * System codename: STAR_42_SYSTEM
 * System translation name codename: NAME_STAR_42_SYSTEM
 * System translation description codename: DESC_STAR_42_SYSTEM
@@ -18379,21 +18068,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_42_ZONE
-* Star codename: STAR_42
+* Star codename: STAR_42_Balacem_A
 * Star translation name codename: NAME_STAR_42
 * Star translation description codename: DESC_STAR_42
 * Star name: Balacem A
 * Star description: see above.
-* Star zone size: 4.67e+10
+* Star zone size: 4.81e+10
 * Star death zone size: 1.40e+09
 * Star size: 9.34e+08
-* Star flare distance: 4.67e+10
 * Star autopilot range: 2.80e+09
 
-* Omni range: 1.77e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.84e+12
 * Surface color (Peak w.l. color code):
  - rgb: (224, 0, 0)
  - hex: #e00000
@@ -18667,7 +18352,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 43
 * Star cluster: unspecified
-* System zone codename: STAR_43_SYSTEM_ZONE
 * System codename: STAR_43_SYSTEM
 * System translation name codename: NAME_STAR_43_SYSTEM
 * System translation description codename: DESC_STAR_43_SYSTEM
@@ -18725,21 +18409,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_43_ZONE
-* Star codename: STAR_43
+* Star codename: STAR_43_Niburub_A
 * Star translation name codename: NAME_STAR_43
 * Star translation description codename: DESC_STAR_43
 * Star name: Niburub A
 * Star description: see above.
-* Star zone size: 1.88e+10
+* Star zone size: 1.94e+10
 * Star death zone size: 6.19e+08
 * Star size: 3.76e+08
-* Star flare distance: 1.88e+10
 * Star autopilot range: 1.24e+09
 
-* Omni range: 9.46e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.66e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 24, 0)
  - hex: #ff1800
@@ -18836,14 +18516,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 44
 * Star cluster: unspecified
-* System zone codename: STAR_44_SYSTEM_ZONE
 * System codename: STAR_44_SYSTEM
 * System translation name codename: NAME_STAR_44_SYSTEM
 * System translation description codename: DESC_STAR_44_SYSTEM
 * System name: Mecl
 * System description: see above. Optionally add lore.
-* System zone size: 2.98e+13
-* System autopilot range: 2.98e+13
+* System zone size: 1.15e+14
+* System autopilot range: 1.15e+14
 ```
 
  </details>  
@@ -18894,21 +18573,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_44_ZONE
-* Star codename: STAR_44
+* Star codename: STAR_44_Mecl_A
 * Star translation name codename: NAME_STAR_44
 * Star translation description codename: DESC_STAR_44
 * Star name: Mecl A
 * Star description: see above.
-* Star zone size: 1.08e+11
+* Star zone size: 1.28e+11
 * Star death zone size: 1.95e+10
 * Star size: 2.17e+09
-* Star flare distance: 1.08e+11
 * Star autopilot range: 3.90e+10
 
-* Omni range: 2.98e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.15e+14
 * Surface color (Peak w.l. color code):
  - rgb: (122, 255, 46)
  - hex: #7aff2e
@@ -19713,14 +19388,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 45
 * Star cluster: unspecified
-* System zone codename: STAR_45_SYSTEM_ZONE
 * System codename: STAR_45_SYSTEM
 * System translation name codename: NAME_STAR_45_SYSTEM
 * System translation description codename: DESC_STAR_45_SYSTEM
 * System name: Ocodic
 * System description: see above. Optionally add lore.
-* System zone size: 1.03e+13
-* System autopilot range: 1.03e+13
+* System zone size: 3.99e+13
+* System autopilot range: 3.99e+13
 ```
 
  </details>  
@@ -19771,21 +19445,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_45_ZONE
-* Star codename: STAR_45
+* Star codename: STAR_45_Ocodic_A
 * Star translation name codename: NAME_STAR_45
 * Star translation description codename: DESC_STAR_45
 * Star name: Ocodic A
 * Star description: see above.
-* Star zone size: 8.00e+10
+* Star zone size: 8.67e+10
 * Star death zone size: 6.75e+09
 * Star size: 1.60e+09
-* Star flare distance: 8.00e+10
 * Star autopilot range: 1.35e+10
 
-* Omni range: 1.03e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.99e+13
 * Surface color (Peak w.l. color code):
  - rgb: (245, 255, 0)
  - hex: #f5ff00
@@ -20177,7 +19847,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 46
 * Star cluster: unspecified
-* System zone codename: STAR_46_SYSTEM_ZONE
 * System codename: STAR_46_SYSTEM
 * System translation name codename: NAME_STAR_46_SYSTEM
 * System translation description codename: DESC_STAR_46_SYSTEM
@@ -20235,21 +19904,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_46_ZONE
-* Star codename: STAR_46
+* Star codename: STAR_46_Ucuceh_A
 * Star translation name codename: NAME_STAR_46
 * Star translation description codename: DESC_STAR_46
 * Star name: Ucuceh A
 * Star description: see above.
-* Star zone size: 3.68e+10
+* Star zone size: 3.80e+10
 * Star death zone size: 1.21e+09
 * Star size: 7.36e+08
-* Star flare distance: 3.68e+10
 * Star autopilot range: 2.42e+09
 
-* Omni range: 1.85e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.15e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 24, 0)
  - hex: #ff1800
@@ -20287,14 +19952,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 47
 * Star cluster: unspecified
-* System zone codename: STAR_47_SYSTEM_ZONE
 * System codename: STAR_47_SYSTEM
 * System translation name codename: NAME_STAR_47_SYSTEM
 * System translation description codename: DESC_STAR_47_SYSTEM
 * System name: Seunm
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.41e+13
+* System autopilot range: 1.41e+13
 ```
 
  </details>  
@@ -20345,21 +20009,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_47_ZONE
-* Star codename: STAR_47
+* Star codename: STAR_47_Seunm_A
 * Star translation name codename: NAME_STAR_47
 * Star translation description codename: DESC_STAR_47
 * Star name: Seunm A
 * Star description: see above.
-* Star zone size: 5.40e+10
+* Star zone size: 5.64e+10
 * Star death zone size: 2.39e+09
 * Star size: 1.08e+09
-* Star flare distance: 5.40e+10
 * Star autopilot range: 4.79e+09
 
-* Omni range: 3.66e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.41e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 118, 0)
  - hex: #ff7600
@@ -20751,14 +20411,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 48
 * Star cluster: unspecified
-* System zone codename: STAR_48_SYSTEM_ZONE
 * System codename: STAR_48_SYSTEM
 * System translation name codename: NAME_STAR_48_SYSTEM
 * System translation description codename: DESC_STAR_48_SYSTEM
 * System name: Oupoic
 * System description: see above. Optionally add lore.
-* System zone size: 1.33e+13
-* System autopilot range: 1.33e+13
+* System zone size: 5.16e+13
+* System autopilot range: 5.16e+13
 ```
 
  </details>  
@@ -20809,21 +20468,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_48_ZONE
-* Star codename: STAR_48
+* Star codename: STAR_48_Oupoic_A
 * Star translation name codename: NAME_STAR_48
 * Star translation description codename: DESC_STAR_48
 * Star name: Oupoic A
 * Star description: see above.
-* Star zone size: 8.30e+10
+* Star zone size: 9.17e+10
 * Star death zone size: 8.73e+09
 * Star size: 1.66e+09
-* Star flare distance: 8.30e+10
 * Star autopilot range: 1.75e+10
 
-* Omni range: 1.33e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.16e+13
 * Surface color (Peak w.l. color code):
  - rgb: (210, 255, 0)
  - hex: #d2ff00
@@ -20877,21 +20532,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_48_1_ZONE
-* Star codename: STAR_48_1
+* Star codename: STAR_48_1_Oupoic_B
 * Star translation name codename: NAME_STAR_48_1
 * Star translation description codename: DESC_STAR_48_1
 * Star name: Oupoic B
 * Star description: see above.
-* Star zone size: 8.25e+10
+* Star zone size: 9.11e+10
 * Star death zone size: 8.57e+09
 * Star size: 1.65e+09
-* Star flare distance: 8.25e+10
 * Star autopilot range: 1.71e+10
 
-* Omni range: 1.31e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.07e+13
 * Surface color (Peak w.l. color code):
  - rgb: (210, 255, 0)
  - hex: #d2ff00
@@ -20945,21 +20596,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_48_2_ZONE
-* Star codename: STAR_48_2
+* Star codename: STAR_48_2_Oupoic_C
 * Star translation name codename: NAME_STAR_48_2
 * Star translation description codename: DESC_STAR_48_2
 * Star name: Oupoic C
 * Star description: see above.
-* Star zone size: 2.44e+10
+* Star zone size: 2.52e+10
 * Star death zone size: 7.34e+08
 * Star size: 4.89e+08
-* Star flare distance: 2.44e+10
 * Star autopilot range: 1.47e+09
 
-* Omni range: 8.44e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.27e+12
 * Surface color (Peak w.l. color code):
  - rgb: (211, 0, 0)
  - hex: #d30000
@@ -21823,7 +21470,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 49
 * Star cluster: unspecified
-* System zone codename: STAR_49_SYSTEM_ZONE
 * System codename: STAR_49_SYSTEM
 * System translation name codename: NAME_STAR_49_SYSTEM
 * System translation description codename: DESC_STAR_49_SYSTEM
@@ -21881,21 +21527,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_49_ZONE
-* Star codename: STAR_49
+* Star codename: STAR_49_Aatma_A
 * Star translation name codename: NAME_STAR_49
 * Star translation description codename: DESC_STAR_49
 * Star name: Aatma A
 * Star description: see above.
-* Star zone size: 1.37e+10
+* Star zone size: 1.41e+10
 * Star death zone size: 4.19e+08
 * Star size: 2.74e+08
-* Star flare distance: 1.37e+10
 * Star autopilot range: 8.37e+08
 
-* Omni range: 6.40e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.48e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 0, 0)
  - hex: #ff0000
@@ -21949,21 +21591,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_49_1_ZONE
-* Star codename: STAR_49_1
+* Star codename: STAR_49_1_Aatma_B
 * Star translation name codename: NAME_STAR_49_1
 * Star translation description codename: DESC_STAR_49_1
 * Star name: Aatma B
 * Star description: see above.
-* Star zone size: 3.42e+10
+* Star zone size: 3.53e+10
 * Star death zone size: 1.03e+09
 * Star size: 6.85e+08
-* Star flare distance: 3.42e+10
 * Star autopilot range: 2.06e+09
 
-* Omni range: 1.58e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.10e+12
 * Surface color (Peak w.l. color code):
  - rgb: (252, 0, 0)
  - hex: #fc0000
@@ -22017,21 +21655,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_49_2_ZONE
-* Star codename: STAR_49_2
+* Star codename: STAR_49_2_Aatma_C
 * Star translation name codename: NAME_STAR_49_2
 * Star translation description codename: DESC_STAR_49_2
 * Star name: Aatma C
 * Star description: see above.
-* Star zone size: 8.00e+09
+* Star zone size: 8.24e+09
 * Star death zone size: 2.40e+08
 * Star size: 1.60e+08
-* Star flare distance: 8.00e+09
 * Star autopilot range: 4.80e+08
 
-* Omni range: 3.11e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.20e+12
 * Surface color (Peak w.l. color code):
  - rgb: (229, 0, 0)
  - hex: #e50000
@@ -22085,21 +21719,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_49_3_ZONE
-* Star codename: STAR_49_3
+* Star codename: STAR_49_3_Aatma_D
 * Star translation name codename: NAME_STAR_49_3
 * Star translation description codename: DESC_STAR_49_3
 * Star name: Aatma D
 * Star description: see above.
-* Star zone size: 4.48e+10
+* Star zone size: 4.61e+10
 * Star death zone size: 1.34e+09
 * Star size: 8.95e+08
-* Star flare distance: 4.48e+10
 * Star autopilot range: 2.68e+09
 
-* Omni range: 1.53e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.93e+12
 * Surface color (Peak w.l. color code):
  - rgb: (208, 0, 0)
  - hex: #d00000
@@ -22153,21 +21783,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_49_4_ZONE
-* Star codename: STAR_49_4
+* Star codename: STAR_49_4_Aatma_E
 * Star translation name codename: NAME_STAR_49_4
 * Star translation description codename: DESC_STAR_49_4
 * Star name: Aatma E
 * Star description: see above.
-* Star zone size: 9.35e+09
+* Star zone size: 9.63e+09
 * Star death zone size: 2.80e+08
 * Star size: 1.87e+08
-* Star flare distance: 9.35e+09
 * Star autopilot range: 5.61e+08
 
-* Omni range: 2.50e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 9.67e+11
 * Surface color (Peak w.l. color code):
  - rgb: (165, 0, 0)
  - hex: #a50000
@@ -22441,14 +22067,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 50
 * Star cluster: unspecified
-* System zone codename: STAR_50_SYSTEM_ZONE
 * System codename: STAR_50_SYSTEM
 * System translation name codename: NAME_STAR_50_SYSTEM
 * System translation description codename: DESC_STAR_50_SYSTEM
 * System name: Pocar
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 3.52e+13
+* System autopilot range: 3.52e+13
 ```
 
  </details>  
@@ -22499,21 +22124,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_50_ZONE
-* Star codename: STAR_50
+* Star codename: STAR_50_Pocar_A
 * Star translation name codename: NAME_STAR_50
 * Star translation description codename: DESC_STAR_50
 * Star name: Pocar A
 * Star description: see above.
-* Star zone size: 7.25e+10
+* Star zone size: 7.85e+10
 * Star death zone size: 5.95e+09
 * Star size: 1.45e+09
-* Star flare distance: 7.25e+10
 * Star autopilot range: 1.19e+10
 
-* Omni range: 9.10e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.52e+13
 * Surface color (Peak w.l. color code):
  - rgb: (250, 255, 0)
  - hex: #faff00
@@ -22567,21 +22188,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_50_1_ZONE
-* Star codename: STAR_50_1
+* Star codename: STAR_50_1_Pocar_B
 * Star translation name codename: NAME_STAR_50_1
 * Star translation description codename: DESC_STAR_50_1
 * Star name: Pocar B
 * Star description: see above.
-* Star zone size: 8.05e+09
+* Star zone size: 8.30e+09
 * Star death zone size: 2.49e+08
 * Star size: 1.61e+08
-* Star flare distance: 8.05e+09
 * Star autopilot range: 4.98e+08
 
-* Omni range: 3.81e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.47e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 6, 0)
  - hex: #ff0600
@@ -22914,7 +22531,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 51
 * Star cluster: unspecified
-* System zone codename: STAR_51_SYSTEM_ZONE
 * System codename: STAR_51_SYSTEM
 * System translation name codename: NAME_STAR_51_SYSTEM
 * System translation description codename: DESC_STAR_51_SYSTEM
@@ -22972,21 +22588,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_51_ZONE
-* Star codename: STAR_51
+* Star codename: STAR_51_Alrir_A
 * Star translation name codename: NAME_STAR_51
 * Star translation description codename: DESC_STAR_51
 * Star name: Alrir A
 * Star description: see above.
-* Star zone size: 3.40e+10
+* Star zone size: 3.52e+10
 * Star death zone size: 1.17e+09
 * Star size: 6.80e+08
-* Star flare distance: 3.40e+10
 * Star autopilot range: 2.34e+09
 
-* Omni range: 1.79e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.92e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 37, 0)
  - hex: #ff2500
@@ -23040,21 +22652,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_51_1_ZONE
-* Star codename: STAR_51_1
+* Star codename: STAR_51_1_Alrir_B
 * Star translation name codename: NAME_STAR_51_1
 * Star translation description codename: DESC_STAR_51_1
 * Star name: Alrir B
 * Star description: see above.
-* Star zone size: 3.40e+10
+* Star zone size: 3.51e+10
 * Star death zone size: 1.02e+09
 * Star size: 6.81e+08
-* Star flare distance: 3.40e+10
 * Star autopilot range: 2.04e+09
 
-* Omni range: 1.35e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.24e+12
 * Surface color (Peak w.l. color code):
  - rgb: (231, 0, 0)
  - hex: #e70000
@@ -23108,21 +22716,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_51_2_ZONE
-* Star codename: STAR_51_2
+* Star codename: STAR_51_2_Alrir_C
 * Star translation name codename: NAME_STAR_51_2
 * Star translation description codename: DESC_STAR_51_2
 * Star name: Alrir C
 * Star description: see above.
-* Star zone size: 3.84e+10
+* Star zone size: 3.95e+10
 * Star death zone size: 1.15e+09
 * Star size: 7.67e+08
-* Star flare distance: 3.84e+10
 * Star autopilot range: 2.30e+09
 
-* Omni range: 1.22e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.70e+12
 * Surface color (Peak w.l. color code):
  - rgb: (196, 0, 0)
  - hex: #c40000
@@ -23176,21 +22780,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_51_3_ZONE
-* Star codename: STAR_51_3
+* Star codename: STAR_51_3_Alrir_D
 * Star translation name codename: NAME_STAR_51_3
 * Star translation description codename: DESC_STAR_51_3
 * Star name: Alrir D
 * Star description: see above.
-* Star zone size: 1.55e+10
+* Star zone size: 1.60e+10
 * Star death zone size: 4.65e+08
 * Star size: 3.10e+08
-* Star flare distance: 1.55e+10
 * Star autopilot range: 9.30e+08
 
-* Omni range: 4.17e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.61e+12
 * Surface color (Peak w.l. color code):
  - rgb: (167, 0, 0)
  - hex: #a70000
@@ -23287,7 +22887,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 52
 * Star cluster: unspecified
-* System zone codename: STAR_52_SYSTEM_ZONE
 * System codename: STAR_52_SYSTEM
 * System translation name codename: NAME_STAR_52_SYSTEM
 * System translation description codename: DESC_STAR_52_SYSTEM
@@ -23345,21 +22944,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_52_ZONE
-* Star codename: STAR_52
+* Star codename: STAR_52_Netem_A
 * Star translation name codename: NAME_STAR_52
 * Star translation description codename: DESC_STAR_52
 * Star name: Netem A
 * Star description: see above.
-* Star zone size: 3.33e+10
+* Star zone size: 3.45e+10
 * Star death zone size: 1.20e+09
 * Star size: 6.66e+08
-* Star flare distance: 3.33e+10
 * Star autopilot range: 2.41e+09
 
-* Omni range: 1.84e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.13e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 55, 0)
  - hex: #ff3700
@@ -23397,14 +22992,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 53
 * Star cluster: unspecified
-* System zone codename: STAR_53_SYSTEM_ZONE
 * System codename: STAR_53_SYSTEM
 * System translation name codename: NAME_STAR_53_SYSTEM
 * System translation description codename: DESC_STAR_53_SYSTEM
 * System name: Tol
 * System description: see above. Optionally add lore.
-* System zone size: 1.29e+16
-* System autopilot range: 1.29e+16
+* System zone size: 4.99e+16
+* System autopilot range: 4.99e+16
 ```
 
  </details>  
@@ -23455,21 +23049,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_53_ZONE
-* Star codename: STAR_53
+* Star codename: STAR_53_Tol_A
 * Star translation name codename: NAME_STAR_53
 * Star translation description codename: DESC_STAR_53
 * Star name: Tol A
 * Star description: see above.
-* Star zone size: 8.44e+13
+* Star zone size: 9.10e+12
 * Star death zone size: 8.44e+12
 * Star size: 1.32e+10
-* Star flare distance: 8.44e+13
 * Star autopilot range: 1.69e+13
 
-* Omni range: 1.29e+16
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.99e+16
 * Surface color (Peak w.l. color code):
  - rgb: (163, 27, 210)
  - hex: #a31bd2
@@ -23684,14 +23274,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 54
 * Star cluster: unspecified
-* System zone codename: STAR_54_SYSTEM_ZONE
 * System codename: STAR_54_SYSTEM
 * System translation name codename: NAME_STAR_54_SYSTEM
 * System translation description codename: DESC_STAR_54_SYSTEM
 * System name: Neos
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.59e+13
+* System autopilot range: 1.59e+13
 ```
 
  </details>  
@@ -23742,21 +23331,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_54_ZONE
-* Star codename: STAR_54
+* Star codename: STAR_54_Neos_A
 * Star translation name codename: NAME_STAR_54
 * Star translation description codename: DESC_STAR_54
 * Star name: Neos A
 * Star description: see above.
-* Star zone size: 5.35e+10
+* Star zone size: 5.62e+10
 * Star death zone size: 2.69e+09
 * Star size: 1.07e+09
-* Star flare distance: 5.35e+10
 * Star autopilot range: 5.38e+09
 
-* Omni range: 4.12e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.59e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 149, 0)
  - hex: #ff9500
@@ -23810,21 +23395,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_54_1_ZONE
-* Star codename: STAR_54_1
+* Star codename: STAR_54_1_Neos_B
 * Star translation name codename: NAME_STAR_54_1
 * Star translation description codename: DESC_STAR_54_1
 * Star name: Neos B
 * Star description: see above.
-* Star zone size: 4.62e+10
+* Star zone size: 4.77e+10
 * Star death zone size: 1.51e+09
 * Star size: 9.24e+08
-* Star flare distance: 4.62e+10
 * Star autopilot range: 3.02e+09
 
-* Omni range: 2.31e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 8.93e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 24, 0)
  - hex: #ff1800
@@ -24157,14 +23738,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 55
 * Star cluster: unspecified
-* System zone codename: STAR_55_SYSTEM_ZONE
 * System codename: STAR_55_SYSTEM
 * System translation name codename: NAME_STAR_55_SYSTEM
 * System translation description codename: DESC_STAR_55_SYSTEM
 * System name: Leg
 * System description: see above. Optionally add lore.
-* System zone size: 1.13e+13
-* System autopilot range: 1.13e+13
+* System zone size: 4.39e+13
+* System autopilot range: 4.39e+13
 ```
 
  </details>  
@@ -24215,21 +23795,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_55_ZONE
-* Star codename: STAR_55
+* Star codename: STAR_55_Leg_A
 * Star translation name codename: NAME_STAR_55
 * Star translation description codename: DESC_STAR_55
 * Star name: Leg A
 * Star description: see above.
-* Star zone size: 7.65e+10
+* Star zone size: 8.39e+10
 * Star death zone size: 7.42e+09
 * Star size: 1.53e+09
-* Star flare distance: 7.65e+10
 * Star autopilot range: 1.48e+10
 
-* Omni range: 1.13e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.39e+13
 * Surface color (Peak w.l. color code):
  - rgb: (225, 255, 0)
  - hex: #e1ff00
@@ -24503,7 +24079,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 56
 * Star cluster: unspecified
-* System zone codename: STAR_56_SYSTEM_ZONE
 * System codename: STAR_56_SYSTEM
 * System translation name codename: NAME_STAR_56_SYSTEM
 * System translation description codename: DESC_STAR_56_SYSTEM
@@ -24561,21 +24136,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_56_ZONE
-* Star codename: STAR_56
+* Star codename: STAR_56_Fefalit_A
 * Star translation name codename: NAME_STAR_56
 * Star translation description codename: DESC_STAR_56
 * Star name: Fefalit A
 * Star description: see above.
-* Star zone size: 1.72e+10
+* Star zone size: 1.77e+10
 * Star death zone size: 5.16e+08
 * Star size: 3.44e+08
-* Star flare distance: 1.72e+10
 * Star autopilot range: 1.03e+09
 
-* Omni range: 6.40e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.48e+12
 * Surface color (Peak w.l. color code):
  - rgb: (221, 0, 0)
  - hex: #dd0000
@@ -24849,7 +24420,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 57
 * Star cluster: unspecified
-* System zone codename: STAR_57_SYSTEM_ZONE
 * System codename: STAR_57_SYSTEM
 * System translation name codename: NAME_STAR_57_SYSTEM
 * System translation description codename: DESC_STAR_57_SYSTEM
@@ -24907,21 +24477,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_57_ZONE
-* Star codename: STAR_57
+* Star codename: STAR_57_Igero_A
 * Star translation name codename: NAME_STAR_57
 * Star translation description codename: DESC_STAR_57
 * Star name: Igero A
 * Star description: see above.
-* Star zone size: 3.76e+10
+* Star zone size: 3.88e+10
 * Star death zone size: 1.13e+09
 * Star size: 7.53e+08
-* Star flare distance: 3.76e+10
 * Star autopilot range: 2.26e+09
 
-* Omni range: 1.38e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.32e+12
 * Surface color (Peak w.l. color code):
  - rgb: (219, 0, 0)
  - hex: #db0000
@@ -24975,21 +24541,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_57_1_ZONE
-* Star codename: STAR_57_1
+* Star codename: STAR_57_1_Igero_B
 * Star translation name codename: NAME_STAR_57_1
 * Star translation description codename: DESC_STAR_57_1
 * Star name: Igero B
 * Star description: see above.
-* Star zone size: 2.28e+10
+* Star zone size: 2.35e+10
 * Star death zone size: 6.86e+08
 * Star size: 4.57e+08
-* Star flare distance: 2.28e+10
 * Star autopilot range: 1.37e+09
 
-* Omni range: 7.64e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.96e+12
 * Surface color (Peak w.l. color code):
  - rgb: (206, 0, 0)
  - hex: #ce0000
@@ -25263,14 +24825,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 58
 * Star cluster: unspecified
-* System zone codename: STAR_58_SYSTEM_ZONE
 * System codename: STAR_58_SYSTEM
 * System translation name codename: NAME_STAR_58_SYSTEM
 * System translation description codename: DESC_STAR_58_SYSTEM
 * System name: Noneledu
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 3.36e+13
+* System autopilot range: 3.36e+13
 ```
 
  </details>  
@@ -25321,21 +24882,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_58_ZONE
-* Star codename: STAR_58
+* Star codename: STAR_58_Noneledu_A
 * Star translation name codename: NAME_STAR_58
 * Star translation description codename: DESC_STAR_58
 * Star name: Noneledu A
 * Star description: see above.
-* Star zone size: 7.40e+10
+* Star zone size: 7.97e+10
 * Star death zone size: 5.68e+09
 * Star size: 1.48e+09
-* Star flare distance: 7.40e+10
 * Star autopilot range: 1.14e+10
 
-* Omni range: 8.68e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.36e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 248, 0)
  - hex: #fff800
@@ -25373,14 +24930,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 59
 * Star cluster: unspecified
-* System zone codename: STAR_59_SYSTEM_ZONE
 * System codename: STAR_59_SYSTEM
 * System translation name codename: NAME_STAR_59_SYSTEM
 * System translation description codename: DESC_STAR_59_SYSTEM
 * System name: Kosenyxe
 * System description: see above. Optionally add lore.
-* System zone size: 1.77e+13
-* System autopilot range: 1.77e+13
+* System zone size: 6.84e+13
+* System autopilot range: 6.84e+13
 ```
 
  </details>  
@@ -25431,21 +24987,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_59_ZONE
-* Star codename: STAR_59
+* Star codename: STAR_59_Kosenyxe_A
 * Star translation name codename: NAME_STAR_59
 * Star translation description codename: DESC_STAR_59
 * Star name: Kosenyxe A
 * Star description: see above.
-* Star zone size: 8.50e+10
+* Star zone size: 9.66e+10
 * Star death zone size: 1.16e+10
 * Star size: 1.70e+09
-* Star flare distance: 8.50e+10
 * Star autopilot range: 2.31e+10
 
-* Omni range: 1.77e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.84e+13
 * Surface color (Peak w.l. color code):
  - rgb: (175, 255, 0)
  - hex: #afff00
@@ -25499,21 +25051,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_59_1_ZONE
-* Star codename: STAR_59_1
+* Star codename: STAR_59_1_Kosenyxe_B
 * Star translation name codename: NAME_STAR_59_1
 * Star translation description codename: DESC_STAR_59_1
 * Star name: Kosenyxe B
 * Star description: see above.
-* Star zone size: 8.00e+10
+* Star zone size: 8.99e+10
 * Star death zone size: 9.89e+09
 * Star size: 1.60e+09
-* Star flare distance: 8.00e+10
 * Star autopilot range: 1.98e+10
 
-* Omni range: 1.51e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.85e+13
 * Surface color (Peak w.l. color code):
  - rgb: (190, 255, 0)
  - hex: #beff00
@@ -26200,14 +25748,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 60
 * Star cluster: unspecified
-* System zone codename: STAR_60_SYSTEM_ZONE
 * System codename: STAR_60_SYSTEM
 * System translation name codename: NAME_STAR_60_SYSTEM
 * System translation description codename: DESC_STAR_60_SYSTEM
 * System name: Cysyt
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 3.56e+13
+* System autopilot range: 3.56e+13
 ```
 
  </details>  
@@ -26258,21 +25805,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_60_ZONE
-* Star codename: STAR_60
+* Star codename: STAR_60_Cysyt_A
 * Star translation name codename: NAME_STAR_60
 * Star translation description codename: DESC_STAR_60
 * Star name: Cysyt A
 * Star description: see above.
-* Star zone size: 6.90e+10
+* Star zone size: 7.50e+10
 * Star death zone size: 6.02e+09
 * Star size: 1.38e+09
-* Star flare distance: 6.90e+10
 * Star autopilot range: 1.20e+10
 
-* Omni range: 9.20e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.56e+13
 * Surface color (Peak w.l. color code):
  - rgb: (240, 255, 0)
  - hex: #f0ff00
@@ -26841,14 +26384,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 61
 * Star cluster: unspecified
-* System zone codename: STAR_61_SYSTEM_ZONE
 * System codename: STAR_61_SYSTEM
 * System translation name codename: NAME_STAR_61_SYSTEM
 * System translation description codename: DESC_STAR_61_SYSTEM
 * System name: Gat
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.96e+13
+* System autopilot range: 1.96e+13
 ```
 
  </details>  
@@ -26899,21 +26441,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_61_ZONE
-* Star codename: STAR_61
+* Star codename: STAR_61_Gat_A
 * Star translation name codename: NAME_STAR_61
 * Star translation description codename: DESC_STAR_61
 * Star name: Gat A
 * Star description: see above.
-* Star zone size: 6.10e+10
+* Star zone size: 6.43e+10
 * Star death zone size: 3.31e+09
 * Star size: 1.22e+09
-* Star flare distance: 6.10e+10
 * Star autopilot range: 6.63e+09
 
-* Omni range: 5.06e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.96e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 167, 0)
  - hex: #ffa700
@@ -26967,21 +26505,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_61_1_ZONE
-* Star codename: STAR_61_1
+* Star codename: STAR_61_1_Gat_B
 * Star translation name codename: NAME_STAR_61_1
 * Star translation description codename: DESC_STAR_61_1
 * Star name: Gat B
 * Star description: see above.
-* Star zone size: 2.68e+10
+* Star zone size: 2.76e+10
 * Star death zone size: 8.18e+08
 * Star size: 5.36e+08
-* Star flare distance: 2.68e+10
 * Star autopilot range: 1.64e+09
 
-* Omni range: 1.25e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.84e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 0, 0)
  - hex: #ff0000
@@ -27078,14 +26612,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 62
 * Star cluster: unspecified
-* System zone codename: STAR_62_SYSTEM_ZONE
 * System codename: STAR_62_SYSTEM
 * System translation name codename: NAME_STAR_62_SYSTEM
 * System translation description codename: DESC_STAR_62_SYSTEM
 * System name: Ytalec
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.70e+13
+* System autopilot range: 1.70e+13
 ```
 
  </details>  
@@ -27136,21 +26669,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_62_ZONE
-* Star codename: STAR_62
+* Star codename: STAR_62_Ytalec_A
 * Star translation name codename: NAME_STAR_62
 * Star translation description codename: DESC_STAR_62
 * Star name: Ytalec A
 * Star description: see above.
-* Star zone size: 6.60e+10
+* Star zone size: 6.89e+10
 * Star death zone size: 2.88e+09
 * Star size: 1.32e+09
-* Star flare distance: 6.60e+10
 * Star autopilot range: 5.76e+09
 
-* Omni range: 4.40e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.70e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 111, 0)
  - hex: #ff6f00
@@ -27424,7 +26953,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 63
 * Star cluster: unspecified
-* System zone codename: STAR_63_SYSTEM_ZONE
 * System codename: STAR_63_SYSTEM
 * System translation name codename: NAME_STAR_63_SYSTEM
 * System translation description codename: DESC_STAR_63_SYSTEM
@@ -27482,21 +27010,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_63_ZONE
-* Star codename: STAR_63
+* Star codename: STAR_63_Actauf_A
 * Star translation name codename: NAME_STAR_63
 * Star translation description codename: DESC_STAR_63
 * Star name: Actauf A
 * Star description: see above.
-* Star zone size: 1.82e+10
+* Star zone size: 1.87e+10
 * Star death zone size: 5.46e+08
 * Star size: 3.64e+08
-* Star flare distance: 1.82e+10
 * Star autopilot range: 1.09e+09
 
-* Omni range: 8.26e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.19e+12
 * Surface color (Peak w.l. color code):
  - rgb: (252, 0, 0)
  - hex: #fc0000
@@ -27593,7 +27117,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 64
 * Star cluster: unspecified
-* System zone codename: STAR_64_SYSTEM_ZONE
 * System codename: STAR_64_SYSTEM
 * System translation name codename: NAME_STAR_64_SYSTEM
 * System translation description codename: DESC_STAR_64_SYSTEM
@@ -27651,21 +27174,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_64_ZONE
-* Star codename: STAR_64
+* Star codename: STAR_64_Bibso_A
 * Star translation name codename: NAME_STAR_64
 * Star translation description codename: DESC_STAR_64
 * Star name: Bibso A
 * Star description: see above.
-* Star zone size: 3.54e+10
+* Star zone size: 3.65e+10
 * Star death zone size: 1.06e+09
 * Star size: 7.09e+08
-* Star flare distance: 3.54e+10
 * Star autopilot range: 2.13e+09
 
-* Omni range: 1.16e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.49e+12
 * Surface color (Peak w.l. color code):
  - rgb: (201, 0, 0)
  - hex: #c90000
@@ -27719,21 +27238,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_64_1_ZONE
-* Star codename: STAR_64_1
+* Star codename: STAR_64_1_Bibso_B
 * Star translation name codename: NAME_STAR_64_1
 * Star translation description codename: DESC_STAR_64_1
 * Star name: Bibso B
 * Star description: see above.
-* Star zone size: 4.07e+10
+* Star zone size: 4.19e+10
 * Star death zone size: 1.22e+09
 * Star size: 8.14e+08
-* Star flare distance: 4.07e+10
 * Star autopilot range: 2.44e+09
 
-* Omni range: 1.03e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.00e+12
 * Surface color (Peak w.l. color code):
  - rgb: (157, 0, 0)
  - hex: #9d0000
@@ -27948,14 +27463,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 65
 * Star cluster: unspecified
-* System zone codename: STAR_65_SYSTEM_ZONE
 * System codename: STAR_65_SYSTEM
 * System translation name codename: NAME_STAR_65_SYSTEM
 * System translation description codename: DESC_STAR_65_SYSTEM
 * System name: Sac
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.53e+13
+* System autopilot range: 1.53e+13
 ```
 
  </details>  
@@ -28006,21 +27520,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_65_ZONE
-* Star codename: STAR_65
+* Star codename: STAR_65_Sac_A
 * Star translation name codename: NAME_STAR_65
 * Star translation description codename: DESC_STAR_65
 * Star name: Sac A
 * Star description: see above.
-* Star zone size: 5.75e+10
+* Star zone size: 6.01e+10
 * Star death zone size: 2.59e+09
 * Star size: 1.15e+09
-* Star flare distance: 5.75e+10
 * Star autopilot range: 5.18e+09
 
-* Omni range: 3.96e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.53e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 118, 0)
  - hex: #ff7600
@@ -28235,14 +27745,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 66
 * Star cluster: unspecified
-* System zone codename: STAR_66_SYSTEM_ZONE
 * System codename: STAR_66_SYSTEM
 * System translation name codename: NAME_STAR_66_SYSTEM
 * System translation description codename: DESC_STAR_66_SYSTEM
 * System name: Otoci
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.67e+13
+* System autopilot range: 1.67e+13
 ```
 
  </details>  
@@ -28293,21 +27802,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_66_ZONE
-* Star codename: STAR_66
+* Star codename: STAR_66_Otoci_A
 * Star translation name codename: NAME_STAR_66
 * Star translation description codename: DESC_STAR_66
 * Star name: Otoci A
 * Star description: see above.
-* Star zone size: 4.94e+10
+* Star zone size: 5.23e+10
 * Star death zone size: 2.82e+09
 * Star size: 9.89e+08
-* Star flare distance: 4.94e+10
 * Star autopilot range: 5.64e+09
 
-* Omni range: 4.31e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.67e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 180, 0)
  - hex: #ffb400
@@ -28361,21 +27866,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_66_1_ZONE
-* Star codename: STAR_66_1
+* Star codename: STAR_66_1_Otoci_B
 * Star translation name codename: NAME_STAR_66_1
 * Star translation description codename: DESC_STAR_66_1
 * Star name: Otoci B
 * Star description: see above.
-* Star zone size: 5.60e+10
+* Star zone size: 5.86e+10
 * Star death zone size: 2.63e+09
 * Star size: 1.12e+09
-* Star flare distance: 5.60e+10
 * Star autopilot range: 5.26e+09
 
-* Omni range: 4.02e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.56e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 130, 0)
  - hex: #ff8200
@@ -28429,21 +27930,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_66_2_ZONE
-* Star codename: STAR_66_2
+* Star codename: STAR_66_2_Otoci_C
 * Star translation name codename: NAME_STAR_66_2
 * Star translation description codename: DESC_STAR_66_2
 * Star name: Otoci C
 * Star description: see above.
-* Star zone size: 6.35e+10
+* Star zone size: 6.61e+10
 * Star death zone size: 2.58e+09
 * Star size: 1.27e+09
-* Star flare distance: 6.35e+10
 * Star autopilot range: 5.15e+09
 
-* Omni range: 3.94e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.52e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 87, 0)
  - hex: #ff5700
@@ -28497,21 +27994,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_66_3_ZONE
-* Star codename: STAR_66_3
+* Star codename: STAR_66_3_Otoci_D
 * Star translation name codename: NAME_STAR_66_3
 * Star translation description codename: DESC_STAR_66_3
 * Star name: Otoci D
 * Star description: see above.
-* Star zone size: 2.10e+10
+* Star zone size: 2.16e+10
 * Star death zone size: 6.30e+08
 * Star size: 4.20e+08
-* Star flare distance: 2.10e+10
 * Star autopilot range: 1.26e+09
 
-* Omni range: 6.86e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.65e+12
 * Surface color (Peak w.l. color code):
  - rgb: (201, 0, 0)
  - hex: #c90000
@@ -28565,21 +28058,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_66_4_ZONE
-* Star codename: STAR_66_4
+* Star codename: STAR_66_4_Otoci_E
 * Star translation name codename: NAME_STAR_66_4
 * Star translation description codename: DESC_STAR_66_4
 * Star name: Otoci E
 * Star description: see above.
-* Star zone size: 4.01e+10
+* Star zone size: 4.13e+10
 * Star death zone size: 1.20e+09
 * Star size: 8.02e+08
-* Star flare distance: 4.01e+10
 * Star autopilot range: 2.41e+09
 
-* Omni range: 1.08e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.17e+12
 * Surface color (Peak w.l. color code):
  - rgb: (167, 0, 0)
  - hex: #a70000
@@ -28971,14 +28460,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 67
 * Star cluster: unspecified
-* System zone codename: STAR_67_SYSTEM_ZONE
 * System codename: STAR_67_SYSTEM
 * System translation name codename: NAME_STAR_67_SYSTEM
 * System translation description codename: DESC_STAR_67_SYSTEM
 * System name: Evaso
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.73e+13
+* System autopilot range: 1.73e+13
 ```
 
  </details>  
@@ -29029,21 +28517,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_67_ZONE
-* Star codename: STAR_67
+* Star codename: STAR_67_Evaso_A
 * Star translation name codename: NAME_STAR_67
 * Star translation description codename: DESC_STAR_67
 * Star name: Evaso A
 * Star description: see above.
-* Star zone size: 5.50e+10
+* Star zone size: 5.79e+10
 * Star death zone size: 2.93e+09
 * Star size: 1.10e+09
-* Star flare distance: 5.50e+10
 * Star autopilot range: 5.87e+09
 
-* Omni range: 4.48e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.73e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 161, 0)
  - hex: #ffa100
@@ -29097,21 +28581,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_67_1_ZONE
-* Star codename: STAR_67_1
+* Star codename: STAR_67_1_Evaso_B
 * Star translation name codename: NAME_STAR_67_1
 * Star translation description codename: DESC_STAR_67_1
 * Star name: Evaso B
 * Star description: see above.
-* Star zone size: 5.35e+10
+* Star zone size: 5.64e+10
 * Star death zone size: 2.85e+09
 * Star size: 1.07e+09
-* Star flare distance: 5.35e+10
 * Star autopilot range: 5.70e+09
 
-* Omni range: 4.36e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.69e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 161, 0)
  - hex: #ffa100
@@ -29165,21 +28645,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_67_2_ZONE
-* Star codename: STAR_67_2
+* Star codename: STAR_67_2_Evaso_C
 * Star translation name codename: NAME_STAR_67_2
 * Star translation description codename: DESC_STAR_67_2
 * Star name: Evaso C
 * Star description: see above.
-* Star zone size: 5.95e+10
+* Star zone size: 6.19e+10
 * Star death zone size: 2.41e+09
 * Star size: 1.19e+09
-* Star flare distance: 5.95e+10
 * Star autopilot range: 4.82e+09
 
-* Omni range: 3.68e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.42e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 87, 0)
  - hex: #ff5700
@@ -29233,21 +28709,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_67_3_ZONE
-* Star codename: STAR_67_3
+* Star codename: STAR_67_3_Evaso_D
 * Star translation name codename: NAME_STAR_67_3
 * Star translation description codename: DESC_STAR_67_3
 * Star name: Evaso D
 * Star description: see above.
-* Star zone size: 4.08e+10
+* Star zone size: 4.21e+10
 * Star death zone size: 1.23e+09
 * Star size: 8.17e+08
-* Star flare distance: 4.08e+10
 * Star autopilot range: 2.45e+09
 
-* Omni range: 1.60e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.19e+12
 * Surface color (Peak w.l. color code):
  - rgb: (229, 0, 0)
  - hex: #e50000
@@ -29301,21 +28773,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_67_4_ZONE
-* Star codename: STAR_67_4
+* Star codename: STAR_67_4_Evaso_E
 * Star translation name codename: NAME_STAR_67_4
 * Star translation description codename: DESC_STAR_67_4
 * Star name: Evaso E
 * Star description: see above.
-* Star zone size: 2.20e+10
+* Star zone size: 2.27e+10
 * Star death zone size: 6.62e+08
 * Star size: 4.41e+08
-* Star flare distance: 2.20e+10
 * Star autopilot range: 1.32e+09
 
-* Omni range: 5.45e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.11e+12
 * Surface color (Peak w.l. color code):
  - rgb: (152, 0, 0)
  - hex: #980000
@@ -29530,7 +28998,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 68
 * Star cluster: unspecified
-* System zone codename: STAR_68_SYSTEM_ZONE
 * System codename: STAR_68_SYSTEM
 * System translation name codename: NAME_STAR_68_SYSTEM
 * System translation description codename: DESC_STAR_68_SYSTEM
@@ -29588,21 +29055,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_68_ZONE
-* Star codename: STAR_68
+* Star codename: STAR_68_Magysoh_A
 * Star translation name codename: NAME_STAR_68
 * Star translation description codename: DESC_STAR_68
 * Star name: Magysoh A
 * Star description: see above.
-* Star zone size: 2.72e+10
+* Star zone size: 2.81e+10
 * Star death zone size: 8.18e+08
 * Star size: 5.45e+08
-* Star flare distance: 2.72e+10
 * Star autopilot range: 1.64e+09
 
-* Omni range: 8.30e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.21e+12
 * Surface color (Peak w.l. color code):
  - rgb: (188, 0, 0)
  - hex: #bc0000
@@ -29758,14 +29221,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 69
 * Star cluster: unspecified
-* System zone codename: STAR_69_SYSTEM_ZONE
 * System codename: STAR_69_SYSTEM
 * System translation name codename: NAME_STAR_69_SYSTEM
 * System translation description codename: DESC_STAR_69_SYSTEM
 * System name: Tou
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.75e+13
+* System autopilot range: 1.75e+13
 ```
 
  </details>  
@@ -29816,21 +29278,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_69_ZONE
-* Star codename: STAR_69
+* Star codename: STAR_69_Tou_A
 * Star translation name codename: NAME_STAR_69
 * Star translation description codename: DESC_STAR_69
 * Star name: Tou A
 * Star description: see above.
-* Star zone size: 5.60e+10
+* Star zone size: 5.90e+10
 * Star death zone size: 2.96e+09
 * Star size: 1.12e+09
-* Star flare distance: 5.60e+10
 * Star autopilot range: 5.92e+09
 
-* Omni range: 4.53e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.75e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 161, 0)
  - hex: #ffa100
@@ -29884,21 +29342,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_69_1_ZONE
-* Star codename: STAR_69_1
+* Star codename: STAR_69_1_Tou_B
 * Star translation name codename: NAME_STAR_69_1
 * Star translation description codename: DESC_STAR_69_1
 * Star name: Tou B
 * Star description: see above.
-* Star zone size: 5.20e+10
+* Star zone size: 5.43e+10
 * Star death zone size: 2.31e+09
 * Star size: 1.04e+09
-* Star flare distance: 5.20e+10
 * Star autopilot range: 4.62e+09
 
-* Omni range: 3.53e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.37e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 118, 0)
  - hex: #ff7600
@@ -30290,14 +29744,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 70
 * Star cluster: unspecified
-* System zone codename: STAR_70_SYSTEM_ZONE
 * System codename: STAR_70_SYSTEM
 * System translation name codename: NAME_STAR_70_SYSTEM
 * System translation description codename: DESC_STAR_70_SYSTEM
 * System name: Usateho
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.44e+13
+* System autopilot range: 1.44e+13
 ```
 
  </details>  
@@ -30348,21 +29801,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_70_ZONE
-* Star codename: STAR_70
+* Star codename: STAR_70_Usateho_A
 * Star translation name codename: NAME_STAR_70
 * Star translation description codename: DESC_STAR_70
 * Star name: Usateho A
 * Star description: see above.
-* Star zone size: 5.10e+10
+* Star zone size: 5.34e+10
 * Star death zone size: 2.43e+09
 * Star size: 1.02e+09
-* Star flare distance: 5.10e+10
 * Star autopilot range: 4.86e+09
 
-* Omni range: 3.71e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.44e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 136, 0)
  - hex: #ff8800
@@ -30518,7 +29967,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 71
 * Star cluster: unspecified
-* System zone codename: STAR_71_SYSTEM_ZONE
 * System codename: STAR_71_SYSTEM
 * System translation name codename: NAME_STAR_71_SYSTEM
 * System translation description codename: DESC_STAR_71_SYSTEM
@@ -30576,21 +30024,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_71_ZONE
-* Star codename: STAR_71
+* Star codename: STAR_71_Arelcal_A
 * Star translation name codename: NAME_STAR_71
 * Star translation description codename: DESC_STAR_71
 * Star name: Arelcal A
 * Star description: see above.
-* Star zone size: 7.20e+09
+* Star zone size: 7.42e+09
 * Star death zone size: 2.16e+08
 * Star size: 1.44e+08
-* Star flare distance: 7.20e+09
 * Star autopilot range: 4.32e+08
 
-* Omni range: 2.79e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.08e+12
 * Surface color (Peak w.l. color code):
  - rgb: (229, 0, 0)
  - hex: #e50000
@@ -30628,14 +30072,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 72
 * Star cluster: unspecified
-* System zone codename: STAR_72_SYSTEM_ZONE
 * System codename: STAR_72_SYSTEM
 * System translation name codename: NAME_STAR_72_SYSTEM
 * System translation description codename: DESC_STAR_72_SYSTEM
 * System name: Etorfe
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.54e+13
+* System autopilot range: 1.54e+13
 ```
 
  </details>  
@@ -30686,21 +30129,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_72_ZONE
-* Star codename: STAR_72
+* Star codename: STAR_72_Etorfe_A
 * Star translation name codename: NAME_STAR_72
 * Star translation description codename: DESC_STAR_72
 * Star name: Etorfe A
 * Star description: see above.
-* Star zone size: 4.95e+10
+* Star zone size: 5.21e+10
 * Star death zone size: 2.60e+09
 * Star size: 9.90e+08
-* Star flare distance: 4.95e+10
 * Star autopilot range: 5.20e+09
 
-* Omni range: 3.98e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.54e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 161, 0)
  - hex: #ffa100
@@ -31092,7 +30531,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 73
 * Star cluster: unspecified
-* System zone codename: STAR_73_SYSTEM_ZONE
 * System codename: STAR_73_SYSTEM
 * System translation name codename: NAME_STAR_73_SYSTEM
 * System translation description codename: DESC_STAR_73_SYSTEM
@@ -31150,21 +30588,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_73_ZONE
-* Star codename: STAR_73
+* Star codename: STAR_73_Kewar_A
 * Star translation name codename: NAME_STAR_73
 * Star translation description codename: DESC_STAR_73
 * Star name: Kewar A
 * Star description: see above.
-* Star zone size: 1.86e+10
+* Star zone size: 1.92e+10
 * Star death zone size: 5.60e+08
 * Star size: 3.73e+08
-* Star flare distance: 1.86e+10
 * Star autopilot range: 1.12e+09
 
-* Omni range: 7.87e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.04e+12
 * Surface color (Peak w.l. color code):
  - rgb: (242, 0, 0)
  - hex: #f20000
@@ -31202,14 +30636,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 74
 * Star cluster: unspecified
-* System zone codename: STAR_74_SYSTEM_ZONE
 * System codename: STAR_74_SYSTEM
 * System translation name codename: NAME_STAR_74_SYSTEM
 * System translation description codename: DESC_STAR_74_SYSTEM
 * System name: Oahpa
 * System description: see above. Optionally add lore.
-* System zone size: 1.61e+13
-* System autopilot range: 1.61e+13
+* System zone size: 6.22e+13
+* System autopilot range: 6.22e+13
 ```
 
  </details>  
@@ -31260,21 +30693,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_74_ZONE
-* Star codename: STAR_74
+* Star codename: STAR_74_Oahpa_A
 * Star translation name codename: NAME_STAR_74
 * Star translation description codename: DESC_STAR_74
 * Star name: Oahpa A
 * Star description: see above.
-* Star zone size: 8.35e+10
+* Star zone size: 9.40e+10
 * Star death zone size: 1.05e+10
 * Star size: 1.67e+09
-* Star flare distance: 8.35e+10
 * Star autopilot range: 2.10e+10
 
-* Omni range: 1.61e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.22e+13
 * Surface color (Peak w.l. color code):
  - rgb: (185, 255, 0)
  - hex: #b9ff00
@@ -31430,14 +30859,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 75
 * Star cluster: unspecified
-* System zone codename: STAR_75_SYSTEM_ZONE
 * System codename: STAR_75_SYSTEM
 * System translation name codename: NAME_STAR_75_SYSTEM
 * System translation description codename: DESC_STAR_75_SYSTEM
 * System name: Ocevemag
 * System description: see above. Optionally add lore.
-* System zone size: 1.07e+13
-* System autopilot range: 1.07e+13
+* System zone size: 4.13e+13
+* System autopilot range: 4.13e+13
 ```
 
  </details>  
@@ -31488,21 +30916,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_75_ZONE
-* Star codename: STAR_75
+* Star codename: STAR_75_Ocevemag_A
 * Star translation name codename: NAME_STAR_75
 * Star translation description codename: DESC_STAR_75
 * Star name: Ocevemag A
 * Star description: see above.
-* Star zone size: 7.70e+10
+* Star zone size: 8.40e+10
 * Star death zone size: 6.98e+09
 * Star size: 1.54e+09
-* Star flare distance: 7.70e+10
 * Star autopilot range: 1.40e+10
 
-* Omni range: 1.07e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.13e+13
 * Surface color (Peak w.l. color code):
  - rgb: (235, 255, 0)
  - hex: #ebff00
@@ -31894,14 +31318,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 76
 * Star cluster: unspecified
-* System zone codename: STAR_76_SYSTEM_ZONE
 * System codename: STAR_76_SYSTEM
 * System translation name codename: NAME_STAR_76_SYSTEM
 * System translation description codename: DESC_STAR_76_SYSTEM
 * System name: Wotor
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.38e+13
+* System autopilot range: 1.38e+13
 ```
 
  </details>  
@@ -31952,21 +31375,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_76_ZONE
-* Star codename: STAR_76
+* Star codename: STAR_76_Wotor_A
 * Star translation name codename: NAME_STAR_76
 * Star translation description codename: DESC_STAR_76
 * Star name: Wotor A
 * Star description: see above.
-* Star zone size: 5.05e+10
+* Star zone size: 5.28e+10
 * Star death zone size: 2.34e+09
 * Star size: 1.01e+09
-* Star flare distance: 5.05e+10
 * Star autopilot range: 4.67e+09
 
-* Omni range: 3.57e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.38e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 124, 0)
  - hex: #ff7c00
@@ -32020,21 +31439,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_76_1_ZONE
-* Star codename: STAR_76_1
+* Star codename: STAR_76_1_Wotor_B
 * Star translation name codename: NAME_STAR_76_1
 * Star translation description codename: DESC_STAR_76_1
 * Star name: Wotor B
 * Star description: see above.
-* Star zone size: 2.46e+10
+* Star zone size: 2.53e+10
 * Star death zone size: 7.36e+08
 * Star size: 4.91e+08
-* Star flare distance: 2.46e+10
 * Star autopilot range: 1.47e+09
 
-* Omni range: 1.05e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.06e+12
 * Surface color (Peak w.l. color code):
  - rgb: (242, 0, 0)
  - hex: #f20000
@@ -32190,14 +31605,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 77
 * Star cluster: unspecified
-* System zone codename: STAR_77_SYSTEM_ZONE
 * System codename: STAR_77_SYSTEM
 * System translation name codename: NAME_STAR_77_SYSTEM
 * System translation description codename: DESC_STAR_77_SYSTEM
 * System name: Tatoku
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.81e+13
+* System autopilot range: 1.81e+13
 ```
 
  </details>  
@@ -32248,21 +31662,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_77_ZONE
-* Star codename: STAR_77
+* Star codename: STAR_77_Tatoku_A
 * Star translation name codename: NAME_STAR_77
 * Star translation description codename: DESC_STAR_77
 * Star name: Tatoku A
 * Star description: see above.
-* Star zone size: 5.60e+10
+* Star zone size: 5.91e+10
 * Star death zone size: 3.07e+09
 * Star size: 1.12e+09
-* Star flare distance: 5.60e+10
 * Star autopilot range: 6.13e+09
 
-* Omni range: 4.69e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.81e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 167, 0)
  - hex: #ffa700
@@ -32654,14 +32064,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 78
 * Star cluster: unspecified
-* System zone codename: STAR_78_SYSTEM_ZONE
 * System codename: STAR_78_SYSTEM
 * System translation name codename: NAME_STAR_78_SYSTEM
 * System translation description codename: DESC_STAR_78_SYSTEM
 * System name: Natun
 * System description: see above. Optionally add lore.
-* System zone size: 1.73e+13
-* System autopilot range: 1.73e+13
+* System zone size: 6.70e+13
+* System autopilot range: 6.70e+13
 ```
 
  </details>  
@@ -32712,21 +32121,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_78_ZONE
-* Star codename: STAR_78
+* Star codename: STAR_78_Natun_A
 * Star translation name codename: NAME_STAR_78
 * Star translation description codename: DESC_STAR_78
 * Star name: Natun A
 * Star description: see above.
-* Star zone size: 8.05e+10
+* Star zone size: 9.18e+10
 * Star death zone size: 1.13e+10
 * Star size: 1.61e+09
-* Star flare distance: 8.05e+10
 * Star autopilot range: 2.27e+10
 
-* Omni range: 1.73e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.70e+13
 * Surface color (Peak w.l. color code):
  - rgb: (170, 255, 0)
  - hex: #aaff00
@@ -33059,14 +32464,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 79
 * Star cluster: unspecified
-* System zone codename: STAR_79_SYSTEM_ZONE
 * System codename: STAR_79_SYSTEM
 * System translation name codename: NAME_STAR_79_SYSTEM
 * System translation description codename: DESC_STAR_79_SYSTEM
 * System name: Beriniwu
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.24e+13
+* System autopilot range: 1.24e+13
 ```
 
  </details>  
@@ -33117,21 +32521,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_79_ZONE
-* Star codename: STAR_79
+* Star codename: STAR_79_Beriniwu_A
 * Star translation name codename: NAME_STAR_79
 * Star translation description codename: DESC_STAR_79
 * Star name: Beriniwu A
 * Star description: see above.
-* Star zone size: 5.25e+10
+* Star zone size: 5.46e+10
 * Star death zone size: 2.10e+09
 * Star size: 1.05e+09
-* Star flare distance: 5.25e+10
 * Star autopilot range: 4.19e+09
 
-* Omni range: 3.20e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.24e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 80, 0)
  - hex: #ff5000
@@ -33185,21 +32585,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_79_1_ZONE
-* Star codename: STAR_79_1
+* Star codename: STAR_79_1_Beriniwu_B
 * Star translation name codename: NAME_STAR_79_1
 * Star translation description codename: DESC_STAR_79_1
 * Star name: Beriniwu B
 * Star description: see above.
-* Star zone size: 5.45e+10
+* Star zone size: 5.67e+10
 * Star death zone size: 2.20e+09
 * Star size: 1.09e+09
-* Star flare distance: 5.45e+10
 * Star autopilot range: 4.40e+09
 
-* Omni range: 3.36e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.30e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 87, 0)
  - hex: #ff5700
@@ -33253,21 +32649,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_79_2_ZONE
-* Star codename: STAR_79_2
+* Star codename: STAR_79_2_Beriniwu_C
 * Star translation name codename: NAME_STAR_79_2
 * Star translation description codename: DESC_STAR_79_2
 * Star name: Beriniwu C
 * Star description: see above.
-* Star zone size: 2.45e+10
+* Star zone size: 2.52e+10
 * Star death zone size: 7.35e+08
 * Star size: 4.90e+08
-* Star flare distance: 2.45e+10
 * Star autopilot range: 1.47e+09
 
-* Omni range: 7.43e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.88e+12
 * Surface color (Peak w.l. color code):
  - rgb: (188, 0, 0)
  - hex: #bc0000
@@ -33482,7 +32874,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 80
 * Star cluster: unspecified
-* System zone codename: STAR_80_SYSTEM_ZONE
 * System codename: STAR_80_SYSTEM
 * System translation name codename: NAME_STAR_80_SYSTEM
 * System translation description codename: DESC_STAR_80_SYSTEM
@@ -33540,21 +32931,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_80_ZONE
-* Star codename: STAR_80
+* Star codename: STAR_80_Teawc_A
 * Star translation name codename: NAME_STAR_80
 * Star translation description codename: DESC_STAR_80
 * Star name: Teawc A
 * Star description: see above.
-* Star zone size: 1.38e+10
+* Star zone size: 1.42e+10
 * Star death zone size: 4.14e+08
 * Star size: 2.76e+08
-* Star flare distance: 1.38e+10
 * Star autopilot range: 8.28e+08
 
-* Omni range: 3.88e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.50e+12
 * Surface color (Peak w.l. color code):
  - rgb: (175, 0, 0)
  - hex: #af0000
@@ -33608,21 +32995,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_80_1_ZONE
-* Star codename: STAR_80_1
+* Star codename: STAR_80_1_Teawc_B
 * Star translation name codename: NAME_STAR_80_1
 * Star translation description codename: DESC_STAR_80_1
 * Star name: Teawc B
 * Star description: see above.
-* Star zone size: 4.09e+10
+* Star zone size: 4.21e+10
 * Star death zone size: 1.23e+09
 * Star size: 8.18e+08
-* Star flare distance: 4.09e+10
 * Star autopilot range: 2.45e+09
 
-* Omni range: 1.12e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.33e+12
 * Surface color (Peak w.l. color code):
  - rgb: (170, 0, 0)
  - hex: #aa0000
@@ -33676,21 +33059,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_80_2_ZONE
-* Star codename: STAR_80_2
+* Star codename: STAR_80_2_Teawc_C
 * Star translation name codename: NAME_STAR_80_2
 * Star translation description codename: DESC_STAR_80_2
 * Star name: Teawc C
 * Star description: see above.
-* Star zone size: 2.40e+10
+* Star zone size: 2.47e+10
 * Star death zone size: 7.20e+08
 * Star size: 4.80e+08
-* Star flare distance: 2.40e+10
 * Star autopilot range: 1.44e+09
 
-* Omni range: 6.53e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.53e+12
 * Surface color (Peak w.l. color code):
  - rgb: (170, 0, 0)
  - hex: #aa0000
@@ -33905,14 +33284,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 81
 * Star cluster: unspecified
-* System zone codename: STAR_81_SYSTEM_ZONE
 * System codename: STAR_81_SYSTEM
 * System translation name codename: NAME_STAR_81_SYSTEM
 * System translation description codename: DESC_STAR_81_SYSTEM
 * System name: Uketo
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.60e+13
+* System autopilot range: 1.60e+13
 ```
 
  </details>  
@@ -33963,21 +33341,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_81_ZONE
-* Star codename: STAR_81
+* Star codename: STAR_81_Uketo_A
 * Star translation name codename: NAME_STAR_81
 * Star translation description codename: DESC_STAR_81
 * Star name: Uketo A
 * Star description: see above.
-* Star zone size: 5.70e+10
+* Star zone size: 5.97e+10
 * Star death zone size: 2.71e+09
 * Star size: 1.14e+09
-* Star flare distance: 5.70e+10
 * Star autopilot range: 5.43e+09
 
-* Omni range: 4.15e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.60e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 136, 0)
  - hex: #ff8800
@@ -34074,7 +33448,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 82
 * Star cluster: unspecified
-* System zone codename: STAR_82_SYSTEM_ZONE
 * System codename: STAR_82_SYSTEM
 * System translation name codename: NAME_STAR_82_SYSTEM
 * System translation description codename: DESC_STAR_82_SYSTEM
@@ -34132,21 +33505,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_82_ZONE
-* Star codename: STAR_82
+* Star codename: STAR_82_Ysavire_A
 * Star translation name codename: NAME_STAR_82
 * Star translation description codename: DESC_STAR_82
 * Star name: Ysavire A
 * Star description: see above.
-* Star zone size: 1.23e+10
+* Star zone size: 1.27e+10
 * Star death zone size: 3.69e+08
 * Star size: 2.46e+08
-* Star flare distance: 1.23e+10
 * Star autopilot range: 7.38e+08
 
-* Omni range: 5.11e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.98e+12
 * Surface color (Peak w.l. color code):
  - rgb: (239, 0, 0)
  - hex: #ef0000
@@ -34243,7 +33612,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 83
 * Star cluster: unspecified
-* System zone codename: STAR_83_SYSTEM_ZONE
 * System codename: STAR_83_SYSTEM
 * System translation name codename: NAME_STAR_83_SYSTEM
 * System translation description codename: DESC_STAR_83_SYSTEM
@@ -34301,21 +33669,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_83_ZONE
-* Star codename: STAR_83
+* Star codename: STAR_83_Memocer_A
 * Star translation name codename: NAME_STAR_83
 * Star translation description codename: DESC_STAR_83
 * Star name: Memocer A
 * Star description: see above.
-* Star zone size: 2.62e+10
+* Star zone size: 2.70e+10
 * Star death zone size: 7.88e+08
 * Star size: 5.25e+08
-* Star flare distance: 2.62e+10
 * Star autopilot range: 1.58e+09
 
-* Omni range: 7.86e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.04e+12
 * Surface color (Peak w.l. color code):
  - rgb: (185, 0, 0)
  - hex: #b90000
@@ -34369,21 +33733,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_83_1_ZONE
-* Star codename: STAR_83_1
+* Star codename: STAR_83_1_Memocer_B
 * Star translation name codename: NAME_STAR_83_1
 * Star translation description codename: DESC_STAR_83_1
 * Star name: Memocer B
 * Star description: see above.
-* Star zone size: 3.18e+10
+* Star zone size: 3.27e+10
 * Star death zone size: 9.52e+08
 * Star size: 6.35e+08
-* Star flare distance: 3.18e+10
 * Star autopilot range: 1.90e+09
 
-* Omni range: 9.11e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.53e+12
 * Surface color (Peak w.l. color code):
  - rgb: (178, 0, 0)
  - hex: #b20000
@@ -34437,21 +33797,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_83_2_ZONE
-* Star codename: STAR_83_2
+* Star codename: STAR_83_2_Memocer_C
 * Star translation name codename: NAME_STAR_83_2
 * Star translation description codename: DESC_STAR_83_2
 * Star name: Memocer C
 * Star description: see above.
-* Star zone size: 3.90e+10
+* Star zone size: 4.02e+10
 * Star death zone size: 1.17e+09
 * Star size: 7.81e+08
-* Star flare distance: 3.90e+10
 * Star autopilot range: 2.34e+09
 
-* Omni range: 1.02e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.96e+12
 * Surface color (Peak w.l. color code):
  - rgb: (162, 0, 0)
  - hex: #a20000
@@ -34666,14 +34022,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 84
 * Star cluster: unspecified
-* System zone codename: STAR_84_SYSTEM_ZONE
 * System codename: STAR_84_SYSTEM
 * System translation name codename: NAME_STAR_84_SYSTEM
 * System translation description codename: DESC_STAR_84_SYSTEM
 * System name: Isdut
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.47e+13
+* System autopilot range: 1.47e+13
 ```
 
  </details>  
@@ -34724,21 +34079,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_84_ZONE
-* Star codename: STAR_84
+* Star codename: STAR_84_Isdut_A
 * Star translation name codename: NAME_STAR_84
 * Star translation description codename: DESC_STAR_84
 * Star name: Isdut A
 * Star description: see above.
-* Star zone size: 5.35e+10
+* Star zone size: 5.60e+10
 * Star death zone size: 2.48e+09
 * Star size: 1.07e+09
-* Star flare distance: 5.35e+10
 * Star autopilot range: 4.97e+09
 
-* Omni range: 3.80e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.47e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 124, 0)
  - hex: #ff7c00
@@ -34792,21 +34143,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_84_1_ZONE
-* Star codename: STAR_84_1
+* Star codename: STAR_84_1_Isdut_B
 * Star translation name codename: NAME_STAR_84_1
 * Star translation description codename: DESC_STAR_84_1
 * Star name: Isdut B
 * Star description: see above.
-* Star zone size: 5.30e+10
+* Star zone size: 5.55e+10
 * Star death zone size: 2.47e+09
 * Star size: 1.06e+09
-* Star flare distance: 5.30e+10
 * Star autopilot range: 4.93e+09
 
-* Omni range: 3.77e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.46e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 130, 0)
  - hex: #ff8200
@@ -34860,21 +34207,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_84_2_ZONE
-* Star codename: STAR_84_2
+* Star codename: STAR_84_2_Isdut_C
 * Star translation name codename: NAME_STAR_84_2
 * Star translation description codename: DESC_STAR_84_2
 * Star name: Isdut C
 * Star description: see above.
-* Star zone size: 5.85e+10
+* Star zone size: 6.09e+10
 * Star death zone size: 2.39e+09
 * Star size: 1.17e+09
-* Star flare distance: 5.85e+10
 * Star autopilot range: 4.78e+09
 
-* Omni range: 3.66e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.41e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 93, 0)
  - hex: #ff5d00
@@ -35266,7 +34609,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 85
 * Star cluster: unspecified
-* System zone codename: STAR_85_SYSTEM_ZONE
 * System codename: STAR_85_SYSTEM
 * System translation name codename: NAME_STAR_85_SYSTEM
 * System translation description codename: DESC_STAR_85_SYSTEM
@@ -35324,21 +34666,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_85_ZONE
-* Star codename: STAR_85
+* Star codename: STAR_85_Karanise_A
 * Star translation name codename: NAME_STAR_85
 * Star translation description codename: DESC_STAR_85
 * Star name: Karanise A
 * Star description: see above.
-* Star zone size: 1.73e+10
+* Star zone size: 1.78e+10
 * Star death zone size: 5.19e+08
 * Star size: 3.46e+08
-* Star flare distance: 1.73e+10
 * Star autopilot range: 1.04e+09
 
-* Omni range: 4.39e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.70e+12
 * Surface color (Peak w.l. color code):
  - rgb: (157, 0, 0)
  - hex: #9d0000
@@ -35553,7 +34891,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 86
 * Star cluster: unspecified
-* System zone codename: STAR_86_SYSTEM_ZONE
 * System codename: STAR_86_SYSTEM
 * System translation name codename: NAME_STAR_86_SYSTEM
 * System translation description codename: DESC_STAR_86_SYSTEM
@@ -35611,21 +34948,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_86_ZONE
-* Star codename: STAR_86
+* Star codename: STAR_86_Regila_A
 * Star translation name codename: NAME_STAR_86
 * Star translation description codename: DESC_STAR_86
 * Star name: Regila A
 * Star description: see above.
-* Star zone size: 3.73e+10
+* Star zone size: 3.84e+10
 * Star death zone size: 1.12e+09
 * Star size: 7.46e+08
-* Star flare distance: 3.73e+10
 * Star autopilot range: 2.24e+09
 
-* Omni range: 1.47e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.70e+12
 * Surface color (Peak w.l. color code):
  - rgb: (231, 0, 0)
  - hex: #e70000
@@ -35679,21 +35012,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_86_1_ZONE
-* Star codename: STAR_86_1
+* Star codename: STAR_86_1_Regila_B
 * Star translation name codename: NAME_STAR_86_1
 * Star translation description codename: DESC_STAR_86_1
 * Star name: Regila B
 * Star description: see above.
-* Star zone size: 2.69e+10
+* Star zone size: 2.77e+10
 * Star death zone size: 8.07e+08
 * Star size: 5.38e+08
-* Star flare distance: 2.69e+10
 * Star autopilot range: 1.61e+09
 
-* Omni range: 7.69e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.98e+12
 * Surface color (Peak w.l. color code):
  - rgb: (178, 0, 0)
  - hex: #b20000
@@ -35790,14 +35119,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 87
 * Star cluster: unspecified
-* System zone codename: STAR_87_SYSTEM_ZONE
 * System codename: STAR_87_SYSTEM
 * System translation name codename: NAME_STAR_87_SYSTEM
 * System translation description codename: DESC_STAR_87_SYSTEM
 * System name: Ecetymeh
 * System description: see above. Optionally add lore.
-* System zone size: 1.07e+13
-* System autopilot range: 1.07e+13
+* System zone size: 4.16e+13
+* System autopilot range: 4.16e+13
 ```
 
  </details>  
@@ -35848,21 +35176,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_87_ZONE
-* Star codename: STAR_87
+* Star codename: STAR_87_Ecetymeh_A
 * Star translation name codename: NAME_STAR_87
 * Star translation description codename: DESC_STAR_87
 * Star name: Ecetymeh A
 * Star description: see above.
-* Star zone size: 7.85e+10
+* Star zone size: 8.55e+10
 * Star death zone size: 7.03e+09
 * Star size: 1.57e+09
-* Star flare distance: 7.85e+10
 * Star autopilot range: 1.41e+10
 
-* Omni range: 1.07e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.16e+13
 * Surface color (Peak w.l. color code):
  - rgb: (235, 255, 0)
  - hex: #ebff00
@@ -36018,14 +35342,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 88
 * Star cluster: unspecified
-* System zone codename: STAR_88_SYSTEM_ZONE
 * System codename: STAR_88_SYSTEM
 * System translation name codename: NAME_STAR_88_SYSTEM
 * System translation description codename: DESC_STAR_88_SYSTEM
 * System name: Eabjo
 * System description: see above. Optionally add lore.
-* System zone size: 1.55e+13
-* System autopilot range: 1.55e+13
+* System zone size: 6.00e+13
+* System autopilot range: 6.00e+13
 ```
 
  </details>  
@@ -36076,21 +35399,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_88_ZONE
-* Star codename: STAR_88
+* Star codename: STAR_88_Eabjo_A
 * Star translation name codename: NAME_STAR_88
 * Star translation description codename: DESC_STAR_88
 * Star name: Eabjo A
 * Star description: see above.
-* Star zone size: 8.45e+10
+* Star zone size: 9.46e+10
 * Star death zone size: 1.01e+10
 * Star size: 1.69e+09
-* Star flare distance: 8.45e+10
 * Star autopilot range: 2.03e+10
 
-* Omni range: 1.55e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.00e+13
 * Surface color (Peak w.l. color code):
  - rgb: (190, 255, 0)
  - hex: #beff00
@@ -36305,14 +35624,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 89
 * Star cluster: unspecified
-* System zone codename: STAR_89_SYSTEM_ZONE
 * System codename: STAR_89_SYSTEM
 * System translation name codename: NAME_STAR_89_SYSTEM
 * System translation description codename: DESC_STAR_89_SYSTEM
 * System name: Icepigod
 * System description: see above. Optionally add lore.
-* System zone size: 1.55e+13
-* System autopilot range: 1.55e+13
+* System zone size: 6.00e+13
+* System autopilot range: 6.00e+13
 ```
 
  </details>  
@@ -36363,21 +35681,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_89_ZONE
-* Star codename: STAR_89
+* Star codename: STAR_89_Icepigod_A
 * Star translation name codename: NAME_STAR_89
 * Star translation description codename: DESC_STAR_89
 * Star name: Icepigod A
 * Star description: see above.
-* Star zone size: 9.35e+10
+* Star zone size: 1.04e+11
 * Star death zone size: 1.01e+10
 * Star size: 1.87e+09
-* Star flare distance: 9.35e+10
 * Star autopilot range: 2.03e+10
 
-* Omni range: 1.55e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.00e+13
 * Surface color (Peak w.l. color code):
  - rgb: (205, 255, 0)
  - hex: #cdff00
@@ -37241,14 +36555,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 90
 * Star cluster: unspecified
-* System zone codename: STAR_90_SYSTEM_ZONE
 * System codename: STAR_90_SYSTEM
 * System translation name codename: NAME_STAR_90_SYSTEM
 * System translation description codename: DESC_STAR_90_SYSTEM
 * System name: Teler
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 3.34e+13
+* System autopilot range: 3.34e+13
 ```
 
  </details>  
@@ -37299,21 +36612,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_90_ZONE
-* Star codename: STAR_90
+* Star codename: STAR_90_Teler_A
 * Star translation name codename: NAME_STAR_90
 * Star translation description codename: DESC_STAR_90
 * Star name: Teler A
 * Star description: see above.
-* Star zone size: 7.10e+10
+* Star zone size: 7.66e+10
 * Star death zone size: 5.64e+09
 * Star size: 1.42e+09
-* Star flare distance: 7.10e+10
 * Star autopilot range: 1.13e+10
 
-* Omni range: 8.62e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.34e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 255, 0)
  - hex: #ffff00
@@ -37351,7 +36660,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 91
 * Star cluster: unspecified
-* System zone codename: STAR_91_SYSTEM_ZONE
 * System codename: STAR_91_SYSTEM
 * System translation name codename: NAME_STAR_91_SYSTEM
 * System translation description codename: DESC_STAR_91_SYSTEM
@@ -37409,21 +36717,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_91_ZONE
-* Star codename: STAR_91
+* Star codename: STAR_91_Lacol_A
 * Star translation name codename: NAME_STAR_91
 * Star translation description codename: DESC_STAR_91
 * Star name: Lacol A
 * Star description: see above.
-* Star zone size: 2.06e+10
+* Star zone size: 2.12e+10
 * Star death zone size: 6.18e+08
 * Star size: 4.12e+08
-* Star flare distance: 2.06e+10
 * Star autopilot range: 1.24e+09
 
-* Omni range: 9.28e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.59e+12
 * Surface color (Peak w.l. color code):
  - rgb: (249, 0, 0)
  - hex: #f90000
@@ -37697,7 +37001,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 92
 * Star cluster: unspecified
-* System zone codename: STAR_92_SYSTEM_ZONE
 * System codename: STAR_92_SYSTEM
 * System translation name codename: NAME_STAR_92_SYSTEM
 * System translation description codename: DESC_STAR_92_SYSTEM
@@ -37755,21 +37058,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_92_ZONE
-* Star codename: STAR_92
+* Star codename: STAR_92_Enus_A
 * Star translation name codename: NAME_STAR_92
 * Star translation description codename: DESC_STAR_92
 * Star name: Enus A
 * Star description: see above.
-* Star zone size: 4.22e+10
+* Star zone size: 4.35e+10
 * Star death zone size: 1.27e+09
 * Star size: 8.45e+08
-* Star flare distance: 4.22e+10
 * Star autopilot range: 2.54e+09
 
-* Omni range: 1.76e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.83e+12
 * Surface color (Peak w.l. color code):
  - rgb: (239, 0, 0)
  - hex: #ef0000
@@ -38043,14 +37342,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 93
 * Star cluster: unspecified
-* System zone codename: STAR_93_SYSTEM_ZONE
 * System codename: STAR_93_SYSTEM
 * System translation name codename: NAME_STAR_93_SYSTEM
 * System translation description codename: DESC_STAR_93_SYSTEM
 * System name: Lapyrono
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.63e+13
+* System autopilot range: 1.63e+13
 ```
 
  </details>  
@@ -38101,21 +37399,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_93_ZONE
-* Star codename: STAR_93
+* Star codename: STAR_93_Lapyrono_A
 * Star translation name codename: NAME_STAR_93
 * Star translation description codename: DESC_STAR_93
 * Star name: Lapyrono A
 * Star description: see above.
-* Star zone size: 5.15e+10
+* Star zone size: 5.43e+10
 * Star death zone size: 2.75e+09
 * Star size: 1.03e+09
-* Star flare distance: 5.15e+10
 * Star autopilot range: 5.50e+09
 
-* Omni range: 4.20e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.63e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 167, 0)
  - hex: #ffa700
@@ -38169,21 +37463,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_93_1_ZONE
-* Star codename: STAR_93_1
+* Star codename: STAR_93_1_Lapyrono_B
 * Star translation name codename: NAME_STAR_93_1
 * Star translation description codename: DESC_STAR_93_1
 * Star name: Lapyrono B
 * Star description: see above.
-* Star zone size: 6.00e+10
+* Star zone size: 6.26e+10
 * Star death zone size: 2.56e+09
 * Star size: 1.20e+09
-* Star flare distance: 6.00e+10
 * Star autopilot range: 5.12e+09
 
-* Omni range: 3.91e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.51e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 105, 0)
  - hex: #ff6900
@@ -38237,21 +37527,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_93_2_ZONE
-* Star codename: STAR_93_2
+* Star codename: STAR_93_2_Lapyrono_C
 * Star translation name codename: NAME_STAR_93_2
 * Star translation description codename: DESC_STAR_93_2
 * Star name: Lapyrono C
 * Star description: see above.
-* Star zone size: 1.70e+10
+* Star zone size: 1.75e+10
 * Star death zone size: 5.10e+08
 * Star size: 3.40e+08
-* Star flare distance: 1.70e+10
 * Star autopilot range: 1.02e+09
 
-* Omni range: 7.56e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.93e+12
 * Surface color (Peak w.l. color code):
  - rgb: (247, 0, 0)
  - hex: #f70000
@@ -38289,7 +37575,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 94
 * Star cluster: unspecified
-* System zone codename: STAR_94_SYSTEM_ZONE
 * System codename: STAR_94_SYSTEM
 * System translation name codename: NAME_STAR_94_SYSTEM
 * System translation description codename: DESC_STAR_94_SYSTEM
@@ -38347,21 +37632,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_94_ZONE
-* Star codename: STAR_94
+* Star codename: STAR_94_Urerod_A
 * Star translation name codename: NAME_STAR_94
 * Star translation description codename: DESC_STAR_94
 * Star name: Urerod A
 * Star description: see above.
-* Star zone size: 2.98e+10
+* Star zone size: 3.06e+10
 * Star death zone size: 8.92e+08
 * Star size: 5.95e+08
-* Star flare distance: 2.98e+10
 * Star autopilot range: 1.78e+09
 
-* Omni range: 8.34e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.23e+12
 * Surface color (Peak w.l. color code):
  - rgb: (175, 0, 0)
  - hex: #af0000
@@ -38458,14 +37739,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 95
 * Star cluster: unspecified
-* System zone codename: STAR_95_SYSTEM_ZONE
 * System codename: STAR_95_SYSTEM
 * System translation name codename: NAME_STAR_95_SYSTEM
 * System translation description codename: DESC_STAR_95_SYSTEM
 * System name: Ochai
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.62e+13
+* System autopilot range: 1.62e+13
 ```
 
  </details>  
@@ -38516,21 +37796,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_95_ZONE
-* Star codename: STAR_95
+* Star codename: STAR_95_Ochai_A
 * Star translation name codename: NAME_STAR_95
 * Star translation description codename: DESC_STAR_95
 * Star name: Ochai A
 * Star description: see above.
-* Star zone size: 5.90e+10
+* Star zone size: 6.17e+10
 * Star death zone size: 2.74e+09
 * Star size: 1.18e+09
-* Star flare distance: 5.90e+10
 * Star autopilot range: 5.48e+09
 
-* Omni range: 4.18e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.62e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 124, 0)
  - hex: #ff7c00
@@ -38584,21 +37860,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_95_1_ZONE
-* Star codename: STAR_95_1
+* Star codename: STAR_95_1_Ochai_B
 * Star translation name codename: NAME_STAR_95_1
 * Star translation description codename: DESC_STAR_95_1
 * Star name: Ochai B
 * Star description: see above.
-* Star zone size: 4.99e+10
+* Star zone size: 5.22e+10
 * Star death zone size: 2.30e+09
 * Star size: 9.98e+08
-* Star flare distance: 4.99e+10
 * Star autopilot range: 4.59e+09
 
-* Omni range: 3.51e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.36e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 124, 0)
  - hex: #ff7c00
@@ -38652,21 +37924,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_95_2_ZONE
-* Star codename: STAR_95_2
+* Star codename: STAR_95_2_Ochai_C
 * Star translation name codename: NAME_STAR_95_2
 * Star translation description codename: DESC_STAR_95_2
 * Star name: Ochai C
 * Star description: see above.
-* Star zone size: 3.46e+10
+* Star zone size: 3.57e+10
 * Star death zone size: 1.04e+09
 * Star size: 6.93e+08
-* Star flare distance: 3.46e+10
 * Star autopilot range: 2.08e+09
 
-* Omni range: 1.24e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.79e+12
 * Surface color (Peak w.l. color code):
  - rgb: (216, 0, 0)
  - hex: #d80000
@@ -38822,7 +38090,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 96
 * Star cluster: unspecified
-* System zone codename: STAR_96_SYSTEM_ZONE
 * System codename: STAR_96_SYSTEM
 * System translation name codename: NAME_STAR_96_SYSTEM
 * System translation description codename: DESC_STAR_96_SYSTEM
@@ -38880,21 +38147,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_96_ZONE
-* Star codename: STAR_96
+* Star codename: STAR_96_Erettut_A
 * Star translation name codename: NAME_STAR_96
 * Star translation description codename: DESC_STAR_96
 * Star name: Erettut A
 * Star description: see above.
-* Star zone size: 2.26e+10
+* Star zone size: 2.33e+10
 * Star death zone size: 6.80e+08
 * Star size: 4.53e+08
-* Star flare distance: 2.26e+10
 * Star autopilot range: 1.36e+09
 
-* Omni range: 9.40e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.64e+12
 * Surface color (Peak w.l. color code):
  - rgb: (239, 0, 0)
  - hex: #ef0000
@@ -38948,21 +38211,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_96_1_ZONE
-* Star codename: STAR_96_1
+* Star codename: STAR_96_1_Erettut_B
 * Star translation name codename: NAME_STAR_96_1
 * Star translation description codename: DESC_STAR_96_1
 * Star name: Erettut B
 * Star description: see above.
-* Star zone size: 4.36e+10
+* Star zone size: 4.50e+10
 * Star death zone size: 1.31e+09
 * Star size: 8.73e+08
-* Star flare distance: 4.36e+10
 * Star autopilot range: 2.62e+09
 
-* Omni range: 1.43e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.53e+12
 * Surface color (Peak w.l. color code):
  - rgb: (201, 0, 0)
  - hex: #c90000
@@ -39016,21 +38275,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_96_2_ZONE
-* Star codename: STAR_96_2
+* Star codename: STAR_96_2_Erettut_C
 * Star translation name codename: NAME_STAR_96_2
 * Star translation description codename: DESC_STAR_96_2
 * Star name: Erettut C
 * Star description: see above.
-* Star zone size: 3.54e+10
+* Star zone size: 3.64e+10
 * Star death zone size: 1.06e+09
 * Star size: 7.07e+08
-* Star flare distance: 3.54e+10
 * Star autopilot range: 2.12e+09
 
-* Omni range: 8.77e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.39e+12
 * Surface color (Peak w.l. color code):
  - rgb: (152, 0, 0)
  - hex: #980000
@@ -39127,7 +38382,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 97
 * Star cluster: unspecified
-* System zone codename: STAR_97_SYSTEM_ZONE
 * System codename: STAR_97_SYSTEM
 * System translation name codename: NAME_STAR_97_SYSTEM
 * System translation description codename: DESC_STAR_97_SYSTEM
@@ -39185,21 +38439,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_97_ZONE
-* Star codename: STAR_97
+* Star codename: STAR_97_Hilsu_A
 * Star translation name codename: NAME_STAR_97
 * Star translation description codename: DESC_STAR_97
 * Star name: Hilsu A
 * Star description: see above.
-* Star zone size: 1.20e+10
+* Star zone size: 1.24e+10
 * Star death zone size: 3.95e+08
 * Star size: 2.40e+08
-* Star flare distance: 1.20e+10
 * Star autopilot range: 7.91e+08
 
-* Omni range: 6.04e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.34e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 24, 0)
  - hex: #ff1800
@@ -39237,7 +38487,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 98
 * Star cluster: unspecified
-* System zone codename: STAR_98_SYSTEM_ZONE
 * System codename: STAR_98_SYSTEM
 * System translation name codename: NAME_STAR_98_SYSTEM
 * System translation description codename: DESC_STAR_98_SYSTEM
@@ -39295,21 +38544,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_98_ZONE
-* Star codename: STAR_98
+* Star codename: STAR_98_Oreciseh_A
 * Star translation name codename: NAME_STAR_98
 * Star translation description codename: DESC_STAR_98
 * Star name: Oreciseh A
 * Star description: see above.
-* Star zone size: 1.88e+10
+* Star zone size: 1.95e+10
 * Star death zone size: 6.86e+08
 * Star size: 3.77e+08
-* Star flare distance: 1.88e+10
 * Star autopilot range: 1.37e+09
 
-* Omni range: 1.05e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.06e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 55, 0)
  - hex: #ff3700
@@ -39524,14 +38769,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 99
 * Star cluster: unspecified
-* System zone codename: STAR_99_SYSTEM_ZONE
 * System codename: STAR_99_SYSTEM
 * System translation name codename: NAME_STAR_99_SYSTEM
 * System translation description codename: DESC_STAR_99_SYSTEM
 * System name: Ieca
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.88e+13
+* System autopilot range: 1.88e+13
 ```
 
  </details>  
@@ -39582,21 +38826,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_99_ZONE
-* Star codename: STAR_99
+* Star codename: STAR_99_Ieca_A
 * Star translation name codename: NAME_STAR_99
 * Star translation description codename: DESC_STAR_99
 * Star name: Ieca A
 * Star description: see above.
-* Star zone size: 4.99e+10
+* Star zone size: 5.31e+10
 * Star death zone size: 3.18e+09
 * Star size: 9.98e+08
-* Star flare distance: 4.99e+10
 * Star autopilot range: 6.35e+09
 
-* Omni range: 4.85e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.88e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 205, 0)
  - hex: #ffcd00
@@ -39634,7 +38874,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 100
 * Star cluster: unspecified
-* System zone codename: STAR_100_SYSTEM_ZONE
 * System codename: STAR_100_SYSTEM
 * System translation name codename: NAME_STAR_100_SYSTEM
 * System translation description codename: DESC_STAR_100_SYSTEM
@@ -39692,21 +38931,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_100_ZONE
-* Star codename: STAR_100
+* Star codename: STAR_100_Gusbin_A
 * Star translation name codename: NAME_STAR_100
 * Star translation description codename: DESC_STAR_100
 * Star name: Gusbin A
 * Star description: see above.
-* Star zone size: 3.74e+10
+* Star zone size: 3.88e+10
 * Star death zone size: 1.39e+09
 * Star size: 7.49e+08
-* Star flare distance: 3.74e+10
 * Star autopilot range: 2.78e+09
 
-* Omni range: 2.13e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 8.23e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 62, 0)
  - hex: #ff3e00
@@ -39760,21 +38995,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_100_1_ZONE
-* Star codename: STAR_100_1
+* Star codename: STAR_100_1_Gusbin_B
 * Star translation name codename: NAME_STAR_100_1
 * Star translation description codename: DESC_STAR_100_1
 * Star name: Gusbin B
 * Star description: see above.
-* Star zone size: 4.07e+10
+* Star zone size: 4.19e+10
 * Star death zone size: 1.22e+09
 * Star size: 8.14e+08
-* Star flare distance: 4.07e+10
 * Star autopilot range: 2.44e+09
 
-* Omni range: 1.24e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.79e+12
 * Surface color (Peak w.l. color code):
  - rgb: (188, 0, 0)
  - hex: #bc0000
@@ -39930,14 +39161,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 101
 * Star cluster: unspecified
-* System zone codename: STAR_101_SYSTEM_ZONE
 * System codename: STAR_101_SYSTEM
 * System translation name codename: NAME_STAR_101_SYSTEM
 * System translation description codename: DESC_STAR_101_SYSTEM
 * System name: Eonk
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.46e+13
+* System autopilot range: 1.46e+13
 ```
 
  </details>  
@@ -39988,21 +39218,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_101_ZONE
-* Star codename: STAR_101
+* Star codename: STAR_101_Eonk_A
 * Star translation name codename: NAME_STAR_101
 * Star translation description codename: DESC_STAR_101
 * Star name: Eonk A
 * Star description: see above.
-* Star zone size: 6.35e+10
+* Star zone size: 6.60e+10
 * Star death zone size: 2.46e+09
 * Star size: 1.27e+09
-* Star flare distance: 6.35e+10
 * Star autopilot range: 4.92e+09
 
-* Omni range: 3.76e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.46e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 74, 0)
  - hex: #ff4a00
@@ -40394,14 +39620,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 102
 * Star cluster: unspecified
-* System zone codename: STAR_102_SYSTEM_ZONE
 * System codename: STAR_102_SYSTEM
 * System translation name codename: NAME_STAR_102_SYSTEM
 * System translation description codename: DESC_STAR_102_SYSTEM
 * System name: Opilor
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.11e+13
+* System autopilot range: 1.11e+13
 ```
 
  </details>  
@@ -40452,21 +39677,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_102_ZONE
-* Star codename: STAR_102
+* Star codename: STAR_102_Opilor_A
 * Star translation name codename: NAME_STAR_102
 * Star translation description codename: DESC_STAR_102
 * Star name: Opilor A
 * Star description: see above.
-* Star zone size: 4.94e+10
+* Star zone size: 5.12e+10
 * Star death zone size: 1.87e+09
 * Star size: 9.87e+08
-* Star flare distance: 4.94e+10
 * Star autopilot range: 3.75e+09
 
-* Omni range: 2.86e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.11e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 68, 0)
  - hex: #ff4400
@@ -40520,21 +39741,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_102_1_ZONE
-* Star codename: STAR_102_1
+* Star codename: STAR_102_1_Opilor_B
 * Star translation name codename: NAME_STAR_102_1
 * Star translation description codename: DESC_STAR_102_1
 * Star name: Opilor B
 * Star description: see above.
-* Star zone size: 4.36e+10
+* Star zone size: 4.49e+10
 * Star death zone size: 1.31e+09
 * Star size: 8.71e+08
-* Star flare distance: 4.36e+10
 * Star autopilot range: 2.61e+09
 
-* Omni range: 1.11e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.30e+12
 * Surface color (Peak w.l. color code):
  - rgb: (157, 0, 0)
  - hex: #9d0000
@@ -40926,14 +40143,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 103
 * Star cluster: unspecified
-* System zone codename: STAR_103_SYSTEM_ZONE
 * System codename: STAR_103_SYSTEM
 * System translation name codename: NAME_STAR_103_SYSTEM
 * System translation description codename: DESC_STAR_103_SYSTEM
 * System name: Surodat
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 3.48e+13
+* System autopilot range: 3.48e+13
 ```
 
  </details>  
@@ -40984,21 +40200,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_103_ZONE
-* Star codename: STAR_103
+* Star codename: STAR_103_Surodat_A
 * Star translation name codename: NAME_STAR_103
 * Star translation description codename: DESC_STAR_103
 * Star name: Surodat A
 * Star description: see above.
-* Star zone size: 7.40e+10
+* Star zone size: 7.99e+10
 * Star death zone size: 5.88e+09
 * Star size: 1.48e+09
-* Star flare distance: 7.40e+10
 * Star autopilot range: 1.18e+10
 
-* Omni range: 8.99e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.48e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 255, 0)
  - hex: #ffff00
@@ -41036,7 +40248,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 104
 * Star cluster: unspecified
-* System zone codename: STAR_104_SYSTEM_ZONE
 * System codename: STAR_104_SYSTEM
 * System translation name codename: NAME_STAR_104_SYSTEM
 * System translation description codename: DESC_STAR_104_SYSTEM
@@ -41094,21 +40305,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_104_ZONE
-* Star codename: STAR_104
+* Star codename: STAR_104_Depsal_A
 * Star translation name codename: NAME_STAR_104
 * Star translation description codename: DESC_STAR_104
 * Star name: Depsal A
 * Star description: see above.
-* Star zone size: 4.36e+10
+* Star zone size: 4.50e+10
 * Star death zone size: 1.31e+09
 * Star size: 8.73e+08
-* Star flare distance: 4.36e+10
 * Star autopilot range: 2.62e+09
 
-* Omni range: 1.91e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.40e+12
 * Surface color (Peak w.l. color code):
  - rgb: (247, 0, 0)
  - hex: #f70000
@@ -41264,14 +40471,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 105
 * Star cluster: unspecified
-* System zone codename: STAR_105_SYSTEM_ZONE
 * System codename: STAR_105_SYSTEM
 * System translation name codename: NAME_STAR_105_SYSTEM
 * System translation description codename: DESC_STAR_105_SYSTEM
 * System name: Edelem
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.59e+13
+* System autopilot range: 1.59e+13
 ```
 
  </details>  
@@ -41322,21 +40528,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_105_ZONE
-* Star codename: STAR_105
+* Star codename: STAR_105_Edelem_A
 * Star translation name codename: NAME_STAR_105
 * Star translation description codename: DESC_STAR_105
 * Star name: Edelem A
 * Star description: see above.
-* Star zone size: 5.50e+10
+* Star zone size: 5.77e+10
 * Star death zone size: 2.69e+09
 * Star size: 1.10e+09
-* Star flare distance: 5.50e+10
 * Star autopilot range: 5.37e+09
 
-* Omni range: 4.10e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.59e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 143, 0)
  - hex: #ff8f00
@@ -41390,21 +40592,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_105_1_ZONE
-* Star codename: STAR_105_1
+* Star codename: STAR_105_1_Edelem_B
 * Star translation name codename: NAME_STAR_105_1
 * Star translation description codename: DESC_STAR_105_1
 * Star name: Edelem B
 * Star description: see above.
-* Star zone size: 6.30e+10
+* Star zone size: 6.54e+10
 * Star death zone size: 2.38e+09
 * Star size: 1.26e+09
-* Star flare distance: 6.30e+10
 * Star autopilot range: 4.76e+09
 
-* Omni range: 3.64e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.41e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 68, 0)
  - hex: #ff4400
@@ -41442,7 +40640,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 106
 * Star cluster: unspecified
-* System zone codename: STAR_106_SYSTEM_ZONE
 * System codename: STAR_106_SYSTEM
 * System translation name codename: NAME_STAR_106_SYSTEM
 * System translation description codename: DESC_STAR_106_SYSTEM
@@ -41500,21 +40697,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_106_ZONE
-* Star codename: STAR_106
+* Star codename: STAR_106_Ettomau_A
 * Star translation name codename: NAME_STAR_106
 * Star translation description codename: DESC_STAR_106
 * Star name: Ettomau A
 * Star description: see above.
-* Star zone size: 2.14e+10
+* Star zone size: 2.20e+10
 * Star death zone size: 6.49e+08
 * Star size: 4.28e+08
-* Star flare distance: 2.14e+10
 * Star autopilot range: 1.30e+09
 
-* Omni range: 9.92e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.84e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 0, 0)
  - hex: #ff0000
@@ -41568,21 +40761,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_106_1_ZONE
-* Star codename: STAR_106_1
+* Star codename: STAR_106_1_Ettomau_B
 * Star translation name codename: NAME_STAR_106_1
 * Star translation description codename: DESC_STAR_106_1
 * Star name: Ettomau B
 * Star description: see above.
-* Star zone size: 2.09e+10
+* Star zone size: 2.15e+10
 * Star death zone size: 6.27e+08
 * Star size: 4.18e+08
-* Star flare distance: 2.09e+10
 * Star autopilot range: 1.25e+09
 
-* Omni range: 8.22e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.18e+12
 * Surface color (Peak w.l. color code):
  - rgb: (229, 0, 0)
  - hex: #e50000
@@ -41679,7 +40868,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 107
 * Star cluster: unspecified
-* System zone codename: STAR_107_SYSTEM_ZONE
 * System codename: STAR_107_SYSTEM
 * System translation name codename: NAME_STAR_107_SYSTEM
 * System translation description codename: DESC_STAR_107_SYSTEM
@@ -41737,21 +40925,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_107_ZONE
-* Star codename: STAR_107
+* Star codename: STAR_107_Noav_A
 * Star translation name codename: NAME_STAR_107
 * Star translation description codename: DESC_STAR_107
 * Star name: Noav A
 * Star description: see above.
-* Star zone size: 3.98e+10
+* Star zone size: 4.11e+10
 * Star death zone size: 1.34e+09
 * Star size: 7.95e+08
-* Star flare distance: 3.98e+10
 * Star autopilot range: 2.68e+09
 
-* Omni range: 2.05e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.93e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 31, 0)
  - hex: #ff1f00
@@ -41805,21 +40989,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_107_1_ZONE
-* Star codename: STAR_107_1
+* Star codename: STAR_107_1_Noav_B
 * Star translation name codename: NAME_STAR_107_1
 * Star translation description codename: DESC_STAR_107_1
 * Star name: Noav B
 * Star description: see above.
-* Star zone size: 1.59e+10
+* Star zone size: 1.64e+10
 * Star death zone size: 5.12e+08
 * Star size: 3.18e+08
-* Star flare distance: 1.59e+10
 * Star autopilot range: 1.02e+09
 
-* Omni range: 7.83e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.03e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 18, 0)
  - hex: #ff1200
@@ -41873,21 +41053,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_107_2_ZONE
-* Star codename: STAR_107_2
+* Star codename: STAR_107_2_Noav_C
 * Star translation name codename: NAME_STAR_107_2
 * Star translation description codename: DESC_STAR_107_2
 * Star name: Noav C
 * Star description: see above.
-* Star zone size: 4.47e+10
+* Star zone size: 4.60e+10
 * Star death zone size: 1.34e+09
 * Star size: 8.94e+08
-* Star flare distance: 4.47e+10
 * Star autopilot range: 2.68e+09
 
-* Omni range: 2.00e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.74e+12
 * Surface color (Peak w.l. color code):
  - rgb: (249, 0, 0)
  - hex: #f90000
@@ -41941,21 +41117,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_107_3_ZONE
-* Star codename: STAR_107_3
+* Star codename: STAR_107_3_Noav_D
 * Star translation name codename: NAME_STAR_107_3
 * Star translation description codename: DESC_STAR_107_3
 * Star name: Noav D
 * Star description: see above.
-* Star zone size: 1.42e+10
+* Star zone size: 1.46e+10
 * Star death zone size: 4.26e+08
 * Star size: 2.84e+08
-* Star flare distance: 1.42e+10
 * Star autopilot range: 8.52e+08
 
-* Omni range: 5.66e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.19e+12
 * Surface color (Peak w.l. color code):
  - rgb: (231, 0, 0)
  - hex: #e70000
@@ -42009,21 +41181,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_107_4_ZONE
-* Star codename: STAR_107_4
+* Star codename: STAR_107_4_Noav_E
 * Star translation name codename: NAME_STAR_107_4
 * Star translation description codename: DESC_STAR_107_4
 * Star name: Noav E
 * Star description: see above.
-* Star zone size: 2.37e+10
+* Star zone size: 2.44e+10
 * Star death zone size: 7.11e+08
 * Star size: 4.74e+08
-* Star flare distance: 2.37e+10
 * Star autopilot range: 1.42e+09
 
-* Omni range: 8.11e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.14e+12
 * Surface color (Peak w.l. color code):
  - rgb: (208, 0, 0)
  - hex: #d00000
@@ -42120,14 +41288,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 108
 * Star cluster: unspecified
-* System zone codename: STAR_108_SYSTEM_ZONE
 * System codename: STAR_108_SYSTEM
 * System translation name codename: NAME_STAR_108_SYSTEM
 * System translation description codename: DESC_STAR_108_SYSTEM
 * System name: Pin
 * System description: see above. Optionally add lore.
-* System zone size: 2.59e+13
-* System autopilot range: 2.59e+13
+* System zone size: 1.00e+14
+* System autopilot range: 1.00e+14
 ```
 
  </details>  
@@ -42178,21 +41345,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_108_ZONE
-* Star codename: STAR_108
+* Star codename: STAR_108_Pin_A
 * Star translation name codename: NAME_STAR_108
 * Star translation description codename: DESC_STAR_108
 * Star name: Pin A
 * Star description: see above.
-* Star zone size: 1.00e+11
+* Star zone size: 1.17e+11
 * Star death zone size: 1.69e+10
 * Star size: 2.00e+09
-* Star flare distance: 1.00e+11
 * Star autopilot range: 3.39e+10
 
-* Omni range: 2.59e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.00e+14
 * Surface color (Peak w.l. color code):
  - rgb: (150, 255, 0)
  - hex: #96ff00
@@ -42246,21 +41409,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_108_1_ZONE
-* Star codename: STAR_108_1
+* Star codename: STAR_108_1_Pin_B
 * Star translation name codename: NAME_STAR_108_1
 * Star translation description codename: DESC_STAR_108_1
 * Star name: Pin B
 * Star description: see above.
-* Star zone size: 1.02e+11
+* Star zone size: 1.19e+11
 * Star death zone size: 1.70e+10
 * Star size: 2.04e+09
-* Star flare distance: 1.02e+11
 * Star autopilot range: 3.41e+10
 
-* Omni range: 2.60e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.01e+14
 * Surface color (Peak w.l. color code):
  - rgb: (150, 255, 0)
  - hex: #96ff00
@@ -42314,21 +41473,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_108_2_ZONE
-* Star codename: STAR_108_2
+* Star codename: STAR_108_2_Pin_C
 * Star translation name codename: NAME_STAR_108_2
 * Star translation description codename: DESC_STAR_108_2
 * Star name: Pin C
 * Star description: see above.
-* Star zone size: 4.04e+10
+* Star zone size: 4.16e+10
 * Star death zone size: 1.21e+09
 * Star size: 8.07e+08
-* Star flare distance: 4.04e+10
 * Star autopilot range: 2.42e+09
 
-* Omni range: 1.26e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.87e+12
 * Surface color (Peak w.l. color code):
  - rgb: (193, 0, 0)
  - hex: #c10000
@@ -42602,14 +41757,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 109
 * Star cluster: unspecified
-* System zone codename: STAR_109_SYSTEM_ZONE
 * System codename: STAR_109_SYSTEM
 * System translation name codename: NAME_STAR_109_SYSTEM
 * System translation description codename: DESC_STAR_109_SYSTEM
 * System name: Enicili
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.68e+13
+* System autopilot range: 1.68e+13
 ```
 
  </details>  
@@ -42660,21 +41814,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_109_ZONE
-* Star codename: STAR_109
+* Star codename: STAR_109_Enicili_A
 * Star translation name codename: NAME_STAR_109
 * Star translation description codename: DESC_STAR_109
 * Star name: Enicili A
 * Star description: see above.
-* Star zone size: 5.70e+10
+* Star zone size: 5.98e+10
 * Star death zone size: 2.84e+09
 * Star size: 1.14e+09
-* Star flare distance: 5.70e+10
 * Star autopilot range: 5.68e+09
 
-* Omni range: 4.34e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.68e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 143, 0)
  - hex: #ff8f00
@@ -42728,21 +41878,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_109_1_ZONE
-* Star codename: STAR_109_1
+* Star codename: STAR_109_1_Enicili_B
 * Star translation name codename: NAME_STAR_109_1
 * Star translation description codename: DESC_STAR_109_1
 * Star name: Enicili B
 * Star description: see above.
-* Star zone size: 4.72e+10
+* Star zone size: 4.86e+10
 * Star death zone size: 1.42e+09
 * Star size: 9.44e+08
-* Star flare distance: 4.72e+10
 * Star autopilot range: 2.83e+09
 
-* Omni range: 1.89e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.33e+12
 * Surface color (Peak w.l. color code):
  - rgb: (234, 0, 0)
  - hex: #ea0000
@@ -42957,7 +42103,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 110
 * Star cluster: unspecified
-* System zone codename: STAR_110_SYSTEM_ZONE
 * System codename: STAR_110_SYSTEM
 * System translation name codename: NAME_STAR_110_SYSTEM
 * System translation description codename: DESC_STAR_110_SYSTEM
@@ -43015,21 +42160,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_110_ZONE
-* Star codename: STAR_110
+* Star codename: STAR_110_Rydume_A
 * Star translation name codename: NAME_STAR_110
 * Star translation description codename: DESC_STAR_110
 * Star name: Rydume A
 * Star description: see above.
-* Star zone size: 2.96e+10
+* Star zone size: 3.07e+10
 * Star death zone size: 1.10e+09
 * Star size: 5.91e+08
-* Star flare distance: 2.96e+10
 * Star autopilot range: 2.21e+09
 
-* Omni range: 1.69e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.53e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 68, 0)
  - hex: #ff4400
@@ -43126,14 +42267,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 111
 * Star cluster: unspecified
-* System zone codename: STAR_111_SYSTEM_ZONE
 * System codename: STAR_111_SYSTEM
 * System translation name codename: NAME_STAR_111_SYSTEM
 * System translation description codename: DESC_STAR_111_SYSTEM
 * System name: Dismi
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.75e+13
+* System autopilot range: 1.75e+13
 ```
 
  </details>  
@@ -43184,21 +42324,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_111_ZONE
-* Star codename: STAR_111
+* Star codename: STAR_111_Dismi_A
 * Star translation name codename: NAME_STAR_111
 * Star translation description codename: DESC_STAR_111
 * Star name: Dismi A
 * Star description: see above.
-* Star zone size: 5.60e+10
+* Star zone size: 5.90e+10
 * Star death zone size: 2.95e+09
 * Star size: 1.12e+09
-* Star flare distance: 5.60e+10
 * Star autopilot range: 5.90e+09
 
-* Omni range: 4.51e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.75e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 161, 0)
  - hex: #ffa100
@@ -43252,21 +42388,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_111_1_ZONE
-* Star codename: STAR_111_1
+* Star codename: STAR_111_1_Dismi_B
 * Star translation name codename: NAME_STAR_111_1
 * Star translation description codename: DESC_STAR_111_1
 * Star name: Dismi B
 * Star description: see above.
-* Star zone size: 4.07e+10
+* Star zone size: 4.22e+10
 * Star death zone size: 1.45e+09
 * Star size: 8.14e+08
-* Star flare distance: 4.07e+10
 * Star autopilot range: 2.90e+09
 
-* Omni range: 2.22e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 8.59e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 49, 0)
  - hex: #ff3100
@@ -43422,7 +42554,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 112
 * Star cluster: unspecified
-* System zone codename: STAR_112_SYSTEM_ZONE
 * System codename: STAR_112_SYSTEM
 * System translation name codename: NAME_STAR_112_SYSTEM
 * System translation description codename: DESC_STAR_112_SYSTEM
@@ -43480,21 +42611,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_112_ZONE
-* Star codename: STAR_112
+* Star codename: STAR_112_Fomreb_A
 * Star translation name codename: NAME_STAR_112
 * Star translation description codename: DESC_STAR_112
 * Star name: Fomreb A
 * Star description: see above.
-* Star zone size: 3.43e+10
+* Star zone size: 3.54e+10
 * Star death zone size: 1.11e+09
 * Star size: 6.86e+08
-* Star flare distance: 3.43e+10
 * Star autopilot range: 2.21e+09
 
-* Omni range: 1.69e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.54e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 18, 0)
  - hex: #ff1200
@@ -43709,7 +42836,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 113
 * Star cluster: unspecified
-* System zone codename: STAR_113_SYSTEM_ZONE
 * System codename: STAR_113_SYSTEM
 * System translation name codename: NAME_STAR_113_SYSTEM
 * System translation description codename: DESC_STAR_113_SYSTEM
@@ -43767,21 +42893,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_113_ZONE
-* Star codename: STAR_113
+* Star codename: STAR_113_Adocol_A
 * Star translation name codename: NAME_STAR_113
 * Star translation description codename: DESC_STAR_113
 * Star name: Adocol A
 * Star description: see above.
-* Star zone size: 3.85e+10
+* Star zone size: 3.97e+10
 * Star death zone size: 1.16e+09
 * Star size: 7.70e+08
-* Star flare distance: 3.85e+10
 * Star autopilot range: 2.31e+09
 
-* Omni range: 1.68e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.51e+12
 * Surface color (Peak w.l. color code):
  - rgb: (247, 0, 0)
  - hex: #f70000
@@ -43835,21 +42957,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_113_1_ZONE
-* Star codename: STAR_113_1
+* Star codename: STAR_113_1_Adocol_B
 * Star translation name codename: NAME_STAR_113_1
 * Star translation description codename: DESC_STAR_113_1
 * Star name: Adocol B
 * Star description: see above.
-* Star zone size: 1.04e+10
+* Star zone size: 1.08e+10
 * Star death zone size: 3.14e+08
 * Star size: 2.09e+08
-* Star flare distance: 1.04e+10
 * Star autopilot range: 6.27e+08
 
-* Omni range: 3.16e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.22e+12
 * Surface color (Peak w.l. color code):
  - rgb: (188, 0, 0)
  - hex: #bc0000
@@ -43903,21 +43021,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_113_2_ZONE
-* Star codename: STAR_113_2
+* Star codename: STAR_113_2_Adocol_C
 * Star translation name codename: NAME_STAR_113_2
 * Star translation description codename: DESC_STAR_113_2
 * Star name: Adocol C
 * Star description: see above.
-* Star zone size: 4.60e+10
+* Star zone size: 4.74e+10
 * Star death zone size: 1.38e+09
 * Star size: 9.20e+08
-* Star flare distance: 4.60e+10
 * Star autopilot range: 2.76e+09
 
-* Omni range: 1.13e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.37e+12
 * Surface color (Peak w.l. color code):
  - rgb: (150, 0, 0)
  - hex: #960000
@@ -44014,14 +43128,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 114
 * Star cluster: unspecified
-* System zone codename: STAR_114_SYSTEM_ZONE
 * System codename: STAR_114_SYSTEM
 * System translation name codename: NAME_STAR_114_SYSTEM
 * System translation description codename: DESC_STAR_114_SYSTEM
 * System name: Alesedol
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 2.39e+13
+* System autopilot range: 2.39e+13
 ```
 
  </details>  
@@ -44072,21 +43185,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_114_ZONE
-* Star codename: STAR_114
+* Star codename: STAR_114_Alesedol_A
 * Star translation name codename: NAME_STAR_114
 * Star translation description codename: DESC_STAR_114
 * Star name: Alesedol A
 * Star description: see above.
-* Star zone size: 5.60e+10
+* Star zone size: 6.00e+10
 * Star death zone size: 4.05e+09
 * Star size: 1.12e+09
-* Star flare distance: 5.60e+10
 * Star autopilot range: 8.10e+09
 
-* Omni range: 6.19e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.39e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 236, 0)
  - hex: #ffec00
@@ -44183,14 +43292,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 115
 * Star cluster: unspecified
-* System zone codename: STAR_115_SYSTEM_ZONE
 * System codename: STAR_115_SYSTEM
 * System translation name codename: NAME_STAR_115_SYSTEM
 * System translation description codename: DESC_STAR_115_SYSTEM
 * System name: Iceha
 * System description: see above. Optionally add lore.
-* System zone size: 2.17e+15
-* System autopilot range: 2.17e+15
+* System zone size: 8.41e+15
+* System autopilot range: 8.41e+15
 ```
 
  </details>  
@@ -44241,21 +43349,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_115_ZONE
-* Star codename: STAR_115
+* Star codename: STAR_115_Iceha_A
 * Star translation name codename: NAME_STAR_115
 * Star translation description codename: DESC_STAR_115
 * Star name: Iceha A
 * Star description: see above.
-* Star zone size: 1.42e+13
+* Star zone size: 1.95e+12
 * Star death zone size: 1.42e+12
 * Star size: 1.06e+10
-* Star flare distance: 1.42e+13
 * Star autopilot range: 2.84e+12
 
-* Omni range: 2.17e+15
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 8.41e+15
 * Surface color (Peak w.l. color code):
  - rgb: (54, 109, 240)
  - hex: #366df0
@@ -44309,21 +43413,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_115_1_ZONE
-* Star codename: STAR_115_1
+* Star codename: STAR_115_1_Iceha_B
 * Star translation name codename: NAME_STAR_115_1
 * Star translation description codename: DESC_STAR_115_1
 * Star name: Iceha B
 * Star description: see above.
-* Star zone size: 1.22e+11
+* Star zone size: 1.48e+11
 * Star death zone size: 2.58e+10
 * Star size: 2.45e+09
-* Star flare distance: 1.22e+11
 * Star autopilot range: 5.15e+10
 
-* Omni range: 3.94e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.52e+14
 * Surface color (Peak w.l. color code):
  - rgb: (81, 255, 115)
  - hex: #51ff73
@@ -44377,21 +43477,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_115_2_ZONE
-* Star codename: STAR_115_2
+* Star codename: STAR_115_2_Iceha_C
 * Star translation name codename: NAME_STAR_115_2
 * Star translation description codename: DESC_STAR_115_2
 * Star name: Iceha C
 * Star description: see above.
-* Star zone size: 5.60e+10
+* Star zone size: 5.85e+10
 * Star death zone size: 2.54e+09
 * Star size: 1.12e+09
-* Star flare distance: 5.60e+10
 * Star autopilot range: 5.08e+09
 
-* Omni range: 3.88e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.50e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 118, 0)
  - hex: #ff7600
@@ -44488,14 +43584,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 116
 * Star cluster: unspecified
-* System zone codename: STAR_116_SYSTEM_ZONE
 * System codename: STAR_116_SYSTEM
 * System translation name codename: NAME_STAR_116_SYSTEM
 * System translation description codename: DESC_STAR_116_SYSTEM
 * System name: Itirafen
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 2.18e+13
+* System autopilot range: 2.18e+13
 ```
 
  </details>  
@@ -44546,21 +43641,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_116_ZONE
-* Star codename: STAR_116
+* Star codename: STAR_116_Itirafen_A
 * Star translation name codename: NAME_STAR_116
 * Star translation description codename: DESC_STAR_116
 * Star name: Itirafen A
 * Star description: see above.
-* Star zone size: 6.10e+10
+* Star zone size: 6.47e+10
 * Star death zone size: 3.68e+09
 * Star size: 1.22e+09
-* Star flare distance: 6.10e+10
 * Star autopilot range: 7.36e+09
 
-* Omni range: 5.62e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.18e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 192, 0)
  - hex: #ffc000
@@ -44716,14 +43807,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 117
 * Star cluster: unspecified
-* System zone codename: STAR_117_SYSTEM_ZONE
 * System codename: STAR_117_SYSTEM
 * System translation name codename: NAME_STAR_117_SYSTEM
 * System translation description codename: DESC_STAR_117_SYSTEM
 * System name: Iotouc
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.38e+13
+* System autopilot range: 1.38e+13
 ```
 
  </details>  
@@ -44774,21 +43864,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_117_ZONE
-* Star codename: STAR_117
+* Star codename: STAR_117_Iotouc_A
 * Star translation name codename: NAME_STAR_117
 * Star translation description codename: DESC_STAR_117
 * Star name: Iotouc A
 * Star description: see above.
-* Star zone size: 5.05e+10
+* Star zone size: 5.28e+10
 * Star death zone size: 2.34e+09
 * Star size: 1.01e+09
-* Star flare distance: 5.05e+10
 * Star autopilot range: 4.67e+09
 
-* Omni range: 3.57e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.38e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 124, 0)
  - hex: #ff7c00
@@ -45003,7 +44089,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 118
 * Star cluster: unspecified
-* System zone codename: STAR_118_SYSTEM_ZONE
 * System codename: STAR_118_SYSTEM
 * System translation name codename: NAME_STAR_118_SYSTEM
 * System translation description codename: DESC_STAR_118_SYSTEM
@@ -45061,21 +44146,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_118_ZONE
-* Star codename: STAR_118
+* Star codename: STAR_118_Initowu_A
 * Star translation name codename: NAME_STAR_118
 * Star translation description codename: DESC_STAR_118
 * Star name: Initowu A
 * Star description: see above.
-* Star zone size: 9.95e+09
+* Star zone size: 1.03e+10
 * Star death zone size: 3.11e+08
 * Star size: 1.99e+08
-* Star flare distance: 9.95e+09
 * Star autopilot range: 6.22e+08
 
-* Omni range: 4.75e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.84e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 6, 0)
  - hex: #ff0600
@@ -45349,7 +44430,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 119
 * Star cluster: unspecified
-* System zone codename: STAR_119_SYSTEM_ZONE
 * System codename: STAR_119_SYSTEM
 * System translation name codename: NAME_STAR_119_SYSTEM
 * System translation description codename: DESC_STAR_119_SYSTEM
@@ -45407,21 +44487,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_119_ZONE
-* Star codename: STAR_119
+* Star codename: STAR_119_Nacole_A
 * Star translation name codename: NAME_STAR_119
 * Star translation description codename: DESC_STAR_119
 * Star name: Nacole A
 * Star description: see above.
-* Star zone size: 2.42e+10
+* Star zone size: 2.49e+10
 * Star death zone size: 7.26e+08
 * Star size: 4.84e+08
-* Star flare distance: 2.42e+10
 * Star autopilot range: 1.45e+09
 
-* Omni range: 6.85e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.65e+12
 * Surface color (Peak w.l. color code):
  - rgb: (175, 0, 0)
  - hex: #af0000
@@ -45577,7 +44653,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 120
 * Star cluster: unspecified
-* System zone codename: STAR_120_SYSTEM_ZONE
 * System codename: STAR_120_SYSTEM
 * System translation name codename: NAME_STAR_120_SYSTEM
 * System translation description codename: DESC_STAR_120_SYSTEM
@@ -45635,21 +44710,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_120_ZONE
-* Star codename: STAR_120
+* Star codename: STAR_120_Atani_A
 * Star translation name codename: NAME_STAR_120
 * Star translation description codename: DESC_STAR_120
 * Star name: Atani A
 * Star description: see above.
-* Star zone size: 4.07e+10
+* Star zone size: 4.19e+10
 * Star death zone size: 1.22e+09
 * Star size: 8.14e+08
-* Star flare distance: 4.07e+10
 * Star autopilot range: 2.44e+09
 
-* Omni range: 1.02e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.95e+12
 * Surface color (Peak w.l. color code):
  - rgb: (155, 0, 0)
  - hex: #9b0000
@@ -45864,7 +44935,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 121
 * Star cluster: unspecified
-* System zone codename: STAR_121_SYSTEM_ZONE
 * System codename: STAR_121_SYSTEM
 * System translation name codename: NAME_STAR_121_SYSTEM
 * System translation description codename: DESC_STAR_121_SYSTEM
@@ -45922,21 +44992,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_121_ZONE
-* Star codename: STAR_121
+* Star codename: STAR_121_Orlec_A
 * Star translation name codename: NAME_STAR_121
 * Star translation description codename: DESC_STAR_121
 * Star name: Orlec A
 * Star description: see above.
-* Star zone size: 1.02e+10
+* Star zone size: 1.05e+10
 * Star death zone size: 3.04e+08
 * Star size: 2.03e+08
-* Star flare distance: 1.02e+10
 * Star autopilot range: 6.09e+08
 
-* Omni range: 3.21e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.24e+12
 * Surface color (Peak w.l. color code):
  - rgb: (196, 0, 0)
  - hex: #c40000
@@ -45974,14 +45040,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 122
 * Star cluster: unspecified
-* System zone codename: STAR_122_SYSTEM_ZONE
 * System codename: STAR_122_SYSTEM
 * System translation name codename: NAME_STAR_122_SYSTEM
 * System translation description codename: DESC_STAR_122_SYSTEM
 * System name: Refepese
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 3.53e+13
+* System autopilot range: 3.53e+13
 ```
 
  </details>  
@@ -46032,21 +45097,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_122_ZONE
-* Star codename: STAR_122
+* Star codename: STAR_122_Refepese_A
 * Star translation name codename: NAME_STAR_122
 * Star translation description codename: DESC_STAR_122
 * Star name: Refepese A
 * Star description: see above.
-* Star zone size: 7.30e+10
+* Star zone size: 7.90e+10
 * Star death zone size: 5.97e+09
 * Star size: 1.46e+09
-* Star flare distance: 7.30e+10
 * Star autopilot range: 1.19e+10
 
-* Omni range: 9.13e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.53e+13
 * Surface color (Peak w.l. color code):
  - rgb: (250, 255, 0)
  - hex: #faff00
@@ -46261,7 +45322,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 123
 * Star cluster: unspecified
-* System zone codename: STAR_123_SYSTEM_ZONE
 * System codename: STAR_123_SYSTEM
 * System translation name codename: NAME_STAR_123_SYSTEM
 * System translation description codename: DESC_STAR_123_SYSTEM
@@ -46319,21 +45379,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_123_ZONE
-* Star codename: STAR_123
+* Star codename: STAR_123_Somi_A
 * Star translation name codename: NAME_STAR_123
 * Star translation description codename: DESC_STAR_123
 * Star name: Somi A
 * Star description: see above.
-* Star zone size: 1.47e+10
+* Star zone size: 1.51e+10
 * Star death zone size: 4.41e+08
 * Star size: 2.94e+08
-* Star flare distance: 1.47e+10
 * Star autopilot range: 8.82e+08
 
-* Omni range: 4.90e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.90e+12
 * Surface color (Peak w.l. color code):
  - rgb: (203, 0, 0)
  - hex: #cb0000
@@ -46489,7 +45545,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 124
 * Star cluster: unspecified
-* System zone codename: STAR_124_SYSTEM_ZONE
 * System codename: STAR_124_SYSTEM
 * System translation name codename: NAME_STAR_124_SYSTEM
 * System translation description codename: DESC_STAR_124_SYSTEM
@@ -46547,21 +45602,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_124_ZONE
-* Star codename: STAR_124
+* Star codename: STAR_124_Isasora_A
 * Star translation name codename: NAME_STAR_124
 * Star translation description codename: DESC_STAR_124
 * Star name: Isasora A
 * Star description: see above.
-* Star zone size: 1.39e+10
+* Star zone size: 1.43e+10
 * Star death zone size: 4.17e+08
 * Star size: 2.78e+08
-* Star flare distance: 1.39e+10
 * Star autopilot range: 8.34e+08
 
-* Omni range: 5.21e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.01e+12
 * Surface color (Peak w.l. color code):
  - rgb: (224, 0, 0)
  - hex: #e00000
@@ -46615,21 +45666,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_124_1_ZONE
-* Star codename: STAR_124_1
+* Star codename: STAR_124_1_Isasora_B
 * Star translation name codename: NAME_STAR_124_1
 * Star translation description codename: DESC_STAR_124_1
 * Star name: Isasora B
 * Star description: see above.
-* Star zone size: 2.81e+10
+* Star zone size: 2.89e+10
 * Star death zone size: 8.43e+08
 * Star size: 5.62e+08
-* Star flare distance: 2.81e+10
 * Star autopilot range: 1.69e+09
 
-* Omni range: 8.88e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.43e+12
 * Surface color (Peak w.l. color code):
  - rgb: (196, 0, 0)
  - hex: #c40000
@@ -46683,21 +45730,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_124_2_ZONE
-* Star codename: STAR_124_2
+* Star codename: STAR_124_2_Isasora_C
 * Star translation name codename: NAME_STAR_124_2
 * Star translation description codename: DESC_STAR_124_2
 * Star name: Isasora C
 * Star description: see above.
-* Star zone size: 2.02e+10
+* Star zone size: 2.08e+10
 * Star death zone size: 6.04e+08
 * Star size: 4.03e+08
-* Star flare distance: 2.02e+10
 * Star autopilot range: 1.21e+09
 
-* Omni range: 5.55e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.15e+12
 * Surface color (Peak w.l. color code):
  - rgb: (173, 0, 0)
  - hex: #ad0000
@@ -46971,14 +46014,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 125
 * Star cluster: unspecified
-* System zone codename: STAR_125_SYSTEM_ZONE
 * System codename: STAR_125_SYSTEM
 * System translation name codename: NAME_STAR_125_SYSTEM
 * System translation description codename: DESC_STAR_125_SYSTEM
 * System name: Oselaris
 * System description: see above. Optionally add lore.
-* System zone size: 1.42e+13
-* System autopilot range: 1.42e+13
+* System zone size: 5.51e+13
+* System autopilot range: 5.51e+13
 ```
 
  </details>  
@@ -47029,21 +46071,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_125_ZONE
-* Star codename: STAR_125
+* Star codename: STAR_125_Oselaris_A
 * Star translation name codename: NAME_STAR_125
 * Star translation description codename: DESC_STAR_125
 * Star name: Oselaris A
 * Star description: see above.
-* Star zone size: 8.85e+10
+* Star zone size: 9.78e+10
 * Star death zone size: 9.31e+09
 * Star size: 1.77e+09
-* Star flare distance: 8.85e+10
 * Star autopilot range: 1.86e+10
 
-* Omni range: 1.42e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.51e+13
 * Surface color (Peak w.l. color code):
  - rgb: (210, 255, 0)
  - hex: #d2ff00
@@ -47789,7 +46827,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 126
 * Star cluster: unspecified
-* System zone codename: STAR_126_SYSTEM_ZONE
 * System codename: STAR_126_SYSTEM
 * System translation name codename: NAME_STAR_126_SYSTEM
 * System translation description codename: DESC_STAR_126_SYSTEM
@@ -47847,21 +46884,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_126_ZONE
-* Star codename: STAR_126
+* Star codename: STAR_126_Lur_A
 * Star translation name codename: NAME_STAR_126
 * Star translation description codename: DESC_STAR_126
 * Star name: Lur A
 * Star description: see above.
-* Star zone size: 1.48e+10
+* Star zone size: 1.53e+10
 * Star death zone size: 4.59e+08
 * Star size: 2.96e+08
-* Star flare distance: 1.48e+10
 * Star autopilot range: 9.19e+08
 
-* Omni range: 7.02e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.72e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 6, 0)
  - hex: #ff0600
@@ -47915,21 +46948,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_126_1_ZONE
-* Star codename: STAR_126_1
+* Star codename: STAR_126_1_Lur_B
 * Star translation name codename: NAME_STAR_126_1
 * Star translation description codename: DESC_STAR_126_1
 * Star name: Lur B
 * Star description: see above.
-* Star zone size: 1.19e+10
+* Star zone size: 1.23e+10
 * Star death zone size: 3.57e+08
 * Star size: 2.38e+08
-* Star flare distance: 1.19e+10
 * Star autopilot range: 7.14e+08
 
-* Omni range: 4.12e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.60e+12
 * Surface color (Peak w.l. color code):
  - rgb: (211, 0, 0)
  - hex: #d30000
@@ -47983,21 +47012,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_126_2_ZONE
-* Star codename: STAR_126_2
+* Star codename: STAR_126_2_Lur_C
 * Star translation name codename: NAME_STAR_126_2
 * Star translation description codename: DESC_STAR_126_2
 * Star name: Lur C
 * Star description: see above.
-* Star zone size: 2.17e+10
+* Star zone size: 2.24e+10
 * Star death zone size: 6.51e+08
 * Star size: 4.34e+08
-* Star flare distance: 2.17e+10
 * Star autopilot range: 1.30e+09
 
-* Omni range: 7.11e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.75e+12
 * Surface color (Peak w.l. color code):
  - rgb: (201, 0, 0)
  - hex: #c90000
@@ -48212,7 +47237,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 127
 * Star cluster: unspecified
-* System zone codename: STAR_127_SYSTEM_ZONE
 * System codename: STAR_127_SYSTEM
 * System translation name codename: NAME_STAR_127_SYSTEM
 * System translation description codename: DESC_STAR_127_SYSTEM
@@ -48270,21 +47294,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_127_ZONE
-* Star codename: STAR_127
+* Star codename: STAR_127_Lopolo_A
 * Star translation name codename: NAME_STAR_127
 * Star translation description codename: DESC_STAR_127
 * Star name: Lopolo A
 * Star description: see above.
-* Star zone size: 2.68e+10
+* Star zone size: 2.76e+10
 * Star death zone size: 8.02e+08
 * Star size: 5.35e+08
-* Star flare distance: 2.68e+10
 * Star autopilot range: 1.60e+09
 
-* Omni range: 9.48e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.67e+12
 * Surface color (Peak w.l. color code):
  - rgb: (214, 0, 0)
  - hex: #d60000
@@ -48440,7 +47460,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 128
 * Star cluster: unspecified
-* System zone codename: STAR_128_SYSTEM_ZONE
 * System codename: STAR_128_SYSTEM
 * System translation name codename: NAME_STAR_128_SYSTEM
 * System translation description codename: DESC_STAR_128_SYSTEM
@@ -48498,21 +47517,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_128_ZONE
-* Star codename: STAR_128
+* Star codename: STAR_128_Aranle_A
 * Star translation name codename: NAME_STAR_128
 * Star translation description codename: DESC_STAR_128
 * Star name: Aranle A
 * Star description: see above.
-* Star zone size: 2.77e+10
+* Star zone size: 2.85e+10
 * Star death zone size: 8.31e+08
 * Star size: 5.54e+08
-* Star flare distance: 2.77e+10
 * Star autopilot range: 1.66e+09
 
-* Omni range: 9.90e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.83e+12
 * Surface color (Peak w.l. color code):
  - rgb: (216, 0, 0)
  - hex: #d80000
@@ -48786,7 +47801,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 129
 * Star cluster: unspecified
-* System zone codename: STAR_129_SYSTEM_ZONE
 * System codename: STAR_129_SYSTEM
 * System translation name codename: NAME_STAR_129_SYSTEM
 * System translation description codename: DESC_STAR_129_SYSTEM
@@ -48844,21 +47858,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_129_ZONE
-* Star codename: STAR_129
+* Star codename: STAR_129_Afolena_A
 * Star translation name codename: NAME_STAR_129
 * Star translation description codename: DESC_STAR_129
 * Star name: Afolena A
 * Star description: see above.
-* Star zone size: 4.86e+10
+* Star zone size: 5.01e+10
 * Star death zone size: 1.46e+09
 * Star size: 9.72e+08
-* Star flare distance: 4.86e+10
 * Star autopilot range: 2.92e+09
 
-* Omni range: 1.97e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.64e+12
 * Surface color (Peak w.l. color code):
  - rgb: (234, 0, 0)
  - hex: #ea0000
@@ -48896,14 +47906,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 130
 * Star cluster: unspecified
-* System zone codename: STAR_130_SYSTEM_ZONE
 * System codename: STAR_130_SYSTEM
 * System translation name codename: NAME_STAR_130_SYSTEM
 * System translation description codename: DESC_STAR_130_SYSTEM
 * System name: Emimiv
 * System description: see above. Optionally add lore.
-* System zone size: 3.94e+13
-* System autopilot range: 3.94e+13
+* System zone size: 1.52e+14
+* System autopilot range: 1.52e+14
 ```
 
  </details>  
@@ -48954,21 +47963,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_130_ZONE
-* Star codename: STAR_130
+* Star codename: STAR_130_Emimiv_A
 * Star translation name codename: NAME_STAR_130
 * Star translation description codename: DESC_STAR_130
 * Star name: Emimiv A
 * Star description: see above.
-* Star zone size: 1.14e+11
+* Star zone size: 1.39e+11
 * Star death zone size: 2.58e+10
 * Star size: 2.27e+09
-* Star flare distance: 1.14e+11
 * Star autopilot range: 5.15e+10
 
-* Omni range: 3.94e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.52e+14
 * Surface color (Peak w.l. color code):
  - rgb: (68, 255, 139)
  - hex: #44ff8b
@@ -49022,21 +48027,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_130_1_ZONE
-* Star codename: STAR_130_1
+* Star codename: STAR_130_1_Emimiv_B
 * Star translation name codename: NAME_STAR_130_1
 * Star translation description codename: DESC_STAR_130_1
 * Star name: Emimiv B
 * Star description: see above.
-* Star zone size: 6.50e+10
+* Star zone size: 6.89e+10
 * Star death zone size: 3.91e+09
 * Star size: 1.30e+09
-* Star flare distance: 6.50e+10
 * Star autopilot range: 7.82e+09
 
-* Omni range: 5.98e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.31e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 192, 0)
  - hex: #ffc000
@@ -49090,21 +48091,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_130_2_ZONE
-* Star codename: STAR_130_2
+* Star codename: STAR_130_2_Emimiv_C
 * Star translation name codename: NAME_STAR_130_2
 * Star translation description codename: DESC_STAR_130_2
 * Star name: Emimiv C
 * Star description: see above.
-* Star zone size: 3.73e+10
+* Star zone size: 3.84e+10
 * Star death zone size: 1.12e+09
 * Star size: 7.46e+08
-* Star flare distance: 3.73e+10
 * Star autopilot range: 2.24e+09
 
-* Omni range: 1.65e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.39e+12
 * Surface color (Peak w.l. color code):
  - rgb: (247, 0, 0)
  - hex: #f70000
@@ -49158,21 +48155,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_130_3_ZONE
-* Star codename: STAR_130_3
+* Star codename: STAR_130_3_Emimiv_D
 * Star translation name codename: NAME_STAR_130_3
 * Star translation description codename: DESC_STAR_130_3
 * Star name: Emimiv D
 * Star description: see above.
-* Star zone size: 3.92e+10
+* Star zone size: 4.03e+10
 * Star death zone size: 1.17e+09
 * Star size: 7.83e+08
-* Star flare distance: 3.92e+10
 * Star autopilot range: 2.35e+09
 
-* Omni range: 1.63e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.29e+12
 * Surface color (Peak w.l. color code):
  - rgb: (239, 0, 0)
  - hex: #ef0000
@@ -49328,7 +48321,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 131
 * Star cluster: unspecified
-* System zone codename: STAR_131_SYSTEM_ZONE
 * System codename: STAR_131_SYSTEM
 * System translation name codename: NAME_STAR_131_SYSTEM
 * System translation description codename: DESC_STAR_131_SYSTEM
@@ -49386,21 +48378,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_131_ZONE
-* Star codename: STAR_131
+* Star codename: STAR_131_Isipa_A
 * Star translation name codename: NAME_STAR_131
 * Star translation description codename: DESC_STAR_131
 * Star name: Isipa A
 * Star description: see above.
-* Star zone size: 2.10e+10
+* Star zone size: 2.17e+10
 * Star death zone size: 6.32e+08
 * Star size: 4.21e+08
-* Star flare distance: 2.10e+10
 * Star autopilot range: 1.26e+09
 
-* Omni range: 9.53e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.69e+12
 * Surface color (Peak w.l. color code):
  - rgb: (249, 0, 0)
  - hex: #f90000
@@ -49556,14 +48544,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 132
 * Star cluster: unspecified
-* System zone codename: STAR_132_SYSTEM_ZONE
 * System codename: STAR_132_SYSTEM
 * System translation name codename: NAME_STAR_132_SYSTEM
 * System translation description codename: DESC_STAR_132_SYSTEM
 * System name: Lernone
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.59e+13
+* System autopilot range: 1.59e+13
 ```
 
  </details>  
@@ -49614,21 +48601,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_132_ZONE
-* Star codename: STAR_132
+* Star codename: STAR_132_Lernone_A
 * Star translation name codename: NAME_STAR_132
 * Star translation description codename: DESC_STAR_132
 * Star name: Lernone A
 * Star description: see above.
-* Star zone size: 5.75e+10
+* Star zone size: 6.02e+10
 * Star death zone size: 2.68e+09
 * Star size: 1.15e+09
-* Star flare distance: 5.75e+10
 * Star autopilot range: 5.37e+09
 
-* Omni range: 4.10e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.59e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 130, 0)
  - hex: #ff8200
@@ -49682,21 +48665,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_132_1_ZONE
-* Star codename: STAR_132_1
+* Star codename: STAR_132_1_Lernone_B
 * Star translation name codename: NAME_STAR_132_1
 * Star translation description codename: DESC_STAR_132_1
 * Star name: Lernone B
 * Star description: see above.
-* Star zone size: 5.30e+10
+* Star zone size: 5.55e+10
 * Star death zone size: 2.46e+09
 * Star size: 1.06e+09
-* Star flare distance: 5.30e+10
 * Star autopilot range: 4.92e+09
 
-* Omni range: 3.76e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.46e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 124, 0)
  - hex: #ff7c00
@@ -49970,7 +48949,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 133
 * Star cluster: unspecified
-* System zone codename: STAR_133_SYSTEM_ZONE
 * System codename: STAR_133_SYSTEM
 * System translation name codename: NAME_STAR_133_SYSTEM
 * System translation description codename: DESC_STAR_133_SYSTEM
@@ -50028,21 +49006,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_133_ZONE
-* Star codename: STAR_133
+* Star codename: STAR_133_Ikiu_A
 * Star translation name codename: NAME_STAR_133
 * Star translation description codename: DESC_STAR_133
 * Star name: Ikiu A
 * Star description: see above.
-* Star zone size: 8.75e+09
+* Star zone size: 9.01e+09
 * Star death zone size: 2.62e+08
 * Star size: 1.75e+08
-* Star flare distance: 8.75e+09
 * Star autopilot range: 5.25e+08
 
-* Omni range: 2.39e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 9.25e+11
 * Surface color (Peak w.l. color code):
  - rgb: (170, 0, 0)
  - hex: #aa0000
@@ -50139,7 +49113,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 134
 * Star cluster: unspecified
-* System zone codename: STAR_134_SYSTEM_ZONE
 * System codename: STAR_134_SYSTEM
 * System translation name codename: NAME_STAR_134_SYSTEM
 * System translation description codename: DESC_STAR_134_SYSTEM
@@ -50197,21 +49170,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_134_ZONE
-* Star codename: STAR_134
+* Star codename: STAR_134_Enedw_A
 * Star translation name codename: NAME_STAR_134
 * Star translation description codename: DESC_STAR_134
 * Star name: Enedw A
 * Star description: see above.
-* Star zone size: 8.60e+09
+* Star zone size: 8.86e+09
 * Star death zone size: 2.58e+08
 * Star size: 1.72e+08
-* Star flare distance: 8.60e+09
 * Star autopilot range: 5.16e+08
 
-* Omni range: 3.60e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.39e+12
 * Surface color (Peak w.l. color code):
  - rgb: (239, 0, 0)
  - hex: #ef0000
@@ -50265,21 +49234,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_134_1_ZONE
-* Star codename: STAR_134_1
+* Star codename: STAR_134_1_Enedw_B
 * Star translation name codename: NAME_STAR_134_1
 * Star translation description codename: DESC_STAR_134_1
 * Star name: Enedw B
 * Star description: see above.
-* Star zone size: 1.23e+10
+* Star zone size: 1.27e+10
 * Star death zone size: 3.69e+08
 * Star size: 2.46e+08
-* Star flare distance: 1.23e+10
 * Star autopilot range: 7.38e+08
 
-* Omni range: 4.90e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.90e+12
 * Surface color (Peak w.l. color code):
  - rgb: (231, 0, 0)
  - hex: #e70000
@@ -50333,21 +49298,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_134_2_ZONE
-* Star codename: STAR_134_2
+* Star codename: STAR_134_2_Enedw_C
 * Star translation name codename: NAME_STAR_134_2
 * Star translation description codename: DESC_STAR_134_2
 * Star name: Enedw C
 * Star description: see above.
-* Star zone size: 2.80e+10
+* Star zone size: 2.88e+10
 * Star death zone size: 8.40e+08
 * Star size: 5.60e+08
-* Star flare distance: 2.80e+10
 * Star autopilot range: 1.68e+09
 
-* Omni range: 7.99e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.09e+12
 * Surface color (Peak w.l. color code):
  - rgb: (178, 0, 0)
  - hex: #b20000
@@ -50444,14 +49405,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 135
 * Star cluster: unspecified
-* System zone codename: STAR_135_SYSTEM_ZONE
 * System codename: STAR_135_SYSTEM
 * System translation name codename: NAME_STAR_135_SYSTEM
 * System translation description codename: DESC_STAR_135_SYSTEM
 * System name: Cad
 * System description: see above. Optionally add lore.
-* System zone size: 1.03e+13
-* System autopilot range: 1.03e+13
+* System zone size: 4.00e+13
+* System autopilot range: 4.00e+13
 ```
 
  </details>  
@@ -50502,21 +49462,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_135_ZONE
-* Star codename: STAR_135
+* Star codename: STAR_135_Cad_A
 * Star translation name codename: NAME_STAR_135
 * Star translation description codename: DESC_STAR_135
 * Star name: Cad A
 * Star description: see above.
-* Star zone size: 7.40e+10
+* Star zone size: 8.08e+10
 * Star death zone size: 6.77e+09
 * Star size: 1.48e+09
-* Star flare distance: 7.40e+10
 * Star autopilot range: 1.35e+10
 
-* Omni range: 1.03e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.00e+13
 * Surface color (Peak w.l. color code):
  - rgb: (230, 255, 0)
  - hex: #e6ff00
@@ -50570,21 +49526,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_135_1_ZONE
-* Star codename: STAR_135_1
+* Star codename: STAR_135_1_Cad_B
 * Star translation name codename: NAME_STAR_135_1
 * Star translation description codename: DESC_STAR_135_1
 * Star name: Cad B
 * Star description: see above.
-* Star zone size: 7.85e+10
+* Star zone size: 8.45e+10
 * Star death zone size: 6.01e+09
 * Star size: 1.57e+09
-* Star flare distance: 7.85e+10
 * Star autopilot range: 1.20e+10
 
-* Omni range: 9.18e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.55e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 248, 0)
  - hex: #fff800
@@ -51153,7 +50105,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 136
 * Star cluster: unspecified
-* System zone codename: STAR_136_SYSTEM_ZONE
 * System codename: STAR_136_SYSTEM
 * System translation name codename: NAME_STAR_136_SYSTEM
 * System translation description codename: DESC_STAR_136_SYSTEM
@@ -51211,21 +50162,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_136_ZONE
-* Star codename: STAR_136
+* Star codename: STAR_136_Romataki_A
 * Star translation name codename: NAME_STAR_136
 * Star translation description codename: DESC_STAR_136
 * Star name: Romataki A
 * Star description: see above.
-* Star zone size: 1.36e+10
+* Star zone size: 1.40e+10
 * Star death zone size: 4.08e+08
 * Star size: 2.72e+08
-* Star flare distance: 1.36e+10
 * Star autopilot range: 8.16e+08
 
-* Omni range: 3.81e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.47e+12
 * Surface color (Peak w.l. color code):
  - rgb: (175, 0, 0)
  - hex: #af0000
@@ -51440,7 +50387,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 137
 * Star cluster: unspecified
-* System zone codename: STAR_137_SYSTEM_ZONE
 * System codename: STAR_137_SYSTEM
 * System translation name codename: NAME_STAR_137_SYSTEM
 * System translation description codename: DESC_STAR_137_SYSTEM
@@ -51498,21 +50444,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_137_ZONE
-* Star codename: STAR_137
+* Star codename: STAR_137_Oresar_A
 * Star translation name codename: NAME_STAR_137
 * Star translation description codename: DESC_STAR_137
 * Star name: Oresar A
 * Star description: see above.
-* Star zone size: 4.72e+10
+* Star zone size: 4.87e+10
 * Star death zone size: 1.52e+09
 * Star size: 9.43e+08
-* Star flare distance: 4.72e+10
 * Star autopilot range: 3.04e+09
 
-* Omni range: 2.32e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 8.99e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 18, 0)
  - hex: #ff1200
@@ -51550,14 +50492,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 138
 * Star cluster: unspecified
-* System zone codename: STAR_138_SYSTEM_ZONE
 * System codename: STAR_138_SYSTEM
 * System translation name codename: NAME_STAR_138_SYSTEM
 * System translation description codename: DESC_STAR_138_SYSTEM
 * System name: Oonz
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 2.29e+13
+* System autopilot range: 2.29e+13
 ```
 
  </details>  
@@ -51608,21 +50549,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_138_ZONE
-* Star codename: STAR_138
+* Star codename: STAR_138_Oonz_A
 * Star translation name codename: NAME_STAR_138
 * Star translation description codename: DESC_STAR_138
 * Star name: Oonz A
 * Star description: see above.
-* Star zone size: 6.50e+10
+* Star zone size: 6.89e+10
 * Star death zone size: 3.88e+09
 * Star size: 1.30e+09
-* Star flare distance: 6.50e+10
 * Star autopilot range: 7.76e+09
 
-* Omni range: 5.93e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.29e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 192, 0)
  - hex: #ffc000
@@ -51676,21 +50613,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_138_1_ZONE
-* Star codename: STAR_138_1
+* Star codename: STAR_138_1_Oonz_B
 * Star translation name codename: NAME_STAR_138_1
 * Star translation description codename: DESC_STAR_138_1
 * Star name: Oonz B
 * Star description: see above.
-* Star zone size: 5.75e+10
+* Star zone size: 6.03e+10
 * Star death zone size: 2.83e+09
 * Star size: 1.15e+09
-* Star flare distance: 5.75e+10
 * Star autopilot range: 5.67e+09
 
-* Omni range: 4.33e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.68e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 143, 0)
  - hex: #ff8f00
@@ -51787,7 +50720,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 139
 * Star cluster: unspecified
-* System zone codename: STAR_139_SYSTEM_ZONE
 * System codename: STAR_139_SYSTEM
 * System translation name codename: NAME_STAR_139_SYSTEM
 * System translation description codename: DESC_STAR_139_SYSTEM
@@ -51845,21 +50777,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_139_ZONE
-* Star codename: STAR_139
+* Star codename: STAR_139_Evazesar_A
 * Star translation name codename: NAME_STAR_139
 * Star translation description codename: DESC_STAR_139
 * Star name: Evazesar A
 * Star description: see above.
-* Star zone size: 4.17e+10
+* Star zone size: 4.30e+10
 * Star death zone size: 1.25e+09
 * Star size: 8.34e+08
-* Star flare distance: 4.17e+10
 * Star autopilot range: 2.50e+09
 
-* Omni range: 1.83e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.08e+12
 * Surface color (Peak w.l. color code):
  - rgb: (247, 0, 0)
  - hex: #f70000
@@ -51897,7 +50825,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 140
 * Star cluster: unspecified
-* System zone codename: STAR_140_SYSTEM_ZONE
 * System codename: STAR_140_SYSTEM
 * System translation name codename: NAME_STAR_140_SYSTEM
 * System translation description codename: DESC_STAR_140_SYSTEM
@@ -51955,21 +50882,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_140_ZONE
-* Star codename: STAR_140
+* Star codename: STAR_140_Natr_A
 * Star translation name codename: NAME_STAR_140
 * Star translation description codename: DESC_STAR_140
 * Star name: Natr A
 * Star description: see above.
-* Star zone size: 4.06e+10
+* Star zone size: 4.18e+10
 * Star death zone size: 1.22e+09
 * Star size: 8.12e+08
-* Star flare distance: 4.06e+10
 * Star autopilot range: 2.44e+09
 
-* Omni range: 1.06e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.12e+12
 * Surface color (Peak w.l. color code):
  - rgb: (162, 0, 0)
  - hex: #a20000
@@ -52023,21 +50946,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_140_1_ZONE
-* Star codename: STAR_140_1
+* Star codename: STAR_140_1_Natr_B
 * Star translation name codename: NAME_STAR_140_1
 * Star translation description codename: DESC_STAR_140_1
 * Star name: Natr B
 * Star description: see above.
-* Star zone size: 2.98e+10
+* Star zone size: 3.06e+10
 * Star death zone size: 8.92e+08
 * Star size: 5.95e+08
-* Star flare distance: 2.98e+10
 * Star autopilot range: 1.78e+09
 
-* Omni range: 7.85e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.04e+12
 * Surface color (Peak w.l. color code):
  - rgb: (162, 0, 0)
  - hex: #a20000
@@ -52091,21 +51010,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_140_2_ZONE
-* Star codename: STAR_140_2
+* Star codename: STAR_140_2_Natr_C
 * Star translation name codename: NAME_STAR_140_2
 * Star translation description codename: DESC_STAR_140_2
 * Star name: Natr C
 * Star description: see above.
-* Star zone size: 4.54e+10
+* Star zone size: 4.68e+10
 * Star death zone size: 1.36e+09
 * Star size: 9.09e+08
-* Star flare distance: 4.54e+10
 * Star autopilot range: 2.73e+09
 
-* Omni range: 1.19e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.62e+12
 * Surface color (Peak w.l. color code):
  - rgb: (162, 0, 0)
  - hex: #a20000
@@ -52159,21 +51074,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_140_3_ZONE
-* Star codename: STAR_140_3
+* Star codename: STAR_140_3_Natr_D
 * Star translation name codename: NAME_STAR_140_3
 * Star translation description codename: DESC_STAR_140_3
 * Star name: Natr D
 * Star description: see above.
-* Star zone size: 4.48e+10
+* Star zone size: 4.61e+10
 * Star death zone size: 1.34e+09
 * Star size: 8.95e+08
-* Star flare distance: 4.48e+10
 * Star autopilot range: 2.68e+09
 
-* Omni range: 1.14e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.39e+12
 * Surface color (Peak w.l. color code):
  - rgb: (157, 0, 0)
  - hex: #9d0000
@@ -52329,7 +51240,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 141
 * Star cluster: unspecified
-* System zone codename: STAR_141_SYSTEM_ZONE
 * System codename: STAR_141_SYSTEM
 * System translation name codename: NAME_STAR_141_SYSTEM
 * System translation description codename: DESC_STAR_141_SYSTEM
@@ -52387,21 +51297,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_141_ZONE
-* Star codename: STAR_141
+* Star codename: STAR_141_Ladu_A
 * Star translation name codename: NAME_STAR_141
 * Star translation description codename: DESC_STAR_141
 * Star name: Ladu A
 * Star description: see above.
-* Star zone size: 4.20e+10
+* Star zone size: 4.32e+10
 * Star death zone size: 1.26e+09
 * Star size: 8.39e+08
-* Star flare distance: 4.20e+10
 * Star autopilot range: 2.52e+09
 
-* Omni range: 1.10e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.24e+12
 * Surface color (Peak w.l. color code):
  - rgb: (162, 0, 0)
  - hex: #a20000
@@ -52498,14 +51404,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 142
 * Star cluster: unspecified
-* System zone codename: STAR_142_SYSTEM_ZONE
 * System codename: STAR_142_SYSTEM
 * System translation name codename: NAME_STAR_142_SYSTEM
 * System translation description codename: DESC_STAR_142_SYSTEM
 * System name: Tiwfuva
 * System description: see above. Optionally add lore.
-* System zone size: 1.59e+13
-* System autopilot range: 1.59e+13
+* System zone size: 6.15e+13
+* System autopilot range: 6.15e+13
 ```
 
  </details>  
@@ -52556,21 +51461,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_142_ZONE
-* Star codename: STAR_142
+* Star codename: STAR_142_Tiwfuva_A
 * Star translation name codename: NAME_STAR_142
 * Star translation description codename: DESC_STAR_142
 * Star name: Tiwfuva A
 * Star description: see above.
-* Star zone size: 9.20e+10
+* Star zone size: 1.02e+11
 * Star death zone size: 1.04e+10
 * Star size: 1.84e+09
-* Star flare distance: 9.20e+10
 * Star autopilot range: 2.08e+10
 
-* Omni range: 1.59e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.15e+13
 * Surface color (Peak w.l. color code):
  - rgb: (200, 255, 0)
  - hex: #c8ff00
@@ -53139,7 +52040,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 143
 * Star cluster: unspecified
-* System zone codename: STAR_143_SYSTEM_ZONE
 * System codename: STAR_143_SYSTEM
 * System translation name codename: NAME_STAR_143_SYSTEM
 * System translation description codename: DESC_STAR_143_SYSTEM
@@ -53197,21 +52097,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_143_ZONE
-* Star codename: STAR_143
+* Star codename: STAR_143_Urmo_A
 * Star translation name codename: NAME_STAR_143
 * Star translation description codename: DESC_STAR_143
 * Star name: Urmo A
 * Star description: see above.
-* Star zone size: 3.11e+10
+* Star zone size: 3.22e+10
 * Star death zone size: 1.06e+09
 * Star size: 6.22e+08
-* Star flare distance: 3.11e+10
 * Star autopilot range: 2.12e+09
 
-* Omni range: 1.62e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.26e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 37, 0)
  - hex: #ff2500
@@ -53265,21 +52161,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_143_1_ZONE
-* Star codename: STAR_143_1
+* Star codename: STAR_143_1_Urmo_B
 * Star translation name codename: NAME_STAR_143_1
 * Star translation description codename: DESC_STAR_143_1
 * Star name: Urmo B
 * Star description: see above.
-* Star zone size: 3.08e+10
+* Star zone size: 3.18e+10
 * Star death zone size: 9.53e+08
 * Star size: 6.16e+08
-* Star flare distance: 3.08e+10
 * Star autopilot range: 1.91e+09
 
-* Omni range: 1.46e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.64e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 6, 0)
  - hex: #ff0600
@@ -53435,14 +52327,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 144
 * Star cluster: unspecified
-* System zone codename: STAR_144_SYSTEM_ZONE
 * System codename: STAR_144_SYSTEM
 * System translation name codename: NAME_STAR_144_SYSTEM
 * System translation description codename: DESC_STAR_144_SYSTEM
 * System name: Sisil
 * System description: see above. Optionally add lore.
-* System zone size: 4.34e+15
-* System autopilot range: 4.34e+15
+* System zone size: 1.68e+16
+* System autopilot range: 1.68e+16
 ```
 
  </details>  
@@ -53493,21 +52384,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_144_ZONE
-* Star codename: STAR_144
+* Star codename: STAR_144_Sisil_A
 * Star translation name codename: NAME_STAR_144
 * Star translation description codename: DESC_STAR_144
 * Star name: Sisil A
 * Star description: see above.
-* Star zone size: 2.84e+13
+* Star zone size: 3.34e+12
 * Star death zone size: 2.84e+12
 * Star size: 1.01e+10
-* Star flare distance: 2.84e+13
 * Star autopilot range: 5.68e+12
 
-* Omni range: 4.34e+15
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.68e+16
 * Surface color (Peak w.l. color code):
  - rgb: (109, 68, 225)
  - hex: #6d44e1
@@ -53561,21 +52448,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_144_1_ZONE
-* Star codename: STAR_144_1
+* Star codename: STAR_144_1_Sisil_B
 * Star translation name codename: NAME_STAR_144_1
 * Star translation description codename: DESC_STAR_144_1
 * Star name: Sisil B
 * Star description: see above.
-* Star zone size: 4.86e+10
+* Star zone size: 5.01e+10
 * Star death zone size: 1.49e+09
 * Star size: 9.72e+08
-* Star flare distance: 4.86e+10
 * Star autopilot range: 2.97e+09
 
-* Omni range: 2.27e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 8.79e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 0, 0)
  - hex: #ff0000
@@ -53731,14 +52614,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 145
 * Star cluster: unspecified
-* System zone codename: STAR_145_SYSTEM_ZONE
 * System codename: STAR_145_SYSTEM
 * System translation name codename: NAME_STAR_145_SYSTEM
 * System translation description codename: DESC_STAR_145_SYSTEM
 * System name: Ben
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.52e+13
+* System autopilot range: 1.52e+13
 ```
 
  </details>  
@@ -53789,21 +52671,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_145_ZONE
-* Star codename: STAR_145
+* Star codename: STAR_145_Ben_A
 * Star translation name codename: NAME_STAR_145
 * Star translation description codename: DESC_STAR_145
 * Star name: Ben A
 * Star description: see above.
-* Star zone size: 5.65e+10
+* Star zone size: 5.91e+10
 * Star death zone size: 2.57e+09
 * Star size: 1.13e+09
-* Star flare distance: 5.65e+10
 * Star autopilot range: 5.14e+09
 
-* Omni range: 3.93e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.52e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 124, 0)
  - hex: #ff7c00
@@ -53900,7 +52778,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 146
 * Star cluster: unspecified
-* System zone codename: STAR_146_SYSTEM_ZONE
 * System codename: STAR_146_SYSTEM
 * System translation name codename: NAME_STAR_146_SYSTEM
 * System translation description codename: DESC_STAR_146_SYSTEM
@@ -53958,21 +52835,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_146_ZONE
-* Star codename: STAR_146
+* Star codename: STAR_146_Taver_A
 * Star translation name codename: NAME_STAR_146
 * Star translation description codename: DESC_STAR_146
 * Star name: Taver A
 * Star description: see above.
-* Star zone size: 1.06e+10
+* Star zone size: 1.09e+10
 * Star death zone size: 3.18e+08
 * Star size: 2.12e+08
-* Star flare distance: 1.06e+10
 * Star autopilot range: 6.36e+08
 
-* Omni range: 3.35e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.29e+12
 * Surface color (Peak w.l. color code):
  - rgb: (196, 0, 0)
  - hex: #c40000
@@ -54187,7 +53060,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 147
 * Star cluster: unspecified
-* System zone codename: STAR_147_SYSTEM_ZONE
 * System codename: STAR_147_SYSTEM
 * System translation name codename: NAME_STAR_147_SYSTEM
 * System translation description codename: DESC_STAR_147_SYSTEM
@@ -54245,21 +53117,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_147_ZONE
-* Star codename: STAR_147
+* Star codename: STAR_147_Acofefo_A
 * Star translation name codename: NAME_STAR_147
 * Star translation description codename: DESC_STAR_147
 * Star name: Acofefo A
 * Star description: see above.
-* Star zone size: 3.74e+10
+* Star zone size: 3.86e+10
 * Star death zone size: 1.12e+09
 * Star size: 7.49e+08
-* Star flare distance: 3.74e+10
 * Star autopilot range: 2.25e+09
 
-* Omni range: 1.25e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.83e+12
 * Surface color (Peak w.l. color code):
  - rgb: (203, 0, 0)
  - hex: #cb0000
@@ -54313,21 +53181,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_147_1_ZONE
-* Star codename: STAR_147_1
+* Star codename: STAR_147_1_Acofefo_B
 * Star translation name codename: NAME_STAR_147_1
 * Star translation description codename: DESC_STAR_147_1
 * Star name: Acofefo B
 * Star description: see above.
-* Star zone size: 2.13e+10
+* Star zone size: 2.19e+10
 * Star death zone size: 6.39e+08
 * Star size: 4.26e+08
-* Star flare distance: 2.13e+10
 * Star autopilot range: 1.28e+09
 
-* Omni range: 6.75e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.61e+12
 * Surface color (Peak w.l. color code):
  - rgb: (196, 0, 0)
  - hex: #c40000
@@ -54365,14 +53229,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 148
 * Star cluster: unspecified
-* System zone codename: STAR_148_SYSTEM_ZONE
 * System codename: STAR_148_SYSTEM
 * System translation name codename: NAME_STAR_148_SYSTEM
 * System translation description codename: DESC_STAR_148_SYSTEM
 * System name: Dofape
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.80e+13
+* System autopilot range: 1.80e+13
 ```
 
  </details>  
@@ -54423,21 +53286,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_148_ZONE
-* Star codename: STAR_148
+* Star codename: STAR_148_Dofape_A
 * Star translation name codename: NAME_STAR_148
 * Star translation description codename: DESC_STAR_148
 * Star name: Dofape A
 * Star description: see above.
-* Star zone size: 5.20e+10
+* Star zone size: 5.50e+10
 * Star death zone size: 3.04e+09
 * Star size: 1.04e+09
-* Star flare distance: 5.20e+10
 * Star autopilot range: 6.08e+09
 
-* Omni range: 4.65e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.80e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 186, 0)
  - hex: #ffba00
@@ -54770,7 +53629,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 149
 * Star cluster: unspecified
-* System zone codename: STAR_149_SYSTEM_ZONE
 * System codename: STAR_149_SYSTEM
 * System translation name codename: NAME_STAR_149_SYSTEM
 * System translation description codename: DESC_STAR_149_SYSTEM
@@ -54828,21 +53686,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_149_ZONE
-* Star codename: STAR_149
+* Star codename: STAR_149_Aanrin_A
 * Star translation name codename: NAME_STAR_149
 * Star translation description codename: DESC_STAR_149
 * Star name: Aanrin A
 * Star description: see above.
-* Star zone size: 2.56e+10
+* Star zone size: 2.63e+10
 * Star death zone size: 7.66e+08
 * Star size: 5.11e+08
-* Star flare distance: 2.56e+10
 * Star autopilot range: 1.53e+09
 
-* Omni range: 6.75e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.61e+12
 * Surface color (Peak w.l. color code):
  - rgb: (165, 0, 0)
  - hex: #a50000
@@ -54998,7 +53852,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 150
 * Star cluster: unspecified
-* System zone codename: STAR_150_SYSTEM_ZONE
 * System codename: STAR_150_SYSTEM
 * System translation name codename: NAME_STAR_150_SYSTEM
 * System translation description codename: DESC_STAR_150_SYSTEM
@@ -55056,21 +53909,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_150_ZONE
-* Star codename: STAR_150
+* Star codename: STAR_150_Wap_A
 * Star translation name codename: NAME_STAR_150
 * Star translation description codename: DESC_STAR_150
 * Star name: Wap A
 * Star description: see above.
-* Star zone size: 4.38e+10
+* Star zone size: 4.53e+10
 * Star death zone size: 1.52e+09
 * Star size: 8.76e+08
-* Star flare distance: 4.38e+10
 * Star autopilot range: 3.03e+09
 
-* Omni range: 2.32e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 8.97e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 43, 0)
  - hex: #ff2b00
@@ -55124,21 +53973,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_150_1_ZONE
-* Star codename: STAR_150_1
+* Star codename: STAR_150_1_Wap_B
 * Star translation name codename: NAME_STAR_150_1
 * Star translation description codename: DESC_STAR_150_1
 * Star name: Wap B
 * Star description: see above.
-* Star zone size: 4.36e+10
+* Star zone size: 4.51e+10
 * Star death zone size: 1.51e+09
 * Star size: 8.71e+08
-* Star flare distance: 4.36e+10
 * Star autopilot range: 3.01e+09
 
-* Omni range: 2.30e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 8.91e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 43, 0)
  - hex: #ff2b00
@@ -55294,7 +54139,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 151
 * Star cluster: unspecified
-* System zone codename: STAR_151_SYSTEM_ZONE
 * System codename: STAR_151_SYSTEM
 * System translation name codename: NAME_STAR_151_SYSTEM
 * System translation description codename: DESC_STAR_151_SYSTEM
@@ -55352,21 +54196,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_151_ZONE
-* Star codename: STAR_151
+* Star codename: STAR_151_Liapn_A
 * Star translation name codename: NAME_STAR_151
 * Star translation description codename: DESC_STAR_151
 * Star name: Liapn A
 * Star description: see above.
-* Star zone size: 1.85e+10
+* Star zone size: 1.91e+10
 * Star death zone size: 5.55e+08
 * Star size: 3.70e+08
-* Star flare distance: 1.85e+10
 * Star autopilot range: 1.11e+09
 
-* Omni range: 6.40e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.48e+12
 * Surface color (Peak w.l. color code):
  - rgb: (211, 0, 0)
  - hex: #d30000
@@ -55463,14 +54303,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 152
 * Star cluster: unspecified
-* System zone codename: STAR_152_SYSTEM_ZONE
 * System codename: STAR_152_SYSTEM
 * System translation name codename: NAME_STAR_152_SYSTEM
 * System translation description codename: DESC_STAR_152_SYSTEM
 * System name: Ysehegad
 * System description: see above. Optionally add lore.
-* System zone size: 1.78e+13
-* System autopilot range: 1.78e+13
+* System zone size: 6.89e+13
+* System autopilot range: 6.89e+13
 ```
 
  </details>  
@@ -55521,21 +54360,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_152_ZONE
-* Star codename: STAR_152
+* Star codename: STAR_152_Ysehegad_A
 * Star translation name codename: NAME_STAR_152
 * Star translation description codename: DESC_STAR_152
 * Star name: Ysehegad A
 * Star description: see above.
-* Star zone size: 9.45e+10
+* Star zone size: 1.06e+11
 * Star death zone size: 1.17e+10
 * Star size: 1.89e+09
-* Star flare distance: 9.45e+10
 * Star autopilot range: 2.33e+10
 
-* Omni range: 1.78e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.89e+13
 * Surface color (Peak w.l. color code):
  - rgb: (190, 255, 0)
  - hex: #beff00
@@ -55927,7 +54762,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 153
 * Star cluster: unspecified
-* System zone codename: STAR_153_SYSTEM_ZONE
 * System codename: STAR_153_SYSTEM
 * System translation name codename: NAME_STAR_153_SYSTEM
 * System translation description codename: DESC_STAR_153_SYSTEM
@@ -55985,21 +54819,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_153_ZONE
-* Star codename: STAR_153
+* Star codename: STAR_153_Ihwar_A
 * Star translation name codename: NAME_STAR_153
 * Star translation description codename: DESC_STAR_153
 * Star name: Ihwar A
 * Star description: see above.
-* Star zone size: 2.00e+10
+* Star zone size: 2.06e+10
 * Star death zone size: 6.33e+08
 * Star size: 3.99e+08
-* Star flare distance: 2.00e+10
 * Star autopilot range: 1.27e+09
 
-* Omni range: 9.67e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.74e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 12, 0)
  - hex: #ff0c00
@@ -56155,14 +54985,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 154
 * Star cluster: unspecified
-* System zone codename: STAR_154_SYSTEM_ZONE
 * System codename: STAR_154_SYSTEM
 * System translation name codename: NAME_STAR_154_SYSTEM
 * System translation description codename: DESC_STAR_154_SYSTEM
 * System name: Igis
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.05e+13
+* System autopilot range: 1.05e+13
 ```
 
  </details>  
@@ -56213,21 +55042,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_154_ZONE
-* Star codename: STAR_154
+* Star codename: STAR_154_Igis_A
 * Star translation name codename: NAME_STAR_154
 * Star translation description codename: DESC_STAR_154
 * Star name: Igis A
 * Star description: see above.
-* Star zone size: 4.86e+10
+* Star zone size: 5.04e+10
 * Star death zone size: 1.77e+09
 * Star size: 9.73e+08
-* Star flare distance: 4.86e+10
 * Star autopilot range: 3.55e+09
 
-* Omni range: 2.71e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.05e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 55, 0)
  - hex: #ff3700
@@ -56324,7 +55149,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 155
 * Star cluster: unspecified
-* System zone codename: STAR_155_SYSTEM_ZONE
 * System codename: STAR_155_SYSTEM
 * System translation name codename: NAME_STAR_155_SYSTEM
 * System translation description codename: DESC_STAR_155_SYSTEM
@@ -56382,21 +55206,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_155_ZONE
-* Star codename: STAR_155
+* Star codename: STAR_155_Onats_A
 * Star translation name codename: NAME_STAR_155
 * Star translation description codename: DESC_STAR_155
 * Star name: Onats A
 * Star description: see above.
-* Star zone size: 1.76e+10
+* Star zone size: 1.81e+10
 * Star death zone size: 5.30e+08
 * Star size: 3.51e+08
-* Star flare distance: 1.76e+10
 * Star autopilot range: 1.06e+09
 
-* Omni range: 8.10e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.13e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 0, 0)
  - hex: #ff0000
@@ -56450,21 +55270,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_155_1_ZONE
-* Star codename: STAR_155_1
+* Star codename: STAR_155_1_Onats_B
 * Star translation name codename: NAME_STAR_155_1
 * Star translation description codename: DESC_STAR_155_1
 * Star name: Onats B
 * Star description: see above.
-* Star zone size: 2.63e+10
+* Star zone size: 2.71e+10
 * Star death zone size: 7.89e+08
 * Star size: 5.26e+08
-* Star flare distance: 2.63e+10
 * Star autopilot range: 1.58e+09
 
-* Omni range: 1.05e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.08e+12
 * Surface color (Peak w.l. color code):
  - rgb: (234, 0, 0)
  - hex: #ea0000
@@ -56518,21 +55334,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_155_2_ZONE
-* Star codename: STAR_155_2
+* Star codename: STAR_155_2_Onats_C
 * Star translation name codename: NAME_STAR_155_2
 * Star translation description codename: DESC_STAR_155_2
 * Star name: Onats C
 * Star description: see above.
-* Star zone size: 2.07e+10
+* Star zone size: 2.13e+10
 * Star death zone size: 6.21e+08
 * Star size: 4.14e+08
-* Star flare distance: 2.07e+10
 * Star autopilot range: 1.24e+09
 
-* Omni range: 6.03e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.33e+12
 * Surface color (Peak w.l. color code):
  - rgb: (183, 0, 0)
  - hex: #b70000
@@ -56747,7 +55559,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 156
 * Star cluster: unspecified
-* System zone codename: STAR_156_SYSTEM_ZONE
 * System codename: STAR_156_SYSTEM
 * System translation name codename: NAME_STAR_156_SYSTEM
 * System translation description codename: DESC_STAR_156_SYSTEM
@@ -56805,21 +55616,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_156_ZONE
-* Star codename: STAR_156
+* Star codename: STAR_156_Nimomasi_A
 * Star translation name codename: NAME_STAR_156
 * Star translation description codename: DESC_STAR_156
 * Star name: Nimomasi A
 * Star description: see above.
-* Star zone size: 4.44e+10
+* Star zone size: 4.60e+10
 * Star death zone size: 1.59e+09
 * Star size: 8.89e+08
-* Star flare distance: 4.44e+10
 * Star autopilot range: 3.17e+09
 
-* Omni range: 2.42e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 9.38e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 49, 0)
  - hex: #ff3100
@@ -56975,7 +55782,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 157
 * Star cluster: unspecified
-* System zone codename: STAR_157_SYSTEM_ZONE
 * System codename: STAR_157_SYSTEM
 * System translation name codename: NAME_STAR_157_SYSTEM
 * System translation description codename: DESC_STAR_157_SYSTEM
@@ -57033,21 +55839,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_157_ZONE
-* Star codename: STAR_157
+* Star codename: STAR_157_Sarereba_A
 * Star translation name codename: NAME_STAR_157
 * Star translation description codename: DESC_STAR_157
 * Star name: Sarereba A
 * Star description: see above.
-* Star zone size: 4.42e+10
+* Star zone size: 4.55e+10
 * Star death zone size: 1.32e+09
 * Star size: 8.83e+08
-* Star flare distance: 4.42e+10
 * Star autopilot range: 2.65e+09
 
-* Omni range: 1.86e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.20e+12
 * Surface color (Peak w.l. color code):
  - rgb: (242, 0, 0)
  - hex: #f20000
@@ -57321,7 +56123,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 158
 * Star cluster: unspecified
-* System zone codename: STAR_158_SYSTEM_ZONE
 * System codename: STAR_158_SYSTEM
 * System translation name codename: NAME_STAR_158_SYSTEM
 * System translation description codename: DESC_STAR_158_SYSTEM
@@ -57379,21 +56180,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_158_ZONE
-* Star codename: STAR_158
+* Star codename: STAR_158_Pusyret_A
 * Star translation name codename: NAME_STAR_158
 * Star translation description codename: DESC_STAR_158
 * Star name: Pusyret A
 * Star description: see above.
-* Star zone size: 1.60e+10
+* Star zone size: 1.66e+10
 * Star death zone size: 5.97e+08
 * Star size: 3.20e+08
-* Star flare distance: 1.60e+10
 * Star autopilot range: 1.19e+09
 
-* Omni range: 9.12e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.53e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 62, 0)
  - hex: #ff3e00
@@ -57490,7 +56287,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 159
 * Star cluster: unspecified
-* System zone codename: STAR_159_SYSTEM_ZONE
 * System codename: STAR_159_SYSTEM
 * System translation name codename: NAME_STAR_159_SYSTEM
 * System translation description codename: DESC_STAR_159_SYSTEM
@@ -57548,21 +56344,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_159_ZONE
-* Star codename: STAR_159
+* Star codename: STAR_159_Acaf_A
 * Star translation name codename: NAME_STAR_159
 * Star translation description codename: DESC_STAR_159
 * Star name: Acaf A
 * Star description: see above.
-* Star zone size: 1.16e+10
+* Star zone size: 1.19e+10
 * Star death zone size: 3.46e+08
 * Star size: 2.31e+08
-* Star flare distance: 1.16e+10
 * Star autopilot range: 6.93e+08
 
-* Omni range: 3.06e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.18e+12
 * Surface color (Peak w.l. color code):
  - rgb: (165, 0, 0)
  - hex: #a50000
@@ -57836,7 +56628,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 160
 * Star cluster: unspecified
-* System zone codename: STAR_160_SYSTEM_ZONE
 * System codename: STAR_160_SYSTEM
 * System translation name codename: NAME_STAR_160_SYSTEM
 * System translation description codename: DESC_STAR_160_SYSTEM
@@ -57894,21 +56685,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_160_ZONE
-* Star codename: STAR_160
+* Star codename: STAR_160_Aalo_A
 * Star translation name codename: NAME_STAR_160
 * Star translation description codename: DESC_STAR_160
 * Star name: Aalo A
 * Star description: see above.
-* Star zone size: 2.38e+10
+* Star zone size: 2.45e+10
 * Star death zone size: 7.12e+08
 * Star size: 4.75e+08
-* Star flare distance: 2.38e+10
 * Star autopilot range: 1.42e+09
 
-* Omni range: 5.91e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.29e+12
 * Surface color (Peak w.l. color code):
  - rgb: (152, 0, 0)
  - hex: #980000
@@ -57962,21 +56749,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_160_1_ZONE
-* Star codename: STAR_160_1
+* Star codename: STAR_160_1_Aalo_B
 * Star translation name codename: NAME_STAR_160_1
 * Star translation description codename: DESC_STAR_160_1
 * Star name: Aalo B
 * Star description: see above.
-* Star zone size: 3.24e+10
+* Star zone size: 3.34e+10
 * Star death zone size: 9.74e+08
 * Star size: 6.49e+08
-* Star flare distance: 3.24e+10
 * Star autopilot range: 1.95e+09
 
-* Omni range: 8.63e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.34e+12
 * Surface color (Peak w.l. color code):
  - rgb: (165, 0, 0)
  - hex: #a50000
@@ -58030,21 +56813,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_160_2_ZONE
-* Star codename: STAR_160_2
+* Star codename: STAR_160_2_Aalo_C
 * Star translation name codename: NAME_STAR_160_2
 * Star translation description codename: DESC_STAR_160_2
 * Star name: Aalo C
 * Star description: see above.
-* Star zone size: 3.98e+10
+* Star zone size: 4.10e+10
 * Star death zone size: 1.19e+09
 * Star size: 7.96e+08
-* Star flare distance: 3.98e+10
 * Star autopilot range: 2.39e+09
 
-* Omni range: 1.06e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.08e+12
 * Surface color (Peak w.l. color code):
  - rgb: (165, 0, 0)
  - hex: #a50000
@@ -58082,7 +56861,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 161
 * Star cluster: unspecified
-* System zone codename: STAR_161_SYSTEM_ZONE
 * System codename: STAR_161_SYSTEM
 * System translation name codename: NAME_STAR_161_SYSTEM
 * System translation description codename: DESC_STAR_161_SYSTEM
@@ -58140,21 +56918,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_161_ZONE
-* Star codename: STAR_161
+* Star codename: STAR_161_Lutap_A
 * Star translation name codename: NAME_STAR_161
 * Star translation description codename: DESC_STAR_161
 * Star name: Lutap A
 * Star description: see above.
-* Star zone size: 2.32e+10
+* Star zone size: 2.39e+10
 * Star death zone size: 7.21e+08
 * Star size: 4.64e+08
-* Star flare distance: 2.32e+10
 * Star autopilot range: 1.44e+09
 
-* Omni range: 1.10e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.26e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 6, 0)
  - hex: #ff0600
@@ -58251,14 +57025,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 162
 * Star cluster: unspecified
-* System zone codename: STAR_162_SYSTEM_ZONE
 * System codename: STAR_162_SYSTEM
 * System translation name codename: NAME_STAR_162_SYSTEM
 * System translation description codename: DESC_STAR_162_SYSTEM
 * System name: Esuset
 * System description: see above. Optionally add lore.
-* System zone size: 2.00e+13
-* System autopilot range: 2.00e+13
+* System zone size: 7.72e+13
+* System autopilot range: 7.72e+13
 ```
 
  </details>  
@@ -58309,21 +57082,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_162_ZONE
-* Star codename: STAR_162
+* Star codename: STAR_162_Esuset_A
 * Star translation name codename: NAME_STAR_162
 * Star translation description codename: DESC_STAR_162
 * Star name: Esuset A
 * Star description: see above.
-* Star zone size: 9.25e+10
+* Star zone size: 1.06e+11
 * Star death zone size: 1.31e+10
 * Star size: 1.85e+09
-* Star flare distance: 9.25e+10
 * Star autopilot range: 2.61e+10
 
-* Omni range: 2.00e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.72e+13
 * Surface color (Peak w.l. color code):
  - rgb: (170, 255, 0)
  - hex: #aaff00
@@ -58715,14 +57484,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 163
 * Star cluster: unspecified
-* System zone codename: STAR_163_SYSTEM_ZONE
 * System codename: STAR_163_SYSTEM
 * System translation name codename: NAME_STAR_163_SYSTEM
 * System translation description codename: DESC_STAR_163_SYSTEM
 * System name: Kisreol
 * System description: see above. Optionally add lore.
-* System zone size: 1.93e+14
-* System autopilot range: 1.93e+14
+* System zone size: 7.47e+14
+* System autopilot range: 7.47e+14
 ```
 
  </details>  
@@ -58773,21 +57541,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_163_ZONE
-* Star codename: STAR_163
+* Star codename: STAR_163_Kisreol_A
 * Star translation name codename: NAME_STAR_163
 * Star translation description codename: DESC_STAR_163
 * Star name: Kisreol A
 * Star description: see above.
-* Star zone size: 1.36e+11
+* Star zone size: 2.63e+11
 * Star death zone size: 1.26e+11
 * Star size: 2.73e+09
-* Star flare distance: 1.36e+11
 * Star autopilot range: 2.53e+11
 
-* Omni range: 1.93e+14
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.47e+14
 * Surface color (Peak w.l. color code):
  - rgb: (0, 180, 255)
  - hex: #00b4ff
@@ -58884,7 +57648,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 164
 * Star cluster: unspecified
-* System zone codename: STAR_164_SYSTEM_ZONE
 * System codename: STAR_164_SYSTEM
 * System translation name codename: NAME_STAR_164_SYSTEM
 * System translation description codename: DESC_STAR_164_SYSTEM
@@ -58942,21 +57705,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_164_ZONE
-* Star codename: STAR_164
+* Star codename: STAR_164_Moosorp_A
 * Star translation name codename: NAME_STAR_164
 * Star translation description codename: DESC_STAR_164
 * Star name: Moosorp A
 * Star description: see above.
-* Star zone size: 9.00e+09
+* Star zone size: 9.27e+09
 * Star death zone size: 2.70e+08
 * Star size: 1.80e+08
-* Star flare distance: 9.00e+09
 * Star autopilot range: 5.40e+08
 
-* Omni range: 3.46e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.34e+12
 * Surface color (Peak w.l. color code):
  - rgb: (226, 0, 0)
  - hex: #e20000
@@ -58994,14 +57753,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 165
 * Star cluster: unspecified
-* System zone codename: STAR_165_SYSTEM_ZONE
 * System codename: STAR_165_SYSTEM
 * System translation name codename: NAME_STAR_165_SYSTEM
 * System translation description codename: DESC_STAR_165_SYSTEM
 * System name: Sepyre
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.60e+13
+* System autopilot range: 1.60e+13
 ```
 
  </details>  
@@ -59052,21 +57810,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_165_ZONE
-* Star codename: STAR_165
+* Star codename: STAR_165_Sepyre_A
 * Star translation name codename: NAME_STAR_165
 * Star translation description codename: DESC_STAR_165
 * Star name: Sepyre A
 * Star description: see above.
-* Star zone size: 6.30e+10
+* Star zone size: 6.57e+10
 * Star death zone size: 2.70e+09
 * Star size: 1.26e+09
-* Star flare distance: 6.30e+10
 * Star autopilot range: 5.40e+09
 
-* Omni range: 4.12e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.60e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 105, 0)
  - hex: #ff6900
@@ -59222,7 +57976,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 166
 * Star cluster: unspecified
-* System zone codename: STAR_166_SYSTEM_ZONE
 * System codename: STAR_166_SYSTEM
 * System translation name codename: NAME_STAR_166_SYSTEM
 * System translation description codename: DESC_STAR_166_SYSTEM
@@ -59280,21 +58033,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_166_ZONE
-* Star codename: STAR_166
+* Star codename: STAR_166_Atdob_A
 * Star translation name codename: NAME_STAR_166
 * Star translation description codename: DESC_STAR_166
 * Star name: Atdob A
 * Star description: see above.
-* Star zone size: 3.78e+10
+* Star zone size: 3.90e+10
 * Star death zone size: 1.14e+09
 * Star size: 7.57e+08
-* Star flare distance: 3.78e+10
 * Star autopilot range: 2.27e+09
 
-* Omni range: 1.05e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.06e+12
 * Surface color (Peak w.l. color code):
  - rgb: (173, 0, 0)
  - hex: #ad0000
@@ -59348,21 +58097,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_166_1_ZONE
-* Star codename: STAR_166_1
+* Star codename: STAR_166_1_Atdob_B
 * Star translation name codename: NAME_STAR_166_1
 * Star translation description codename: DESC_STAR_166_1
 * Star name: Atdob B
 * Star description: see above.
-* Star zone size: 1.66e+10
+* Star zone size: 1.70e+10
 * Star death zone size: 4.96e+08
 * Star size: 3.31e+08
-* Star flare distance: 1.66e+10
 * Star autopilot range: 9.93e+08
 
-* Omni range: 4.47e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.73e+12
 * Surface color (Peak w.l. color code):
  - rgb: (167, 0, 0)
  - hex: #a70000
@@ -59459,7 +58204,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 167
 * Star cluster: unspecified
-* System zone codename: STAR_167_SYSTEM_ZONE
 * System codename: STAR_167_SYSTEM
 * System translation name codename: NAME_STAR_167_SYSTEM
 * System translation description codename: DESC_STAR_167_SYSTEM
@@ -59517,21 +58261,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_167_ZONE
-* Star codename: STAR_167
+* Star codename: STAR_167_Icile_A
 * Star translation name codename: NAME_STAR_167
 * Star translation description codename: DESC_STAR_167
 * Star name: Icile A
 * Star description: see above.
-* Star zone size: 3.18e+10
+* Star zone size: 3.30e+10
 * Star death zone size: 1.19e+09
 * Star size: 6.36e+08
-* Star flare distance: 3.18e+10
 * Star autopilot range: 2.38e+09
 
-* Omni range: 1.82e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.05e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 68, 0)
  - hex: #ff4400
@@ -59687,7 +58427,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 168
 * Star cluster: unspecified
-* System zone codename: STAR_168_SYSTEM_ZONE
 * System codename: STAR_168_SYSTEM
 * System translation name codename: NAME_STAR_168_SYSTEM
 * System translation description codename: DESC_STAR_168_SYSTEM
@@ -59745,21 +58484,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_168_ZONE
-* Star codename: STAR_168
+* Star codename: STAR_168_Amoromes_A
 * Star translation name codename: NAME_STAR_168
 * Star translation description codename: DESC_STAR_168
 * Star name: Amoromes A
 * Star description: see above.
-* Star zone size: 2.94e+10
+* Star zone size: 3.02e+10
 * Star death zone size: 8.90e+08
 * Star size: 5.87e+08
-* Star flare distance: 2.94e+10
 * Star autopilot range: 1.78e+09
 
-* Omni range: 1.36e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.27e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 0, 0)
  - hex: #ff0000
@@ -59915,14 +58650,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 169
 * Star cluster: unspecified
-* System zone codename: STAR_169_SYSTEM_ZONE
 * System codename: STAR_169_SYSTEM
 * System translation name codename: NAME_STAR_169_SYSTEM
 * System translation description codename: DESC_STAR_169_SYSTEM
 * System name: Emanoci
 * System description: see above. Optionally add lore.
-* System zone size: 1.96e+13
-* System autopilot range: 1.96e+13
+* System zone size: 7.57e+13
+* System autopilot range: 7.57e+13
 ```
 
  </details>  
@@ -59973,21 +58707,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_169_ZONE
-* Star codename: STAR_169
+* Star codename: STAR_169_Emanoci_A
 * Star translation name codename: NAME_STAR_169
 * Star translation description codename: DESC_STAR_169
 * Star name: Emanoci A
 * Star description: see above.
-* Star zone size: 8.75e+10
+* Star zone size: 1.00e+11
 * Star death zone size: 1.28e+10
 * Star size: 1.75e+09
-* Star flare distance: 8.75e+10
 * Star autopilot range: 2.56e+10
 
-* Omni range: 1.96e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.57e+13
 * Surface color (Peak w.l. color code):
  - rgb: (165, 255, 0)
  - hex: #a5ff00
@@ -60041,21 +58771,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_169_1_ZONE
-* Star codename: STAR_169_1
+* Star codename: STAR_169_1_Emanoci_B
 * Star translation name codename: NAME_STAR_169_1
 * Star translation description codename: DESC_STAR_169_1
 * Star name: Emanoci B
 * Star description: see above.
-* Star zone size: 7.45e+10
+* Star zone size: 8.01e+10
 * Star death zone size: 5.64e+09
 * Star size: 1.49e+09
-* Star flare distance: 7.45e+10
 * Star autopilot range: 1.13e+10
 
-* Omni range: 8.61e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.33e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 248, 0)
  - hex: #fff800
@@ -60388,14 +59114,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 170
 * Star cluster: unspecified
-* System zone codename: STAR_170_SYSTEM_ZONE
 * System codename: STAR_170_SYSTEM
 * System translation name codename: NAME_STAR_170_SYSTEM
 * System translation description codename: DESC_STAR_170_SYSTEM
 * System name: Erar
 * System description: see above. Optionally add lore.
-* System zone size: 1.15e+13
-* System autopilot range: 1.15e+13
+* System zone size: 4.47e+13
+* System autopilot range: 4.47e+13
 ```
 
  </details>  
@@ -60446,21 +59171,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_170_ZONE
-* Star codename: STAR_170
+* Star codename: STAR_170_Erar_A
 * Star translation name codename: NAME_STAR_170
 * Star translation description codename: DESC_STAR_170
 * Star name: Erar A
 * Star description: see above.
-* Star zone size: 7.65e+10
+* Star zone size: 8.41e+10
 * Star death zone size: 7.56e+09
 * Star size: 1.53e+09
-* Star flare distance: 7.65e+10
 * Star autopilot range: 1.51e+10
 
-* Omni range: 1.15e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.47e+13
 * Surface color (Peak w.l. color code):
  - rgb: (220, 255, 0)
  - hex: #dcff00
@@ -60514,21 +59235,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_170_1_ZONE
-* Star codename: STAR_170_1
+* Star codename: STAR_170_1_Erar_B
 * Star translation name codename: NAME_STAR_170_1
 * Star translation description codename: DESC_STAR_170_1
 * Star name: Erar B
 * Star description: see above.
-* Star zone size: 6.40e+10
+* Star zone size: 6.65e+10
 * Star death zone size: 2.46e+09
 * Star size: 1.28e+09
-* Star flare distance: 6.40e+10
 * Star autopilot range: 4.92e+09
 
-* Omni range: 3.76e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.46e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 74, 0)
  - hex: #ff4a00
@@ -60566,7 +59283,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 171
 * Star cluster: unspecified
-* System zone codename: STAR_171_SYSTEM_ZONE
 * System codename: STAR_171_SYSTEM
 * System translation name codename: NAME_STAR_171_SYSTEM
 * System translation description codename: DESC_STAR_171_SYSTEM
@@ -60624,21 +59340,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_171_ZONE
-* Star codename: STAR_171
+* Star codename: STAR_171_Efniss_A
 * Star translation name codename: NAME_STAR_171
 * Star translation description codename: DESC_STAR_171
 * Star name: Efniss A
 * Star description: see above.
-* Star zone size: 4.68e+10
+* Star zone size: 4.84e+10
 * Star death zone size: 1.67e+09
 * Star size: 9.35e+08
-* Star flare distance: 4.68e+10
 * Star autopilot range: 3.34e+09
 
-* Omni range: 2.56e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 9.89e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 49, 0)
  - hex: #ff3100
@@ -60692,21 +59404,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_171_1_ZONE
-* Star codename: STAR_171_1
+* Star codename: STAR_171_1_Efniss_B
 * Star translation name codename: NAME_STAR_171_1
 * Star translation description codename: DESC_STAR_171_1
 * Star name: Efniss B
 * Star description: see above.
-* Star zone size: 1.98e+10
+* Star zone size: 2.05e+10
 * Star death zone size: 7.02e+08
 * Star size: 3.95e+08
-* Star flare distance: 1.98e+10
 * Star autopilot range: 1.40e+09
 
-* Omni range: 1.07e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.15e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 49, 0)
  - hex: #ff3100
@@ -60760,21 +59468,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_171_2_ZONE
-* Star codename: STAR_171_2
+* Star codename: STAR_171_2_Efniss_C
 * Star translation name codename: NAME_STAR_171_2
 * Star translation description codename: DESC_STAR_171_2
 * Star name: Efniss C
 * Star description: see above.
-* Star zone size: 4.30e+10
+* Star zone size: 4.42e+10
 * Star death zone size: 1.29e+09
 * Star size: 8.59e+08
-* Star flare distance: 4.30e+10
 * Star autopilot range: 2.58e+09
 
-* Omni range: 1.72e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.65e+12
 * Surface color (Peak w.l. color code):
  - rgb: (231, 0, 0)
  - hex: #e70000
@@ -60828,21 +59532,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_171_3_ZONE
-* Star codename: STAR_171_3
+* Star codename: STAR_171_3_Efniss_D
 * Star translation name codename: NAME_STAR_171_3
 * Star translation description codename: DESC_STAR_171_3
 * Star name: Efniss D
 * Star description: see above.
-* Star zone size: 2.22e+10
+* Star zone size: 2.28e+10
 * Star death zone size: 6.64e+08
 * Star size: 4.43e+08
-* Star flare distance: 2.22e+10
 * Star autopilot range: 1.33e+09
 
-* Omni range: 5.71e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.21e+12
 * Surface color (Peak w.l. color code):
  - rgb: (160, 0, 0)
  - hex: #a00000
@@ -60998,7 +59698,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 172
 * Star cluster: unspecified
-* System zone codename: STAR_172_SYSTEM_ZONE
 * System codename: STAR_172_SYSTEM
 * System translation name codename: NAME_STAR_172_SYSTEM
 * System translation description codename: DESC_STAR_172_SYSTEM
@@ -61056,21 +59755,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_172_ZONE
-* Star codename: STAR_172
+* Star codename: STAR_172_Emowi_A
 * Star translation name codename: NAME_STAR_172
 * Star translation description codename: DESC_STAR_172
 * Star name: Emowi A
 * Star description: see above.
-* Star zone size: 4.63e+10
+* Star zone size: 4.77e+10
 * Star death zone size: 1.39e+09
 * Star size: 9.26e+08
-* Star flare distance: 4.63e+10
 * Star autopilot range: 2.78e+09
 
-* Omni range: 1.47e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.67e+12
 * Surface color (Peak w.l. color code):
  - rgb: (196, 0, 0)
  - hex: #c40000
@@ -61344,7 +60039,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 173
 * Star cluster: unspecified
-* System zone codename: STAR_173_SYSTEM_ZONE
 * System codename: STAR_173_SYSTEM
 * System translation name codename: NAME_STAR_173_SYSTEM
 * System translation description codename: DESC_STAR_173_SYSTEM
@@ -61402,21 +60096,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_173_ZONE
-* Star codename: STAR_173
+* Star codename: STAR_173_Ehecin_A
 * Star translation name codename: NAME_STAR_173
 * Star translation description codename: DESC_STAR_173
 * Star name: Ehecin A
 * Star description: see above.
-* Star zone size: 1.55e+10
+* Star zone size: 1.60e+10
 * Star death zone size: 4.65e+08
 * Star size: 3.10e+08
-* Star flare distance: 1.55e+10
 * Star autopilot range: 9.30e+08
 
-* Omni range: 5.12e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.98e+12
 * Surface color (Peak w.l. color code):
  - rgb: (203, 0, 0)
  - hex: #cb0000
@@ -61631,7 +60321,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 174
 * Star cluster: unspecified
-* System zone codename: STAR_174_SYSTEM_ZONE
 * System codename: STAR_174_SYSTEM
 * System translation name codename: NAME_STAR_174_SYSTEM
 * System translation description codename: DESC_STAR_174_SYSTEM
@@ -61689,21 +60378,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_174_ZONE
-* Star codename: STAR_174
+* Star codename: STAR_174_Petede_A
 * Star translation name codename: NAME_STAR_174
 * Star translation description codename: DESC_STAR_174
 * Star name: Petede A
 * Star description: see above.
-* Star zone size: 8.80e+09
+* Star zone size: 9.10e+09
 * Star death zone size: 2.96e+08
 * Star size: 1.76e+08
-* Star flare distance: 8.80e+09
 * Star autopilot range: 5.92e+08
 
-* Omni range: 4.52e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.75e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 31, 0)
  - hex: #ff1f00
@@ -61757,21 +60442,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_174_1_ZONE
-* Star codename: STAR_174_1
+* Star codename: STAR_174_1_Petede_B
 * Star translation name codename: NAME_STAR_174_1
 * Star translation description codename: DESC_STAR_174_1
 * Star name: Petede B
 * Star description: see above.
-* Star zone size: 4.55e+10
+* Star zone size: 4.69e+10
 * Star death zone size: 1.36e+09
 * Star size: 9.10e+08
-* Star flare distance: 4.55e+10
 * Star autopilot range: 2.73e+09
 
-* Omni range: 1.88e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.28e+12
 * Surface color (Peak w.l. color code):
  - rgb: (237, 0, 0)
  - hex: #ed0000
@@ -61825,21 +60506,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_174_2_ZONE
-* Star codename: STAR_174_2
+* Star codename: STAR_174_2_Petede_C
 * Star translation name codename: NAME_STAR_174_2
 * Star translation description codename: DESC_STAR_174_2
 * Star name: Petede C
 * Star description: see above.
-* Star zone size: 2.72e+10
+* Star zone size: 2.81e+10
 * Star death zone size: 8.18e+08
 * Star size: 5.45e+08
-* Star flare distance: 2.72e+10
 * Star autopilot range: 1.64e+09
 
-* Omni range: 6.99e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.71e+12
 * Surface color (Peak w.l. color code):
  - rgb: (157, 0, 0)
  - hex: #9d0000
@@ -62113,14 +60790,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 175
 * Star cluster: unspecified
-* System zone codename: STAR_175_SYSTEM_ZONE
 * System codename: STAR_175_SYSTEM
 * System translation name codename: NAME_STAR_175_SYSTEM
 * System translation description codename: DESC_STAR_175_SYSTEM
 * System name: Toragev
 * System description: see above. Optionally add lore.
-* System zone size: 1.44e+13
-* System autopilot range: 1.44e+13
+* System zone size: 5.58e+13
+* System autopilot range: 5.58e+13
 ```
 
  </details>  
@@ -62171,21 +60847,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_175_ZONE
-* Star codename: STAR_175
+* Star codename: STAR_175_Toragev_A
 * Star translation name codename: NAME_STAR_175
 * Star translation description codename: DESC_STAR_175
 * Star name: Toragev A
 * Star description: see above.
-* Star zone size: 9.35e+10
+* Star zone size: 1.03e+11
 * Star death zone size: 9.43e+09
 * Star size: 1.87e+09
-* Star flare distance: 9.35e+10
 * Star autopilot range: 1.89e+10
 
-* Omni range: 1.44e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.58e+13
 * Surface color (Peak w.l. color code):
  - rgb: (215, 255, 0)
  - hex: #d7ff00
@@ -62872,7 +61544,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 176
 * Star cluster: unspecified
-* System zone codename: STAR_176_SYSTEM_ZONE
 * System codename: STAR_176_SYSTEM
 * System translation name codename: NAME_STAR_176_SYSTEM
 * System translation description codename: DESC_STAR_176_SYSTEM
@@ -62930,21 +61601,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_176_ZONE
-* Star codename: STAR_176
+* Star codename: STAR_176_Narduh_A
 * Star translation name codename: NAME_STAR_176
 * Star translation description codename: DESC_STAR_176
 * Star name: Narduh A
 * Star description: see above.
-* Star zone size: 3.72e+10
+* Star zone size: 3.84e+10
 * Star death zone size: 1.19e+09
 * Star size: 7.45e+08
-* Star flare distance: 3.72e+10
 * Star autopilot range: 2.38e+09
 
-* Omni range: 1.82e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.03e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 18, 0)
  - hex: #ff1200
@@ -63041,7 +61708,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 177
 * Star cluster: unspecified
-* System zone codename: STAR_177_SYSTEM_ZONE
 * System codename: STAR_177_SYSTEM
 * System translation name codename: NAME_STAR_177_SYSTEM
 * System translation description codename: DESC_STAR_177_SYSTEM
@@ -63099,21 +61765,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_177_ZONE
-* Star codename: STAR_177
+* Star codename: STAR_177_Uosw_A
 * Star translation name codename: NAME_STAR_177
 * Star translation description codename: DESC_STAR_177
 * Star name: Uosw A
 * Star description: see above.
-* Star zone size: 4.58e+10
+* Star zone size: 4.71e+10
 * Star death zone size: 1.37e+09
 * Star size: 9.15e+08
-* Star flare distance: 4.58e+10
 * Star autopilot range: 2.74e+09
 
-* Omni range: 2.00e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.74e+12
 * Surface color (Peak w.l. color code):
  - rgb: (247, 0, 0)
  - hex: #f70000
@@ -63167,21 +61829,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_177_1_ZONE
-* Star codename: STAR_177_1
+* Star codename: STAR_177_1_Uosw_B
 * Star translation name codename: NAME_STAR_177_1
 * Star translation description codename: DESC_STAR_177_1
 * Star name: Uosw B
 * Star description: see above.
-* Star zone size: 1.94e+10
+* Star zone size: 2.00e+10
 * Star death zone size: 5.82e+08
 * Star size: 3.88e+08
-* Star flare distance: 1.94e+10
 * Star autopilot range: 1.16e+09
 
-* Omni range: 6.42e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.49e+12
 * Surface color (Peak w.l. color code):
  - rgb: (203, 0, 0)
  - hex: #cb0000
@@ -63455,14 +62113,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 178
 * Star cluster: unspecified
-* System zone codename: STAR_178_SYSTEM_ZONE
 * System codename: STAR_178_SYSTEM
 * System translation name codename: NAME_STAR_178_SYSTEM
 * System translation description codename: DESC_STAR_178_SYSTEM
 * System name: Iimimha
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 3.48e+13
+* System autopilot range: 3.48e+13
 ```
 
  </details>  
@@ -63513,21 +62170,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_178_ZONE
-* Star codename: STAR_178
+* Star codename: STAR_178_Iimimha_A
 * Star translation name codename: NAME_STAR_178
 * Star translation description codename: DESC_STAR_178
 * Star name: Iimimha A
 * Star description: see above.
-* Star zone size: 6.95e+10
+* Star zone size: 7.54e+10
 * Star death zone size: 5.88e+09
 * Star size: 1.39e+09
-* Star flare distance: 6.95e+10
 * Star autopilot range: 1.18e+10
 
-* Omni range: 8.99e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.48e+13
 * Surface color (Peak w.l. color code):
  - rgb: (245, 255, 0)
  - hex: #f5ff00
@@ -63581,21 +62234,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_178_1_ZONE
-* Star codename: STAR_178_1
+* Star codename: STAR_178_1_Iimimha_B
 * Star translation name codename: NAME_STAR_178_1
 * Star translation description codename: DESC_STAR_178_1
 * Star name: Iimimha B
 * Star description: see above.
-* Star zone size: 3.04e+10
+* Star zone size: 3.14e+10
 * Star death zone size: 1.04e+09
 * Star size: 6.08e+08
-* Star flare distance: 3.04e+10
 * Star autopilot range: 2.08e+09
 
-* Omni range: 1.59e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.16e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 37, 0)
  - hex: #ff2500
@@ -63649,21 +62298,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_178_2_ZONE
-* Star codename: STAR_178_2
+* Star codename: STAR_178_2_Iimimha_C
 * Star translation name codename: NAME_STAR_178_2
 * Star translation description codename: DESC_STAR_178_2
 * Star name: Iimimha C
 * Star description: see above.
-* Star zone size: 1.01e+10
+* Star zone size: 1.04e+10
 * Star death zone size: 3.03e+08
 * Star size: 2.02e+08
-* Star flare distance: 1.01e+10
 * Star autopilot range: 6.06e+08
 
-* Omni range: 4.53e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.75e+12
 * Surface color (Peak w.l. color code):
  - rgb: (249, 0, 0)
  - hex: #f90000
@@ -63878,14 +62523,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 179
 * Star cluster: unspecified
-* System zone codename: STAR_179_SYSTEM_ZONE
 * System codename: STAR_179_SYSTEM
 * System translation name codename: NAME_STAR_179_SYSTEM
 * System translation description codename: DESC_STAR_179_SYSTEM
 * System name: Futacepo
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 1.75e+13
+* System autopilot range: 1.75e+13
 ```
 
  </details>  
@@ -63936,21 +62580,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_179_ZONE
-* Star codename: STAR_179
+* Star codename: STAR_179_Futacepo_A
 * Star translation name codename: NAME_STAR_179
 * Star translation description codename: DESC_STAR_179
 * Star name: Futacepo A
 * Star description: see above.
-* Star zone size: 6.25e+10
+* Star zone size: 6.55e+10
 * Star death zone size: 2.96e+09
 * Star size: 1.25e+09
-* Star flare distance: 6.25e+10
 * Star autopilot range: 5.92e+09
 
-* Omni range: 4.52e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.75e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 130, 0)
  - hex: #ff8200
@@ -64047,14 +62687,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 180
 * Star cluster: unspecified
-* System zone codename: STAR_180_SYSTEM_ZONE
 * System codename: STAR_180_SYSTEM
 * System translation name codename: NAME_STAR_180_SYSTEM
 * System translation description codename: DESC_STAR_180_SYSTEM
 * System name: Eazih
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 3.80e+13
+* System autopilot range: 3.80e+13
 ```
 
  </details>  
@@ -64105,21 +62744,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_180_ZONE
-* Star codename: STAR_180
+* Star codename: STAR_180_Eazih_A
 * Star translation name codename: NAME_STAR_180
 * Star translation description codename: DESC_STAR_180
 * Star name: Eazih A
 * Star description: see above.
-* Star zone size: 7.95e+10
+* Star zone size: 8.59e+10
 * Star death zone size: 6.43e+09
 * Star size: 1.59e+09
-* Star flare distance: 7.95e+10
 * Star autopilot range: 1.29e+10
 
-* Omni range: 9.83e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.80e+13
 * Surface color (Peak w.l. color code):
  - rgb: (250, 255, 0)
  - hex: #faff00
@@ -64393,7 +63028,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 181
 * Star cluster: unspecified
-* System zone codename: STAR_181_SYSTEM_ZONE
 * System codename: STAR_181_SYSTEM
 * System translation name codename: NAME_STAR_181_SYSTEM
 * System translation description codename: DESC_STAR_181_SYSTEM
@@ -64451,21 +63085,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_181_ZONE
-* Star codename: STAR_181
+* Star codename: STAR_181_Lorip_A
 * Star translation name codename: NAME_STAR_181
 * Star translation description codename: DESC_STAR_181
 * Star name: Lorip A
 * Star description: see above.
-* Star zone size: 4.58e+10
+* Star zone size: 4.71e+10
 * Star death zone size: 1.37e+09
 * Star size: 9.15e+08
-* Star flare distance: 4.58e+10
 * Star autopilot range: 2.74e+09
 
-* Omni range: 1.13e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.37e+12
 * Surface color (Peak w.l. color code):
  - rgb: (152, 0, 0)
  - hex: #980000
@@ -64562,7 +63192,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 182
 * Star cluster: unspecified
-* System zone codename: STAR_182_SYSTEM_ZONE
 * System codename: STAR_182_SYSTEM
 * System translation name codename: NAME_STAR_182_SYSTEM
 * System translation description codename: DESC_STAR_182_SYSTEM
@@ -64620,21 +63249,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_182_ZONE
-* Star codename: STAR_182
+* Star codename: STAR_182_Roel_A
 * Star translation name codename: NAME_STAR_182
 * Star translation description codename: DESC_STAR_182
 * Star name: Roel A
 * Star description: see above.
-* Star zone size: 1.48e+10
+* Star zone size: 1.54e+10
 * Star death zone size: 5.07e+08
 * Star size: 2.97e+08
-* Star flare distance: 1.48e+10
 * Star autopilot range: 1.01e+09
 
-* Omni range: 7.75e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.00e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 37, 0)
  - hex: #ff2500
@@ -64908,7 +63533,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 183
 * Star cluster: unspecified
-* System zone codename: STAR_183_SYSTEM_ZONE
 * System codename: STAR_183_SYSTEM
 * System translation name codename: NAME_STAR_183_SYSTEM
 * System translation description codename: DESC_STAR_183_SYSTEM
@@ -64966,21 +63590,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_183_ZONE
-* Star codename: STAR_183
+* Star codename: STAR_183_Oakeedv_A
 * Star translation name codename: NAME_STAR_183
 * Star translation description codename: DESC_STAR_183
 * Star name: Oakeedv A
 * Star description: see above.
-* Star zone size: 1.70e+10
+* Star zone size: 1.75e+10
 * Star death zone size: 5.10e+08
 * Star size: 3.40e+08
-* Star flare distance: 1.70e+10
 * Star autopilot range: 1.02e+09
 
-* Omni range: 7.58e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.93e+12
 * Surface color (Peak w.l. color code):
  - rgb: (249, 0, 0)
  - hex: #f90000
@@ -65254,14 +63874,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 184
 * Star cluster: unspecified
-* System zone codename: STAR_184_SYSTEM_ZONE
 * System codename: STAR_184_SYSTEM
 * System translation name codename: NAME_STAR_184_SYSTEM
 * System translation description codename: DESC_STAR_184_SYSTEM
 * System name: Lisace
 * System description: see above. Optionally add lore.
-* System zone size: 1.59e+14
-* System autopilot range: 1.59e+14
+* System zone size: 6.15e+14
+* System autopilot range: 6.15e+14
 ```
 
  </details>  
@@ -65312,21 +63931,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_184_ZONE
-* Star codename: STAR_184
+* Star codename: STAR_184_Lisace_A
 * Star translation name codename: NAME_STAR_184
 * Star translation description codename: DESC_STAR_184
 * Star name: Lisace A
 * Star description: see above.
-* Star zone size: 2.80e+11
+* Star zone size: 3.84e+11
 * Star death zone size: 1.04e+11
 * Star size: 5.59e+09
-* Star flare distance: 2.80e+11
 * Star autopilot range: 2.08e+11
 
-* Omni range: 1.59e+14
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 6.15e+14
 * Surface color (Peak w.l. color code):
  - rgb: (0, 235, 255)
  - hex: #00ebff
@@ -65380,21 +63995,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_184_1_ZONE
-* Star codename: STAR_184_1
+* Star codename: STAR_184_1_Lisace_B
 * Star translation name codename: NAME_STAR_184_1
 * Star translation description codename: DESC_STAR_184_1
 * Star name: Lisace B
 * Star description: see above.
-* Star zone size: 6.50e+10
+* Star zone size: 6.75e+10
 * Star death zone size: 2.46e+09
 * Star size: 1.30e+09
-* Star flare distance: 6.50e+10
 * Star autopilot range: 4.91e+09
 
-* Omni range: 3.76e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.45e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 68, 0)
  - hex: #ff4400
@@ -65904,14 +64515,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 185
 * Star cluster: unspecified
-* System zone codename: STAR_185_SYSTEM_ZONE
 * System codename: STAR_185_SYSTEM
 * System translation name codename: NAME_STAR_185_SYSTEM
 * System translation description codename: DESC_STAR_185_SYSTEM
 * System name: Eilir
 * System description: see above. Optionally add lore.
-* System zone size: 1.09e+13
-* System autopilot range: 1.09e+13
+* System zone size: 4.22e+13
+* System autopilot range: 4.22e+13
 ```
 
  </details>  
@@ -65962,21 +64572,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_185_ZONE
-* Star codename: STAR_185
+* Star codename: STAR_185_Eilir_A
 * Star translation name codename: NAME_STAR_185
 * Star translation description codename: DESC_STAR_185
 * Star name: Eilir A
 * Star description: see above.
-* Star zone size: 7.95e+10
+* Star zone size: 8.66e+10
 * Star death zone size: 7.14e+09
 * Star size: 1.59e+09
-* Star flare distance: 7.95e+10
 * Star autopilot range: 1.43e+10
 
-* Omni range: 1.09e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.22e+13
 * Surface color (Peak w.l. color code):
  - rgb: (235, 255, 0)
  - hex: #ebff00
@@ -66030,21 +64636,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_185_1_ZONE
-* Star codename: STAR_185_1
+* Star codename: STAR_185_1_Eilir_B
 * Star translation name codename: NAME_STAR_185_1
 * Star translation description codename: DESC_STAR_185_1
 * Star name: Eilir B
 * Star description: see above.
-* Star zone size: 6.85e+10
+* Star zone size: 7.44e+10
 * Star death zone size: 5.92e+09
 * Star size: 1.37e+09
-* Star flare distance: 6.85e+10
 * Star autopilot range: 1.18e+10
 
-* Omni range: 9.05e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.50e+13
 * Surface color (Peak w.l. color code):
  - rgb: (240, 255, 0)
  - hex: #f0ff00
@@ -66098,21 +64700,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_185_2_ZONE
-* Star codename: STAR_185_2
+* Star codename: STAR_185_2_Eilir_C
 * Star translation name codename: NAME_STAR_185_2
 * Star translation description codename: DESC_STAR_185_2
 * Star name: Eilir C
 * Star description: see above.
-* Star zone size: 4.74e+10
+* Star zone size: 4.89e+10
 * Star death zone size: 1.42e+09
 * Star size: 9.49e+08
-* Star flare distance: 4.74e+10
 * Star autopilot range: 2.85e+09
 
-* Omni range: 1.97e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.63e+12
 * Surface color (Peak w.l. color code):
  - rgb: (239, 0, 0)
  - hex: #ef0000
@@ -66166,21 +64764,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_185_3_ZONE
-* Star codename: STAR_185_3
+* Star codename: STAR_185_3_Eilir_D
 * Star translation name codename: NAME_STAR_185_3
 * Star translation description codename: DESC_STAR_185_3
 * Star name: Eilir D
 * Star description: see above.
-* Star zone size: 4.04e+10
+* Star zone size: 4.16e+10
 * Star death zone size: 1.21e+09
 * Star size: 8.08e+08
-* Star flare distance: 4.04e+10
 * Star autopilot range: 2.42e+09
 
-* Omni range: 1.48e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.72e+12
 * Surface color (Peak w.l. color code):
  - rgb: (219, 0, 0)
  - hex: #db0000
@@ -66218,7 +64812,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 186
 * Star cluster: unspecified
-* System zone codename: STAR_186_SYSTEM_ZONE
 * System codename: STAR_186_SYSTEM
 * System translation name codename: NAME_STAR_186_SYSTEM
 * System translation description codename: DESC_STAR_186_SYSTEM
@@ -66276,21 +64869,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_186_ZONE
-* Star codename: STAR_186
+* Star codename: STAR_186_Iused_A
 * Star translation name codename: NAME_STAR_186
 * Star translation description codename: DESC_STAR_186
 * Star name: Iused A
 * Star description: see above.
-* Star zone size: 2.76e+10
+* Star zone size: 2.84e+10
 * Star death zone size: 8.28e+08
 * Star size: 5.52e+08
-* Star flare distance: 2.76e+10
 * Star autopilot range: 1.66e+09
 
-* Omni range: 8.33e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.22e+12
 * Surface color (Peak w.l. color code):
  - rgb: (188, 0, 0)
  - hex: #bc0000
@@ -66344,21 +64933,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_186_1_ZONE
-* Star codename: STAR_186_1
+* Star codename: STAR_186_1_Iused_B
 * Star translation name codename: NAME_STAR_186_1
 * Star translation description codename: DESC_STAR_186_1
 * Star name: Iused B
 * Star description: see above.
-* Star zone size: 1.24e+10
+* Star zone size: 1.28e+10
 * Star death zone size: 3.74e+08
 * Star size: 2.49e+08
-* Star flare distance: 1.24e+10
 * Star autopilot range: 7.47e+08
 
-* Omni range: 3.24e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.25e+12
 * Surface color (Peak w.l. color code):
  - rgb: (160, 0, 0)
  - hex: #a00000
@@ -66632,14 +65217,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 187
 * Star cluster: unspecified
-* System zone codename: STAR_187_SYSTEM_ZONE
 * System codename: STAR_187_SYSTEM
 * System translation name codename: NAME_STAR_187_SYSTEM
 * System translation description codename: DESC_STAR_187_SYSTEM
 * System name: Ecicit
 * System description: see above. Optionally add lore.
-* System zone size: 1.40e+13
-* System autopilot range: 1.40e+13
+* System zone size: 5.43e+13
+* System autopilot range: 5.43e+13
 ```
 
  </details>  
@@ -66690,21 +65274,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_187_ZONE
-* Star codename: STAR_187
+* Star codename: STAR_187_Ecicit_A
 * Star translation name codename: NAME_STAR_187
 * Star translation description codename: DESC_STAR_187
 * Star name: Ecicit A
 * Star description: see above.
-* Star zone size: 9.10e+10
+* Star zone size: 1.00e+11
 * Star death zone size: 9.18e+09
 * Star size: 1.82e+09
-* Star flare distance: 9.10e+10
 * Star autopilot range: 1.84e+10
 
-* Omni range: 1.40e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.43e+13
 * Surface color (Peak w.l. color code):
  - rgb: (215, 255, 0)
  - hex: #d7ff00
@@ -66758,21 +65338,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_187_1_ZONE
-* Star codename: STAR_187_1
+* Star codename: STAR_187_1_Ecicit_B
 * Star translation name codename: NAME_STAR_187_1
 * Star translation description codename: DESC_STAR_187_1
 * Star name: Ecicit B
 * Star description: see above.
-* Star zone size: 5.25e+10
+* Star zone size: 5.48e+10
 * Star death zone size: 2.27e+09
 * Star size: 1.05e+09
-* Star flare distance: 5.25e+10
 * Star autopilot range: 4.54e+09
 
-* Omni range: 3.47e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.34e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 105, 0)
  - hex: #ff6900
@@ -67341,14 +65917,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 188
 * Star cluster: unspecified
-* System zone codename: STAR_188_SYSTEM_ZONE
 * System codename: STAR_188_SYSTEM
 * System translation name codename: NAME_STAR_188_SYSTEM
 * System translation description codename: DESC_STAR_188_SYSTEM
 * System name: Atehahu
 * System description: see above. Optionally add lore.
-* System zone size: 3.25e+13
-* System autopilot range: 3.25e+13
+* System zone size: 1.26e+14
+* System autopilot range: 1.26e+14
 ```
 
  </details>  
@@ -67399,21 +65974,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_188_ZONE
-* Star codename: STAR_188
+* Star codename: STAR_188_Atehahu_A
 * Star translation name codename: NAME_STAR_188
 * Star translation description codename: DESC_STAR_188
 * Star name: Atehahu A
 * Star description: see above.
-* Star zone size: 1.00e+11
+* Star zone size: 1.22e+11
 * Star death zone size: 2.12e+10
 * Star size: 2.01e+09
-* Star flare distance: 1.00e+11
 * Star autopilot range: 4.25e+10
 
-* Omni range: 3.25e+13
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.26e+14
 * Surface color (Peak w.l. color code):
  - rgb: (81, 255, 115)
  - hex: #51ff73
@@ -68513,7 +67084,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 189
 * Star cluster: unspecified
-* System zone codename: STAR_189_SYSTEM_ZONE
 * System codename: STAR_189_SYSTEM
 * System translation name codename: NAME_STAR_189_SYSTEM
 * System translation description codename: DESC_STAR_189_SYSTEM
@@ -68571,21 +67141,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_189_ZONE
-* Star codename: STAR_189
+* Star codename: STAR_189_Erurim_A
 * Star translation name codename: NAME_STAR_189
 * Star translation description codename: DESC_STAR_189
 * Star name: Erurim A
 * Star description: see above.
-* Star zone size: 3.94e+10
+* Star zone size: 4.06e+10
 * Star death zone size: 1.18e+09
 * Star size: 7.89e+08
-* Star flare distance: 3.94e+10
 * Star autopilot range: 2.37e+09
 
-* Omni range: 1.52e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.90e+12
 * Surface color (Peak w.l. color code):
  - rgb: (226, 0, 0)
  - hex: #e20000
@@ -68859,14 +67425,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 190
 * Star cluster: unspecified
-* System zone codename: STAR_190_SYSTEM_ZONE
 * System codename: STAR_190_SYSTEM
 * System translation name codename: NAME_STAR_190_SYSTEM
 * System translation description codename: DESC_STAR_190_SYSTEM
 * System name: Airro
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 2.04e+13
+* System autopilot range: 2.04e+13
 ```
 
  </details>  
@@ -68917,21 +67482,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_190_ZONE
-* Star codename: STAR_190
+* Star codename: STAR_190_Airro_A
 * Star translation name codename: NAME_STAR_190
 * Star translation description codename: DESC_STAR_190
 * Star name: Airro A
 * Star description: see above.
-* Star zone size: 5.70e+10
+* Star zone size: 6.05e+10
 * Star death zone size: 3.45e+09
 * Star size: 1.14e+09
-* Star flare distance: 5.70e+10
 * Star autopilot range: 6.91e+09
 
-* Omni range: 5.28e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.04e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 199, 0)
  - hex: #ffc700
@@ -69146,14 +67707,13 @@ Temperature zone data by main star:
 ```  
 * System ID: 191
 * Star cluster: unspecified
-* System zone codename: STAR_191_SYSTEM_ZONE
 * System codename: STAR_191_SYSTEM
 * System translation name codename: NAME_STAR_191_SYSTEM
 * System translation description codename: DESC_STAR_191_SYSTEM
 * System name: Tukiwen
 * System description: see above. Optionally add lore.
-* System zone size: 1.00e+13
-* System autopilot range: 1.00e+13
+* System zone size: 3.30e+13
+* System autopilot range: 3.30e+13
 ```
 
  </details>  
@@ -69204,21 +67764,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_191_ZONE
-* Star codename: STAR_191
+* Star codename: STAR_191_Tukiwen_A
 * Star translation name codename: NAME_STAR_191
 * Star translation description codename: DESC_STAR_191
 * Star name: Tukiwen A
 * Star description: see above.
-* Star zone size: 7.15e+10
+* Star zone size: 7.71e+10
 * Star death zone size: 5.58e+09
 * Star size: 1.43e+09
-* Star flare distance: 7.15e+10
 * Star autopilot range: 1.12e+10
 
-* Omni range: 8.52e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.30e+13
 * Surface color (Peak w.l. color code):
  - rgb: (255, 255, 0)
  - hex: #ffff00
@@ -69256,7 +67812,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 192
 * Star cluster: unspecified
-* System zone codename: STAR_192_SYSTEM_ZONE
 * System codename: STAR_192_SYSTEM
 * System translation name codename: NAME_STAR_192_SYSTEM
 * System translation description codename: DESC_STAR_192_SYSTEM
@@ -69314,21 +67869,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_192_ZONE
-* Star codename: STAR_192
+* Star codename: STAR_192_Elpa_A
 * Star translation name codename: NAME_STAR_192
 * Star translation description codename: DESC_STAR_192
 * Star name: Elpa A
 * Star description: see above.
-* Star zone size: 3.56e+10
+* Star zone size: 3.69e+10
 * Star death zone size: 1.23e+09
 * Star size: 7.13e+08
-* Star flare distance: 3.56e+10
 * Star autopilot range: 2.46e+09
 
-* Omni range: 1.88e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.28e+12
 * Surface color (Peak w.l. color code):
  - rgb: (255, 43, 0)
  - hex: #ff2b00
@@ -69366,7 +67917,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 193
 * Star cluster: unspecified
-* System zone codename: STAR_193_SYSTEM_ZONE
 * System codename: STAR_193_SYSTEM
 * System translation name codename: NAME_STAR_193_SYSTEM
 * System translation description codename: DESC_STAR_193_SYSTEM
@@ -69424,21 +67974,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_193_ZONE
-* Star codename: STAR_193
+* Star codename: STAR_193_Acirora_A
 * Star translation name codename: NAME_STAR_193
 * Star translation description codename: DESC_STAR_193
 * Star name: Acirora A
 * Star description: see above.
-* Star zone size: 4.06e+10
+* Star zone size: 4.18e+10
 * Star death zone size: 1.22e+09
 * Star size: 8.11e+08
-* Star flare distance: 4.06e+10
 * Star autopilot range: 2.43e+09
 
-* Omni range: 1.85e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 7.17e+12
 * Surface color (Peak w.l. color code):
  - rgb: (252, 0, 0)
  - hex: #fc0000
@@ -69492,21 +68038,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_193_1_ZONE
-* Star codename: STAR_193_1
+* Star codename: STAR_193_1_Acirora_B
 * Star translation name codename: NAME_STAR_193_1
 * Star translation description codename: DESC_STAR_193_1
 * Star name: Acirora B
 * Star description: see above.
-* Star zone size: 1.53e+10
+* Star zone size: 1.58e+10
 * Star death zone size: 4.59e+08
 * Star size: 3.06e+08
-* Star flare distance: 1.53e+10
 * Star autopilot range: 9.18e+08
 
-* Omni range: 6.61e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.56e+12
 * Surface color (Peak w.l. color code):
  - rgb: (244, 0, 0)
  - hex: #f40000
@@ -69560,21 +68102,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_193_2_ZONE
-* Star codename: STAR_193_2
+* Star codename: STAR_193_2_Acirora_C
 * Star translation name codename: NAME_STAR_193_2
 * Star translation description codename: DESC_STAR_193_2
 * Star name: Acirora C
 * Star description: see above.
-* Star zone size: 1.92e+10
+* Star zone size: 1.98e+10
 * Star death zone size: 5.78e+08
 * Star size: 3.85e+08
-* Star flare distance: 1.92e+10
 * Star autopilot range: 1.16e+09
 
-* Omni range: 7.76e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.00e+12
 * Surface color (Peak w.l. color code):
  - rgb: (234, 0, 0)
  - hex: #ea0000
@@ -69628,21 +68166,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_193_3_ZONE
-* Star codename: STAR_193_3
+* Star codename: STAR_193_3_Acirora_D
 * Star translation name codename: NAME_STAR_193_3
 * Star translation description codename: DESC_STAR_193_3
 * Star name: Acirora D
 * Star description: see above.
-* Star zone size: 3.00e+10
+* Star zone size: 3.09e+10
 * Star death zone size: 9.00e+08
 * Star size: 6.00e+08
-* Star flare distance: 3.00e+10
 * Star autopilot range: 1.80e+09
 
-* Omni range: 1.04e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.02e+12
 * Surface color (Peak w.l. color code):
  - rgb: (211, 0, 0)
  - hex: #d30000
@@ -69696,21 +68230,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_193_4_ZONE
-* Star codename: STAR_193_4
+* Star codename: STAR_193_4_Acirora_E
 * Star translation name codename: NAME_STAR_193_4
 * Star translation description codename: DESC_STAR_193_4
 * Star name: Acirora E
 * Star description: see above.
-* Star zone size: 2.42e+10
+* Star zone size: 2.49e+10
 * Star death zone size: 7.24e+08
 * Star size: 4.83e+08
-* Star flare distance: 2.42e+10
 * Star autopilot range: 1.45e+09
 
-* Omni range: 8.04e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.11e+12
 * Surface color (Peak w.l. color code):
  - rgb: (203, 0, 0)
  - hex: #cb0000
@@ -69866,7 +68396,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 194
 * Star cluster: unspecified
-* System zone codename: STAR_194_SYSTEM_ZONE
 * System codename: STAR_194_SYSTEM
 * System translation name codename: NAME_STAR_194_SYSTEM
 * System translation description codename: DESC_STAR_194_SYSTEM
@@ -69924,21 +68453,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_194_ZONE
-* Star codename: STAR_194
+* Star codename: STAR_194_Dymse_A
 * Star translation name codename: NAME_STAR_194
 * Star translation description codename: DESC_STAR_194
 * Star name: Dymse A
 * Star description: see above.
-* Star zone size: 3.12e+10
+* Star zone size: 3.21e+10
 * Star death zone size: 9.34e+08
 * Star size: 6.23e+08
-* Star flare distance: 3.12e+10
 * Star autopilot range: 1.87e+09
 
-* Omni range: 1.31e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 5.06e+12
 * Surface color (Peak w.l. color code):
  - rgb: (239, 0, 0)
  - hex: #ef0000
@@ -69992,21 +68517,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_194_1_ZONE
-* Star codename: STAR_194_1
+* Star codename: STAR_194_1_Dymse_B
 * Star translation name codename: NAME_STAR_194_1
 * Star translation description codename: DESC_STAR_194_1
 * Star name: Dymse B
 * Star description: see above.
-* Star zone size: 2.37e+10
+* Star zone size: 2.44e+10
 * Star death zone size: 7.11e+08
 * Star size: 4.74e+08
-* Star flare distance: 2.37e+10
 * Star autopilot range: 1.42e+09
 
-* Omni range: 7.46e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.89e+12
 * Surface color (Peak w.l. color code):
  - rgb: (196, 0, 0)
  - hex: #c40000
@@ -70060,21 +68581,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_194_2_ZONE
-* Star codename: STAR_194_2
+* Star codename: STAR_194_2_Dymse_C
 * Star translation name codename: NAME_STAR_194_2
 * Star translation description codename: DESC_STAR_194_2
 * Star name: Dymse C
 * Star description: see above.
-* Star zone size: 1.38e+10
+* Star zone size: 1.42e+10
 * Star death zone size: 4.14e+08
 * Star size: 2.76e+08
-* Star flare distance: 1.38e+10
 * Star autopilot range: 8.28e+08
 
-* Omni range: 3.77e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.46e+12
 * Surface color (Peak w.l. color code):
  - rgb: (170, 0, 0)
  - hex: #aa0000
@@ -70128,21 +68645,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_194_3_ZONE
-* Star codename: STAR_194_3
+* Star codename: STAR_194_3_Dymse_D
 * Star translation name codename: NAME_STAR_194_3
 * Star translation description codename: DESC_STAR_194_3
 * Star name: Dymse D
 * Star description: see above.
-* Star zone size: 4.38e+10
+* Star zone size: 4.51e+10
 * Star death zone size: 1.31e+09
 * Star size: 8.76e+08
-* Star flare distance: 4.38e+10
 * Star autopilot range: 2.63e+09
 
-* Omni range: 1.15e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.46e+12
 * Surface color (Peak w.l. color code):
  - rgb: (162, 0, 0)
  - hex: #a20000
@@ -70298,7 +68811,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 195
 * Star cluster: unspecified
-* System zone codename: STAR_195_SYSTEM_ZONE
 * System codename: STAR_195_SYSTEM
 * System translation name codename: NAME_STAR_195_SYSTEM
 * System translation description codename: DESC_STAR_195_SYSTEM
@@ -70356,21 +68868,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_195_ZONE
-* Star codename: STAR_195
+* Star codename: STAR_195_Madeg_A
 * Star translation name codename: NAME_STAR_195
 * Star translation description codename: DESC_STAR_195
 * Star name: Madeg A
 * Star description: see above.
-* Star zone size: 2.87e+10
+* Star zone size: 2.96e+10
 * Star death zone size: 8.61e+08
 * Star size: 5.74e+08
-* Star flare distance: 2.87e+10
 * Star autopilot range: 1.72e+09
 
-* Omni range: 6.98e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.70e+12
 * Surface color (Peak w.l. color code):
  - rgb: (150, 0, 0)
  - hex: #960000
@@ -70644,7 +69152,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 196
 * Star cluster: unspecified
-* System zone codename: STAR_196_SYSTEM_ZONE
 * System codename: STAR_196_SYSTEM
 * System translation name codename: NAME_STAR_196_SYSTEM
 * System translation description codename: DESC_STAR_196_SYSTEM
@@ -70702,21 +69209,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_196_ZONE
-* Star codename: STAR_196
+* Star codename: STAR_196_Apolorom_A
 * Star translation name codename: NAME_STAR_196
 * Star translation description codename: DESC_STAR_196
 * Star name: Apolorom A
 * Star description: see above.
-* Star zone size: 1.17e+10
+* Star zone size: 1.21e+10
 * Star death zone size: 3.51e+08
 * Star size: 2.34e+08
-* Star flare distance: 1.17e+10
 * Star autopilot range: 7.02e+08
 
-* Omni range: 4.21e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 1.63e+12
 * Surface color (Peak w.l. color code):
  - rgb: (216, 0, 0)
  - hex: #d80000
@@ -70770,21 +69273,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_196_1_ZONE
-* Star codename: STAR_196_1
+* Star codename: STAR_196_1_Apolorom_B
 * Star translation name codename: NAME_STAR_196_1
 * Star translation description codename: DESC_STAR_196_1
 * Star name: Apolorom B
 * Star description: see above.
-* Star zone size: 3.76e+10
+* Star zone size: 3.87e+10
 * Star death zone size: 1.13e+09
 * Star size: 7.52e+08
-* Star flare distance: 3.76e+10
 * Star autopilot range: 2.26e+09
 
-* Omni range: 1.00e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.88e+12
 * Surface color (Peak w.l. color code):
  - rgb: (165, 0, 0)
  - hex: #a50000
@@ -70838,21 +69337,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_196_2_ZONE
-* Star codename: STAR_196_2
+* Star codename: STAR_196_2_Apolorom_C
 * Star translation name codename: NAME_STAR_196_2
 * Star translation description codename: DESC_STAR_196_2
 * Star name: Apolorom C
 * Star description: see above.
-* Star zone size: 4.22e+10
+* Star zone size: 4.35e+10
 * Star death zone size: 1.27e+09
 * Star size: 8.45e+08
-* Star flare distance: 4.22e+10
 * Star autopilot range: 2.54e+09
 
-* Omni range: 1.12e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.34e+12
 * Surface color (Peak w.l. color code):
  - rgb: (165, 0, 0)
  - hex: #a50000
@@ -71067,7 +69562,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 197
 * Star cluster: unspecified
-* System zone codename: STAR_197_SYSTEM_ZONE
 * System codename: STAR_197_SYSTEM
 * System translation name codename: NAME_STAR_197_SYSTEM
 * System translation description codename: DESC_STAR_197_SYSTEM
@@ -71125,21 +69619,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_197_ZONE
-* Star codename: STAR_197
+* Star codename: STAR_197_Noafar_A
 * Star translation name codename: NAME_STAR_197
 * Star translation description codename: DESC_STAR_197
 * Star name: Noafar A
 * Star description: see above.
-* Star zone size: 2.56e+10
+* Star zone size: 2.63e+10
 * Star death zone size: 7.66e+08
 * Star size: 5.11e+08
-* Star flare distance: 2.56e+10
 * Star autopilot range: 1.53e+09
 
-* Omni range: 7.98e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 3.09e+12
 * Surface color (Peak w.l. color code):
  - rgb: (193, 0, 0)
  - hex: #c10000
@@ -71354,7 +69844,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 198
 * Star cluster: unspecified
-* System zone codename: STAR_198_SYSTEM_ZONE
 * System codename: STAR_198_SYSTEM
 * System translation name codename: NAME_STAR_198_SYSTEM
 * System translation description codename: DESC_STAR_198_SYSTEM
@@ -71412,21 +69901,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_198_ZONE
-* Star codename: STAR_198
+* Star codename: STAR_198_Almatap_A
 * Star translation name codename: NAME_STAR_198
 * Star translation description codename: DESC_STAR_198
 * Star name: Almatap A
 * Star description: see above.
-* Star zone size: 3.20e+10
+* Star zone size: 3.30e+10
 * Star death zone size: 9.62e+08
 * Star size: 6.41e+08
-* Star flare distance: 3.20e+10
 * Star autopilot range: 1.92e+09
 
-* Omni range: 1.18e+12
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 4.56e+12
 * Surface color (Peak w.l. color code):
  - rgb: (221, 0, 0)
  - hex: #dd0000
@@ -71700,7 +70185,6 @@ Temperature zone data by main star:
 ```  
 * System ID: 199
 * Star cluster: unspecified
-* System zone codename: STAR_199_SYSTEM_ZONE
 * System codename: STAR_199_SYSTEM
 * System translation name codename: NAME_STAR_199_SYSTEM
 * System translation description codename: DESC_STAR_199_SYSTEM
@@ -71758,21 +70242,17 @@ Spectral data:
 ```  
 #### GODOT data  
 ```  
-* Star zone codename: STAR_199_ZONE
-* Star codename: STAR_199
+* Star codename: STAR_199_Ipicamb_A
 * Star translation name codename: NAME_STAR_199
 * Star translation description codename: DESC_STAR_199
 * Star name: Ipicamb A
 * Star description: see above.
-* Star zone size: 1.74e+10
+* Star zone size: 1.79e+10
 * Star death zone size: 5.22e+08
 * Star size: 3.48e+08
-* Star flare distance: 1.74e+10
 * Star autopilot range: 1.04e+09
 
-* Omni range: 6.87e+11
-* Omni attenuation: 10.0
-* Omni energy: 2.0
+* Omni range (by visible flux = 0.01): 2.66e+12
 * Surface color (Peak w.l. color code):
  - rgb: (231, 0, 0)
  - hex: #e70000
