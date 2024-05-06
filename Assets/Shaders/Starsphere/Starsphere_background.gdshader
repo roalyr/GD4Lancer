@@ -21,5 +21,5 @@ uniform vec4 albedo : source_color;
 
 void fragment() {
 	ALBEDO = albedo.rgb * COLOR.r * COLOR.r  ;
-	DEPTH = 1.0;
+	DEPTH = 0.0;
 }

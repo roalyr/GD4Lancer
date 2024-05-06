@@ -69,5 +69,5 @@ void fragment()
 	ALBEDO += fade_color.rgb * distance_factor;
 	ALBEDO += (1.0-rim) * rim_color.rgb * rim_intensity * (1.0-distance_factor);
 
-	DEPTH = log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
+	DEPTH = 1.0 - log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
 }

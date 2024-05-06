@@ -29,5 +29,5 @@ void fragment()
 	float rim = clamp(pow(dt, rim_exponent)*rim_strength, 1e-6, alpha_clip);
 	ALBEDO = albedo.rgb*COLOR.rgb;
 	ALPHA = clamp(rim, 1e-6, 1.0);
-	//DEPTH = 1.0;
+	DEPTH = 0.0;
 }

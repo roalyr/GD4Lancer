@@ -2,15 +2,15 @@ shader_type spatial;
 render_mode
 	// Vertex or pixel shading (screen-large object can use vertex)
 	vertex_lighting,
-	
+
 	// Blending and culling.
 	blend_mix,
 	cull_back,
-	
+
 	//unshaded,
-	diffuse_lambert, 
+	diffuse_lambert,
 	specular_disabled,
-	
+
 	// Additional flags just in case.
 	//ambient_light_disabled,
 	depth_draw_opaque;
@@ -60,20 +60,20 @@ void fragment()
 	vec2 p2 = texture(small_detail_noise, -UV * 2.0 * small_detail_scale).xy;
 	vec2 p2_1 = texture(micro_detail_noise, -UV*micro_detail_scale).xy;
 	vec2 p3 = texture(lava_detail_noise, -UV * 2.0 * lava_detail_scale).xy -TIME*lava_flow;
-	
+
 	float detail_major_lava_mask = sin(texture(major_detail_noise, p).r*pi+lava_mask_phase);
 	float detail_major = clamp(sin(texture(major_detail_noise, p).r*pi+major_detail_phase), detail_min, detail_max);
 	float detail_small = clamp(sin(texture(small_detail_noise, p2).r*pi+small_detail_phase), detail_min, detail_max);
 	float detail_micro = clamp(sin(texture(micro_detail_noise, p2_1).r*pi+micro_detail_phase), detail_min, detail_max);
 	float detail_lava = sin(texture(lava_detail_noise, p3).r*pi+lava_detail_phase);
-	
+
 	float lava = clamp(
 			detail_lava
 			-clamp(pow(detail_major_lava_mask, lava_noise_blend),1e-6, 1.0)*lava_contrast,
 		1e-6, 0.5)*lava_detail_intensity *(1.0 - length(VERTEX)/lava_decay_distance);
-	
+
 	ALBEDO = albedo.rgb * detail_major * (detail_small * detail_micro + albedo_overlay.rgb);
-	
+
 	EMISSION = vec3(lava, 0.0, 0.0);
 	ROUGHNESS = 1.0;
 }

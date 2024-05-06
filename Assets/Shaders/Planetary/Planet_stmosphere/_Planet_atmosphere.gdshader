@@ -15,8 +15,8 @@ render_mode
 	//ambient_light_disabled,
 	depth_draw_opaque;
 
-uniform vec4 albedo : hint_color;
-uniform vec4 emission : hint_color;
+uniform vec4 albedo : source_color;
+uniform vec4 emission : source_color;
 uniform float alpha_clip : hint_range(0,1) = 0.05;
 uniform float rim_strength = 25;
 uniform float rim_exponent : hint_range(0.0, 50.0, 0.1) = 4.0;

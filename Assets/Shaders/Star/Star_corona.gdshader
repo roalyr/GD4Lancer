@@ -2,15 +2,15 @@ shader_type spatial;
 render_mode
 	// Vertex or pixel shading (screen-large object can use vertex)
 	vertex_lighting,
-	
+
 	// Blending and culling.
 	blend_add,
 	cull_front,
-	
+
 	unshaded,
-	//diffuse_lambert, 
+	//diffuse_lambert,
 	specular_disabled,
-	
+
 	// Additional flags just in case.
 	ambient_light_disabled,
 	depth_draw_opaque;
@@ -53,20 +53,20 @@ void vertex() {
 	vec2 tex_position_y = VERTEX.xz + TIME*displacement_velocity*0.1;
 	vec2 tex_position_z = VERTEX.xy - TIME*displacement_velocity*0.1;
 	vec2 tex_position_uv = UV - TIME*displacement_velocity*0.1;
-	
+
 	float displacement_x = 2.0*texture(displacement_texture, tex_position_x).r;
 	float displacement_y = 2.0*texture(displacement_texture, tex_position_y).r;
 	float displacement_z = 2.0*texture(displacement_texture, tex_position_z).r;
 	float displacement_uv = 2.0*texture(displacement_texture, tex_position_uv).r;
-	
+
 	noise_val = pow( displacement_z * displacement_x * displacement_y, displacement_power);
 	VERTEX *= noise_val;
-	
-	
-	
+
+
+
 	VERTEX.xz *= displacement_scale_xz;
 	VERTEX.y *= displacement_scale_y;
-	
+
 	vec4 gl_Position = MODELVIEW_MATRIX*vec4(VERTEX, 1.0);
 	gl_Position_z = gl_Position.z;
 }
@@ -75,12 +75,12 @@ void fragment()
 {
 	float dt = clamp(dot(NORMAL,VIEW), 1e-6, 1.0);
 	float corona = clamp(pow(dt, exp(exponent_corona))*strength_corona, 1e-6, 1.0);
-	
+
 	ALBEDO =  pow(corona, exponent_corona_rim)*corona_color.rgb;
 	ALBEDO *= corona_floor - pow(noise_val, corona_floor_power);
-	
+
 	vec2 frag_coord = FRAGCOORD.xy;
 	ALBEDO += interleaved_gradient_noise(frag_coord);
-	
-	DEPTH = log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
+
+	DEPTH = 1.0 - log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
 }

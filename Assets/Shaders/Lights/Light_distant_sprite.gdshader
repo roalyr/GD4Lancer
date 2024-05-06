@@ -63,5 +63,5 @@ void fragment() {
 	* intensity
 	* pulse;
 
-	DEPTH = log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
+	DEPTH = 1.0 - log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
 }

@@ -54,5 +54,5 @@ void fragment()
 	vec2 frag_coord = FRAGCOORD.xy;
 	ALBEDO += interleaved_gradient_noise(frag_coord);
 
-	DEPTH = log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
+	DEPTH = 1.0 - log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
 }

@@ -225,5 +225,5 @@ void fragment()
 	ALPHA_SCISSOR_THRESHOLD = dither_threshold + dither_main + dither_equal_strength*(dither_equal + dither_equal2 + dither_equal3);
 	ALPHA = near_alpha;
 
-	DEPTH = log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
+	DEPTH = 1.0 - log2(max(1e-6, 1.0 -gl_Position_z)) * Fcoef;
 }
