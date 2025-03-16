@@ -11,8 +11,7 @@ config_version=5
 [application]
 
 config/name="GD4Lancer"
-run/main_scene="res://Scenes/Stellar/Systems/SYSTEM_STAR_0_Victory_AB.tscn"
-config/features=PackedStringArray("4.3", "Double Precision", "Mobile")
+config/features=PackedStringArray("4.5", "Double Precision", "Mobile")
 boot_splash/image="res://Assets/Images/Icon_splash/Splash.png"
 config/icon="res://Assets/Images/Icon_splash/Icon.png"
 config/windows_native_icon="res://Assets/Images/Icon_splash/Icon.ico"
@@ -51,6 +50,11 @@ common/physics_ticks_per_second=120
 renderer/rendering_method="mobile"
 renderer/rendering_method.web="mobile"
 textures/vram_compression/import_etc2_astc=true
-shading/overrides/force_vertex_shading.mobile=false
 shading/overrides/force_lambert_over_burley.mobile=false
+environment/ssao/quality=0
+environment/ssil/quality=0
+anti_aliasing/screen_space_roughness_limiter/amount=1.0
+anti_aliasing/screen_space_roughness_limiter/limit=1.0
+environment/glow/upscale_mode=0
 environment/defaults/default_environment="res://Assets/Environments/Environment_default.tres"
+shading/overrides/force_vertex_shading.mobile=false

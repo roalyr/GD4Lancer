@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://btvfihf1210qt"]
 
-[ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_corona.gdshader" id="1_1h5ov"]
+[ext_resource type="Shader" uid="uid://dos3j2wqqnddl" path="res://Assets/Shaders/Star/Star_corona.gdshader" id="1_1h5ov"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_w6hro"]
 frequency = 0.0341
@@ -21,9 +21,9 @@ shader_parameter/exponent_corona = 2.615
 shader_parameter/exponent_corona_rim = 1.59
 shader_parameter/corona_floor_power = 0.145
 shader_parameter/corona_floor = 15.7975
+shader_parameter/displacement_texture = SubResource("NoiseTexture2D_82vqf")
 shader_parameter/displacement_power = -0.04
 shader_parameter/displacement_scale_xz = 1.15
 shader_parameter/displacement_scale_y = 1.0575
 shader_parameter/displacement_velocity = 0.0725
 shader_parameter/dither_darken = 0.75
-shader_parameter/displacement_texture = SubResource("NoiseTexture2D_82vqf")

@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://bei4cg2yy6xbl"]
+
+[ext_resource type="Shader" uid="uid://bhs1ih4ak4nf8" path="res://solid_poster_dither.gdshader" id="1_wbtwv"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_wbtwv")
+shader_parameter/albedo = Color(1, 1, 1, 1)
+shader_parameter/roughness = 0.2
+shader_parameter/specular_intensity = 20.0
+shader_parameter/dither_strength = 0.0
+shader_parameter/posterization_levels = 1000.0

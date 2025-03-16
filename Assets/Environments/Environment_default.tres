@@ -1,8 +1,21 @@
-[gd_resource type="Environment" format=3 uid="uid://d0h65geapq3rv"]
+[gd_resource type="Environment" load_steps=3 format=3 uid="uid://d0h65geapq3rv"]
+
+[sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_t5i73"]
+turbidity = 311.37
+sun_disk_scale = 70.04
+ground_color = Color(0.939305, 0.475914, 0.804209, 1)
+
+[sub_resource type="Sky" id="Sky_hkpdv"]
+sky_material = SubResource("PhysicalSkyMaterial_t5i73")
 
 [resource]
-background_mode = 1
-background_color = Color(0.045, 0.0495833, 0.1, 1)
-ambient_light_source = 1
-reflected_light_source = 1
-tonemap_mode = 3
+background_mode = 2
+sky = SubResource("Sky_hkpdv")
+fog_enabled = true
+fog_mode = 1
+fog_light_color = Color(0, 0, 0, 1)
+fog_sun_scatter = 0.02
+fog_density = 1.0
+fog_depth_curve = 0.258816
+fog_depth_begin = 0.0
+fog_depth_end = 50000.0

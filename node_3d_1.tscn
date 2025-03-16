@@ -1,0 +1,181 @@
+[gd_scene load_steps=13 format=3 uid="uid://c5eqnrn2j1yka"]
+
+[ext_resource type="PackedScene" uid="uid://dwevrm4lg43dw" path="res://Assets/Models/Zoner_GB_remaster.glb" id="3_khgov"]
+[ext_resource type="Material" uid="uid://dahihmiie0br0" path="res://new_shader_material.tres" id="3_pamei"]
+[ext_resource type="PackedScene" uid="uid://dvn1ruqaeexgj" path="res://Assets/Models/Shrinkwrap1.glb" id="4_pamei"]
+[ext_resource type="Material" uid="uid://bei4cg2yy6xbl" path="res://new_standard_material_3d2.tres" id="5_7tbpv"]
+[ext_resource type="PackedScene" uid="uid://bply8n8n4yvr1" path="res://Assets/Models/untitled.glb" id="6_8xnjg"]
+[ext_resource type="Shader" uid="uid://bhs1ih4ak4nf8" path="res://solid_poster_dither.gdshader" id="6_rubsy"]
+[ext_resource type="PackedScene" uid="uid://cqjpgmssaw3ij" path="res://Assets/Models/Zenith_Blender.glb" id="8_ftqkr"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7tbpv"]
+render_priority = 0
+shader = ExtResource("6_rubsy")
+shader_parameter/albedo = Color(0.73859, 0.73859, 0.73859, 1)
+shader_parameter/roughness = 0.5
+shader_parameter/specular_intensity = 20.0
+shader_parameter/dither_strength = 0.0
+shader_parameter/posterization_levels = 1000.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rubsy"]
+render_priority = 0
+shader = ExtResource("6_rubsy")
+shader_parameter/albedo = Color(0.8, 0.8, 0.8, 1)
+shader_parameter/roughness = 0.01
+shader_parameter/specular_intensity = 20.0
+shader_parameter/dither_strength = 0.0
+shader_parameter/posterization_levels = 1000.0
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_lfbku"]
+sky_top_color = Color(0.401969, 0.401968, 0.401968, 1)
+sky_horizon_color = Color(0, 0, 0, 1)
+sky_curve = 11.4164
+ground_bottom_color = Color(0.1812, 0.1812, 0.1812, 1)
+ground_horizon_color = Color(0, 0, 0, 1)
+ground_curve = 6.08874
+sun_curve = 0.0149923
+
+[sub_resource type="Sky" id="Sky_pamei"]
+sky_material = SubResource("ProceduralSkyMaterial_lfbku")
+
+[sub_resource type="Environment" id="Environment_dak8p"]
+background_mode = 2
+sky = SubResource("Sky_pamei")
+tonemap_mode = 4
+glow_intensity = 8.0
+glow_strength = 1.15
+glow_blend_mode = 1
+glow_hdr_threshold = 1.2
+fog_enabled = true
+fog_mode = 1
+fog_light_color = Color(0, 0, 0, 1)
+fog_density = 1.0
+fog_aerial_perspective = 1.0
+fog_depth_curve = 0.189465
+fog_depth_begin = 1000.0
+fog_depth_end = 20000.0
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Zoner_GB_remaster" parent="." instance=ExtResource("3_khgov")]
+transform = Transform3D(0.467444, 0.515198, 0.718379, 0.25793, 0.697783, -0.668261, -0.845559, 0.497665, 0.193289, -68.9083, -39.6806, 256.024)
+visible = false
+
+[node name="hull_LOD0" parent="Zoner_GB_remaster" index="0"]
+material_override = ExtResource("3_pamei")
+
+[node name="engine_LOD0" parent="Zoner_GB_remaster/hull_LOD0" index="0"]
+material_override = ExtResource("3_pamei")
+
+[node name="hardpoints_LOD0" parent="Zoner_GB_remaster/hull_LOD0" index="1"]
+material_override = ExtResource("3_pamei")
+
+[node name="wings_LOD0" parent="Zoner_GB_remaster/hull_LOD0" index="2"]
+material_override = ExtResource("3_pamei")
+
+[node name="hull_LOD1" parent="Zoner_GB_remaster" index="1"]
+visible = false
+
+[node name="hull_LOD2" parent="Zoner_GB_remaster" index="2"]
+visible = false
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Zoner_GB_remaster"]
+transform = Transform3D(1, -2.4981e-07, -2.93548e-08, -5.37764e-17, 1, 2.60827e-07, 1.5439e-16, -3.33067e-16, 0.999999, -0.166944, 1.63514, 19.8473)
+light_color = Color(0.3335, 0.07, 1, 1)
+light_energy = 500.0
+omni_range = 21.779
+omni_attenuation = 2.388
+
+[node name="untitled" parent="." instance=ExtResource("6_8xnjg")]
+visible = false
+
+[node name="WarpShip" parent="untitled" index="0"]
+material_override = ExtResource("3_pamei")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="untitled"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 153.145)
+light_color = Color(0.895011, 0, 0.184643, 1)
+light_energy = 10000.0
+omni_range = 93.595
+omni_attenuation = 2.304
+
+[node name="OmniLight3D5" type="OmniLight3D" parent="."]
+transform = Transform3D(-0.533491, -0.0688759, -0.842997, -0.0537721, -0.991901, 0.115072, -0.844095, 0.106719, 0.525467, -252.049, 51.9376, 52.9471)
+visible = false
+light_energy = 1.78
+omni_range = 126.037
+omni_attenuation = -0.049
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="."]
+transform = Transform3D(-0.533491, -0.0688759, -0.842997, -0.0537721, -0.991901, 0.115072, -0.844095, 0.106719, 0.525467, -220.657, -266.695, 52.7349)
+light_color = Color(1, 0.331391, 0.269285, 1)
+light_energy = 1000.0
+omni_range = 500.0
+
+[node name="Shrinkwrap1" parent="." instance=ExtResource("4_pamei")]
+transform = Transform3D(-4.78384, -7.18267, 9.85944, -2.50068, 28.8761, 1.7644, -9.91251, -3.81832, -5.20334, -79.6951, -29.2401, 59.2705)
+
+[node name="Hull" parent="Shrinkwrap1" index="0"]
+material_override = ExtResource("5_7tbpv")
+
+[node name="Frame2" parent="Shrinkwrap1" index="1"]
+material_override = SubResource("ShaderMaterial_7tbpv")
+
+[node name="Frame1_001" parent="Shrinkwrap1" index="2"]
+material_override = SubResource("ShaderMaterial_rubsy")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Shrinkwrap1"]
+transform = Transform3D(0.0885963, -2.40151e-17, 1.73472e-18, -9.75782e-19, 0.0885963, -1.56125e-17, 0, 1.30104e-18, 0.0885963, 1.98031, 0.722392, -24.3596)
+light_color = Color(0.18142, 0.514177, 1, 1)
+light_energy = 10000.0
+omni_range = 54.489
+omni_attenuation = 2.22
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="Shrinkwrap1"]
+transform = Transform3D(0.0885963, -1.70762e-17, 1.73472e-18, -1.0842e-18, 0.0885963, -1.56125e-17, 0, 1.73472e-18, 0.0885963, -1.84125, 0.76184, -24.3661)
+light_color = Color(0.18142, 0.514177, 1, 1)
+light_energy = 10000.0
+omni_range = 54.489
+omni_attenuation = 2.22
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="Shrinkwrap1"]
+transform = Transform3D(0.0885963, -2.40151e-17, 1.73472e-18, -9.75782e-19, 0.0885963, -1.56125e-17, 0, 1.30104e-18, 0.0885963, -1.94934, -1.02613, -24.5595)
+light_color = Color(0.18142, 0.514177, 1, 1)
+light_energy = 10000.0
+omni_range = 54.489
+omni_attenuation = 2.22
+
+[node name="Zenith_Blender" parent="." instance=ExtResource("8_ftqkr")]
+transform = Transform3D(1371.34, 4704.19, 994.966, 4768.05, -1463.97, 349.954, 620.573, 852.828, -4887.49, -9798.6, -1014.9, -9296.23)
+visible = false
+
+[node name="Core_Front" parent="Zenith_Blender" index="0"]
+material_override = ExtResource("3_pamei")
+cast_shadow = 0
+lod_bias = 0.001
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_dak8p")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="WorldEnvironment"]
+transform = Transform3D(-0.733209, 0.298463, 0.611004, 0.00824907, -0.894559, 0.446873, 0.679953, 0.332691, 0.653437, 0, 0, 0)
+visible = false
+light_color = Color(0.597111, 0.825114, 1, 1)
+light_energy = 3.0
+light_angular_distance = 6.15
+shadow_blur = 0.16
+directional_shadow_mode = 0
+directional_shadow_max_distance = 3047.0
+
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="WorldEnvironment"]
+transform = Transform3D(-0.14364, 0.375429, 0.915653, 0.860425, -0.409728, 0.30297, 0.488913, 0.83137, -0.264175, 0, 0, 0)
+light_color = Color(0.6, 0.7175, 0.75, 1)
+light_energy = 2.0
+light_angular_distance = 1.62
+directional_shadow_mode = 0
+directional_shadow_max_distance = 8192.0
+
+[editable path="Zoner_GB_remaster"]
+[editable path="untitled"]
+[editable path="Shrinkwrap1"]
+[editable path="Zenith_Blender"]

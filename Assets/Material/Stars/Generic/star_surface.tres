@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://blkssrco3aonx"]
 
-[ext_resource type="Shader" path="res://Assets/Shaders/Star/Star_surface.gdshader" id="1_dle1n"]
+[ext_resource type="Shader" uid="uid://5c6oan7fvicb" path="res://Assets/Shaders/Star/Star_surface.gdshader" id="1_dle1n"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_prbbj"]
 noise_type = 2
@@ -28,9 +28,9 @@ shader_parameter/major_phase = 1.198
 shader_parameter/major_detail_intensity = 0.652
 shader_parameter/detail_decay_distance = 1e+11
 shader_parameter/detail_decay_power = 2.0
+shader_parameter/major_detail_noise = SubResource("NoiseTexture2D_o38b8")
 shader_parameter/major_detail_scale = 1.0
 shader_parameter/major_detail_flow = 0.02
 shader_parameter/rim_strength = 1.0
 shader_parameter/rim_exponent = 0.235
 shader_parameter/rim_intensity = 0.99
-shader_parameter/major_detail_noise = SubResource("NoiseTexture2D_o38b8")

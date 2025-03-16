@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://bts7q021mc6q0"]
 
-[ext_resource type="Shader" path="res://Assets/Shaders/Lights/Light_halo_directional.gdshader" id="1_3vvi0"]
+[ext_resource type="Shader" uid="uid://dpemha744txju" path="res://Assets/Shaders/Lights/Light_halo_directional.gdshader" id="1_3vvi0"]
 
 [resource]
 render_priority = 0

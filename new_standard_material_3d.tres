@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://dtf3xakbndg0a"]
+
+[ext_resource type="Texture2D" uid="uid://c8mkqnafwnaf4" path="res://Assets/freepbr.com/futurism-metal-unity/futurism-metal_ao.png" id="1_xxpdj"]
+[ext_resource type="Texture2D" uid="uid://myjive7aea1y" path="res://Assets/freepbr.com/worn-modern-panels2-unity/worn-modern-panels2_normal-ogl.png" id="2_xxpdj"]
+
+[resource]
+albedo_color = Color(0.159905, 0.497852, 0.51859, 1)
+roughness = 0.1
+normal_scale = 0.2
+normal_texture = ExtResource("2_xxpdj")
+heightmap_scale = 10.12
+heightmap_texture = ExtResource("1_xxpdj")
+uv1_triplanar = true
+disable_receive_shadows = true

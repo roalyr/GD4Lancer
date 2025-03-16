@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://dx5y15fyqmnxa"]
 
-[ext_resource type="Shader" path="res://Assets/Shaders/Lights/Light_distant_sprite.gdshader" id="1_e6c4g"]
+[ext_resource type="Shader" uid="uid://6dpqjhy8ucc6" path="res://Assets/Shaders/Lights/Light_distant_sprite.gdshader" id="1_e6c4g"]
 
 [resource]
 render_priority = 0

@@ -152,9 +152,6 @@ camera_attributes = SubResource("CameraAttributesPractical_s1h4h")
 [node name="Camera_decorations" parent="Scene_interface" instance=ExtResource("5_03hls")]
 visible = false
 
-[node name="Galaxy_belt" parent="Scene_interface/Camera_decorations/Position" index="0"]
-visible = false
-
 [node name="Cloud_segmented" parent="." instance=ExtResource("6_h6uw7")]
 transform = Transform3D(-0.54524, 0, 0.944383, 0, 1.09048, 0, -0.944383, 0, -0.54524, 50.9426, -3.4623, 6.45089)
 
@@ -282,9 +279,5 @@ Primitives:
 FPS:"
 
 [editable path="Scene_interface/Camera_decorations"]
-[editable path="Scene_interface/Camera_decorations/Position/Galaxy_belt/Ellisoid_1280_0_5_inner"]
-[editable path="Scene_interface/Camera_decorations/Position/Galaxy_belt/Ellisoid_1280_0_25_median"]
-[editable path="Scene_interface/Camera_decorations/Position/Galaxy_belt/Ellisoid_1280_0_25_outer"]
-[editable path="Scene_interface/Camera_decorations/Position/Galaxy_belt/Galaxy_torus_outer"]
-[editable path="Scene_interface/Camera_decorations/Position/Galaxy_belt/Galaxy_torus_outer2"]
+[editable path="Scene_interface/Camera_decorations/Galactic_background"]
 [editable path="Cloud_segmented"]

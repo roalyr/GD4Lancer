@@ -43,6 +43,7 @@ metadata/_edit_lock_ = true
 
 [node name="Halo_near_vis_5e12" parent="Model_6_32e+09" instance=ExtResource("5_27k0c")]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+visible = false
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
@@ -51,13 +52,14 @@ visibility_range_end = 5e+12
 surface_material_override/0 = ExtResource("6_w1sf2")
 
 [node name="Star_sprite_0_1_atten_0_2" parent="Model_6_32e+09" instance=ExtResource("7_wpyda")]
+visible = false
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
 [node name="Plane" parent="Model_6_32e+09/Star_sprite_0_1_atten_0_2" index="0"]
 surface_material_override/0 = ExtResource("8_cjoyn")
 
-[node name="Light_halo_sphere_vis_5e14" parent="Model_6_32e+09" instance=ExtResource("9_oe8k4")]
+[node name="Light_halo_directional_vis_5e14" parent="Model_6_32e+09" instance=ExtResource("9_oe8k4")]
 transform = Transform3D(0.105, 0, 0, 0, 0.105, 0, 0, 0, 0.105, 0, 0, 0)
 visibility_range_end = 5e+14
 surface_material_override/0 = ExtResource("10_nrsf8")

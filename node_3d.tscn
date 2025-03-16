@@ -1,0 +1,127 @@
+[gd_scene load_steps=13 format=4 uid="uid://dnqryaxbip1p"]
+
+[ext_resource type="Shader" path="res://Assets/Shaders/Solid/Solid_material.gdshader" id="1_ujepr"]
+[ext_resource type="PackedScene" uid="uid://bd4hgxriwpl8o" path="res://Assets/Models/Sprites/Solar_sprite.glb" id="2_mwt0j"]
+[ext_resource type="Shader" path="res://Assets/Shaders/Lights/Light_distant_sprite.gdshader" id="3_rx661"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_1i7td"]
+sky_top_color = Color(0.1035, 0.23, 0.177292, 1)
+sky_horizon_color = Color(0.38, 0.25764, 0.1178, 1)
+sky_curve = 0.0776449
+ground_bottom_color = Color(0.31, 0.0992, 0.148387, 1)
+ground_horizon_color = Color(0.380392, 0.258824, 0.117647, 1)
+ground_curve = 0.0828211
+sun_angle_max = 0.0
+use_debanding = false
+
+[sub_resource type="Sky" id="Sky_gvpdu"]
+sky_material = SubResource("ProceduralSkyMaterial_1i7td")
+
+[sub_resource type="Environment" id="Environment_7rdo4"]
+background_mode = 2
+sky = SubResource("Sky_gvpdu")
+sky_rotation = Vector3(2.65465, 1.94604, 0)
+reflected_light_source = 2
+tonemap_mode = 3
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hia7h"]
+render_priority = 0
+shader = ExtResource("1_ujepr")
+shader_parameter/albedo = Color(0.842239, 0.843963, 0.704405, 1)
+shader_parameter/albedo_specular = Color(3.36915e-07, 0.424135, 0.514059, 1)
+shader_parameter/albedo_gloss = Color(0.726299, 1.2514e-06, 0.385258, 1)
+shader_parameter/emission = null
+shader_parameter/emission_strength = 211.7
+shader_parameter/roughness = 1.0
+shader_parameter/albedo_exponent = 2.2
+shader_parameter/specular_exponent = 0.2
+shader_parameter/gloss_exponent = 2.0
+shader_parameter/roughness_exponent = 1.9
+shader_parameter/roughness_sharpness = 0.0
+shader_parameter/scale = 1.0
+shader_parameter/details_power = 1.0
+shader_parameter/specular_power = 1.0
+shader_parameter/dither_darken = 0.75
+shader_parameter/dither_power = 1.75
+
+[sub_resource type="SphereMesh" id="SphereMesh_6xtia"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4hoe4"]
+render_priority = 0
+shader = ExtResource("3_rx661")
+shader_parameter/albedo = Color(0.4875, 0.5, 0.125, 1)
+shader_parameter/scale = 1.291
+shader_parameter/attenuation = 0.25
+shader_parameter/flare_distance = 25.0
+shader_parameter/flare_size = 2.0
+shader_parameter/intensity = 0.811
+shader_parameter/exponent = 5.0
+shader_parameter/pulse_factor = 0.986
+shader_parameter/pulse_rate = 6.5
+shader_parameter/phase = 0.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8h41q"]
+render_priority = 0
+shader = ExtResource("3_rx661")
+shader_parameter/albedo = Color(0.733717, 0.863777, 0.803025, 1)
+shader_parameter/scale = 0.6155
+shader_parameter/attenuation = 0.304
+shader_parameter/flare_distance = 25.0
+shader_parameter/flare_size = 2.0
+shader_parameter/intensity = 0.5585
+shader_parameter/exponent = 5.0
+shader_parameter/pulse_factor = 0.986
+shader_parameter/pulse_rate = 6.5
+shader_parameter/phase = 0.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vbtro"]
+vertex_color_use_as_albedo = true
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_niyxs"]
+resource_name = "Solar_sprite_Plane"
+_surfaces = [{
+"aabb": AABB(-0.916667, -0.916667, -5.96046e-08, 1.83333, 1.83333, 1.00596e-05),
+"attribute_data": PackedByteArray("AAAA/wAAAAAAAIA/AAAA/wAAAAAAAIA/AAAA/wEAgD8AAIA/AAAA/wEAgD8AAIA/AAAA/wAAAAAAAAC0AAAA/wAAAAAAAAC0AAAA/wEAgD8AAAC0AAAA/wEAgD8AAAC0AAAA/wAAAAD+//8+AAAA/wAAAAD+//8+AQEB/wEAAD8AAIA/AQEB/wEAAD8AAIA/AAAA/wEAgD/+//8+AAAA/wEAgD/+//8+AAAA/wEAAD8AAAC0AAAA/wEAAD8AAAC0/////wEAAD/+//8+/////wEAAD/+//8+/////wEAAD/+//8+/////wEAAD/+//8+/////wEAAD/+//8+/////wEAAD/+//8+/////wEAAD/+//8+/////wEAAD/+//8+"),
+"format": 34359742495,
+"index_count": 24,
+"index_data": PackedByteArray("AAAJABMAAgAKABAAFgAPAAcAEgAIAAUAAQAXAAsAAwAVAA0AFAAGAAwAEQAEAA4A"),
+"material": SubResource("StandardMaterial3D_vbtro"),
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAsvwEALL8AAACAAAAsvwEALL8AAACAAAAsPwEALL8AAACAAAAsPwEALL8AAACAAAAsvwEALD8AAACAAAAsvwEALD8AAACAAAAsPwEALD8AAACAAAAsPwEALD8AAACAq6pqv6uqqq+rqqqvq6pqv6uqqq+rqqqvAAAAAKyqar8AAICzAAAAAKyqar8AAICzq6pqP6uqqq+rqqqvq6pqP6uqqq+rqqqvAAAAAKyqaj8AAIAzAAAAAKyqaj8AAIAzAAAAAKuqKjGoqqqvAAAAAKuqKjGoqqqvAAAAAKuqKjGoqqqvAAAAAKuqKjGoqqqvAAAAAKuqKjGoqqqvAAAAAKuqKjGoqqqvAAAAAKuqKjGoqqqvAAAAAKuqKjGoqqqv/3//f////7//f/9/////v/9//3/+//+//3//f////7//f/9//v//v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9//v//v/9//3////+//3//f////7//f/9/////v/9//3/+//+//3//f////7//f/9//v//v/9//3/+//+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+/")
+}]
+blend_shape_mode = 0
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_7rdo4")
+
+[node name="Planet1" type="MeshInstance3D" parent="."]
+material_override = SubResource("ShaderMaterial_hia7h")
+mesh = SubResource("SphereMesh_6xtia")
+
+[node name="Planet2" type="MeshInstance3D" parent="."]
+transform = Transform3D(27.6482, 0.326703, 0, -0.326703, 27.6482, 0, 0, 0, 27.6501, 26.3584, 8.38065, 5.00789)
+material_override = SubResource("ShaderMaterial_hia7h")
+mesh = SubResource("SphereMesh_6xtia")
+
+[node name="DirectionalLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 686.48, 1036.61, 2651.33)
+light_color = Color(0.951138, 0.770785, 0.757713, 1)
+omni_range = 4096.0
+omni_attenuation = -0.176
+
+[node name="Solar_sprite2" parent="DirectionalLight3D" instance=ExtResource("2_mwt0j")]
+
+[node name="Solar_sprite" parent="DirectionalLight3D/Solar_sprite2" index="0"]
+material_override = SubResource("ShaderMaterial_4hoe4")
+
+[node name="Solar_sprite2" type="MeshInstance3D" parent="DirectionalLight3D/Solar_sprite2"]
+material_override = SubResource("ShaderMaterial_8h41q")
+gi_mode = 0
+mesh = SubResource("ArrayMesh_niyxs")
+skeleton = NodePath("")
+
+[editable path="DirectionalLight3D/Solar_sprite2"]
